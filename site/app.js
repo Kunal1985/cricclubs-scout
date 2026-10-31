@@ -128,6 +128,7 @@ async function loadTeam() {
   remember('team_' + LEAGUE.code, team);
   msg('');
   DATA = null;
+  hideDock();
   $('#scraped').textContent = '';
   const code = LEAGUE.code;
   const url = `data/leagues/${code.toLowerCase()}/teams/${slug(team)}.json`;
@@ -136,6 +137,7 @@ async function loadTeam() {
   catch (e) { msg('Network error: ' + e.message); return; }
   if (res.ok) { const data = await res.json(); if (gen === reportGen) showReport(data, gen); return; }
   if (gen !== reportGen) return;
+  hideDock();
   $('#main').innerHTML = requestPanel('Not scanned yet', 'Coming Soon!');
   watch(url, data => { if ($('#team').value === team && LEAGUE && LEAGUE.code === code) showReport(data); });
 }
@@ -148,7 +150,7 @@ function selectCached(code, team) {
   const keep = team || recall('team_' + league.code);
   fillTeams(league, keep);
   if (keep && (league.teams || []).includes(keep)) loadTeam();
-  else { stopPoll(); DATA = null; $('#scraped').textContent = ''; $('#main').innerHTML = welcomeHTML(); }
+  else { stopPoll(); DATA = null; hideDock(); $('#scraped').textContent = ''; $('#main').innerHTML = welcomeHTML(); }
   return true;
 }
 async function addLeague(input) {
@@ -179,6 +181,7 @@ async function addLeague(input) {
   syncTeamButton();
   $('#league').textContent = 'Not cached';
   $('#scraped').textContent = '';
+  hideDock();
   $('#main').innerHTML = requestPanel('League not cached', 'Coming Soon!');
   watch(leagueUrl, async () => {
     try { await loadCatalog(); } catch (e) {}
@@ -228,6 +231,40 @@ function pick() {
 const wl = ms => ({ n: ms.length, w: ms.filter(m => m.outcome === 'W').length, l: ms.filter(m => m.outcome === 'L').length });
 let psTab = 'bat';
 const psSort = { bat: { k: 'r', d: -1 }, bowl: { k: 'w', d: -1 }, field: { k: 'tot', d: -1 }, total: { k: 'impact', d: -1 } };
+const PAGE_TABS = [['overview', 'Overview'], ['results', 'Results'], ['players', 'Players'], ['grounds', 'Grounds'], ['gameplan', 'Game plan']];
+let pageTab = 'overview';
+function tabFromHash() {
+  const raw = (location.hash || '').replace(/^#/, '');
+  if (!raw) return '';
+  const id = (new URLSearchParams(raw).get('tab') || '').toLowerCase();
+  return PAGE_TABS.some(t => t[0] === id) ? id : '';
+}
+function syncStick() {
+  const bar = $('#bar');
+  if (bar) document.documentElement.style.setProperty('--bar-h', bar.offsetHeight + 'px');
+}
+function hideDock() {
+  const home = $('#teamRow');
+  const wrap = $('#periodHome');
+  if (wrap && home && wrap.parentElement !== home) home.appendChild(wrap);
+  const dock = $('#dock');
+  if (dock) { dock.hidden = true; dock.innerHTML = ''; }
+}
+function paintDock(label, n) {
+  const dock = $('#dock');
+  const wrap = $('#periodHome');
+  if (!dock || !wrap) return;
+  wrap.remove();
+  const tabs = PAGE_TABS.map(([id, lab]) => `<button type="button" role="tab" id="tab-${id}" data-page-tab="${id}" aria-selected="${pageTab === id}" aria-controls="panel" class="${pageTab === id ? 'on' : ''}">${lab}</button>`).join('');
+  dock.hidden = false;
+  dock.innerHTML = `<div class="dock-in"><div class="dock-team"><div class="dock-face">${badgeHTML(DATA.team, DATA.logo || teamLogo(DATA.team))}</div><div class="dock-id"><div class="dock-name" title="${esc(DATA.team)}">${esc(DATA.team)}</div><div class="dock-sub">${esc(label)} · ${n} match${n === 1 ? '' : 'es'}</div></div><div class="dock-period"></div></div><div class="page-tabs" role="tablist" aria-label="Team sections">${tabs}</div></div>`;
+  dock.querySelector('.dock-period').appendChild(wrap);
+  const next = '#tab=' + pageTab;
+  if (location.hash !== next) history.replaceState(null, '', location.pathname + location.search + next);
+  syncStick();
+  const on = dock.querySelector('.page-tabs .on');
+  if (on) on.scrollIntoView({ inline: 'nearest', block: 'nearest' });
+}
 function playerStatsHTML(ms, label) {
   const played = (ms || []).filter(m => !m.forfeit);
   const byName = {};
@@ -290,12 +327,18 @@ function playerStatsHTML(ms, label) {
   }[psTab];
   const sort = psSort[psTab];
   const num = v => typeof v === 'number' && isFinite(v);
+  const blank = v => v == null || v === '' || (typeof v === 'number' && !isFinite(v));
   show.sort((a, b) => {
-    if (sort.k === 'name') return sort.d * a.name.localeCompare(b.name);
     const av = a[sort.k], bv = b[sort.k];
-    const an = num(av) ? av : (sort.d < 0 ? -Infinity : Infinity);
-    const bn = num(bv) ? bv : (sort.d < 0 ? -Infinity : Infinity);
-    if (an !== bn) return sort.d * (an - bn);
+    const aBlank = blank(av), bBlank = blank(bv);
+    if (aBlank || bBlank) {
+      if (aBlank && bBlank) return a.name.localeCompare(b.name);
+      return aBlank ? 1 : -1;
+    }
+    if (typeof av === 'string' || typeof bv === 'string') {
+      const c = String(av).localeCompare(String(bv), undefined, { numeric: true, sensitivity: 'base' });
+      if (c) return sort.d * c;
+    } else if (av !== bv) return sort.d * (av - bv);
     if (sort.k === 'w' && num(a.econ) && num(b.econ) && a.econ !== b.econ) return a.econ - b.econ;
     return a.name.localeCompare(b.name);
   });
@@ -312,8 +355,8 @@ function playerStatsHTML(ms, label) {
   };
   const head = spec.map(([k, lab, first]) => {
     const on = sort.k === k;
-    const arrow = on ? (sort.d < 0 ? ' ↓' : ' ↑') : '';
-    return `<th${on ? ` aria-sort="${sort.d < 0 ? 'descending' : 'ascending'}"` : ''}><button type="button" class="ps-sort${on ? ' on' : ''}" data-ps-sort="${k}" data-ps-first="${first}">${lab}${arrow}</button></th>`;
+    const arrow = on ? `<span class="ps-arrow" aria-hidden="true">${sort.d < 0 ? '▼' : '▲'}</span>` : '';
+    return `<th${on ? ` aria-sort="${sort.d < 0 ? 'descending' : 'ascending'}"` : ''}><button type="button" class="ps-sort${on ? ' on' : ''}" data-ps-sort="${k}" data-ps-first="${first}" aria-label="Sort by ${lab}">${lab}${arrow}</button></th>`;
   }).join('');
   const body = show.map(x => `<tr>${spec.map(([k]) => `<td>${cell(x, k)}</td>`).join('')}</tr>`).join('');
   const tabs = [['bat', 'Batting'], ['bowl', 'Bowling'], ['field', 'Fielding'], ['total', 'Total']].map(([id, lab]) => `<button type="button" class="${psTab === id ? 'on' : ''}" data-ps-tab="${id}" aria-pressed="${psTab === id}">${lab}</button>`).join('');
@@ -331,18 +374,17 @@ function donut(parts, center) {
   return `<svg class="donut" viewBox="0 0 100 100" role="img" aria-label="${parts.map(p => p.l + ' ' + p.v).join(', ')}"><circle r="${R}" cx="50" cy="50" fill="none" stroke="#ffffff10" stroke-width="14"/>${arcs}<text x="50" y="49" text-anchor="middle" fill="#eef5f0" font-size="20" font-family="Bebas Neue,Impact,sans-serif">${center[0]}</text><text x="50" y="63" text-anchor="middle" fill="#9fb5a8" font-size="8">${center[1]}</text></svg><div class="leg">${parts.map(p => `<span><i style="background:${p.c}"></i>${p.l} ${p.v}</span>`).join('')}</div>`;
 }
 function render() {
-  if (!DATA) return;
+  if (!DATA) { hideDock(); return; }
   const [ms, label] = pick(); const half = $('#period').value === 'last5';
   $('#scraped').textContent = asOf(DATA);
-  const hero = extra => `<section class="hero"><div class="htop">${badgeHTML(DATA.team, DATA.logo || teamLogo(DATA.team))}<div><div class="hname">${esc(DATA.team)}</div><div class="hsub">${esc(label)} · ${ms.length} matches</div></div></div>${extra}</section>`;
+  paintDock(label, ms.length);
   const stand = standingsHTML();
-  if (!ms.length) { $('#main').innerHTML = hero('<p class="hsum">No completed matches in this period.</p>') + stand + playerStatsHTML(ms, label) + howToBeat(); return; }
-  const played = ms.filter(m => !m.forfeit), o = wl(ms); const us = m => m.innings.find(i => i.team === DATA.team), them = m => m.innings.find(i => i.team !== DATA.team);
+  const played = ms.filter(m => !m.forfeit), o = wl(ms); const us = m => (m.innings || []).find(i => i.team === DATA.team), them = m => (m.innings || []).find(i => i.team !== DATA.team);
   const avg = a => a.length ? Math.round(a.reduce((s, x) => s + x, 0) / a.length) : NaN;
   const bat = {}, bowl = {}, fld = {};
   for (const m of played) {
-    for (const b of m.batting) { const x = bat[b.name] ??= { name: b.name, inn: 0, r: 0, b: 0, outs: 0, hs: -1, no: false }; x.inn++; x.r += b.r; x.b += b.b; x.outs += b.out ? 1 : 0; if (b.r > x.hs || (b.r === x.hs && !b.out)) { x.hs = b.r; x.no = !b.out; } }
-    for (const w of m.bowling) { const x = bowl[w.name] ??= { name: w.name, balls: 0, r: 0, w: 0, bw: -1, br: 0 }; x.balls += w.balls; x.r += w.r; x.w += w.w; if (w.w > x.bw || (w.w === x.bw && w.r < x.br)) { x.bw = w.w; x.br = w.r; } }
+    for (const b of m.batting || []) { const x = bat[b.name] ??= { name: b.name, inn: 0, r: 0, b: 0, outs: 0, hs: -1, no: false }; x.inn++; x.r += b.r; x.b += b.b; x.outs += b.out ? 1 : 0; if (b.r > x.hs || (b.r === x.hs && !b.out)) { x.hs = b.r; x.no = !b.out; } }
+    for (const w of m.bowling || []) { const x = bowl[w.name] ??= { name: w.name, balls: 0, r: 0, w: 0, bw: -1, br: 0 }; x.balls += w.balls; x.r += w.r; x.w += w.w; if (w.w > x.bw || (w.w === x.bw && w.r < x.br)) { x.bw = w.w; x.br = w.r; } }
     for (const [n, k, c] of m.fielding || []) { const x = fld[n] ??= { name: n, c: 0, k: 0, r: 0, s: 0 }; x[k] += c; }
   }
   const B = Object.values(bat), W = Object.values(bowl), sr = x => x.b ? 100 * x.r / x.b : NaN, ec = x => x.balls ? 6 * x.r / x.balls : NaN, imp = x => x.b ? x.r * x.r / x.b : 0;
@@ -357,10 +399,9 @@ function render() {
   const ourI = played.map(us).filter(Boolean), oppI = played.map(them).filter(Boolean);
   const bf = played.filter(m => m.battedFirst === true), ch = played.filter(m => m.battedFirst === false), a = wl(bf), c = wl(ch);
   const tw = played.filter(m => m.tossWonByUs), tb = tw.filter(m => m.tossDecision === 'bat'), tbo = tw.filter(m => m.tossDecision === 'bowl'), tl = played.filter(m => m.tossWonByUs === false);
-  let h = hero(`<div class="form" aria-label="Recent form">${ms.slice(0, 12).map((m, i) => `<span class="fc ${m.outcome}" style="animation-delay:${i * 40}ms" title="${esc(m.date + ' vs ' + m.opponent)}">${m.outcome}</span>`).join('')}</div>
- <p class="hsum">${o.w}–${o.l} record.${runLead ? ` <b>${esc(runLead.name)}</b> leads the runs (${runLead.r})` : ''}${wkLead ? `, <b>${esc(wkLead.name)}</b> the wickets (${wkLead.w}).` : ''}</p>`);
-  h += stand;
-  h += `<div class="tiles"><div class="tile"><div class="v"><span class="g">${o.w}</span>–<span class="r">${o.l}</span></div><div class="k">Record</div></div><div class="tile"><div class="v y">${pct(o.w, o.n)}</div><div class="k">Win rate</div></div><div class="tile"><div class="v">${f1(avg(ourI.map(i => i.runs))).replace('.0', '')}</div><div class="k">Avg score</div><div class="s">conc. ${f1(avg(oppI.map(i => i.runs))).replace('.0', '')}</div></div>
+  const formBits = ms.slice(0, 12).map((m, i) => `<span class="fc ${m.outcome}" style="animation-delay:${i * 40}ms" title="${esc(m.date + ' vs ' + m.opponent)}">${m.outcome}</span>`).join('');
+  const formCard = card('📈', 'Recent form', `${formBits ? `<div class="form" aria-label="Recent form">${formBits}</div>` : '<p class="note">No completed matches in this period.</p>'}<p class="hsum">${o.w}–${o.l} record.${runLead ? ` <b>${esc(runLead.name)}</b> leads the runs (${runLead.r})` : ''}${wkLead ? `, <b>${esc(wkLead.name)}</b> the wickets (${wkLead.w}).` : ''}</p>`, label);
+  const tiles = `<div class="tiles"><div class="tile"><div class="v"><span class="g">${o.w}</span>–<span class="r">${o.l}</span></div><div class="k">Record</div></div><div class="tile"><div class="v y">${pct(o.w, o.n)}</div><div class="k">Win rate</div></div><div class="tile"><div class="v">${f1(avg(ourI.map(i => i.runs))).replace('.0', '')}</div><div class="k">Avg score</div><div class="s">conc. ${f1(avg(oppI.map(i => i.runs))).replace('.0', '')}</div></div>
  <div class="tile"><div class="v">${pct(a.w, a.n)}</div><div class="k">Bat first win</div><div class="s">${a.w}/${a.n}</div></div><div class="tile"><div class="v">${pct(c.w, c.n)}</div><div class="k">Chasing win</div><div class="s">${c.w}/${c.n}</div></div><div class="tile"><div class="v">${pct(tw.length, played.length)}</div><div class="k">Tosses won</div><div class="s">${tw.length}/${played.length}</div></div></div>`;
   const resultCard = m => {
     const when = [m.date, m.ground].filter(Boolean).join(' · ');
@@ -380,21 +421,19 @@ function render() {
     }
     return `<div class="res">${head}${board}<div class="res-f"><span class="res-sum" title="${esc(m.result || '')}">${esc(m.result || '')}</span><a href="${href}" target="_blank" rel="noopener">Scorecard</a></div></div>`;
   };
-  h += card('📋', 'Last results', ms.slice(0, 10).map(resultCard).join(''));
-  h += playerStatsHTML(ms, label);
+  const resultsCard = card('📋', 'Last results', ms.length ? ms.slice(0, 10).map(resultCard).join('') : '<p class="note">No completed matches in this period.</p>');
   const note = t => `<div class="note">${t}${half ? ' · reduced for last 5' : ''}</div>`; const mxI = Math.max(1, ...topBat.map(imp)), mxW = Math.max(1, ...topBowl.map(x => x.w)), mxE = Math.max(1, ...eco.map(ec));
-  h += card('⭐', 'Players to watch', `<h3>Batters</h3>${topBat.map((x, i) => pl(i + 1, x.name, `${x.r} runs · ${x.inn} inns · best ${x.hs}${x.no ? '*' : ''} · avg ${f1(x.outs ? x.r / x.outs : NaN)}`, f1(sr(x)), 'Strike rate', 100 * imp(x) / mxI, 'var(--sky)')).join('') || '<p class="note">Nobody qualifies yet.</p>'}${note(`${minInn}+ inns & ${minB}+ balls · ranked by runs × SR ÷ 100`)}
+  const watchCard = card('⭐', 'Players to watch', `<h3>Batters</h3>${topBat.map((x, i) => pl(i + 1, x.name, `${x.r} runs · ${x.inn} inns · best ${x.hs}${x.no ? '*' : ''} · avg ${f1(x.outs ? x.r / x.outs : NaN)}`, f1(sr(x)), 'Strike rate', 100 * imp(x) / mxI, 'var(--sky)')).join('') || '<p class="note">Nobody qualifies yet.</p>'}${note(`${minInn}+ inns & ${minB}+ balls · ranked by runs × SR ÷ 100`)}
  <h3>Wicket takers</h3>${topBowl.map((x, i) => pl(i + 1, x.name, `${ov(x.balls)} ov · econ ${f1(ec(x))} · best ${x.bw}/${x.br}`, x.w, 'Wickets', 100 * x.w / mxW, 'var(--red)')).join('') || '<p class="note">Nobody qualifies yet.</p>'}${note(`${minOv}+ overs · ranked by wickets, then economy`)}
  <h3>Most economical</h3>${eco.map((x, i) => pl(i + 1, x.name, `${ov(x.balls)} ov · ${x.w} wkts`, f1(ec(x)), 'Economy', 100 * (1 - ec(x) / (mxE * 1.15)), 'var(--green)')).join('')}${note(`${minOv}+ overs · lowest runs per over`)}`, label);
   const F = Object.values(fld).sort((a, b) => (b.c + b.k + b.r + b.s) - (a.c + a.k + a.r + a.s));
-  if (F.length) h += card('🧤', 'Fielders', tbl(['Fielder', 'Ct', 'WK', 'RO', 'St', 'Tot'], F.slice(0, 10).map(x => [`<span class="av" style="background:${hue(x.name)};width:26px;height:26px;font-size:10px;display:inline-grid;vertical-align:middle;margin-right:6px">${esc(ini(x.name))}</span>${esc(x.name)}`, x.c, x.k, x.r, x.s, `<b class="y">${x.c + x.k + x.r + x.s}</b>`])) + `<div class="note">From opponent dismissal text; shared run-outs credit each fielder.${DATA.unresolvedFielders ? ` ${DATA.unresolvedFielders} name(s) unmatched.` : ''}</div>`);
+  const fieldCard = F.length ? card('🧤', 'Fielders', tbl(['Fielder', 'Ct', 'WK', 'RO', 'St', 'Tot'], F.slice(0, 10).map(x => [`<span class="av" style="background:${hue(x.name)};width:26px;height:26px;font-size:10px;display:inline-grid;vertical-align:middle;margin-right:6px">${esc(ini(x.name))}</span>${esc(x.name)}`, x.c, x.k, x.r, x.s, `<b class="y">${x.c + x.k + x.r + x.s}</b>`])) + `<div class="note">From opponent dismissal text; shared run-outs credit each fielder.${DATA.unresolvedFielders ? ` ${DATA.unresolvedFielders} name(s) unmatched.` : ''}</div>`) : '';
   const slowRows = poorBat.length
     ? tbl(['Batter', 'SR', 'Runs', 'Balls'], poorBat.map(x => [esc(x.name), `<b class="r">${f1(sr(x))}</b>`, x.r, x.b])) + note(`SR 45 or under · ${minInn}+ inns & ${minB}+ balls`)
     : `<p class="note">Nobody under SR 45 (min ${minInn} inns & ${minB} balls)</p>`;
-  h += card('📉', 'Weak spots', `<h3>Slowest scorers</h3>${slowRows}<h3>Most expensive</h3>${tbl(['Bowler', 'Econ', 'Ov', 'Wkts'], poorBowl.map(x => [esc(x.name), `<b class="r">${f1(ec(x))}</b>`, ov(x.balls), x.w]))}${note(`${minOv}+ overs`)}<h3>Lowest batting contribution</h3>${tbl(['Batter', 'Runs', 'Inns', 'Avg', 'Share'], lowBat.map(x => [esc(x.name), x.r, x.inn, f1(x.outs ? x.r / x.outs : NaN), `<b class="r">${pct(x.r, teamRuns)}</b>`]))}${note(`${minInn}+ inns · no balls minimum · % of team runs`)}`);
-  h += howToBeat();
+  const weakCard = card('📉', 'Weak spots', `<h3>Slowest scorers</h3>${slowRows}<h3>Most expensive</h3>${tbl(['Bowler', 'Econ', 'Ov', 'Wkts'], poorBowl.map(x => [esc(x.name), `<b class="r">${f1(ec(x))}</b>`, ov(x.balls), x.w]))}${note(`${minOv}+ overs`)}<h3>Lowest batting contribution</h3>${tbl(['Batter', 'Runs', 'Inns', 'Avg', 'Share'], lowBat.map(x => [esc(x.name), x.r, x.inn, f1(x.outs ? x.r / x.outs : NaN), `<b class="r">${pct(x.r, teamRuns)}</b>`]))}${note(`${minInn}+ inns · no balls minimum · % of team runs`)}`);
   const vs = (lab, w, n) => `<div class="vsr"><div class="lab"><span>${lab}</span><span><b>${w}</b>/${n} won · ${pct(w, n)}</span></div><div class="track"><i style="width:${n ? 100 * w / n : 0}%;background:var(--green)"></i><i style="width:${n ? 100 * (n - w) / n : 0}%;background:var(--red);opacity:.85"></i></div></div>`;
-  h += card('📊', 'Match-ups & toss', `<div class="vs">${vs('🏏 Batting first', a.w, a.n)}${vs('🎯 Chasing', c.w, c.n)}${vs('🪙 Won toss', wl(tw).w, tw.length)}${vs('Lost toss', wl(tl).w, tl.length)}</div>
+  const matchCard = card('📊', 'Match-ups & toss', `<div class="vs">${vs('🏏 Batting first', a.w, a.n)}${vs('🎯 Chasing', c.w, c.n)}${vs('🪙 Won toss', wl(tw).w, tw.length)}${vs('Lost toss', wl(tl).w, tl.length)}</div>
  <div class="charts" style="margin-top:12px"><div class="chart"><div class="t">Toss decision</div>${donut([{ l: 'Bat', v: tb.length, c: '#4cc3ff' }, { l: 'Bowl', v: tbo.length, c: '#ff4d5e' }], [tw.length, 'tosses won'])}</div>
  <div class="chart"><div class="t">Results</div>${donut([{ l: 'Won', v: o.w, c: '#2fd27a' }, { l: 'Lost', v: o.l, c: '#ff4d5e' }], [pct(o.w, o.n), 'win rate'])}</div></div>
  ${tbl(['After toss', 'P', 'W', 'Win%'], [['Won → bat', tb.length, wl(tb).w, pct(wl(tb).w, tb.length)], ['Won → bowl', tbo.length, wl(tbo).w, pct(wl(tbo).w, tbo.length)], ['Lost toss', tl.length, wl(tl).w, pct(wl(tl).w, tl.length)]])}`);
@@ -403,12 +442,20 @@ function render() {
   const ft = bf.map(us).filter(Boolean).map(i => i.runs); if (ft.length) notes.push(`First-innings totals average <b>${Math.round(avg(ft))}</b> (range ${Math.min(...ft)}–${Math.max(...ft)}).`);
   if (ourI.length) notes.push(`Bowled out in <b>${ourI.filter(i => i.wkts >= 10).length}</b> of ${ourI.length} innings.`);
   const tot = B.reduce((s, x) => s + x.r, 0), t2 = [...B].sort((a, b) => b.r - a.r).slice(0, 2); if (tot && t2.length === 2) notes.push(`${esc(t2[0].name)} and ${esc(t2[1].name)} make <b>${pct(t2[0].r + t2[1].r, tot)}</b> of bat runs — get them early.`);
-  h += card('🧠', 'Strategy notes', `<ul class="notes">${notes.map(n => `<li>${n}</li>`).join('')}</ul>`);
+  const notesCard = card('🧠', 'Strategy notes', notes.length ? `<ul class="notes">${notes.map(n => `<li>${n}</li>`).join('')}</ul>` : '<p class="note">No notes for this period.</p>');
   const g = {}; for (const m of ms) if (m.ground) (g[m.ground] ??= []).push(m); const gs = Object.entries(g).map(([name, l]) => ({ name, ...wl(l) }));
   const gc = (l, bad) => l.length ? `<div class="grounds">${l.map(x => `<div class="gc ${bad ? 'bad' : ''}"><div class="gn"><b>${esc(x.name)}${x.n < 2 ? '<span class="thin">THIN</span>' : ''}</b><span>${x.w}W · ${x.l}L · ${x.n} played</span></div><div class="gp ${bad ? 'r' : 'g'}">${pct(x.w, x.n)}</div></div>`).join('')}</div>` : '<p class="note">None.</p>';
-  h += card('🏟️', 'Favourite grounds', gc(gs.filter(x => x.w).sort((p, q) => q.w / q.n - p.w / p.n || q.n - p.n).slice(0, 4)), 'best win %');
-  h += card('🙈', 'Jinxed grounds', gc(gs.filter(x => x.l).sort((p, q) => p.w / p.n - q.w / q.n || q.n - p.n).slice(0, 4), true), 'worst win %');
-  $('#main').innerHTML = h;
+  const favCard = card('🏟️', 'Favourite grounds', gc(gs.filter(x => x.w).sort((p, q) => q.w / q.n - p.w / p.n || q.n - p.n).slice(0, 4)), 'best win %');
+  const jinxCard = card('🙈', 'Jinxed grounds', gc(gs.filter(x => x.l).sort((p, q) => p.w / p.n - q.w / q.n || q.n - p.n).slice(0, 4), true), 'worst win %');
+  const plan = howToBeat() || '<p class="note">Nothing to flag in this window.</p>';
+  const panels = {
+    overview: formCard + stand + tiles + matchCard + notesCard,
+    results: resultsCard,
+    players: watchCard + fieldCard + weakCard + playerStatsHTML(ms, label),
+    grounds: favCard + jinxCard,
+    gameplan: plan
+  };
+  $('#main').innerHTML = `<div id="panel" role="tabpanel" aria-labelledby="tab-${pageTab}">${panels[pageTab] || panels.overview}</div>`;
   function howToBeat() {
     const recent = (DATA.matches || []).slice(0, 5);
     const agg = list => {
@@ -691,6 +738,16 @@ document.addEventListener('error', e => {
   if (badge) badge.classList.add('show-fallback');
 }, true);
 document.addEventListener('click', e => {
+  const pageBtn = e.target.closest('[data-page-tab]');
+  if (pageBtn) {
+    const id = pageBtn.getAttribute('data-page-tab');
+    if (!PAGE_TABS.some(t => t[0] === id) || id === pageTab) return;
+    pageTab = id;
+    remember('tab', pageTab);
+    render();
+    window.scrollTo(0, 0);
+    return;
+  }
   const tab = e.target.closest('[data-ps-tab]');
   if (tab) {
     const y = window.scrollY;
@@ -705,7 +762,10 @@ document.addEventListener('click', e => {
     const k = sortBtn.getAttribute('data-ps-sort');
     const cur = psSort[psTab];
     if (cur.k === k) cur.d *= -1;
-    else psSort[psTab] = { k, d: Number(sortBtn.getAttribute('data-ps-first')) || -1 };
+    else {
+      const first = Number(sortBtn.getAttribute('data-ps-first'));
+      psSort[psTab] = { k, d: first === 1 ? 1 : -1 };
+    }
     render();
     window.scrollTo(0, y);
     return;
@@ -721,14 +781,25 @@ document.addEventListener('click', e => {
   }
   if (!e.target.closest('.pick') && $('#teamMenu')) $('#teamMenu').hidden = true;
 });
+window.addEventListener('hashchange', () => {
+  const id = tabFromHash();
+  if (!id || id === pageTab) return;
+  pageTab = id;
+  remember('tab', pageTab);
+  if (DATA) { render(); window.scrollTo(0, 0); }
+});
+window.addEventListener('resize', syncStick);
 async function init() {
+  const fromHash = tabFromHash();
+  const saved = recall('tab');
+  pageTab = fromHash || (PAGE_TABS.some(t => t[0] === saved) ? saved : 'overview');
   const q = new URLSearchParams(location.search);
   if (['last5', 'current', 'last', 'all'].includes(q.get('period'))) $('#period').value = q.get('period');
   try { await loadCatalog(); }
-  catch (e) { msg(e.message); $('#main').innerHTML = welcomeHTML(); return; }
+  catch (e) { msg(e.message); hideDock(); $('#main').innerHTML = welcomeHTML(); return; }
   const code = q.get('league') || recall('lg');
   if (code) { $('#lg').value = code; if (!selectCached(code, q.get('team') || '')) addLeague(code); }
-  else $('#main').innerHTML = welcomeHTML();
+  else { hideDock(); $('#main').innerHTML = welcomeHTML(); }
 }
 init();
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});

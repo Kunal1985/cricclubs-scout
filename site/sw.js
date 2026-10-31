@@ -1,5 +1,5 @@
 const V = '__ASSET_VERSION__';
-const C = 'scout-' + V;
+const C = 'scout-v2-' + V;
 const SHELL = ['./', 'index.html', 'style.css?v=' + V, 'app.js?v=' + V, 'manifest.json', 'icon.svg'];
 self.addEventListener('install', e => {
   self.skipWaiting();
