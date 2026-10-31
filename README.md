@@ -31,10 +31,8 @@ A team scan fetches the current-season match list and downloads scorecards only 
 ## Using the site
 
 1. Pick a league from the dropdown. The list is `site/data/index.json`.
-2. Or type a league code or `cricclubs.com` URL in **Add league**. If that league is not cached, the page offers a request that opens a prefilled GitHub issue.
-3. Pick a team. A scanned team renders the report and shows **data as of** the latest scrape time. A team with no file shows **Not scanned yet - Request scan (takes a few minutes)** and checks for the JSON every 30 seconds for about 20 minutes.
-
-The request link opens the `scan-request` issue form with the league and team filled in. Submitting it adds the `scan-request` label.
+2. Or type a league code or `cricclubs.com` URL in **Add league**. If that league is not cached, the page shows **Coming Soon!**.
+3. Pick a team. A scanned team renders the report and shows **data as of** the latest scrape time. A team with no file shows **Coming Soon!**.
 
 ## Workflows
 
