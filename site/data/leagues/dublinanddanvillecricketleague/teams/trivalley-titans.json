@@ -75,7 +75,8 @@
           "b": 30,
           "f": 0,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sameer Desai",
@@ -83,7 +84,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Navjeet Oberai",
@@ -91,7 +93,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Aravind Sethuraman",
@@ -107,7 +110,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Swapnil Trivedi",
@@ -115,7 +119,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Zalak Shah",
@@ -221,7 +226,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Yash Patel",
@@ -229,7 +235,8 @@
           "b": 24,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dhruv Patel",
@@ -237,7 +244,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pavan HS",
@@ -245,7 +253,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Nisarg Shah",
@@ -253,7 +262,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kumar Pandya",
@@ -261,7 +271,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ankit Malhotra",
@@ -269,7 +280,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Venish Patel",
@@ -277,7 +289,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sunil R",
@@ -285,7 +298,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Zalak Shah",
@@ -293,7 +307,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Harsh Shah",
@@ -388,7 +403,8 @@
           "b": 43,
           "f": 2,
           "s": 4,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sundeep Karanam",
@@ -396,7 +412,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pavan HS",
@@ -404,7 +421,8 @@
           "b": 41,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sameer Desai",
@@ -412,7 +430,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sunil R",
@@ -420,7 +439,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Chirag D",
@@ -428,7 +448,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": false
+          "out": false,
+          "how": "rt"
         },
         {
           "name": "Yash Patel",
@@ -436,7 +457,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik SK",
@@ -444,7 +466,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         }
       ],
       "bowling": [
@@ -531,7 +554,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sundeep Karanam",
@@ -539,7 +563,8 @@
           "b": 40,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "rto"
         },
         {
           "name": "Navjeet Oberai",
@@ -547,7 +572,8 @@
           "b": 35,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pavan HS",
@@ -555,7 +581,8 @@
           "b": 17,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Chirag D",
@@ -563,7 +590,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Rijun Chokshi",
@@ -571,7 +599,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik SK",
@@ -579,7 +608,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sunil R",
@@ -701,7 +731,8 @@
           "b": 45,
           "f": 3,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sundeep Karanam",
@@ -709,7 +740,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pavan HS",
@@ -725,7 +757,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kumar Pandya",
@@ -821,7 +854,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sundeep Karanam",
@@ -829,7 +863,8 @@
           "b": 23,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Nisarg Shah",
@@ -837,7 +872,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pavan HS",
@@ -845,7 +881,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Navjeet Oberai",
@@ -853,7 +890,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Zalak Shah",
@@ -861,7 +899,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Swapnil Trivedi",
@@ -869,7 +908,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rijun Chokshi",
@@ -877,7 +917,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sunil R",
@@ -885,7 +926,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Yash Patel",
@@ -893,7 +935,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Harsh Shah",
@@ -993,7 +1036,8 @@
           "b": 9,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sundeep Karanam",
@@ -1001,7 +1045,8 @@
           "b": 7,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Navjeet Oberai",
@@ -1009,7 +1054,8 @@
           "b": 40,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Pavan HS",
@@ -1017,7 +1063,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rajesh Purushothaman",
@@ -1025,7 +1072,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Nisarg Shah",
@@ -1041,7 +1089,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ht"
         },
         {
           "name": "Swapnil Trivedi",
@@ -1049,7 +1098,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kumar Pandya",
@@ -1170,7 +1220,8 @@
           "b": 10,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sundeep Karanam",
@@ -1178,7 +1229,8 @@
           "b": 20,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Navjeet Oberai",
@@ -1186,7 +1238,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rajesh Purushothaman",
@@ -1310,7 +1363,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sundeep Karanam",
@@ -1318,7 +1372,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Shahaji Gole",
@@ -1326,7 +1381,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rajesh Purushothaman",
@@ -1334,7 +1390,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pavan HS",
@@ -1342,7 +1399,8 @@
           "b": 31,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rijun Chokshi",
@@ -1350,7 +1408,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Venish Patel",
@@ -1358,7 +1417,8 @@
           "b": 26,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Chirag D",
@@ -1366,7 +1426,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik SK",
@@ -1374,7 +1435,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Yash Patel",
@@ -1382,7 +1444,8 @@
           "b": 6,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sunil R",
@@ -1493,7 +1556,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kanav Dosajh",
@@ -1501,7 +1565,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Navjeet Oberai",
@@ -1517,7 +1582,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Karthik SK",
@@ -1525,7 +1591,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Aravind Sethuraman",
@@ -1533,7 +1600,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Swapnil Trivedi",
@@ -1541,7 +1609,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sunil R",
@@ -1549,7 +1618,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Venish Patel",
@@ -1557,7 +1627,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Yash Patel",
@@ -1565,7 +1636,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         }
       ],
       "bowling": [

@@ -75,7 +75,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ashish Heda",
@@ -83,7 +84,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Frank Dunsford",
@@ -91,7 +93,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sulo Wijetunga",
@@ -99,7 +102,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Dulanjan Dharmasena",
@@ -107,7 +111,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Daham Sirimanne",
@@ -115,7 +120,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prinse Sivaraj",
@@ -123,7 +129,8 @@
           "b": 21,
           "f": 0,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dilshan Meemanage",
@@ -131,7 +138,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Kamal Indurugalla",
@@ -139,7 +147,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sohil Mehta",
@@ -147,7 +156,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         }
       ],
       "bowling": [
@@ -244,7 +254,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "George Dunsford",
@@ -252,7 +263,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Frank Dunsford",
@@ -260,7 +272,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Daham Sirimanne",
@@ -268,7 +281,8 @@
           "b": 14,
           "f": 3,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sulo Wijetunga",
@@ -276,7 +290,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Prinse Sivaraj",
@@ -284,7 +299,8 @@
           "b": 16,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Kamal Indurugalla",
@@ -292,7 +308,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rushan KP",
@@ -400,7 +417,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "George Dunsford",
@@ -408,7 +426,8 @@
           "b": 25,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Frank Dunsford",
@@ -416,7 +435,8 @@
           "b": 34,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Daham Sirimanne",
@@ -424,7 +444,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Prinse Sivaraj",
@@ -543,7 +564,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Dilshan Meemanage",
@@ -551,7 +573,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Frank Dunsford",
@@ -559,7 +582,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Yasashri Ranathunga",
@@ -567,7 +591,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sulo Wijetunga",
@@ -575,7 +600,8 @@
           "b": 33,
           "f": 3,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prinse Sivaraj",
@@ -583,7 +609,8 @@
           "b": 23,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ashish Heda",
@@ -591,7 +618,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -599,7 +627,8 @@
           "b": 20,
           "f": 1,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sohil Mehta",
@@ -702,7 +731,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "George Dunsford",
@@ -710,7 +740,8 @@
           "b": 25,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Frank Dunsford",
@@ -718,7 +749,8 @@
           "b": 25,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sulo Wijetunga",
@@ -726,7 +758,8 @@
           "b": 11,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Chamath Pathirana",
@@ -734,7 +767,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prinse Sivaraj",
@@ -742,7 +776,8 @@
           "b": 4,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dulanjan Dharmasena",
@@ -750,7 +785,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Kamal Indurugalla",
@@ -758,7 +794,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Dilshan Meemanage",
@@ -766,7 +803,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sohil Mehta",
@@ -774,7 +812,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gajanan Sane",
@@ -889,7 +928,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Nureshan Dias",
@@ -897,7 +937,8 @@
           "b": 35,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Frank Dunsford",
@@ -905,7 +946,8 @@
           "b": 50,
           "f": 3,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prinse Sivaraj",
@@ -913,7 +955,8 @@
           "b": 12,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -921,7 +964,8 @@
           "b": 4,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Ashish Heda",
@@ -929,7 +973,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Dilshan Meemanage",
@@ -1058,7 +1103,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Daham Sirimanne",
@@ -1066,7 +1112,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "George Dunsford",
@@ -1074,7 +1121,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Frank Dunsford",
@@ -1082,7 +1130,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Nureshan Dias",
@@ -1090,7 +1139,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Dilshan Meemanage",
@@ -1098,7 +1148,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ashish Heda",
@@ -1114,7 +1165,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Kamal Indurugalla",
@@ -1122,7 +1174,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dulanjan Dharmasena",
@@ -1130,7 +1183,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Gajanan Sane",
@@ -1219,7 +1273,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "George Dunsford",
@@ -1227,7 +1282,8 @@
           "b": 44,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Frank Dunsford",
@@ -1235,7 +1291,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rukshan Perera",
@@ -1243,7 +1300,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sulo Wijetunga",
@@ -1251,7 +1309,8 @@
           "b": 8,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -1259,7 +1318,8 @@
           "b": 2,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ashish Heda",
@@ -1267,7 +1327,8 @@
           "b": 8,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rushan KP",
@@ -1275,7 +1336,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dulanjan Dharmasena",
@@ -1283,7 +1345,8 @@
           "b": 14,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sohil Mehta",
@@ -1299,7 +1362,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         }
       ],
       "bowling": [
@@ -1423,7 +1487,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Frank Dunsford",
@@ -1431,7 +1496,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Jayanath Marambe",
@@ -1439,7 +1505,8 @@
           "b": 9,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prinse Sivaraj",
@@ -1447,7 +1514,8 @@
           "b": 2,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -1552,7 +1620,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Daham Sirimanne",
@@ -1560,7 +1629,8 @@
           "b": 25,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "George Dunsford",
@@ -1568,7 +1638,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Frank Dunsford",
@@ -1576,7 +1647,8 @@
           "b": 32,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ashish Heda",
@@ -1584,7 +1656,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rukshan Perera",
@@ -1592,7 +1665,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Nureshan Dias",
@@ -1608,7 +1682,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -1704,7 +1779,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "George Dunsford",
@@ -1712,7 +1788,8 @@
           "b": 16,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Frank Dunsford",
@@ -1720,7 +1797,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Jayanath Marambe",
@@ -1728,7 +1806,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sulo Wijetunga",
@@ -1736,7 +1815,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ashish Heda",
@@ -1752,7 +1832,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -1760,7 +1841,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rushan KP",
@@ -1768,7 +1850,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Dulanjan Dharmasena",
@@ -1776,7 +1859,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sohil Mehta",
@@ -1876,7 +1960,8 @@
           "b": 44,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "George Dunsford",
@@ -1884,7 +1969,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Frank Dunsford",
@@ -1892,7 +1978,8 @@
           "b": 27,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Daham Sirimanne",
@@ -1900,7 +1987,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ashish Heda",
@@ -1916,7 +2004,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -1924,7 +2013,8 @@
           "b": 9,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "mk"
         }
       ],
       "bowling": [
@@ -2021,7 +2111,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "George Dunsford",
@@ -2029,7 +2120,8 @@
           "b": 34,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Frank Dunsford",
@@ -2037,7 +2129,8 @@
           "b": 21,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jayanath Marambe",
@@ -2045,7 +2138,8 @@
           "b": 23,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prinse Sivaraj",
@@ -2053,7 +2147,8 @@
           "b": 15,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -2069,7 +2164,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dilshan Meemanage",
@@ -2077,7 +2173,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Dulanjan Dharmasena",
@@ -2192,7 +2289,8 @@
           "b": 26,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Daham Sirimanne",
@@ -2200,7 +2298,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Frank Dunsford",
@@ -2208,7 +2307,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jayanath Marambe",
@@ -2216,7 +2316,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rukshan Perera",
@@ -2224,7 +2325,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "George Dunsford",
@@ -2232,7 +2334,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ashish Heda",
@@ -2248,7 +2351,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dilshan Meemanage",
@@ -2256,7 +2360,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kamal Indurugalla",
@@ -2264,7 +2369,8 @@
           "b": 6,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sohil Mehta",
@@ -2380,7 +2486,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Dilshan Meemanage",
@@ -2388,7 +2495,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Frank Dunsford",
@@ -2396,7 +2504,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "George Dunsford",
@@ -2404,7 +2513,8 @@
           "b": 30,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ashish Heda",
@@ -2412,7 +2522,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Daham Sirimanne",
@@ -2420,7 +2531,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kamal Indurugalla",
@@ -2428,7 +2540,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sulo Wijetunga",
@@ -2436,7 +2549,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rushan KP",
@@ -2444,7 +2558,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lal Senanayake",
@@ -2452,7 +2567,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "st"
         },
         {
           "name": "Dulanjan Dharmasena",
@@ -2568,7 +2684,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Daham Sirimanne",
@@ -2576,7 +2693,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Frank Dunsford",
@@ -2584,7 +2702,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ashish Heda",
@@ -2592,7 +2711,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sulo Wijetunga",
@@ -2600,7 +2720,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "mk"
         },
         {
           "name": "Chamath Pathirana",
@@ -2608,7 +2729,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rushan KP",
@@ -2624,7 +2746,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -2740,7 +2863,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Daham Sirimanne",
@@ -2748,7 +2872,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Frank Dunsford",
@@ -2756,7 +2881,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ashish Heda",
@@ -2764,7 +2890,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Chamath Pathirana",
@@ -2772,7 +2899,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Dilshan Meemanage",
@@ -2780,7 +2908,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sulo Wijetunga",
@@ -2788,7 +2917,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kamal Indurugalla",
@@ -2796,7 +2926,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rushan KP",
@@ -2804,7 +2935,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Lal Senanayake",
@@ -2812,7 +2944,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Daham Walgama",
@@ -2924,7 +3057,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Daham Sirimanne",
@@ -2932,7 +3066,8 @@
           "b": 29,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "George Dunsford",
@@ -2940,7 +3075,8 @@
           "b": 22,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Nureshan Dias",
@@ -2948,7 +3084,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Jayanath Marambe",
@@ -2956,7 +3093,8 @@
           "b": 24,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sulo Wijetunga",
@@ -2964,7 +3102,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "rtno"
         },
         {
           "name": "Kamal Indurugalla",
@@ -2972,7 +3111,8 @@
           "b": 7,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ashish Heda",
@@ -2980,7 +3120,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Rushan KP",
@@ -3086,7 +3227,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Daham Sirimanne",
@@ -3094,7 +3236,8 @@
           "b": 11,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Frank Dunsford",
@@ -3102,7 +3245,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sulo Wijetunga",
@@ -3110,7 +3254,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "George Dunsford",
@@ -3118,7 +3263,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Rushan KP",
@@ -3126,7 +3272,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Chamath Pathirana",
@@ -3134,7 +3281,8 @@
           "b": 16,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Ashish Heda",
@@ -3142,7 +3290,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kamal Indurugalla",
@@ -3150,7 +3299,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Dulanjan Dharmasena",
@@ -3166,7 +3316,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -3264,7 +3415,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Daham Sirimanne",
@@ -3272,7 +3424,8 @@
           "b": 41,
           "f": 2,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Frank Dunsford",
@@ -3280,7 +3433,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jayanath Marambe",
@@ -3288,7 +3442,8 @@
           "b": 24,
           "f": 1,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dilshan Meemanage",
@@ -3296,7 +3451,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kamal Indurugalla",
@@ -3304,7 +3460,8 @@
           "b": 6,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Chamath Pathirana",
@@ -3312,7 +3469,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sulo Wijetunga",
@@ -3320,7 +3478,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ashish Heda",
@@ -3328,7 +3487,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "mk"
         },
         {
           "name": "Sohil Mehta",
@@ -3336,7 +3496,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dulanjan Dharmasena",

@@ -83,7 +83,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -205,7 +206,8 @@
           "b": 61,
           "f": 1,
           "s": 6,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -213,7 +215,8 @@
           "b": 23,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pratik Rao",
@@ -221,7 +224,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raman H",
@@ -229,7 +233,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Chandra Obula Reddy Mallela",
@@ -237,7 +242,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amrik Singh",
@@ -245,7 +251,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -253,7 +260,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Arul P",
@@ -269,7 +277,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         }
       ],
       "bowling": [
@@ -362,7 +371,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -370,7 +380,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rajesh Sapkale",
@@ -378,7 +389,8 @@
           "b": 21,
           "f": 0,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Asif Shahab",
@@ -386,7 +398,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -394,7 +407,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Arul P",
@@ -402,7 +416,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -410,7 +425,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -426,7 +442,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pratik Rao",
@@ -434,7 +451,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -442,7 +460,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -555,7 +574,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -563,7 +583,8 @@
           "b": 20,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -571,7 +592,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Pratap Singh",
@@ -579,7 +601,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -587,7 +610,8 @@
           "b": 3,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Amrik Singh",
@@ -595,7 +619,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Asif Shahab",
@@ -603,7 +628,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pratik Rao",
@@ -611,7 +637,8 @@
           "b": 19,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -619,7 +646,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Virender Rana",
@@ -635,7 +663,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         }
       ],
       "bowling": [
@@ -764,7 +793,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -772,7 +802,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Abhishek Patel",
@@ -780,7 +811,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Pratap Singh",
@@ -788,7 +820,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -796,7 +829,8 @@
           "b": 18,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Virender Rana",
@@ -804,7 +838,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -812,7 +847,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pratik Rao",
@@ -820,7 +856,8 @@
           "b": 17,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Chandra Obula Reddy Mallela",
@@ -836,7 +873,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -844,7 +882,8 @@
           "b": 5,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         }
       ],
       "bowling": [
@@ -941,7 +980,8 @@
           "b": 36,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -949,7 +989,8 @@
           "b": 10,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Arul P",
@@ -957,7 +998,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -965,7 +1007,8 @@
           "b": 25,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Chandra Obula Reddy Mallela",
@@ -973,7 +1016,8 @@
           "b": 6,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -981,7 +1025,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -989,7 +1034,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -997,7 +1043,8 @@
           "b": 0,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Pravinkumar Jeya Kumar",
@@ -1005,7 +1052,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sreeni Y",
@@ -1013,7 +1061,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -1106,7 +1155,8 @@
           "b": 33,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -1114,7 +1164,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Arul P",
@@ -1122,7 +1173,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -1130,7 +1182,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -1138,7 +1191,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rajesh Sapkale",
@@ -1146,7 +1200,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -1154,7 +1209,8 @@
           "b": 7,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Virender Rana",
@@ -1162,7 +1218,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -1178,7 +1235,8 @@
           "b": 14,
           "f": 1,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Pratap Singh",
@@ -1295,7 +1353,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -1303,7 +1362,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Arul P",
@@ -1311,7 +1371,8 @@
           "b": 34,
           "f": 2,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Abhishek Patel",
@@ -1319,7 +1380,8 @@
           "b": 8,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Amit Pratap Singh",
@@ -1327,7 +1389,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -1335,7 +1398,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -1351,7 +1415,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Amrik Singh",
@@ -1359,7 +1424,8 @@
           "b": 17,
           "f": 1,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -1482,7 +1548,8 @@
           "b": 14,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -1490,7 +1557,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -1498,7 +1566,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek Patel",
@@ -1506,7 +1575,8 @@
           "b": 22,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -1514,7 +1584,8 @@
           "b": 27,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Rajesh Sapkale",
@@ -1522,7 +1593,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Pratap Singh",
@@ -1530,7 +1602,8 @@
           "b": 12,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -1538,7 +1611,8 @@
           "b": 7,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Virender Rana",
@@ -1546,7 +1620,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -1677,7 +1752,8 @@
           "b": 17,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amrik Singh",
@@ -1685,7 +1761,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Raman H",
@@ -1693,7 +1770,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhishek Patel",
@@ -1701,7 +1779,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -1709,7 +1788,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Virender Rana",
@@ -1828,7 +1908,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Arul P",
@@ -1836,7 +1917,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Pratik Rao",
@@ -1844,7 +1926,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -1852,7 +1935,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Chandra Obula Reddy Mallela",
@@ -1868,7 +1952,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -1876,7 +1961,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -1987,7 +2073,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -1995,7 +2082,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pankit Lodaya",
@@ -2003,7 +2091,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -2011,7 +2100,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -2019,7 +2109,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -2027,7 +2118,8 @@
           "b": 23,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Arul P",
@@ -2035,7 +2127,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Chandra Obula Reddy Mallela",
@@ -2043,7 +2136,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Zavid Hussain Shahul Hameed",
@@ -2051,7 +2145,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sreeni Y",
@@ -2067,7 +2162,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -2144,7 +2240,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -2152,7 +2249,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ankur Bhardwaj",
@@ -2160,7 +2258,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -2168,7 +2267,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -2176,7 +2276,8 @@
           "b": 37,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rajesh Sapkale",
@@ -2184,7 +2285,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pratik Rao",
@@ -2192,7 +2294,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Vignesh Natarajan",
@@ -2200,7 +2303,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Arul P",
@@ -2336,7 +2440,8 @@
           "b": 26,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -2344,7 +2449,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -2352,7 +2458,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -2360,7 +2467,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prabakaran Ramamoorthi",
@@ -2368,7 +2476,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Karthik SK",
@@ -2376,7 +2485,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -2384,7 +2494,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Arul P",
@@ -2392,7 +2503,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pratik Rao",
@@ -2408,7 +2520,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Zavid Hussain Shahul Hameed",
@@ -2416,7 +2529,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         }
       ],
       "bowling": [
@@ -2532,7 +2646,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Arul P",
@@ -2540,7 +2655,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mukul Bisht",
@@ -2548,7 +2664,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -2556,7 +2673,8 @@
           "b": 26,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prabakaran Ramamoorthi",
@@ -2564,7 +2682,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rajesh Sapkale",
@@ -2572,7 +2691,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -2580,7 +2700,8 @@
           "b": 21,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek Patel",
@@ -2588,7 +2709,8 @@
           "b": 10,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik SK",
@@ -2604,7 +2726,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -2724,7 +2847,8 @@
           "b": 28,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pravinkumar Jeya Kumar",
@@ -2732,7 +2856,8 @@
           "b": 11,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Prabakaran Ramamoorthi",
@@ -2740,7 +2865,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -2748,7 +2874,8 @@
           "b": 15,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -2756,7 +2883,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Abhishek Patel",
@@ -2764,7 +2892,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mukul Bisht",
@@ -2772,7 +2901,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Arul P",
@@ -2788,7 +2918,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -2796,7 +2927,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Arunesh Singh",
@@ -2804,7 +2936,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         }
       ],
       "bowling": [
@@ -2912,7 +3045,8 @@
           "b": 13,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -2920,7 +3054,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prabakaran Ramamoorthi",
@@ -2928,7 +3063,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -2936,7 +3072,8 @@
           "b": 42,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -2944,7 +3081,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rajesh Sapkale",
@@ -2952,7 +3090,8 @@
           "b": 27,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhishek Patel",
@@ -2960,7 +3099,8 @@
           "b": 6,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -2976,7 +3116,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Satya Vadapalli",
@@ -3091,7 +3232,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Thiyagarajan Radhakrishnan",
@@ -3099,7 +3241,8 @@
           "b": 7,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -3107,7 +3250,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -3115,7 +3259,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pankit Lodaya",
@@ -3123,7 +3268,8 @@
           "b": 25,
           "f": 1,
           "s": 0,
-          "out": false
+          "out": false,
+          "how": "rtno"
         },
         {
           "name": "Zavid Hussain Shahul Hameed",
@@ -3131,7 +3277,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": false
+          "out": false,
+          "how": "rtno"
         },
         {
           "name": "Abhishek Patel",
@@ -3147,7 +3294,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Chandra Obula Reddy Mallela",
@@ -3260,7 +3408,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Abhishek Patel",
@@ -3268,7 +3417,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pandiyan Sivagnanam",
@@ -3276,7 +3426,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -3284,7 +3435,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Vignesh Natarajan",
@@ -3292,7 +3444,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -3300,7 +3453,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -3308,7 +3462,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Satya Vadapalli",
@@ -3316,7 +3471,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Zavid Hussain Shahul Hameed",
@@ -3435,7 +3591,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek Patel",
@@ -3443,7 +3600,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Prabakaran Ramamoorthi",
@@ -3451,7 +3609,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mariappan Kondusamy",
@@ -3459,7 +3618,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pankit Lodaya",
@@ -3467,7 +3627,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Raja Mohamed Ahamed Hanifa",
@@ -3475,7 +3636,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "PANKAJ BIHANI",
@@ -3483,7 +3645,8 @@
           "b": 40,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Arul P",
@@ -3491,7 +3654,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Karthik SK",
@@ -3499,7 +3663,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Arunesh Singh",
@@ -3507,7 +3672,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Naga Nookala",
