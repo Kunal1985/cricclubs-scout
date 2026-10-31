@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-31T09:05:12.257Z",
+  "leagues": [
+    {
+      "code": "DublinandDanvilleCricketLeague",
+      "name": "DDCL",
+      "checkedAt": "2026-10-31T07:54:56.191Z",
+      "seasons": {
+        "current": {
+          "id": "xD6Qicr7gkrAMq0_MoX4Dw",
+          "name": "DDCL Fall 2026",
+          "startDate": "08/09/2026",
+          "year": 2026,
+          "teamCount": 18
+        },
+        "last": {
+          "id": "u2KnAWQG_l9DZ_jsRAByWA",
+          "name": "DDCL Summer 26",
+          "startDate": "05/10/2026",
+          "year": 2026,
+          "teamCount": 16
+        }
+      },
+      "teams": [
+        "Bay Area Falcons",
+        "Bay Strikers",
+        "Chhavas",
+        "Deccan Chargers",
+        "Dublin Super Kings",
+        "Fundoos",
+        "Legion Mavericks",
+        "Loyals",
+        "Monks",
+        "Namma Boys",
+        "OG",
+        "PVCC",
+        "Retro Runners",
+        "Storm Chasers",
+        "Sunrise Strikers",
+        "Tipsy Bulls",
+        "Trivalley Titans",
+        "Vikings",
+        "Vodoo Rangers"
+      ],
+      "scanned": [
+        "Bay Area Falcons",
+        "Legion Mavericks",
+        "Retro Runners",
+        "Tipsy Bulls"
+      ]
+    }
+  ]
+}
