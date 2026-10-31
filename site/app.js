@@ -348,7 +348,7 @@ function pick() {
 const wl = ms => ({ n: ms.length, w: ms.filter(m => m.outcome === 'W').length, l: ms.filter(m => m.outcome === 'L').length });
 let psTab = 'bat';
 const psSort = { bat: { k: 'r', d: -1 }, bowl: { k: 'w', d: -1 }, field: { k: 'tot', d: -1 }, total: { k: 'impact', d: -1 } };
-const PAGE_TABS = [['overview', 'Overview'], ['results', 'Results'], ['players', 'Players'], ['stats', 'Player stats'], ['grounds', 'Grounds'], ['gameplan', 'Game plan']];
+const PAGE_TABS = [['overview', 'Overview'], ['gameplan', 'How to Beat Them'], ['results', 'Results'], ['players', 'Players'], ['stats', 'Player stats'], ['grounds', 'Grounds']];
 let pageTab = 'overview';
 function tabFromHash() {
   const raw = (location.hash || '').replace(/^#/, '');
