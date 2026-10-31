@@ -251,7 +251,7 @@ function render() {
   const B = Object.values(bat), W = Object.values(bowl), sr = x => x.b ? 100 * x.r / x.b : NaN, ec = x => x.balls ? 6 * x.r / x.balls : NaN, imp = x => x.b ? x.r * x.r / x.b : 0;
   const minInn = half ? 2 : 3, minB = half ? 15 : 30, minOv = half ? 2 : 6; const qB = B.filter(x => x.inn >= minInn && x.b >= minB), qW = W.filter(x => x.balls >= minOv * 6);
   const topBat = [...qB].sort((a, b) => imp(b) - imp(a)).slice(0, 6), topBowl = [...qW].sort((a, b) => b.w - a.w || ec(a) - ec(b)).slice(0, 6), eco = [...qW].sort((a, b) => ec(a) - ec(b)).slice(0, 5);
-  const poorBat = qB.filter(x => sr(x) <= 40).sort((a, b) => sr(a) - sr(b)).slice(0, 4), poorBowl = [...qW].sort((a, b) => ec(b) - ec(a)).slice(0, 4);
+  const poorBat = qB.filter(x => sr(x) <= 45).sort((a, b) => sr(a) - sr(b)).slice(0, 4), poorBowl = [...qW].sort((a, b) => ec(b) - ec(a)).slice(0, 4);
   const teamRuns = played.reduce((s, m) => { const i = us(m); return s + (i ? Number(i.runs) || 0 : 0); }, 0);
   const lowBat = B.filter(x => x.inn >= minInn).sort((a, b) => a.r - b.r || b.inn - a.inn || a.name.localeCompare(b.name)).slice(0, 4);
   const runLead = [...B].sort((a, b) => b.r - a.r)[0], wkLead = [...W].sort((a, b) => b.w - a.w)[0];
@@ -291,8 +291,8 @@ function render() {
   const F = Object.values(fld).sort((a, b) => (b.c + b.k + b.r + b.s) - (a.c + a.k + a.r + a.s));
   if (F.length) h += card('🧤', 'Fielders', tbl(['Fielder', 'Ct', 'WK', 'RO', 'St', 'Tot'], F.slice(0, 10).map(x => [`<span class="av" style="background:${hue(x.name)};width:26px;height:26px;font-size:10px;display:inline-grid;vertical-align:middle;margin-right:6px">${esc(ini(x.name))}</span>${esc(x.name)}`, x.c, x.k, x.r, x.s, `<b class="y">${x.c + x.k + x.r + x.s}</b>`])) + `<div class="note">From opponent dismissal text; shared run-outs credit each fielder.${DATA.unresolvedFielders ? ` ${DATA.unresolvedFielders} name(s) unmatched.` : ''}</div>`);
   const slowRows = poorBat.length
-    ? tbl(['Batter', 'SR', 'Runs', 'Balls'], poorBat.map(x => [esc(x.name), `<b class="r">${f1(sr(x))}</b>`, x.r, x.b])) + note(`SR 40 or under · ${minInn}+ inns & ${minB}+ balls`)
-    : `<p class="note">Nobody under SR 40 (min ${minInn} inns & ${minB} balls)</p>`;
+    ? tbl(['Batter', 'SR', 'Runs', 'Balls'], poorBat.map(x => [esc(x.name), `<b class="r">${f1(sr(x))}</b>`, x.r, x.b])) + note(`SR 45 or under · ${minInn}+ inns & ${minB}+ balls`)
+    : `<p class="note">Nobody under SR 45 (min ${minInn} inns & ${minB} balls)</p>`;
   h += card('📉', 'Weak spots', `<h3>Slowest scorers</h3>${slowRows}<h3>Most expensive</h3>${tbl(['Bowler', 'Econ', 'Ov', 'Wkts'], poorBowl.map(x => [esc(x.name), `<b class="r">${f1(ec(x))}</b>`, ov(x.balls), x.w]))}${note(`${minOv}+ overs`)}<h3>Lowest batting contribution</h3>${tbl(['Batter', 'Runs', 'Inns', 'Avg', 'Share'], lowBat.map(x => [esc(x.name), x.r, x.inn, f1(x.outs ? x.r / x.outs : NaN), `<b class="r">${pct(x.r, teamRuns)}</b>`]))}${note(`${minInn}+ inns · no balls minimum · % of team runs`)}`);
   h += howToBeat();
   const vs = (lab, w, n) => `<div class="vsr"><div class="lab"><span>${lab}</span><span><b>${w}</b>/${n} won · ${pct(w, n)}</span></div><div class="track"><i style="width:${n ? 100 * w / n : 0}%;background:var(--green)"></i><i style="width:${n ? 100 * (n - w) / n : 0}%;background:var(--red);opacity:.85"></i></div></div>`;
@@ -386,7 +386,7 @@ function render() {
       const row = { x, rate, bound, dots, d, dotBalls: dots == null ? 0 : dots / 100 * x.b };
       if (rate >= 130 || bound >= 50 || (x.s >= 3 && sixShare >= 0.3)) sloggers.push(row);
       else if (dots != null && dots <= 45 && bound <= 45 && ((rate >= 90 && rate <= 125) || (rate >= 65 && rate < 90 && bound <= 20))) rotators.push(row);
-      else if (rate <= 40) slowStarters.push(row);
+      else if (rate <= 45) slowStarters.push(row);
     }
     sloggers.sort((p, q) => (q.x.s - p.x.s) || (q.bound - p.bound) || (q.rate - p.rate));
     rotators.sort((p, q) => q.x.r - p.x.r || (p.dots ?? 99) - (q.dots ?? 99));
@@ -574,7 +574,7 @@ function render() {
       return `<div class="pl"><span class="av" style="background:${hue(x.name)}">${esc(ini(x.name))}</span><div class="pn"><b>${esc(x.name)}</b><div class="roles"><span class="role bowl">Bowler</span></div><span>${stat}</span></div></div><p class="tackle">${plan}</p>`;
     }).join('');
     if (!sections.length && !cards) return '';
-    const list = sections.length ? `<ul class="notes">${sections.map(html => `<li>${html}</li>`).join('')}</ul><div class="note">Each section: this season plus the last 5 · up to 4 players · 3+ inns and 30+ balls · slow starter SR 40 or under · 2+ chase innings · 4+ overs. A section is left out when nobody qualifies.</div>` : '';
+    const list = sections.length ? `<ul class="notes">${sections.map(html => `<li>${html}</li>`).join('')}</ul><div class="note">Each section: this season plus the last 5 · up to 4 players · 3+ inns and 30+ balls · slow starter SR 45 or under · 2+ chase innings · 4+ overs. A section is left out when nobody qualifies.</div>` : '';
     const sub = cards ? `<h3>Surprise packages</h3><p class="subhead">Haven't played in the last 5 matches</p>${cards}<div class="note">Current and last season · 3+ inns & 30+ balls, 6+ overs</div>` : '';
     return card('🎯', 'How to beat them', list + sub, 'This season and the last 5');
   }
