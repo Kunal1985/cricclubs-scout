@@ -119,7 +119,7 @@ jobs:
           MODE: ${{ needs.prepare.outputs.mode }}
           LEAGUE: ${{ needs.prepare.outputs.league }}
           TEAM: ${{ needs.prepare.outputs.team }}
-          SITE_URL: https://kunal1985.github.io/cricclubs-scout/
+          SITE_URL: https://kunal1985.github.io/cricscout/
         run: |
           set +e
           node cli.js run

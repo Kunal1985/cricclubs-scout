@@ -2,14 +2,14 @@
 
 Free [CricClubs](https://cricclubs.com) team scouting site. The pages are static JSON on GitHub Pages. A GitHub Actions workflow runs the scraper (headless Chrome) and commits the cache back to `main`.
 
-Site: <https://kunal1985.github.io/cricclubs-scout/>
+Site: <https://kunal1985.github.io/cricscout/>
 
 There is no server to host. Plain fetches of CricClubs get a Cloudflare 403, and the JSON API expects headers the site itself adds, so the scraper opens the public pages in Chrome and keeps the responses the page already requested.
 
 ## How it works
 
 ```text
-site/                  GitHub Pages (relative URLs, works under /cricclubs-scout/)
+site/                  GitHub Pages (relative URLs, works under /cricscout/)
   data/index.json      cached leagues for the dropdown
   data/leagues/<code>/league.json
   data/leagues/<code>/teams/<slug>.json
@@ -63,7 +63,7 @@ Pushes made with `GITHUB_TOKEN` do not start another workflow, so the scan workf
 After this is merged to `main`:
 
 1. **Settings → Actions → General → Workflow permissions → Read and write permissions.** Job-level `contents: write` cannot exceed this. Without it, scans cannot commit and the label workflow cannot create `scan-request`.
-2. **Settings → Pages → Build and deployment → Source: GitHub Actions.** The expected URL is <https://kunal1985.github.io/cricclubs-scout/>.
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions.** The expected URL is <https://kunal1985.github.io/cricscout/>.
 3. If the `github-pages` environment asks for approval, approve the deployment from the default branch.
 4. If `main` is protected, allow `github-actions[bot]` to push data commits (or the scan workflow will fail at `git push`).
 5. Run **Actions → Ensure labels** once if the first push did not create `scan-request`. The issue form only applies labels that already exist.
@@ -81,6 +81,6 @@ node cli.js weekly
 npm test
 ```
 
-`publish` rebuilds `site/data` from `data/store` without using Chrome. Serve `site/` with any static file server and open it from that directory so the relative `data/` URLs resolve. A path prefix such as `/cricclubs-scout/` works the same way, because nothing is rooted at `/`.
+`publish` rebuilds `site/data` from `data/store` without using Chrome. Serve `site/` with any static file server and open it from that directory so the relative `data/` URLs resolve. A path prefix such as `/cricscout/` works the same way, because nothing is rooted at `/`.
 
 CricClubs sits behind Cloudflare. The scraper is a real Chrome session because a plain HTTP client is rejected. If the runner is shown the "Just a moment" check and it does not clear, the scan exits with that error and leaves the last good JSON in place. Re-run the workflow later. The Dublin and Danville cache shipped with this repo is enough for the site to render those teams before the first successful Actions scan.
