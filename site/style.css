@@ -21,7 +21,7 @@
 .row{display:flex;gap:8px;margin-top:6px}input,select{flex:1;min-width:0;height:42px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--tx);font:500 15px var(--body);transition:border-color .2s}
 select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--gold) 50%),linear-gradient(135deg,var(--gold) 50%,transparent 50%);background-position:calc(100% - 17px) 18px,calc(100% - 12px) 18px;background-size:5px 5px;background-repeat:no-repeat;padding-right:28px}
 input:focus,select:focus,button:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
-.btn{height:42px;padding:0 18px;border:0;border-radius:12px;font:800 15px var(--body);color:#1b1300;background:linear-gradient(180deg,#ffd866,var(--gold));box-shadow:0 4px 14px #ffc83d33;cursor:pointer}.btn:disabled,select:disabled{opacity:.5}
+.btn{height:42px;padding:0 18px;border:0;border-radius:12px;font:800 15px var(--body);color:#1b1300;background:linear-gradient(180deg,#ffd866,var(--gold));box-shadow:0 4px 14px #ffc83d33;cursor:pointer}.btn:disabled,select:disabled,input:disabled{opacity:.5}
 main{max-width:640px;margin:auto;padding:12px}.msg{margin:12px;padding:12px 14px;border-radius:14px;background:#3a0f15;border:1px solid #ff4d5e66;color:#ffd5d9}
 .welcome{padding:34px 10px;text-align:left;animation:up .5s ease}.welcome h1{font:64px/.9 var(--disp);margin:0 0 12px;letter-spacing:.5px}.welcome h1 span{color:var(--green)}.welcome p{color:var(--mut);max-width:32ch}
 .wball{width:84px;height:84px;margin-bottom:18px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#ff97a1,var(--red) 45%,#8f0f1b);box-shadow:0 18px 40px #ff4d5e40;animation:spin 6s linear infinite;position:relative}.wball:after{content:'';position:absolute;inset:0 36px;border-left:2px dashed #fffb;border-right:2px dashed #fffb}
@@ -114,15 +114,20 @@ a.btn{display:inline-flex;align-items:center;justify-content:center;text-decorat
 .hint{font-size:12.5px;color:var(--mut);margin:10px 0 0}
 footer a{color:var(--sky);text-decoration:none}footer a:hover{text-decoration:underline}
 .pick{position:relative;flex:1;min-width:0}
-.team-btn{width:100%;height:42px;padding:0 28px 0 10px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--tx);font:500 15px var(--body);display:flex;align-items:center;gap:8px;cursor:pointer;text-align:left}
-.team-btn span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.team-btn:disabled{opacity:.5;cursor:default}
-.team-btn .logo-img,.menu .logo-img,.mini{width:22px;height:22px;border-radius:50%;object-fit:cover;flex:none}
+.team-field{position:relative;display:flex;min-width:0}
+.team-field input{padding-right:40px}
+.team-clear{position:absolute;right:4px;top:4px;width:34px;height:34px;border:0;border-radius:10px;background:transparent;color:var(--mut);font:600 22px/1 var(--body);cursor:pointer}
+.team-clear:hover,.team-clear:focus-visible{color:var(--tx);background:var(--card)}
+.menu .logo-img,.mini{width:22px;height:22px;border-radius:50%;object-fit:cover;flex:none}
 .mini{width:18px;height:18px;vertical-align:-4px;margin-right:6px}
 .av.sm{width:22px;height:22px;font-size:10px}
-.menu{position:absolute;z-index:8;left:0;right:0;top:46px;max-height:280px;overflow:auto;background:var(--bg2);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 30px #0008}
-.menu button{width:100%;display:flex;align-items:center;gap:8px;padding:8px 10px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--tx);font:500 14px var(--body);cursor:pointer;text-align:left}
-.menu button:hover,.menu button:focus-visible{background:var(--card)}
+.menu{position:absolute;z-index:8;left:0;right:0;top:calc(100% + 4px);max-height:352px;overflow:auto;background:var(--bg2);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 30px #0008;-webkit-overflow-scrolling:touch}
+.team-opt{min-height:44px;display:flex;align-items:center;gap:8px;padding:6px 10px;border-bottom:1px solid var(--line);cursor:pointer}
+.team-opt .tn{flex:1;min-width:0}
+.team-opt .tn b{display:block;font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.team-opt .grp{flex:none;max-width:42%;font-size:11px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.team-opt.on,.team-opt:hover{background:var(--card)}
+.team-none{padding:12px 10px;color:var(--mut);font-size:14px}
 .badge.has-logo{padding:0;overflow:hidden;background:#10281c}
 .badge.has-logo .logo-img{width:100%;height:100%;object-fit:cover;border-radius:18px}
 .badge .fallback{display:none}
