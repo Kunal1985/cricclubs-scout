@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T15:16:02.828Z",
+  "generatedAt": "2026-10-31T15:27:57.771Z",
   "leagues": [
     {
       "code": "DublinandDanvilleCricketLeague",
@@ -202,6 +202,7 @@
         "MTCA RICM": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg"
       },
       "scanned": [
+        "MTCA Dark Knights",
         "MTCA RDX",
         "MTCA Tri-Valley Titans"
       ]
