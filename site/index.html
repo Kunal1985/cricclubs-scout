@@ -5,8 +5,8 @@
 <link rel="stylesheet" href="style.css?v=__ASSET_VERSION__"></head><body>
 <div class="sticky" id="bar">
  <div class="brand"><span class="ball" aria-hidden="true"></span><span class="logo">CRIC<b>SCOUT</b></span><span class="lgname" id="league">Opponent scouting</span></div>
- <div class="row"><label class="sr" for="leagueSel">Cached league</label><select id="leagueSel"><option value="">Cached leagues…</option></select></div>
- <div class="row"><label class="sr" for="lg">Add league</label><input id="lg" placeholder="Add league code or cricclubs.com URL" autocomplete="off" autocapitalize="off" spellcheck="false"><button id="go" class="btn" type="button">Add</button></div>
+ <div class="row"><label class="sr" for="lg">League name</label><input id="lg" placeholder="League Name" autocomplete="off" autocapitalize="off" spellcheck="false"><button id="go" class="btn" type="button">Add</button></div>
+ <div class="row"><label class="sr" for="leagueSel">League</label><select id="leagueSel"><option value="" hidden></option></select></div>
  <div class="row" id="teamRow"><div class="pick"><label class="sr" for="team">Team</label><button type="button" id="teamBtn" class="team-btn" disabled aria-haspopup="listbox" aria-label="Team">Select a team</button><select id="team" class="sr" disabled><option value="">Select a team</option></select><div id="teamMenu" class="menu" hidden role="listbox"></div></div>
  <div id="periodHome"><label class="sr" for="period">Period</label><select id="period"><option value="last5">Last 5</option><option value="current">Current season</option><option value="last">Last season</option><option value="all">Both seasons</option></select></div></div>
 </div>
