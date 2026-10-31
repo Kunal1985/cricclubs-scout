@@ -160,6 +160,9 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
       - uses: actions/configure-pages@v5
         if: steps.commit.outputs.changed == 'true'
+      - name: Stamp asset version
+        if: steps.commit.outputs.changed == 'true'
+        run: node scripts/stamp-assets.js
       - uses: actions/upload-pages-artifact@v3
         if: steps.commit.outputs.changed == 'true'
         with:

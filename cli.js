@@ -5,10 +5,12 @@ const path = require('path');
 const cc = require('./lib/cc');
 const { normMatch } = require('./lib/normalize');
 const store = require('./lib/store');
+const { buildStandingsDoc } = require('./lib/standings');
 const { sanitizeLeague, sanitizeTeam, siteUrl, commentFor } = require('./lib/issue');
 
 const TZ = 'America/Los_Angeles';
 const RESULT = path.join(store.ROOT, 'scan-result.json');
+const refreshedStandings = new Set();
 
 function laDate(d = new Date()) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
@@ -60,10 +62,39 @@ async function ensureLeague(input, { refresh = false } = {}) {
   }
   if (!seasons.current) return { error: `League "${info.name}" has no seasons in ${y - 1}–${y}.` };
   const teams = [...new Set(Object.values(seasons).flatMap(s => Object.keys(s.teams)))].sort((a, b) => a.localeCompare(b));
-  const league = { ...info, checkedAt: new Date().toISOString(), seasons, teams };
+  const league = { ...info, checkedAt: new Date().toISOString(), seasons, teams, logos: (cached && cached.logos) || {} };
   store.writeLeague(league);
   console.error(`league ${league.code} (${league.name}) current=${seasons.current.name} teams=${teams.length}`);
+  await refreshStandings(league, ['current', 'last']);
   return { league, cached: false };
+}
+
+async function refreshStandings(league, keys) {
+  const seasons = [...new Set(keys)].map(k => league.seasons[k]).filter(s => s && s.id);
+  const pending = seasons.filter(s => !refreshedStandings.has(league.code + '|' + s.id));
+  if (!pending.length) return;
+  let all = null;
+  const logos = { ...(league.logos || {}) };
+  let changed = false;
+  for (const s of pending) {
+    try {
+      if (!all) all = await cc.allSeriesList(league.code);
+      const pt = await cc.fetchPointsTable(league.code, league.id, s);
+      const po = await cc.fetchPlayoffs(league.code, league.id, s, all, pt);
+      const doc = buildStandingsDoc(pt, po);
+      store.writeStandings(league.code, s.name, doc);
+      Object.assign(logos, doc.logos || {});
+      refreshedStandings.add(league.code + '|' + s.id);
+      changed = true;
+      console.error('standings', s.name);
+    } catch (e) {
+      console.error('standings failed', s.name, e.message);
+    }
+  }
+  if (changed) {
+    league.logos = logos;
+    store.writeLeague(league);
+  }
 }
 
 async function scanTeam(league, team, { currentOnly = false } = {}) {
@@ -100,6 +131,7 @@ async function scanTeam(league, team, { currentOnly = false } = {}) {
     t.series[p.s.id] = { name: p.s.name, scrapedAt: new Date().toISOString(), matchIds: list.map(m => m.scoreSummary.matchId) };
     store.writeTeam(league.code, canonical, t);
   }
+  await refreshStandings(league, plan.map(p => p.key));
   return { ok: true, team: canonical, newMatches, seasons: plan.map(p => p.s.name) };
 }
 
@@ -173,6 +205,7 @@ async function weekly() {
     } catch (e) {
       console.error('league refresh failed', cached.code, e.message);
     }
+    await refreshStandings(league, ['current']);
     const teams = store.listScannedTeams(league.code);
     for (const t of teams) {
       if (!matchTeam(league, t.team)) {
@@ -199,6 +232,24 @@ async function run() {
   if (cmd === 'publish') {
     const index = store.publish();
     console.log(JSON.stringify({ leagues: index.leagues.length }));
+    return;
+  }
+  if (cmd === 'seed-standings') {
+    const dir = path.join(store.ROOT, 'samples');
+    const league = store.readLeague('DublinandDanvilleCricketLeague');
+    if (!league) throw new Error('DDCL league cache is missing');
+    const logos = { ...(league.logos || {}) };
+    const files = fs.readdirSync(dir).filter(f => /^normalized_.*\.json$/.test(f));
+    for (const f of files) {
+      const raw = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      const doc = buildStandingsDoc(raw.pointsTable, raw.playoffs);
+      store.writeStandings(league.code, doc.series.name, doc);
+      Object.assign(logos, doc.logos || {});
+      console.error('seeded', doc.series.name, Object.keys(doc.teams).length);
+    }
+    league.logos = logos;
+    store.writeLeague(league);
+    store.publish();
     return;
   }
   if (cmd === 'league') return addLeague(argLeague(), { refresh: process.env.REFRESH === '1' || process.argv.includes('--refresh') });

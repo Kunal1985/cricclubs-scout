@@ -32,4 +32,8 @@ test('publish writes relative site JSON', () => {
   const report = JSON.parse(fs.readFileSync(team, 'utf8'));
   assert.equal(report.league.name, 'DDCL');
   assert.ok(report.matches.length >= 10);
+  assert.match(report.logo, /^https:\/\/media\.cricclubs\.com\//);
+  const stand = path.join(store.SITE, 'leagues', 'dublinanddanvillecricketleague', 'standings', 'ddcl-fall-2026.json');
+  assert.ok(fs.existsSync(stand));
+  assert.equal(JSON.parse(fs.readFileSync(stand, 'utf8')).teams['Bay Area Falcons'].position, 5);
 });

@@ -51,13 +51,30 @@ async function loadCatalog() {
   sel.innerHTML = '<option value="">Cached leagues…</option>' + CATALOG.map(l => `<option value="${esc(l.code)}">${esc(l.name)} · ${esc(l.code)}</option>`).join('');
   if (cur && CATALOG.some(l => l.code === cur)) sel.value = cur;
 }
+function teamLogo(name) {
+  return (LEAGUE && LEAGUE.logos && LEAGUE.logos[name]) || (DATA && DATA.logos && DATA.logos[name]) || '';
+}
+function face(name, url, cls) {
+  if (url) return `<img class="${cls || 'logo-img'}" alt="" src="${esc(url)}">`;
+  return `<span class="av sm" style="background:${hue(name)}">${esc(ini(name))}</span>`;
+}
+function syncTeamButton() {
+  const btn = $('#teamBtn'); if (!btn) return;
+  const name = $('#team').value;
+  btn.disabled = $('#team').disabled;
+  if (!name) { btn.innerHTML = '<span>Select a team</span>'; return; }
+  btn.innerHTML = face(name, teamLogo(name), 'logo-img') + `<span>${esc(name)}</span>`;
+}
 function fillTeams(league, keep) {
   LEAGUE = league;
   $('#league').textContent = `${league.name} · ${league.seasons.current?.name || ''}`;
   const teams = league.teams || [];
-  $('#team').innerHTML = '<option value="">Select team (' + teams.length + ')</option>' + teams.map(t => `<option>${esc(t)}</option>`).join('');
+  $('#team').innerHTML = '<option value="">Select team (' + teams.length + ')</option>' + teams.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
   $('#team').disabled = false;
+  const menu = $('#teamMenu');
+  if (menu) menu.innerHTML = teams.map(t => `<button type="button" data-team="${esc(t)}">${face(t, (league.logos || {})[t], 'logo-img')}<span>${esc(t)}</span></button>`).join('');
   if (keep && teams.includes(keep)) $('#team').value = keep;
+  syncTeamButton();
 }
 function watch(url, onHit) {
   stopPoll();
@@ -89,14 +106,33 @@ function watch(url, onHit) {
   hint();
   pollTimer = setInterval(tick, 30000);
 }
-function showReport(data) {
+async function loadStandings(code, seasons) {
+  const out = {};
+  await Promise.all(['current', 'last'].map(async k => {
+    const s = seasons && seasons[k];
+    if (!s || !s.name) return;
+    try {
+      const r = await fetch(`data/leagues/${code.toLowerCase()}/standings/${slug(s.name)}.json`, { cache: 'no-store' });
+      if (r.ok) out[k] = await r.json();
+    } catch (e) {}
+  }));
+  return out;
+}
+let reportGen = 0;
+async function showReport(data, gen = ++reportGen) {
+  const standings = LEAGUE ? await loadStandings(LEAGUE.code, data.seasons) : {};
+  if (gen !== reportGen || ($('#team').value && $('#team').value !== data.team)) return;
   DATA = data;
+  DATA.standings = standings;
+  if (!DATA.logo && teamLogo(DATA.team)) DATA.logo = teamLogo(DATA.team);
   $('#scraped').textContent = asOf(DATA);
+  syncTeamButton();
   render();
 }
 async function loadTeam() {
   const team = $('#team').value;
   if (!team || !LEAGUE) return;
+  const gen = ++reportGen;
   stopPoll();
   remember('team_' + LEAGUE.code, team);
   msg('');
@@ -107,7 +143,8 @@ async function loadTeam() {
   let res;
   try { res = await fetch(url, { cache: 'no-store' }); }
   catch (e) { msg('Network error: ' + e.message); return; }
-  if (res.ok) { showReport(await res.json()); return; }
+  if (res.ok) { const data = await res.json(); if (gen === reportGen) showReport(data, gen); return; }
+  if (gen !== reportGen) return;
   $('#main').innerHTML = requestPanel('Not scanned yet', 'Not scanned yet - Request scan (takes a few minutes)', issueUrl(code, team), 'Request scan');
   watch(url, data => { if ($('#team').value === team && LEAGUE && LEAGUE.code === code) showReport(data); });
 }
@@ -147,6 +184,8 @@ async function addLeague(input) {
   $('#leagueSel').value = '';
   $('#team').innerHTML = '<option value="">Select a team</option>';
   $('#team').disabled = true;
+  if ($('#teamMenu')) $('#teamMenu').innerHTML = '';
+  syncTeamButton();
   $('#league').textContent = 'Not cached';
   $('#scraped').textContent = '';
   $('#main').innerHTML = requestPanel('League not cached', `<b>${esc(code)}</b> is not on this site yet. Request it and the workflow will check CricClubs and publish the team list.`, issueUrl(code), 'Request league');
@@ -159,6 +198,34 @@ async function addLeague(input) {
     if (!leagueByCode(league.code)) CATALOG.push(league);
     selectCached(league.code);
   });
+}
+function ordinal(n) {
+  const v = n % 100;
+  const suf = (v >= 11 && v <= 13) ? 'th' : ({ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th');
+  return n + suf;
+}
+function nrrText(n) {
+  const x = Number(n);
+  if (!isFinite(x)) return '–';
+  return (x > 0 ? '+' : '') + x.toFixed(4).replace(/0+$/, '').replace(/\.$/, '');
+}
+function standingsHTML() {
+  if (!DATA || !DATA.standings) return '';
+  const p = $('#period').value;
+  const keys = p === 'last' ? ['last'] : p === 'all' ? ['current', 'last'] : ['current'];
+  return keys.map(k => {
+    const doc = DATA.standings[k];
+    const row = doc && doc.teams && doc.teams[DATA.team];
+    if (!row) return '';
+    const pos = `${ordinal(row.position)} of ${row.of}${row.group ? ' · ' + row.group : ''}`;
+    const po = row.playoff ? `<p class="st-po${row.playoff.muted ? ' muted' : ''}">${esc(row.playoff.text)}</p>` : '';
+    return card('🏆', 'Standings', `<div class="st-pos">${esc(pos)}</div><div class="st-line"><span><b>${row.played}</b> Played</span><span><b class="g">${row.won}</b> W</span><span><b class="r">${row.lost}</b> L</span><span><b>${row.nr}</b> NR</span><span><b class="y">${row.points}</b> Total points</span><span><b>${esc(nrrText(row.nrr))}</b> NRR</span></div>${po}`, doc.series && doc.series.name);
+  }).join('');
+}
+function badgeHTML(name, url) {
+  const letters = esc(ini(name));
+  if (!url) return `<div class="badge">${letters}</div>`;
+  return `<div class="badge has-logo">${face(name, url, 'logo-img')}<span class="fallback">${letters}</span></div>`;
 }
 function pick() {
   const p = $('#period').value, M = DATA.matches, S = DATA.seasons;
@@ -179,8 +246,9 @@ function render() {
   if (!DATA) return;
   const [ms, label] = pick(); const half = $('#period').value === 'last5';
   $('#scraped').textContent = asOf(DATA);
-  const hero = extra => `<section class="hero"><div class="htop"><div class="badge">${esc(ini(DATA.team))}</div><div><div class="hname">${esc(DATA.team)}</div><div class="hsub">${esc(label)} · ${ms.length} matches</div></div></div>${extra}</section>`;
-  if (!ms.length) { $('#main').innerHTML = hero('<p class="hsum">No completed matches in this period.</p>'); return; }
+  const hero = extra => `<section class="hero"><div class="htop">${badgeHTML(DATA.team, DATA.logo || teamLogo(DATA.team))}<div><div class="hname">${esc(DATA.team)}</div><div class="hsub">${esc(label)} · ${ms.length} matches</div></div></div>${extra}</section>`;
+  const stand = standingsHTML();
+  if (!ms.length) { $('#main').innerHTML = hero('<p class="hsum">No completed matches in this period.</p>') + stand; return; }
   const played = ms.filter(m => !m.forfeit), o = wl(ms); const us = m => m.innings.find(i => i.team === DATA.team), them = m => m.innings.find(i => i.team !== DATA.team);
   const avg = a => a.length ? Math.round(a.reduce((s, x) => s + x, 0) / a.length) : NaN;
   const bat = {}, bowl = {}, fld = {};
@@ -203,9 +271,10 @@ function render() {
   const tw = played.filter(m => m.tossWonByUs), tb = tw.filter(m => m.tossDecision === 'bat'), tbo = tw.filter(m => m.tossDecision === 'bowl'), tl = played.filter(m => m.tossWonByUs === false);
   let h = hero(`<div class="form" aria-label="Recent form">${ms.slice(0, 12).map((m, i) => `<span class="fc ${m.outcome}" style="animation-delay:${i * 40}ms" title="${esc(m.date + ' vs ' + m.opponent)}">${m.outcome}</span>`).join('')}</div>
  <p class="hsum">${o.w}–${o.l} record.${runLead ? ` <b>${esc(runLead.name)}</b> leads the runs (${runLead.r})` : ''}${wkLead ? `, <b>${esc(wkLead.name)}</b> the wickets (${wkLead.w}).` : ''}</p>`);
+  h += stand;
   h += `<div class="tiles"><div class="tile"><div class="v"><span class="g">${o.w}</span>–<span class="r">${o.l}</span></div><div class="k">Record</div></div><div class="tile"><div class="v y">${pct(o.w, o.n)}</div><div class="k">Win rate</div></div><div class="tile"><div class="v">${f1(avg(ourI.map(i => i.runs))).replace('.0', '')}</div><div class="k">Avg score</div><div class="s">conc. ${f1(avg(oppI.map(i => i.runs))).replace('.0', '')}</div></div>
  <div class="tile"><div class="v">${pct(a.w, a.n)}</div><div class="k">Bat first win</div><div class="s">${a.w}/${a.n}</div></div><div class="tile"><div class="v">${pct(c.w, c.n)}</div><div class="k">Chasing win</div><div class="s">${c.w}/${c.n}</div></div><div class="tile"><div class="v">${pct(tw.length, played.length)}</div><div class="k">Tosses won</div><div class="s">${tw.length}/${played.length}</div></div></div>`;
-  h += card('📋', 'Last results', ms.slice(0, 10).map(m => `<div class="res"><span class="fc ${m.outcome}">${m.outcome}</span><div><b>vs ${esc(m.opponent)}</b><div class="meta">${m.date} · ${esc(m.ground || '')}</div><div class="sc">${m.forfeit ? '<i>Forfeit – no play</i>' : m.innings.map(i => `${esc(i.team)} <b>${i.runs}/${i.wkts}</b> (${i.overs})`).join(' · ')}</div><div class="meta">${esc(m.result)} · <a href="https://cricclubs.com/${encodeURIComponent(LEAGUE.code)}/results/${encodeURIComponent(m.id)}" target="_blank" rel="noopener">Scorecard ↗</a></div></div></div>`).join(''));
+  h += card('📋', 'Last results', ms.slice(0, 10).map(m => `<div class="res"><span class="fc ${m.outcome}">${m.outcome}</span><div><b>${face(m.opponent, teamLogo(m.opponent), 'mini')}vs ${esc(m.opponent)}</b><div class="meta">${m.date} · ${esc(m.ground || '')}</div><div class="sc">${m.forfeit ? '<i>Forfeit – no play</i>' : m.innings.map(i => `${esc(i.team)} <b>${i.runs}/${i.wkts}</b> (${i.overs})`).join(' · ')}</div><div class="meta">${esc(m.result)} · <a href="https://cricclubs.com/${encodeURIComponent(LEAGUE.code)}/results/${encodeURIComponent(m.id)}" target="_blank" rel="noopener">Scorecard ↗</a></div></div></div>`).join(''));
   const note = t => `<div class="note">${t}${half ? ' · reduced for last 5' : ''}</div>`; const mxI = Math.max(1, ...topBat.map(imp)), mxW = Math.max(1, ...topBowl.map(x => x.w)), mxE = Math.max(1, ...eco.map(ec));
   h += card('⭐', 'Players to watch', `<h3>Batters</h3>${topBat.map((x, i) => pl(i + 1, x.name, `${x.r} runs · ${x.inn} inns · best ${x.hs}${x.no ? '*' : ''} · avg ${f1(x.outs ? x.r / x.outs : NaN)}`, f1(sr(x)), 'Strike rate', 100 * imp(x) / mxI, 'var(--sky)')).join('') || '<p class="note">Nobody qualifies yet.</p>'}${note(`${minInn}+ inns & ${minB}+ balls · ranked by runs × SR ÷ 100`)}
  <h3>Wicket takers</h3>${topBowl.map((x, i) => pl(i + 1, x.name, `${ov(x.balls)} ov · econ ${f1(ec(x))} · best ${x.bw}/${x.br}`, x.w, 'Wickets', 100 * x.w / mxW, 'var(--red)')).join('') || '<p class="note">Nobody qualifies yet.</p>'}${note(`${minOv}+ overs · ranked by wickets, then economy`)}
@@ -233,9 +302,28 @@ function render() {
 $('#go').onclick = () => addLeague($('#lg').value);
 $('#lg').onkeydown = e => { if (e.key === 'Enter') addLeague($('#lg').value); };
 $('#leagueSel').onchange = () => { if ($('#leagueSel').value) { $('#lg').value = $('#leagueSel').value; selectCached($('#leagueSel').value); } };
-$('#team').onchange = loadTeam;
+$('#team').onchange = () => { syncTeamButton(); loadTeam(); };
+$('#teamBtn').onclick = () => { if ($('#teamBtn').disabled) return; $('#teamMenu').hidden = !$('#teamMenu').hidden; };
 $('#period').onchange = render;
-document.addEventListener('click', e => { const b = e.target.closest('[data-lg]'); if (b) { $('#lg').value = b.dataset.lg; addLeague(b.dataset.lg); } });
+document.addEventListener('error', e => {
+  const img = e.target;
+  if (!img || img.tagName !== 'IMG') return;
+  img.classList.add('broken');
+  const badge = img.closest('.badge');
+  if (badge) badge.classList.add('show-fallback');
+}, true);
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-lg]');
+  if (b) { $('#lg').value = b.dataset.lg; addLeague(b.dataset.lg); return; }
+  const opt = e.target.closest('[data-team]');
+  if (opt && $('#teamMenu') && $('#teamMenu').contains(opt)) {
+    $('#team').value = opt.getAttribute('data-team');
+    $('#teamMenu').hidden = true;
+    $('#team').dispatchEvent(new Event('change'));
+    return;
+  }
+  if (!e.target.closest('.pick') && $('#teamMenu')) $('#teamMenu').hidden = true;
+});
 async function init() {
   const q = new URLSearchParams(location.search);
   if (['last5', 'current', 'last', 'all'].includes(q.get('period'))) $('#period').value = q.get('period');
