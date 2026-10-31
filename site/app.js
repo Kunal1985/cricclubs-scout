@@ -736,28 +736,91 @@ function render() {
         ? `<b>Toss plan.</b> Win the toss: bowl first and make them bat first and set a total (${record}). Lose the toss and you bat first: be very disciplined, because their chasers ${who} win it for them.`
         : `<b>Toss plan.</b> Win the toss: bat first and make them chase (${record}). Lose the toss and you bowl first: be very disciplined, because their bowlers ${who} win it when they are setting a total.`;
       sections.push(html);
+    } else {
+      const chaseBetter = (cw.n ? cw.w / cw.n : 0) > (sw.n ? sw.w / sw.n : 0);
+      const pool = chaseBetter ? chasing : setting;
+      const won = pool.filter(m => m.outcome === 'W');
+      const source = won.length ? won : pool;
+      const byName = {};
+      if (chaseBetter) {
+        for (const m of source) for (const b of m.batting || []) {
+          const x = byName[b.name] ??= { name: b.name, r: 0, b: 0 };
+          x.r += b.r || 0; x.b += b.b || 0;
+        }
+      } else {
+        for (const m of source) for (const w of m.bowling || []) {
+          const x = byName[w.name] ??= { name: w.name, r: 0, b: 0, w: 0 };
+          x.w = (x.w || 0) + (w.w || 0); x.r += w.r || 0; x.b += w.balls || 0;
+        }
+      }
+      const top = Object.values(byName).sort((p, q) => chaseBetter ? q.r - p.r : (q.w - p.w) || (p.b ? p.r / p.b : 9) - (q.b ? q.r / q.b : 9)).slice(0, 2);
+      const inWhat = won.length ? 'in those wins' : 'in this sample';
+      const who = top.map(x => chaseBetter
+        ? `${esc(x.name)} (${x.r} runs off ${x.b}, SR ${f1(x.b ? 100 * x.r / x.b : NaN)} ${inWhat})`
+        : `${esc(x.name)} (${x.w} wickets, econ ${f1(x.b ? 6 * x.r / x.b : NaN)} ${inWhat})`).join(' and ');
+      const sample = `${scopePlayed.length} matches (this season and the last 5)`;
+      const record = `they've won ${sw.w}/${sw.n} setting a total and ${cw.w}/${cw.n} chasing, ${sample}`;
+      const named = who ? (chaseBetter ? `because their chasers ${who} win it for them` : `because their bowlers ${who} win it when they are setting a total`) : 'the sample is too thin to name anyone';
+      const html = chaseBetter
+        ? `<b>Toss plan.</b> Limited data. Win the toss: bowl first and make them bat first and set a total (${record}). Lose the toss and you bat first: be very disciplined, ${named}.`
+        : `<b>Toss plan.</b> Limited data. Win the toss: bat first and make them chase (${record}). Lose the toss and you bowl first: be very disciplined, ${named}.`;
+      sections.push(html);
     }
+    const batterRow = x => {
+      const rate = G.srX(x), bound = bPct(x), dots = dotEst(x), d = howInfo(x.how);
+      return { x, rate, bound, dots, d };
+    };
     const slog = sloggers.slice(0, cap);
     if (slog.length) {
       const who = joinNames(slog.map(r => batStat(r, `, ${r.x.s} six${r.x.s === 1 ? '' : 'es'}, ${Math.round(r.bound)}% boundaries`)));
       sections.push(`<b>Sloggers.</b> ${who}. Take the pace off, bowl cutters and wide yorkers, and protect the long boundaries.${dismissal(slog, true)}`);
+    } else {
+      const pool = (mainB.length ? mainB : G.B.filter(x => x.b > 0)).map(batterRow);
+      pool.sort((p, q) => Math.max(q.rate / sloggerSr, q.bound / 50, q.x.r ? (6 * q.x.s / q.x.r) / 0.3 : 0) - Math.max(p.rate / sloggerSr, p.bound / 50, p.x.r ? (6 * p.x.s / p.x.r) / 0.3 : 0));
+      const pick = pool.slice(0, 2);
+      const who = pick.length ? joinNames(pick.map(r => batStat(r, `, ${r.x.s} six${r.x.s === 1 ? '' : 'es'}, ${Math.round(r.bound)}% boundaries`))) : '';
+      sections.push(who
+        ? `<b>Sloggers.</b> Limited data. Closest: ${who}. Take the pace off, bowl cutters and wide yorkers, and protect the long boundaries.`
+        : `<b>Sloggers.</b> Limited data. No batting in this window. Still take the pace off if a hitter walks in.`);
     }
     const rots = rotators.slice(0, cap);
     if (rots.length) {
       const who = joinNames(rots.map(r => batStat(r, `, ${Math.round(r.bound)}% boundaries${r.dots != null ? `, about ${Math.round(r.dots)}% dots` : ''}`)));
       sections.push(`<b>Rotation experts.</b> ${who}. Cut off the single with a ring field, bowl for dots, and squeeze them so the pressure moves to the other end.${dismissal(rots, false)}`);
+    } else {
+      const used = new Set(sloggers.map(r => r.x.name));
+      const pool = (mainB.length ? mainB : G.B.filter(x => x.b > 0)).map(batterRow).filter(r => !used.has(r.x.name));
+      const dist = r => {
+        const srDist = r.rate >= rotLo && r.rate <= rotHi ? 0 : r.rate >= rotFloor && r.rate < rotLo ? 0 : r.rate < rotFloor ? rotFloor - r.rate : r.rate - rotHi;
+        const dotDist = r.dots == null ? 20 : Math.max(0, r.dots - 45);
+        const boundCap = r.rate < rotLo ? 20 : 45;
+        return srDist + dotDist + Math.max(0, r.bound - boundCap);
+      };
+      pool.sort((p, q) => dist(p) - dist(q) || q.x.r - p.x.r);
+      const pick = pool.slice(0, 2);
+      const who = pick.length ? joinNames(pick.map(r => batStat(r, `, ${Math.round(r.bound)}% boundaries${r.dots != null ? `, about ${Math.round(r.dots)}% dots` : ''}`))) : '';
+      sections.push(who
+        ? `<b>Rotation experts.</b> Limited data. Closest: ${who}. Cut off the single with a ring field and bowl for dots.`
+        : `<b>Rotation experts.</b> Limited data. No batting in this window. Still cut off the single.`);
     }
     const slows = slowStarters.slice(0, cap);
     if (slows.length) {
       const who = joinNames(slows.map(r => batStat(r, r.dots != null ? `, about ${Math.round(r.dots)}% dots` : '')));
       sections.push(`<b>Slow starters.</b> ${who}. Bowl dots and field a ring. They soak up balls without releasing the pressure.${dismissal(slows, false)}`);
+    } else {
+      const pool = (mainB.length ? mainB : G.B.filter(x => x.b > 0)).map(batterRow).sort((p, q) => p.rate - q.rate || q.x.b - p.x.b);
+      const pick = pool.slice(0, 2);
+      const who = pick.length ? joinNames(pick.map(r => batStat(r, r.dots != null ? `, about ${Math.round(r.dots)}% dots` : ''))) : '';
+      sections.push(who
+        ? `<b>Slow starters.</b> Limited data. Closest: ${who}. Bowl dots and field a ring.`
+        : `<b>Slow starters.</b> Limited data. No batting in this window. Still bowl dots early.`);
     }
     const chaseBy = {};
     for (const m of chasing) {
       const won = m.outcome === 'W';
       for (const b of m.batting || []) {
-        const x = chaseBy[b.name] ??= { name: b.name, inns: 0, r: 0, b: 0, posSum: 0, posN: 0 };
-        x.inns++;
+        const x = chaseBy[b.name] ??= { name: b.name, inns: 0, r: 0, b: 0, allR: 0, allB: 0, posSum: 0, posN: 0 };
+        x.inns++; x.allR += b.r || 0; x.allB += b.b || 0;
         if (b.pos) { x.posSum += b.pos; x.posN++; }
         if (won) { x.r += b.r || 0; x.b += b.b || 0; }
       }
@@ -772,6 +835,20 @@ function render() {
         ? 'When defending, plan your best overs for when they come in and keep them off strike.'
         : 'When defending, plan your best overs for when he comes in and keep him off strike.';
       sections.push(`<b>${experts.length > 1 ? 'Chase experts' : 'Chase expert'}.</b> ${who}. ${plan}`);
+    } else {
+      let fb = Object.values(chaseBy).filter(x => x.inns > 0).sort((a, b) => b.allR - a.allR).slice(0, cap);
+      let where = 'in chases, including losses';
+      if (!fb.length) {
+        fb = [...G.B].sort((a, b) => b.r - a.r).slice(0, cap).map(x => ({ name: x.name, allR: x.r, allB: x.b, posN: x.posN, posSum: x.posSum }));
+        where = 'overall, with no chase in this window';
+      }
+      const who = fb.length ? joinNames(fb.map(x => {
+        const spot = x.posN ? Math.round(x.posSum / x.posN) : null;
+        return `${esc(x.name)} (${x.allR} off ${x.allB} ${where}${spot ? `, usually bats at ${spot}` : ''})`;
+      })) : '';
+      sections.push(who
+        ? `<b>Chase experts.</b> Limited data. Closest: ${who}. When defending, plan your best overs for when they come in and keep them off strike.`
+        : `<b>Chase experts.</b> Limited data. No batting in this window. Still save an over for the set batter.`);
     }
     const scopeBalls = G.W.reduce((s, x) => s + x.balls, 0);
     const scopeRuns = G.W.reduce((s, x) => s + x.r, 0);
@@ -802,6 +879,15 @@ function render() {
         : opened ? 'Go after the openers in the powerplay and take the others on.'
         : (one ? 'Take him on.' : 'Take them on.');
       sections.push(`<b>Bowlers to attack.</b> ${who}. ${plan}`);
+    } else {
+      const pool = G.W.filter(x => x.balls > 0).map(x => ({ x, e: G.ecX(x), ratio: scopeEcon ? G.ecX(x) / scopeEcon : G.ecX(x) }));
+      pool.sort((a, b) => (b.x.balls >= minOvBalls) - (a.x.balls >= minOvBalls) || b.ratio - a.ratio);
+      const pick = pool.slice(0, 2);
+      pick.forEach(a => attackNames.add(a.x.name));
+      const who = pick.length ? joinNames(pick.map(({ x, e, ratio }) => `${esc(x.name)} (${f1(ratio)}x the team economy, econ ${f1(e)}, ${ov(x.balls)} ov, ${x.w} wicket${x.w === 1 ? '' : 's'}${extraTxt(x)})`)) : '';
+      sections.push(who
+        ? `<b>Bowlers to attack.</b> Limited data. Closest: ${who}. Take them on.`
+        : `<b>Bowlers to attack.</b> Limited data. No bowling in this window. Still look for the expensive over.`);
     }
     const good = [];
     for (const x of G.W) {
@@ -814,6 +900,14 @@ function render() {
     if (see.length) {
       const who = joinNames(see.map(({ x, e }) => `${esc(x.name)} (econ ${f1(e)}, ${x.w} wicket${x.w === 1 ? '' : 's'}, ${ov(x.balls)} ov)`));
       sections.push(`<b>Bowlers to see off.</b> ${who}. See them off and rotate the strike. Target the other bowlers.`);
+    } else {
+      const pool = G.W.filter(x => x.balls > 0 && !attackNames.has(x.name)).map(x => ({ x, e: G.ecX(x) }));
+      pool.sort((a, b) => (b.x.balls >= minOvBalls) - (a.x.balls >= minOvBalls) || a.e - b.e || b.x.w - a.x.w);
+      const pick = pool.slice(0, 2);
+      const who = pick.length ? joinNames(pick.map(({ x, e }) => `${esc(x.name)} (econ ${f1(e)}, ${x.w} wicket${x.w === 1 ? '' : 's'}, ${ov(x.balls)} ov)`)) : '';
+      sections.push(who
+        ? `<b>Bowlers to see off.</b> Limited data. Closest: ${who}. See them off and rotate the strike.`
+        : `<b>Bowlers to see off.</b> Limited data. No other bowler in this window. Still respect the tightest over.`);
     }
     let ppWkts = 0, fowInns = 0, wd = 0, nb = 0, bowlInns = 0;
     for (const m of G.played) {
@@ -828,6 +922,14 @@ function render() {
     const ppBit = fowInns >= 3 && ppWkts / fowInns >= 1.8 ? `The powerplay is when they wobble: ${ppWkts} wickets fell by over 6 across ${fowInns} innings. Attack with the new ball.` : '';
     const exBit = bowlInns >= 3 && (wd + nb) / bowlInns >= extrasFloor ? `Their bowlers give away extras: ${wd} wides and ${nb} no-balls across ${bowlInns} bowling innings (${f1((wd + nb) / bowlInns)} a match). Make them bowl it again.` : '';
     if (ppBit || exBit) sections.push(`<b>Powerplay and extras.</b> ${[ppBit, exBit].filter(Boolean).join(' ')}`);
+    else {
+      const bits = ['Limited data.'];
+      if (fowInns) bits.push(`${ppWkts} wickets fell by over 6 across ${fowInns} innings.`);
+      else bits.push('No fall of wickets on these cards.');
+      if (bowlInns) bits.push(`Extras: ${wd} wides and ${nb} no-balls (${f1((wd + nb) / bowlInns)} a match). Make them bowl it again.`);
+      else bits.push('No extras recorded.');
+      sections.push(`<b>Powerplay and extras.</b> ${bits.join(' ')}`);
+    }
     const grounds = {};
     for (const m of G.played) if (m.ground) (grounds[m.ground] ??= []).push(m);
     const grow = Object.entries(grounds).map(([name, list]) => {
@@ -845,6 +947,13 @@ function render() {
       groundBits.push(`At ${esc(t.name)} they thrive (${t.w}W–${t.l}L${avgBit}). A bigger par is needed there.`);
     }
     if (groundBits.length) sections.push(`<b>Grounds.</b> ${groundBits.join(' ')}`);
+    else {
+      const used = new Set([...jinxes, ...thrives].map(x => x.name));
+      const rest = grow.filter(x => !used.has(x.name)).sort((a, b) => b.n - a.n || b.w - a.w).slice(0, 2);
+      sections.push(rest.length
+        ? `<b>Grounds.</b> Limited data. ${rest.map(g => `At ${esc(g.name)} they are ${g.w}W–${g.l}L. Match the plan to that ground.`).join(' ')}`
+        : `<b>Grounds.</b> Limited data. No ground is recorded. Adapt the plan to the pitch you get.`);
+    }
     const S = agg(DATA.matches || []);
     const seasonB = S.B.filter(x => x.inn >= 3 && x.b >= 30).sort((p, q) => S.imp(q) - S.imp(p));
     const seasonW = S.W.filter(x => x.balls >= 36).sort((p, q) => q.w - p.w || S.ecX(p) - S.ecX(q));
@@ -882,10 +991,17 @@ function render() {
       const stat = `${x.w} wickets · econ ${f1(econ)} · ${ov(x.balls)} ov`;
       return `<div class="pl"><span class="av" style="background:${hue(x.name)}">${esc(ini(x.name))}</span><div class="pn"><b>${esc(x.name)}</b><div class="roles"><span class="role bowl">Bowler</span></div><span>${stat}</span></div></div><p class="tackle">${plan}</p>`;
     }).join('');
-    if (!sections.length && !cards) return '';
     const slowNote = srK === 1 ? 'slow starter SR 45 or under' : `slow starter SR ${f1(slowSr)} or under`;
-    const list = sections.length ? `<ul class="notes">${sections.map(html => `<li>${html}</li>`).join('')}</ul><div class="note">Each section: this season plus the last 5 · up to 4 players · 3+ inns and 30+ balls · ${slowNote} · 2+ chase innings · 4+ overs. A section is left out when nobody qualifies.</div>` : '';
-    const sub = cards ? `<h3>Surprise packages</h3><p class="subhead">Haven't played in the last 5 matches</p>${cards}<div class="note">Current and last season · 3+ inns & 30+ balls, 6+ overs</div>` : '';
+    const list = `<ul class="notes">${sections.map(html => `<li>${html}</li>`).join('')}</ul><div class="note">Each section: this season plus the last 5 · up to 4 players · 3+ inns and 30+ balls · ${slowNote} · 2+ chase innings · 4+ overs. A section is left out when nobody qualifies.</div>`;
+    let sub = cards ? `<h3>Surprise packages</h3><p class="subhead">Haven't played in the last 5 matches</p>${cards}<div class="note">Current and last season · 3+ inns & 30+ balls, 6+ overs</div>` : '';
+    if (!sub) {
+      const topB = [...S.B].sort((a, b) => S.imp(b) - S.imp(a))[0];
+      const topW = [...S.W].sort((a, b) => b.w - a.w || S.ecX(a) - S.ecX(b))[0];
+      const bits = [];
+      if (topB) bits.push(`${esc(topB.name)} (${topB.r} runs, SR ${f1(S.srX(topB))})`);
+      if (topW) bits.push(`${esc(topW.name)} (${topW.w} wickets, econ ${f1(S.ecX(topW))})`);
+      sub = `<h3>Surprise packages</h3><p class="subhead">Limited data</p><p>${bits.length ? `Closest: ${bits.join('; ')}. They have been in the recent sample, so treat this as the nearest package.` : 'No batting or bowling in this window.'}</p>`;
+    }
     return card('🎯', 'How to beat them', list + sub, 'This season and the last 5');
   }
 }
