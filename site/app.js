@@ -38,7 +38,7 @@ async function loadCatalog() {
   CATALOG = j.leagues || [];
   const sel = $('#leagueSel');
   const cur = sel.value;
-  sel.innerHTML = '<option value="">Cached leagues…</option>' + CATALOG.map(l => `<option value="${esc(l.code)}">${esc(l.name)} · ${esc(l.code)}</option>`).join('');
+  sel.innerHTML = '<option value="" hidden></option>' + CATALOG.map(l => `<option value="${esc(l.code)}">${esc(l.name)} · ${esc(l.code)}</option>`).join('');
   if (cur && CATALOG.some(l => l.code === cur)) sel.value = cur;
 }
 function teamLogo(name) {
@@ -145,7 +145,7 @@ function selectCached(code, team) {
   const league = leagueByCode(code);
   if (!league) return false;
   $('#leagueSel').value = league.code;
-  $('#lg').value = league.code;
+  $('#lg').value = '';
   remember('lg', league.code);
   const keep = team || recall('team_' + league.code);
   fillTeams(league, keep);
@@ -727,7 +727,7 @@ function render() {
 }
 $('#go').onclick = () => addLeague($('#lg').value);
 $('#lg').onkeydown = e => { if (e.key === 'Enter') addLeague($('#lg').value); };
-$('#leagueSel').onchange = () => { if ($('#leagueSel').value) { $('#lg').value = $('#leagueSel').value; selectCached($('#leagueSel').value); } };
+$('#leagueSel').onchange = () => { if ($('#leagueSel').value) selectCached($('#leagueSel').value); };
 $('#team').onchange = () => { syncTeamButton(); loadTeam(); };
 $('#teamBtn').onclick = () => { if ($('#teamBtn').disabled) return; $('#teamMenu').hidden = !$('#teamMenu').hidden; };
 $('#period').onchange = render;
@@ -772,7 +772,7 @@ document.addEventListener('click', e => {
     return;
   }
   const b = e.target.closest('[data-lg]');
-  if (b) { $('#lg').value = b.dataset.lg; addLeague(b.dataset.lg); return; }
+  if (b) { addLeague(b.dataset.lg); return; }
   const opt = e.target.closest('[data-team]');
   if (opt && $('#teamMenu') && $('#teamMenu').contains(opt)) {
     $('#team').value = opt.getAttribute('data-team');
@@ -799,7 +799,7 @@ async function init() {
   try { await loadCatalog(); }
   catch (e) { msg(e.message); hideDock(); $('#main').innerHTML = welcomeHTML(); return; }
   const code = q.get('league') || recall('lg');
-  if (code) { $('#lg').value = code; if (!selectCached(code, q.get('team') || '')) addLeague(code); }
+  if (code) { if (!selectCached(code, q.get('team') || '')) addLeague(code); }
   else { hideDock(); $('#main').innerHTML = welcomeHTML(); }
 }
 init();
