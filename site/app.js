@@ -364,11 +364,11 @@ function render() {
       const row = { x, rate, bound, dots, d, dotBalls: dots == null ? 0 : dots / 100 * x.b };
       if (rate >= 130 || bound >= 50 || (x.s >= 3 && sixShare >= 0.3)) sloggers.push(row);
       else if (dots != null && dots <= 45 && bound <= 45 && ((rate >= 90 && rate <= 125) || (rate >= 65 && rate < 90 && bound <= 20))) rotators.push(row);
-      else if (dots != null && dots >= 48) slowStarters.push(row);
+      else if (rate <= 40) slowStarters.push(row);
     }
     sloggers.sort((p, q) => (q.x.s - p.x.s) || (q.bound - p.bound) || (q.rate - p.rate));
     rotators.sort((p, q) => q.x.r - p.x.r || (p.dots ?? 99) - (q.dots ?? 99));
-    slowStarters.sort((p, q) => q.dotBalls - p.dotBalls || (q.dots ?? 0) - (p.dots ?? 0));
+    slowStarters.sort((p, q) => p.rate - q.rate || q.x.b - p.x.b);
     const batStat = (row, extra) => {
       const where = posTxt(row.x);
       return `${esc(row.x.name)} (SR ${f1(row.rate)}, ${row.x.r} off ${row.x.b}${extra}${where ? ', ' + where : ''})`;
@@ -552,7 +552,7 @@ function render() {
       return `<div class="pl"><span class="av" style="background:${hue(x.name)}">${esc(ini(x.name))}</span><div class="pn"><b>${esc(x.name)}</b><div class="roles"><span class="role bowl">Bowler</span></div><span>${stat}</span></div></div><p class="tackle">${plan}</p>`;
     }).join('');
     if (!sections.length && !cards) return '';
-    const list = sections.length ? `<ul class="notes">${sections.map(html => `<li>${html}</li>`).join('')}</ul><div class="note">Each section: this season plus the last 5 · up to 4 players · 3+ inns and 30+ balls · 2+ chase innings · 4+ overs. A section is left out when nobody qualifies.</div>` : '';
+    const list = sections.length ? `<ul class="notes">${sections.map(html => `<li>${html}</li>`).join('')}</ul><div class="note">Each section: this season plus the last 5 · up to 4 players · 3+ inns and 30+ balls · slow starter SR 40 or under · 2+ chase innings · 4+ overs. A section is left out when nobody qualifies.</div>` : '';
     const sub = cards ? `<h3>Surprise packages</h3><p class="subhead">Haven't played in the last 5 matches</p>${cards}<div class="note">Current and last season · 3+ inns & 30+ balls, 6+ overs</div>` : '';
     return card('🎯', 'How to beat them', list + sub, 'This season and the last 5');
   }
