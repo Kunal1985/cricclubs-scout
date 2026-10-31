@@ -13,11 +13,14 @@ site/                  GitHub Pages (relative URLs, works under /cricclubs-scout
   data/index.json      cached leagues for the dropdown
   data/leagues/<code>/league.json
   data/leagues/<code>/teams/<slug>.json
+  data/leagues/<code>/standings/<season>.json
 data/store/            scraper cache committed to the repo (scorecards included)
   leagues/<code>/league.json    league id, current + last season, team ids
   leagues/<code>/teams/         normalized matches, including dismissals
   leagues/<code>/scorecards/    raw scorecards, reused across teams
 ```
+
+Each published team file includes a logo URL when the points table has one (`https://media.cricclubs.com/...`). The standings card uses the current season for Last 5 and the current season view, the previous season for Last season, and both when Both seasons is selected. A playoff line appears only after that season's playoffs have a result.
 
 The browser ranks players from the published team JSON. Ranking rules are the same as the previous app: batters need 3 innings and 30 balls (2 and 15 for the last 5) and sort by runs × strike rate ÷ 100; bowlers need 6 overs (2 for the last 5) and sort by wickets, then economy. Fielding is parsed from opponent dismissal text when the JSON is published.
 
