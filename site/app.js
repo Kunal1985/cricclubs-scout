@@ -306,11 +306,14 @@ function render() {
           if (b.how) x.how[b.how] = (x.how[b.how] || 0) + 1;
           if (b.pos) { x.posSum += b.pos; x.posN++; }
         }
-        for (const w of m.bowling || []) {
+        (m.bowling || []).forEach((w, i) => {
           seen.add(w.name);
-          const x = bowl[w.name] ??= { name: w.name, balls: 0, r: 0, w: 0, dots: 0, wd: 0, nb: 0, spells: 0 };
-          x.balls += w.balls || 0; x.r += w.r || 0; x.w += w.w || 0; x.dots += w.dots || 0; x.wd += w.wd || 0; x.nb += w.nb || 0; x.spells++;
-        }
+          const x = bowl[w.name] ??= { name: w.name, balls: 0, r: 0, w: 0, dots: 0, wd: 0, nb: 0, f: 0, s: 0, bounds: 0, spells: 0, opens: 0 };
+          x.balls += w.balls || 0; x.r += w.r || 0; x.w += w.w || 0; x.dots += w.dots || 0; x.wd += w.wd || 0; x.nb += w.nb || 0;
+          if (w.f != null || w.s != null) { x.f += w.f || 0; x.s += w.s || 0; x.bounds++; }
+          if (i < 2) x.opens++;
+          x.spells++;
+        });
         for (const [n, k, c] of m.fielding || []) { seen.add(n); const x = fld[n] ??= { c: 0, k: 0, r: 0, s: 0 }; x[k] += c; }
       }
       const B = Object.values(bat), W = Object.values(bowl);
@@ -464,26 +467,45 @@ function render() {
       const hw = wl(hard);
       push(14 + hard.length * 4 + Math.abs(0.5 - hw.w / hw.n) * 20, `<b>Chasing 130 or more they are ${hw.w}/${hw.n}.</b> ${pct(hw.w, hw.n)} wins when the target is that high in these five games.`);
     }
-    const poor = [], good = [];
+    const scopeBalls = G.W.reduce((s, x) => s + x.balls, 0);
+    const scopeRuns = G.W.reduce((s, x) => s + x.r, 0);
+    const scopeEcon = scopeBalls ? 6 * scopeRuns / scopeBalls : null;
+    const attack = [];
+    for (const x of G.W) {
+      if (x.balls < 24) continue;
+      const e = G.ecX(x);
+      if (scopeEcon != null && e < scopeEcon) continue;
+      const pricey = e >= 7.5 || (scopeEcon != null && e >= scopeEcon * 1.15);
+      if (!pricey) continue;
+      const excess = scopeEcon == null ? 0 : (e - scopeEcon) * (x.balls / 6);
+      attack.push({ x, e, excess });
+    }
+    attack.sort((a, b) => b.excess - a.excess || b.e - a.e);
+    const attackNames = new Set();
+    const extraTxt = x => {
+      const bits = [];
+      if (x.wd) bits.push(`${x.wd} wide${x.wd === 1 ? '' : 's'}`);
+      if (x.nb) bits.push(`${x.nb} no-ball${x.nb === 1 ? '' : 's'}`);
+      return bits.length ? `, ${bits.join(' and ')}` : '';
+    };
+    for (const { x, e, excess } of attack.slice(0, 2)) {
+      attackNames.add(x.name);
+      const wkts = `${x.w} wicket${x.w === 1 ? '' : 's'}`;
+      const detail = `${ov(x.balls)} ov, ${wkts}${extraTxt(x)}`;
+      const often = x.opens >= 2 && x.opens / x.spells >= 0.5;
+      const html = often
+        ? `<b>${esc(x.name)} often opens the bowling (${x.opens} of ${x.spells} innings) and goes at ${f1(e)} an over.</b> Go after him in the powerplay. ${detail}.`
+        : `<b>Target ${esc(x.name)}: econ ${f1(e)}${x.bounds && x.bounds === x.spells ? `, ${x.f + x.s} boundaries conceded` : ''}.</b> ${detail}.`;
+      push(18 + excess * 1.15, html);
+    }
+    const good = [];
     for (const x of R.W) {
-      if (x.balls < minOvBalls) continue;
+      if (x.balls < minOvBalls || attackNames.has(x.name)) continue;
       const e = R.ecX(x);
-      const above = e >= 8.5 || (teamEcon != null && e >= teamEcon + 1.2);
-      const below = e <= 7.2 && (teamEcon == null || e <= teamEcon - 0.3);
-      if (above && (teamEcon == null || e >= teamEcon)) poor.push(x);
-      else if (below) good.push(x);
+      if (e <= 7.2 && (teamEcon == null || e <= teamEcon - 0.3)) good.push(x);
     }
-    poor.sort((p, q) => R.ecX(q) - R.ecX(p));
     good.sort((p, q) => R.ecX(p) - R.ecX(q) || q.w - p.w);
-    const named = new Set();
-    for (const x of poor.slice(0, 2)) {
-      named.add(x.name);
-      const dot = x.balls ? Math.round(100 * x.dots / x.balls) : null;
-      const per = x.spells ? f1(x.balls / 6 / x.spells) : ov(x.balls);
-      push(18 + (R.ecX(x) - 8) * 8 + x.balls / 12, `<b>Take ${esc(x.name)} on.</b> Econ ${f1(R.ecX(x))} from ${ov(x.balls)} ov (${per} ov a spell), ${x.w} wickets${dot != null ? `, ${dot}% dots` : ''}${x.wd ? `, ${x.wd} wides` : ''}. The card does not say which overs, only the spell.`);
-    }
     for (const x of good.slice(0, 2)) {
-      if (named.has(x.name)) continue;
       const per = x.spells ? f1(x.balls / 6 / x.spells) : ov(x.balls);
       push(16 + (7.2 - R.ecX(x)) * 6 + x.w * 2, `<b>See ${esc(x.name)} off and rotate the strike.</b> Econ ${f1(R.ecX(x))}, ${x.w} wickets, ${ov(x.balls)} ov (${per} ov a spell). Target the other bowlers.`);
     }
@@ -554,7 +576,7 @@ function render() {
       return `<div class="pl"><span class="av" style="background:${hue(x.name)}">${esc(ini(x.name))}</span><div class="pn"><b>${esc(x.name)}</b><div class="roles"><span class="role bowl">Bowler</span></div><span>${stat}</span></div></div><p class="tackle">${plan}</p>`;
     }).join('');
     if (!shown.length && !cards) return '';
-    const list = shown.length ? `<ul class="notes">${shown.map(t => `<li>${t.html}</li>`).join('')}</ul><div class="note">Toss plan and batter types: this season plus the last 5 · 3+ inns and 30+ balls. Other tips: last 5 matches · 4+ overs for a bowling tip</div>` : '';
+    const list = shown.length ? `<ul class="notes">${shown.map(t => `<li>${t.html}</li>`).join('')}</ul><div class="note">Toss plan, batter types, and attack bowlers: this season plus the last 5 · 3+ inns and 30+ balls · 4+ overs to attack a bowler. Other tips: last 5 matches</div>` : '';
     const sub = cards ? `<h3>Surprise packages</h3><p class="subhead">Haven't played in the last 5 matches</p>${cards}<div class="note">Current and last season · 3+ inns & 30+ balls, 6+ overs</div>` : '';
     return card('🎯', 'How to beat them', list + sub, 'This season and the last 5');
   }
