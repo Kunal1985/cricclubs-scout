@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cric-scout-scan-test
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: CHROME_PATH
+        value: /usr/bin/google-chrome-stable
