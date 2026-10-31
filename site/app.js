@@ -457,6 +457,23 @@ function render() {
         : `<b>Win the toss: bowl first and make them chase</b> (${record}). Lose the toss and you bat first: be very disciplined, because their bowlers ${who} win it when they are setting a total.`;
       tossTip = { html };
     }
+    let chaseTip = null;
+    const chaseBy = {};
+    for (const m of chasing) {
+      const won = m.outcome === 'W';
+      for (const b of m.batting || []) {
+        const x = chaseBy[b.name] ??= { name: b.name, inns: 0, r: 0, b: 0, posSum: 0, posN: 0 };
+        x.inns++;
+        if (b.pos) { x.posSum += b.pos; x.posN++; }
+        if (won) { x.r += b.r || 0; x.b += b.b || 0; }
+      }
+    }
+    const expert = Object.values(chaseBy).filter(x => x.inns >= 2 && x.r > 0).sort((a, b) => b.r - a.r)[0];
+    if (expert) {
+      const spot = expert.posN ? Math.round(expert.posSum / expert.posN) : null;
+      const where = spot ? `, usually bats at ${spot}` : '';
+      chaseTip = { html: `<b>${esc(expert.name)} is their chase expert:</b> ${expert.r} runs off ${expert.b} in winning chases${where}. When defending, plan your best overs for when he comes in and keep him off strike.` };
+    }
     const firstInns = R.bf.map(R.usInn).filter(Boolean).map(i => Number(i.runs)).filter(n => !isNaN(n));
     if (firstInns.length >= minInn) {
       const par = Math.round(firstInns.reduce((s, n) => s + n, 0) / firstInns.length);
@@ -537,7 +554,7 @@ function render() {
     if (fieldWkts >= 8 && catches / fieldWkts < 0.25) push(14 + (0.25 - catches / fieldWkts) * 40, `<b>Catches are a small part of their wickets.</b> ${catches} catches from ${fieldWkts} wickets in these five games. The card does not list dropped catches; it does show the stumps doing the work.`);
     tips.sort((p, q) => q.score - p.score);
     const budget = Math.max(0, 10 - batterTips.length - (tossTip ? 1 : 0));
-    const shown = [...(tossTip ? [tossTip] : []), ...batterTips, ...tips.slice(0, budget)];
+    const shown = [...(tossTip ? [tossTip] : []), ...(chaseTip ? [chaseTip] : []), ...batterTips, ...tips.slice(0, budget)];
     const S = agg(DATA.matches || []);
     const seasonB = S.B.filter(x => x.inn >= 3 && x.b >= 30).sort((p, q) => S.imp(q) - S.imp(p));
     const seasonW = S.W.filter(x => x.balls >= 36).sort((p, q) => q.w - p.w || S.ecX(p) - S.ecX(q));
@@ -576,7 +593,7 @@ function render() {
       return `<div class="pl"><span class="av" style="background:${hue(x.name)}">${esc(ini(x.name))}</span><div class="pn"><b>${esc(x.name)}</b><div class="roles"><span class="role bowl">Bowler</span></div><span>${stat}</span></div></div><p class="tackle">${plan}</p>`;
     }).join('');
     if (!shown.length && !cards) return '';
-    const list = shown.length ? `<ul class="notes">${shown.map(t => `<li>${t.html}</li>`).join('')}</ul><div class="note">Toss plan, batter types, and attack bowlers: this season plus the last 5 · 3+ inns and 30+ balls · 4+ overs to attack a bowler. Other tips: last 5 matches</div>` : '';
+    const list = shown.length ? `<ul class="notes">${shown.map(t => `<li>${t.html}</li>`).join('')}</ul><div class="note">Toss plan, chase expert, batter types, and attack bowlers: this season plus the last 5 · 2+ chase innings for the chase expert · 3+ inns and 30+ balls · 4+ overs to attack a bowler. Other tips: last 5 matches</div>` : '';
     const sub = cards ? `<h3>Surprise packages</h3><p class="subhead">Haven't played in the last 5 matches</p>${cards}<div class="note">Current and last season · 3+ inns & 30+ balls, 6+ overs</div>` : '';
     return card('🎯', 'How to beat them', list + sub, 'This season and the last 5');
   }
