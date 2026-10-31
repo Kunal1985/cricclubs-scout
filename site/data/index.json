@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T10:01:36.289Z",
+  "generatedAt": "2026-10-31T10:56:42.779Z",
   "leagues": [
     {
       "code": "DublinandDanvilleCricketLeague",
@@ -65,9 +65,14 @@
       },
       "scanned": [
         "Bay Area Falcons",
+        "Bay Strikers",
         "Legion Mavericks",
         "Retro Runners",
-        "Tipsy Bulls"
+        "Storm Chasers",
+        "Sunrise Strikers",
+        "Tipsy Bulls",
+        "Trivalley Titans",
+        "Vikings"
       ]
     }
   ]
