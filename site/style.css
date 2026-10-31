@@ -61,6 +61,17 @@ h3{font:600 12px var(--body);text-transform:uppercase;letter-spacing:.1em;color:
 .big{text-align:right}.big .v{font:26px/1 var(--disp)}.big .k{font-size:10px;color:var(--mut);text-transform:uppercase;letter-spacing:.08em}
 .mbar{height:5px;border-radius:3px;background:#ffffff10;margin-top:5px;overflow:hidden}.mbar i{display:block;height:100%;border-radius:3px;transform-origin:left;animation:grow .7s ease both}
 table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:7px 4px;text-align:right;border-top:1px solid var(--line)}th{border-top:0;color:var(--mut);font-weight:600;font-size:10.5px;text-transform:uppercase;letter-spacing:.06em}td:first-child,th:first-child{text-align:left}
+.ps-tabs{display:flex;gap:6px;margin:2px 0 10px;overflow:auto}
+.ps-tabs button{flex:none;border:1px solid var(--line);background:var(--bg2);color:var(--mut);border-radius:999px;padding:6px 12px;font:700 12px var(--body);cursor:pointer}
+.ps-tabs button.on{background:var(--gold);color:#1b1300;border-color:transparent}
+.ps-scroll{overflow-x:auto;margin:0 -2px;-webkit-overflow-scrolling:touch}
+.ps-scroll table{border-collapse:separate;border-spacing:0;width:max-content;min-width:100%}
+.ps-scroll th,.ps-scroll td{white-space:nowrap;font-variant-numeric:tabular-nums;padding:7px 8px}
+.ps-scroll th:first-child,.ps-scroll td:first-child{position:sticky;left:0;z-index:1;background:#12261d;max-width:148px;box-shadow:6px 0 8px -6px #000a}
+.ps-scroll th:first-child{z-index:2}
+.ps-scroll td:first-child{overflow:hidden;text-overflow:ellipsis}
+.ps-sort{background:none;border:0;padding:0;margin:0;color:inherit;font:inherit;letter-spacing:inherit;text-transform:inherit;cursor:pointer}
+.ps-sort.on{color:var(--gold)}
 /* charts */
 .charts{display:grid;grid-template-columns:1fr 1fr;gap:10px}.chart{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:12px;text-align:center}.chart .t{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
 .donut{width:100%;max-width:120px}.leg{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 10px;font-size:11px;color:var(--mut);margin-top:6px}.leg i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:4px}
