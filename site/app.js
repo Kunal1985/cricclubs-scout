@@ -45,8 +45,9 @@ function teamLogo(name) {
   return (LEAGUE && LEAGUE.logos && LEAGUE.logos[name]) || (DATA && DATA.logos && DATA.logos[name]) || '';
 }
 function face(name, url, cls) {
-  if (url) return `<img class="${cls || 'logo-img'}" alt="" src="${esc(url)}">`;
-  return `<span class="av sm" style="background:${hue(name)}">${esc(ini(name))}</span>`;
+  const c = cls || 'logo-img';
+  if (url) return `<img class="${c}" alt="" src="${esc(url)}">`;
+  return `<span class="av sm${cls ? ' ' + cls : ''}" style="background:${hue(name)}">${esc(ini(name))}</span>`;
 }
 function syncTeamButton() {
   const btn = $('#teamBtn'); if (!btn) return;
@@ -264,7 +265,25 @@ function render() {
   h += stand;
   h += `<div class="tiles"><div class="tile"><div class="v"><span class="g">${o.w}</span>–<span class="r">${o.l}</span></div><div class="k">Record</div></div><div class="tile"><div class="v y">${pct(o.w, o.n)}</div><div class="k">Win rate</div></div><div class="tile"><div class="v">${f1(avg(ourI.map(i => i.runs))).replace('.0', '')}</div><div class="k">Avg score</div><div class="s">conc. ${f1(avg(oppI.map(i => i.runs))).replace('.0', '')}</div></div>
  <div class="tile"><div class="v">${pct(a.w, a.n)}</div><div class="k">Bat first win</div><div class="s">${a.w}/${a.n}</div></div><div class="tile"><div class="v">${pct(c.w, c.n)}</div><div class="k">Chasing win</div><div class="s">${c.w}/${c.n}</div></div><div class="tile"><div class="v">${pct(tw.length, played.length)}</div><div class="k">Tosses won</div><div class="s">${tw.length}/${played.length}</div></div></div>`;
-  h += card('📋', 'Last results', ms.slice(0, 10).map(m => `<div class="res"><span class="fc ${m.outcome}">${m.outcome}</span><div><b>${face(m.opponent, teamLogo(m.opponent), 'mini')}vs ${esc(m.opponent)}</b><div class="meta">${m.date} · ${esc(m.ground || '')}</div><div class="sc">${m.forfeit ? '<i>Forfeit – no play</i>' : m.innings.map(i => `${esc(i.team)} <b>${i.runs}/${i.wkts}</b> (${i.overs})`).join(' · ')}</div><div class="meta">${esc(m.result)} · <a href="https://cricclubs.com/${encodeURIComponent(LEAGUE.code)}/results/${encodeURIComponent(m.id)}" target="_blank" rel="noopener">Scorecard ↗</a></div></div></div>`).join(''));
+  const resultCard = m => {
+    const when = [m.date, m.ground].filter(Boolean).join(' · ');
+    const href = `https://cricclubs.com/${encodeURIComponent(LEAGUE.code)}/results/${encodeURIComponent(m.id)}`;
+    const head = `<div class="res-h"><span class="fc ${esc(m.outcome)}">${esc(m.outcome)}</span><div class="res-opp"><b>vs ${esc(m.opponent)}</b>${face(m.opponent, teamLogo(m.opponent), 'res-logo')}</div><div class="res-when">${esc(when)}</div></div>`;
+    let board;
+    if (m.forfeit || !(m.innings || []).length) board = '<div class="res-empty">Forfeit – no play</div>';
+    else {
+      const inns = m.innings.slice();
+      if (m.battedFirst != null) inns.sort((a, b) => ((a.team === DATA.team) === (m.battedFirst === true) ? 0 : 1) - ((b.team === DATA.team) === (m.battedFirst === true) ? 0 : 1));
+      const winner = m.outcome === 'W' ? DATA.team : m.outcome === 'L' ? m.opponent : '';
+      board = `<div class="res-board">${inns.map(i => {
+        const mark = !winner ? '' : i.team === winner ? 'is-win' : 'is-lose';
+        const ov = i.overs == null || i.overs === '' ? '' : `${esc(String(i.overs))} ov`;
+        return `<div class="res-side ${mark}">${face(i.team, teamLogo(i.team), 'res-logo')}<span class="res-name">${esc(i.team)}</span><span class="res-score">${esc(String(i.runs))}/${esc(String(i.wkts))}</span><span class="res-ov">${ov}</span></div>`;
+      }).join('')}</div>`;
+    }
+    return `<div class="res">${head}${board}<div class="res-f"><span class="res-sum" title="${esc(m.result || '')}">${esc(m.result || '')}</span><a href="${href}" target="_blank" rel="noopener">Scorecard</a></div></div>`;
+  };
+  h += card('📋', 'Last results', ms.slice(0, 10).map(resultCard).join(''));
   const note = t => `<div class="note">${t}${half ? ' · reduced for last 5' : ''}</div>`; const mxI = Math.max(1, ...topBat.map(imp)), mxW = Math.max(1, ...topBowl.map(x => x.w)), mxE = Math.max(1, ...eco.map(ec));
   h += card('⭐', 'Players to watch', `<h3>Batters</h3>${topBat.map((x, i) => pl(i + 1, x.name, `${x.r} runs · ${x.inn} inns · best ${x.hs}${x.no ? '*' : ''} · avg ${f1(x.outs ? x.r / x.outs : NaN)}`, f1(sr(x)), 'Strike rate', 100 * imp(x) / mxI, 'var(--sky)')).join('') || '<p class="note">Nobody qualifies yet.</p>'}${note(`${minInn}+ inns & ${minB}+ balls · ranked by runs × SR ÷ 100`)}
  <h3>Wicket takers</h3>${topBowl.map((x, i) => pl(i + 1, x.name, `${ov(x.balls)} ov · econ ${f1(ec(x))} · best ${x.bw}/${x.br}`, x.w, 'Wickets', 100 * x.w / mxW, 'var(--red)')).join('') || '<p class="note">Nobody qualifies yet.</p>'}${note(`${minOv}+ overs · ranked by wickets, then economy`)}
