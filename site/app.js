@@ -336,45 +336,74 @@ function render() {
         text: n >= 2 ? `${caught} caught, ${timber} bowled/lbw of ${n} outs` : '' };
     };
     const R = agg(recent);
+    const seasonId = DATA.seasons && DATA.seasons.current && DATA.seasons.current.id;
+    const scope = [];
+    const scopeIds = new Set();
+    for (const m of recent.concat((DATA.matches || []).filter(m => !seasonId || m.seriesId === seasonId))) {
+      if (!m || scopeIds.has(m.id)) continue;
+      scopeIds.add(m.id);
+      scope.push(m);
+    }
+    const G = agg(scope);
     const tips = [];
+    const batterTips = [];
     const push = (score, html) => { if (score >= 12 && html) tips.push({ score, html }); };
     const qB = R.B.filter(x => x.inn >= minInn && x.b >= minB);
+    const mainB = G.B.filter(x => x.inn >= 3 && x.b >= 30);
     const bowlBalls = R.W.reduce((s, x) => s + x.balls, 0);
     const bowlRuns = R.W.reduce((s, x) => s + x.r, 0);
     const teamEcon = bowlBalls ? 6 * bowlRuns / bowlBalls : null;
-    const teamSR = R.B.reduce((s, x) => s + x.b, 0) ? 100 * R.B.reduce((s, x) => s + x.r, 0) / R.B.reduce((s, x) => s + x.b, 0) : 100;
-    const styles = [];
-    for (const x of qB) {
-      const rate = R.srX(x), bound = bPct(x), dots = dotEst(x), pos = posOf(x), d = howInfo(x.how);
+    const sloggers = [], rotators = [], slowStarters = [];
+    for (const x of mainB) {
+      const rate = G.srX(x), bound = bPct(x), dots = dotEst(x), d = howInfo(x.how);
       const where = posTxt(x);
       const lead = where ? where.charAt(0).toUpperCase() + where.slice(1) : `${x.inn} inns`;
-      const stat = `${lead}, SR ${f1(rate)}, ${Math.round(bound)}% in boundaries, ${x.s} sixes${d.text ? ', ' + d.text : ''}${dots != null ? `, about ${Math.round(dots)}% dots` : ''}`;
-      let plan = '', kind = '', score = 0;
-      if (pos != null && pos >= 6 && rate >= Math.max(110, teamSR + 25)) {
-        kind = 'a finisher';
-        plan = 'At the death take the pace off, bowl cutters and wide yorkers, and protect the long boundary.';
-        score = 30 + (rate - teamSR) / 4 + x.b / 8;
-      } else if (rate >= Math.max(120, teamSR + 40) && bound >= 50 && x.s >= 2) {
+      const fours = `${x.f} four${x.f === 1 ? '' : 's'}`, sixes = `${x.s} six${x.s === 1 ? '' : 'es'}`;
+      const stat = `${lead}. SR ${f1(rate)}, ${x.r} runs off ${x.b} balls, ${fours}, ${sixes}, ${Math.round(bound)}% in boundaries${dots != null ? `, about ${Math.round(dots)}% dots` : ''}${d.text ? ', ' + d.text : ''}. Sample: ${scope.length} matches (this season and the last 5).`;
+      const sixShare = x.r ? 6 * x.s / x.r : 0;
+      let kind = '', plan = '';
+      if (rate >= 130 || bound >= 50 || (x.s >= 3 && sixShare >= 0.3)) {
         kind = 'a slogger';
-        plan = 'Take the pace off, bowl cutters and wide yorkers, and station catchers on the long boundaries.';
-        score = 32 + (rate - teamSR) / 5 + x.s * 3;
-      } else if (rate <= teamSR - 15 && rate < 90 && (pos == null || pos <= 5)) {
-        kind = 'a slow scorer';
-        plan = 'Bowl dots and field a ring.';
-        score = 24 + (teamSR - rate) / 2 + (pos != null && pos <= 3 ? 6 : 0);
-      } else if (rate >= teamSR - 10 && rate <= teamSR + 25 && bound <= 40 && dots != null && dots <= 42 && (pos == null || pos <= 5)) {
-        kind = 'a rotation player';
+        plan = 'Take the pace off, bowl cutters and wide yorkers, and protect the long boundaries.';
+      } else if (dots != null && dots <= 45 && bound <= 45 && ((rate >= 90 && rate <= 125) || (rate >= 65 && rate < 90 && bound <= 20))) {
+        kind = 'a rotation specialist';
         plan = 'Cut off the single with a ring field, bowl for dots, and squeeze them so the pressure moves to the other end.';
-        score = 20 + (42 - dots) / 3 + x.b / 10;
+      } else if (dots != null && dots >= 48) {
+        kind = 'a slow starter';
+        plan = 'Bowl dots and field a ring. They soak up balls without releasing the pressure.';
       }
       if (!kind) continue;
-      if (d.caughtMaj && kind === 'a slogger') plan += ' They are often caught — keep those catchers in the deep.';
+      if (d.caughtMaj && kind === 'a slogger') plan += ' They are often caught — keep catchers in the deep.';
+      else if (d.caughtMaj) plan += ' They are often caught — keep a catcher in the ring.';
       else if (d.timberMaj) plan += ' They are often bowled or lbw — attack the stumps.';
-      else if (d.caughtMaj && kind === 'a slow scorer') plan += ' They are often caught — keep the ring close and one fielder back.';
-      styles.push({ score, html: `<b>${esc(x.name)} is ${kind}.</b> ${stat}. ${plan}` });
+      const row = { x, kind, html: `<b>${esc(x.name)} is ${kind}.</b> ${stat} ${plan}` };
+      if (kind === 'a slogger') sloggers.push(row);
+      else if (kind === 'a rotation specialist') rotators.push(row);
+      else slowStarters.push(row);
     }
-    styles.sort((p, q) => q.score - p.score);
-    for (const s of styles.slice(0, 3)) push(s.score, s.html);
+    sloggers.sort((p, q) => (q.x.s - p.x.s) || (G.srX(q.x) - G.srX(p.x)));
+    rotators.sort((p, q) => (dotEst(p.x) ?? 99) - (dotEst(q.x) ?? 99) || q.x.r - p.x.r);
+    slowStarters.sort((p, q) => (dotEst(q.x) ?? 0) - (dotEst(p.x) ?? 0));
+    const byRuns = [...mainB].sort((a, b) => b.r - a.r);
+    const mainNames = new Set(byRuns.slice(0, 6).map(x => x.name));
+    const batterRows = [];
+    const take = (rows, limit) => {
+      for (const row of rows) {
+        if (batterRows.length >= limit) break;
+        if (!mainNames.has(row.x.name) || batterRows.some(r => r.x.name === row.x.name)) continue;
+        batterRows.push(row);
+      }
+    };
+    take(sloggers, 5);
+    take(rotators, 5);
+    take(slowStarters, 5);
+    if (batterRows.length < 4) {
+      for (const row of [...sloggers, ...rotators, ...slowStarters]) {
+        if (batterRows.length >= 4) break;
+        if (!batterRows.some(r => r.x.name === row.x.name)) batterRows.push(row);
+      }
+    }
+    for (const row of batterRows) batterTips.push({ html: row.html });
     const openers = qB.filter(x => posOf(x) != null && posOf(x) <= 2.4);
     const batRuns = R.B.reduce((s, x) => s + x.r, 0);
     if (openers.length && batRuns) {
@@ -394,13 +423,36 @@ function render() {
     }
     if (fowInns >= 3 && clusterInns >= 2) push(18 + clusterInns * 6, `<b>Wickets fall in a heap.</b> ${clusterInns} of ${fowInns} innings lost 3 wickets inside one over. Keep the same bowler going once one falls.`);
     if (fowInns >= 3 && ppWkts / fowInns >= 1.8) push(16 + ppWkts, `<b>The powerplay is when they wobble.</b> ${ppWkts} wickets fell by over 6 across ${fowInns} innings. Attack with the new ball.`);
-    if (R.a.n >= minInn && R.c.n >= minInn && Math.abs(R.a.w / R.a.n - R.c.w / R.c.n) >= 0.15) {
-      const gap = R.a.w / R.a.n - R.c.w / R.c.n;
-      const tossBit = R.twM.length >= minInn ? ` When they win the toss they ${R.tbo.length >= R.tb.length ? 'bowl' : 'bat'} (${Math.max(R.tbo.length, R.tb.length)}/${R.twM.length}).` : '';
-      const html = gap > 0
-        ? `<b>Bowl first if you win the toss.</b> They win ${pct(R.a.w, R.a.n)} batting first (${R.a.w}/${R.a.n}) and ${pct(R.c.w, R.c.n)} chasing (${R.c.w}/${R.c.n}).${tossBit}`
-        : `<b>Bat first if you win the toss.</b> They win ${pct(R.c.w, R.c.n)} chasing (${R.c.w}/${R.c.n}) and ${pct(R.a.w, R.a.n)} setting a total (${R.a.w}/${R.a.n}).${tossBit}`;
-      push(Math.abs(gap) * 90 + R.a.n + R.c.n, html);
+    let tossTip = null;
+    const scopePlayed = scope.filter(m => !m.forfeit && m.battedFirst != null);
+    const setting = scopePlayed.filter(m => m.battedFirst === true);
+    const chasing = scopePlayed.filter(m => m.battedFirst === false);
+    const sw = wl(setting), cw = wl(chasing);
+    if (sw.n >= 2 && cw.n >= 2 && Math.abs(sw.w / sw.n - cw.w / cw.n) >= 0.1) {
+      const chaseBetter = cw.w / cw.n > sw.w / sw.n;
+      const won = (chaseBetter ? chasing : setting).filter(m => m.outcome === 'W');
+      const byName = {};
+      if (chaseBetter) {
+        for (const m of won) for (const b of m.batting || []) {
+          const x = byName[b.name] ??= { name: b.name, r: 0, b: 0 };
+          x.r += b.r || 0; x.b += b.b || 0;
+        }
+      } else {
+        for (const m of won) for (const w of m.bowling || []) {
+          const x = byName[w.name] ??= { name: w.name, r: 0, b: 0, w: 0 };
+          x.w = (x.w || 0) + (w.w || 0); x.r += w.r || 0; x.b += w.balls || 0;
+        }
+      }
+      const top = Object.values(byName).sort((p, q) => chaseBetter ? q.r - p.r : (q.w - p.w) || (p.b ? p.r / p.b : 9) - (q.b ? q.r / q.b : 9)).slice(0, 2);
+      const who = top.map(x => chaseBetter
+        ? `${esc(x.name)} (${x.r} runs off ${x.b}, SR ${f1(x.b ? 100 * x.r / x.b : NaN)} in those wins)`
+        : `${esc(x.name)} (${x.w} wickets, econ ${f1(x.b ? 6 * x.r / x.b : NaN)} in those wins)`).join(' and ');
+      const sample = `${scopePlayed.length} matches (this season and the last 5)`;
+      const record = `they've won ${sw.w}/${sw.n} setting a total and ${cw.w}/${cw.n} chasing, ${sample}`;
+      const html = chaseBetter
+        ? `<b>Win the toss: bat first and make them set a total</b> (${record}). Lose the toss and you bowl first: be very disciplined, because their chasers ${who} win it for them.`
+        : `<b>Win the toss: bowl first and make them chase</b> (${record}). Lose the toss and you bat first: be very disciplined, because their bowlers ${who} win it when they are setting a total.`;
+      tossTip = { html };
     }
     const firstInns = R.bf.map(R.usInn).filter(Boolean).map(i => Number(i.runs)).filter(n => !isNaN(n));
     if (firstInns.length >= minInn) {
@@ -462,7 +514,8 @@ function render() {
     for (const w of R.W) fieldWkts += w.w;
     if (fieldWkts >= 8 && catches / fieldWkts < 0.25) push(14 + (0.25 - catches / fieldWkts) * 40, `<b>Catches are a small part of their wickets.</b> ${catches} catches from ${fieldWkts} wickets in these five games. The card does not list dropped catches; it does show the stumps doing the work.`);
     tips.sort((p, q) => q.score - p.score);
-    const shown = tips.slice(0, 10);
+    const budget = Math.max(0, 10 - batterTips.length - (tossTip ? 1 : 0));
+    const shown = [...(tossTip ? [tossTip] : []), ...batterTips, ...tips.slice(0, budget)];
     const S = agg(DATA.matches || []);
     const seasonB = S.B.filter(x => x.inn >= 3 && x.b >= 30).sort((p, q) => S.imp(q) - S.imp(p));
     const seasonW = S.W.filter(x => x.balls >= 36).sort((p, q) => q.w - p.w || S.ecX(p) - S.ecX(q));
@@ -501,9 +554,9 @@ function render() {
       return `<div class="pl"><span class="av" style="background:${hue(x.name)}">${esc(ini(x.name))}</span><div class="pn"><b>${esc(x.name)}</b><div class="roles"><span class="role bowl">Bowler</span></div><span>${stat}</span></div></div><p class="tackle">${plan}</p>`;
     }).join('');
     if (!shown.length && !cards) return '';
-    const list = shown.length ? `<ul class="notes">${shown.map(t => `<li>${t.html}</li>`).join('')}</ul><div class="note">Last 5 matches · 2+ inns and 15+ balls for batters · 4+ overs for a bowling tip</div>` : '';
+    const list = shown.length ? `<ul class="notes">${shown.map(t => `<li>${t.html}</li>`).join('')}</ul><div class="note">Toss plan and batter types: this season plus the last 5 · 3+ inns and 30+ balls. Other tips: last 5 matches · 4+ overs for a bowling tip</div>` : '';
     const sub = cards ? `<h3>Surprise packages</h3><p class="subhead">Haven't played in the last 5 matches</p>${cards}<div class="note">Current and last season · 3+ inns & 30+ balls, 6+ overs</div>` : '';
-    return card('🎯', 'How to beat them', list + sub, 'Based on last 5 matches');
+    return card('🎯', 'How to beat them', list + sub, 'This season and the last 5');
   }
 }
 $('#go').onclick = () => addLeague($('#lg').value);
