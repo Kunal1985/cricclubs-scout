@@ -75,7 +75,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Gokul Selvam Sadasivam",
@@ -83,7 +84,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pramod Kashid",
@@ -91,7 +93,8 @@
           "b": 26,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "st"
         },
         {
           "name": "Manish Turan",
@@ -99,7 +102,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sirish Mohan",
@@ -107,7 +111,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mayank Kumar SR",
@@ -115,7 +120,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Warrier",
@@ -123,7 +129,8 @@
           "b": 10,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Tarun Gupta",
@@ -131,7 +138,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sahil Choudhary",
@@ -139,7 +147,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rushi NS",
@@ -147,7 +156,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         }
       ],
       "bowling": [
@@ -274,7 +284,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Selvam Sadasivam",
@@ -282,7 +293,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mohan Murthy",
@@ -290,7 +302,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rane R",
@@ -298,7 +311,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sirish Mohan",
@@ -306,7 +320,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Warrier",
@@ -314,7 +329,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sahil Choudhary",
@@ -322,7 +338,8 @@
           "b": 23,
           "f": 3,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ramanan Bangaru",
@@ -330,7 +347,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pramod Kashid",
@@ -338,7 +356,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Manish Turan",
@@ -354,7 +373,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -468,7 +488,8 @@
           "b": 27,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Selvam Sadasivam",
@@ -476,7 +497,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mayank Kumar SR",
@@ -484,7 +506,8 @@
           "b": 21,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Tarun Gupta",
@@ -492,7 +515,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mohan Murthy",
@@ -500,7 +524,8 @@
           "b": 29,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Warrier",
@@ -508,7 +533,8 @@
           "b": 6,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sahil Choudhary",
@@ -516,7 +542,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rushi NS",
@@ -524,7 +551,8 @@
           "b": 17,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pramod Kashid",
@@ -644,7 +672,8 @@
           "b": 11,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rane R",
@@ -652,7 +681,8 @@
           "b": 16,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mayank Kumar SR",
@@ -660,7 +690,8 @@
           "b": 19,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ramanan Bangaru",
@@ -668,7 +699,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Warrier",
@@ -676,7 +708,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Tarun Gupta",
@@ -692,7 +725,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pramod Kashid",
@@ -700,7 +734,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Rushi NS",
@@ -811,7 +846,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abheek Sinha",
@@ -827,7 +863,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sahil Choudhary",
@@ -835,7 +872,8 @@
           "b": 19,
           "f": 1,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek Nayak",
@@ -843,7 +881,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Warrier",
@@ -851,7 +890,8 @@
           "b": 20,
           "f": 0,
           "s": 4,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Charchit Arora",
@@ -859,7 +899,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pramod Kashid",
@@ -867,7 +908,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sirish Mohan",
@@ -875,7 +917,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rushi NS",
@@ -891,7 +934,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -996,7 +1040,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Krishna Murakonda",
@@ -1004,7 +1049,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ajay Mutyala",
@@ -1012,7 +1058,8 @@
           "b": 21,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Jitu Asija",
@@ -1020,7 +1067,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sahil Choudhary",
@@ -1028,7 +1076,8 @@
           "b": 19,
           "f": 0,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mayank Kumar SR",
@@ -1036,7 +1085,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rane R",
@@ -1044,7 +1094,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ramanan Bangaru",
@@ -1060,7 +1111,8 @@
           "b": 13,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Selvam Sadasivam",
@@ -1068,7 +1120,8 @@
           "b": 11,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         }
       ],
       "bowling": [
@@ -1177,7 +1230,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jitu Asija",
@@ -1185,7 +1239,8 @@
           "b": 32,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sirish Mohan",
@@ -1193,7 +1248,8 @@
           "b": 49,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sahil Choudhary",
@@ -1201,7 +1257,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Mohan Murthy",
@@ -1209,7 +1266,8 @@
           "b": 13,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gokul Warrier",
@@ -1318,7 +1376,8 @@
           "b": 39,
           "f": 5,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jitu Asija",
@@ -1326,7 +1385,8 @@
           "b": 16,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ramanan Bangaru",
@@ -1334,7 +1394,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ajay Mutyala",
@@ -1453,7 +1514,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jitu Asija",
@@ -1461,7 +1523,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Suresh Nair",
@@ -1469,7 +1532,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mayank Kumar SR",
@@ -1477,7 +1541,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abheek Sinha",
@@ -1485,7 +1550,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mohan Murthy",
@@ -1493,7 +1559,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rane R",
@@ -1501,7 +1568,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mahesh Baratam",
@@ -1509,7 +1577,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sashi K",
@@ -1517,7 +1586,8 @@
           "b": 7,
           "f": 0,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pramod Kashid",
@@ -1525,7 +1595,8 @@
           "b": 14,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Nitin Rajkumar",
@@ -1632,7 +1703,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ramanan Bangaru",
@@ -1640,7 +1712,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Jitu Asija",
@@ -1648,7 +1721,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mayank Kumar SR",
@@ -1656,7 +1730,8 @@
           "b": 42,
           "f": 2,
           "s": 0,
-          "out": false
+          "out": false,
+          "how": "rtno"
         },
         {
           "name": "Anurag Gahlot",
@@ -1664,7 +1739,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Naga P",
@@ -1672,7 +1748,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Pramod Kashid",
@@ -1680,7 +1757,8 @@
           "b": 29,
           "f": 0,
           "s": 0,
-          "out": false
+          "out": false,
+          "how": "rtno"
         },
         {
           "name": "Abheek Sinha",
@@ -1688,7 +1766,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Charchit Arora",
@@ -1704,7 +1783,8 @@
           "b": 2,
           "f": 1,
           "s": 0,
-          "out": false
+          "out": false,
+          "how": "rtno"
         },
         {
           "name": "Nitin Rajkumar",

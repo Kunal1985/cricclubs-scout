@@ -75,7 +75,8 @@
           "b": 6,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rajat Sharma",
@@ -83,7 +84,8 @@
           "b": 30,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harshad Parab",
@@ -91,7 +93,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Dhruv Patel",
@@ -99,7 +102,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sameer Desai",
@@ -107,7 +111,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sharath Chandra",
@@ -115,7 +120,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dhiraj Ramnani",
@@ -123,7 +129,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Neel Talati",
@@ -131,7 +138,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Harsh Shah",
@@ -139,7 +147,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Yash Patel",
@@ -245,7 +254,8 @@
           "b": 66,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Yash Patel",
@@ -253,7 +263,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Harshad Parab",
@@ -261,7 +272,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dhruv Patel",
@@ -269,7 +281,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harsh Shah",
@@ -277,7 +290,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Neel Talati",
@@ -285,7 +299,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Pratap Singh",
@@ -293,7 +308,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rajat Sharma",
@@ -301,7 +317,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pratap Halder",
@@ -417,7 +434,8 @@
           "b": 8,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik Puttegowda",
@@ -425,7 +443,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Pratap Singh",
@@ -433,7 +452,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Venish Patel",
@@ -441,7 +461,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sameer Desai",
@@ -449,7 +470,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Swapnil Trivedi",
@@ -457,7 +479,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Yash Patel",
@@ -465,7 +488,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ramesh YARLAGADDA",
@@ -473,7 +497,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harsh Shah",
@@ -489,7 +514,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Gajanan Sane",
@@ -497,7 +523,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -595,7 +622,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Dhiraj Ramnani",
@@ -603,7 +631,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Neel Talati",
@@ -611,7 +640,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "mk"
         },
         {
           "name": "Dhruv Patel",
@@ -619,7 +649,8 @@
           "b": 23,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sameer Desai",
@@ -627,7 +658,8 @@
           "b": 27,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Swapnil Trivedi",
@@ -635,7 +667,8 @@
           "b": 21,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harsh Shah",
@@ -643,7 +676,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Rajat Sharma",
@@ -659,7 +693,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         }
       ],
       "bowling": [
@@ -767,7 +802,8 @@
           "b": 59,
           "f": 4,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Karthik Puttegowda",
@@ -775,7 +811,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dhiraj Ramnani",
@@ -783,7 +820,8 @@
           "b": 29,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Neel Talati",
@@ -791,7 +829,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Swapnil Trivedi",
@@ -895,7 +934,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik Puttegowda",
@@ -903,7 +943,8 @@
           "b": 19,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mandish Shah",
@@ -919,7 +960,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Dhruv Patel",
@@ -1029,7 +1071,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik Puttegowda",
@@ -1037,7 +1080,8 @@
           "b": 19,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Harshad Parab",
@@ -1045,7 +1089,8 @@
           "b": 42,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Swapnil Trivedi",
@@ -1053,7 +1098,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dhruv Patel",
@@ -1061,7 +1107,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ramesh YARLAGADDA",
@@ -1069,7 +1116,8 @@
           "b": 15,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harsh Shah",
@@ -1077,7 +1125,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rajat Sharma",
@@ -1085,7 +1134,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Yash Patel",
@@ -1201,7 +1251,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Robin Moses Kolakaluri",
@@ -1209,7 +1260,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harshad Parab",
@@ -1217,7 +1269,8 @@
           "b": 8,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Swapnil Trivedi",
@@ -1225,7 +1278,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pratap Halder",
@@ -1233,7 +1287,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik Puttegowda",
@@ -1241,7 +1296,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ramesh YARLAGADDA",
@@ -1249,7 +1305,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gajanan Sane",
@@ -1257,7 +1314,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rajat Sharma",
@@ -1265,7 +1323,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Vivek Sunkari",
@@ -1375,7 +1434,8 @@
           "b": 29,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mandish Shah",
@@ -1383,7 +1443,8 @@
           "b": 20,
           "f": 4,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Teerth Patel",
@@ -1391,7 +1452,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "mk"
         },
         {
           "name": "Neel Talati",
@@ -1399,7 +1461,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harsh Shah",
@@ -1407,7 +1470,8 @@
           "b": 26,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Swapnil Trivedi",
@@ -1415,7 +1479,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rajat Sharma",
@@ -1423,7 +1488,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Amit Pratap Singh",
@@ -1431,7 +1497,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Karthik Puttegowda",
@@ -1439,7 +1506,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Dhruvil Darji",
@@ -1455,7 +1523,8 @@
           "b": 0,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         }
       ],
       "bowling": [
@@ -1557,7 +1626,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Karthik Puttegowda",
@@ -1565,7 +1635,8 @@
           "b": 14,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Deepak Mehta",
@@ -1573,7 +1644,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harshad Parab",
@@ -1581,7 +1653,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mandish Shah",
@@ -1589,7 +1662,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Robin Moses Kolakaluri",
@@ -1597,7 +1671,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Neel Talati",
@@ -1605,7 +1680,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Swapnil Trivedi",
@@ -1613,7 +1689,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harsh Shah",
@@ -1621,7 +1698,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rajat Sharma",

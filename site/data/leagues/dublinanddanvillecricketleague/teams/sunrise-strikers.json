@@ -75,7 +75,8 @@
           "b": 29,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -83,7 +84,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Karan Sood",
@@ -91,7 +93,8 @@
           "b": 23,
           "f": 0,
           "s": 0,
-          "out": false
+          "out": false,
+          "how": "rtno"
         },
         {
           "name": "Bhalendra Bisht",
@@ -99,7 +102,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhijit Sankar",
@@ -107,7 +111,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akhilesh Raju",
@@ -115,7 +120,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harshith Gowda",
@@ -239,7 +245,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -247,7 +254,8 @@
           "b": 21,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Karan Sood",
@@ -255,7 +263,8 @@
           "b": 45,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sukhman Singh",
@@ -263,7 +272,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prakash Chandran",
@@ -271,7 +281,8 @@
           "b": 25,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "rto"
         },
         {
           "name": "Abhijit Sankar",
@@ -279,7 +290,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Prashanth Manthena",
@@ -287,7 +299,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Vipul Patil",
@@ -398,7 +411,8 @@
           "b": 28,
           "f": 5,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Bhalendra Bisht",
@@ -406,7 +420,8 @@
           "b": 30,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Karan Sood",
@@ -414,7 +429,8 @@
           "b": 41,
           "f": 8,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Deep Punian",
@@ -422,7 +438,8 @@
           "b": 18,
           "f": 1,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -574,7 +591,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akhilesh Raju",
@@ -582,7 +600,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Simarjit Singh",
@@ -590,7 +609,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karan Sood",
@@ -598,7 +618,8 @@
           "b": 18,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -606,7 +627,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Deep Punian",
@@ -614,7 +636,8 @@
           "b": 6,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Manesh John",
@@ -622,7 +645,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prakash Chandran",
@@ -630,7 +654,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhijit Sankar",
@@ -638,7 +663,8 @@
           "b": 21,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Prashanth Manthena",
@@ -646,7 +672,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -740,7 +767,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Akhilesh Raju",
@@ -748,7 +776,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Karan Sood",
@@ -756,7 +785,8 @@
           "b": 54,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Altaf Ahmed Mushtaq Ahmed",
@@ -764,7 +794,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Raghunath Nagepalli",
@@ -772,7 +803,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -780,7 +812,8 @@
           "b": 4,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sukhman Singh",
@@ -788,7 +821,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Chetan Kaushal",
@@ -796,7 +830,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhijit Sankar",
@@ -804,7 +839,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rahul Jagad",
@@ -812,7 +848,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -928,7 +965,8 @@
           "b": 17,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Bhalendra Bisht",
@@ -936,7 +974,8 @@
           "b": 20,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Harshith Gowda",
@@ -944,7 +983,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Manesh John",
@@ -952,7 +992,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Altaf Ahmed Mushtaq Ahmed",
@@ -960,7 +1001,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -968,7 +1010,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karan Sood",
@@ -1094,7 +1137,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Karan Sood",
@@ -1102,7 +1146,8 @@
           "b": 32,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -1110,7 +1155,8 @@
           "b": 8,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Altaf Ahmed Mushtaq Ahmed",
@@ -1118,7 +1164,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harshith Gowda",
@@ -1235,7 +1282,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Harshith Gowda",
@@ -1243,7 +1291,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karan Sood",
@@ -1251,7 +1300,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Prakash Chandran",
@@ -1259,7 +1309,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sangameshgouda Horapeti",
@@ -1267,7 +1318,8 @@
           "b": 16,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kulwant Singh",
@@ -1275,7 +1327,8 @@
           "b": 9,
           "f": 0,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -1283,7 +1336,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jaishankararam Venkatesan",
@@ -1299,7 +1353,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Shawn Dhanoa",
@@ -1307,7 +1362,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raghunath Nagepalli",
@@ -1423,7 +1479,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akhilesh Raju",
@@ -1431,7 +1488,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Altaf Ahmed Mushtaq Ahmed",
@@ -1439,7 +1497,8 @@
           "b": 31,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sri Abhijeeth Kaluva",
@@ -1447,7 +1506,8 @@
           "b": 10,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "SHREE SAI PREETHAM GARAGA",
@@ -1455,7 +1515,8 @@
           "b": 17,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karan Sood",
@@ -1471,7 +1532,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "st"
         },
         {
           "name": "Sukhman Singh",
@@ -1479,7 +1541,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         }
       ],
       "bowling": [
@@ -1579,7 +1642,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akhilesh Raju",
@@ -1587,7 +1651,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Karan Sood",
@@ -1595,7 +1660,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harshith Gowda",
@@ -1603,7 +1669,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "SHREE SAI PREETHAM GARAGA",
@@ -1611,7 +1678,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Vipul Patil",
@@ -1619,7 +1687,8 @@
           "b": 9,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raghunath Nagepalli",
@@ -1627,7 +1696,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -1643,7 +1713,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -1651,7 +1722,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhijit Sankar",
@@ -1777,7 +1849,8 @@
           "b": 30,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prashanth Manthena",
@@ -1785,7 +1858,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sridhar Gp",
@@ -1793,7 +1867,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karan Sood",
@@ -1801,7 +1876,8 @@
           "b": 27,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ankur Singh",
@@ -1809,7 +1885,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -1817,7 +1894,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Vipul Patil",
@@ -1825,7 +1903,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Manesh John",
@@ -1841,7 +1920,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raghunath Nagepalli",
@@ -1849,7 +1929,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhijit Sankar",
@@ -1857,7 +1938,8 @@
           "b": 0,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "rto"
         }
       ],
       "bowling": [
@@ -1969,7 +2051,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sridhar Gp",
@@ -1977,7 +2060,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Karan Sood",
@@ -1985,7 +2069,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raghavendra Satwik Angaluri",
@@ -1993,7 +2078,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ankur Singh",
@@ -2001,7 +2087,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -2009,7 +2096,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kulwant Singh",
@@ -2017,7 +2105,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -2025,7 +2114,8 @@
           "b": 19,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sritej KanakadandiVenkataRama",
@@ -2033,7 +2123,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Vipul Patil",
@@ -2143,7 +2234,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -2151,7 +2243,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Deep Punian",
@@ -2159,7 +2252,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kulwant Singh",
@@ -2167,7 +2261,8 @@
           "b": 31,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -2175,7 +2270,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ankur Singh",
@@ -2183,7 +2279,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prashanth Manthena",
@@ -2191,7 +2288,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kaarthikeyan Chandrasekaran",
@@ -2199,7 +2297,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhijit Sankar",
@@ -2215,7 +2314,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Manesh John",
@@ -2327,7 +2427,8 @@
           "b": 14,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prashanth Manthena",
@@ -2335,7 +2436,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karan Sood",
@@ -2343,7 +2445,8 @@
           "b": 27,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Deep Punian",
@@ -2351,7 +2454,8 @@
           "b": 12,
           "f": 0,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ankur Singh",
@@ -2359,7 +2463,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kulwant Singh",
@@ -2367,7 +2472,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -2375,7 +2481,8 @@
           "b": 13,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sai Teja Kammari",
@@ -2491,7 +2598,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sridhar Gp",
@@ -2499,7 +2607,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karan Sood",
@@ -2507,7 +2616,8 @@
           "b": 38,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prashanth Manthena",
@@ -2515,7 +2625,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ankur Singh",
@@ -2531,7 +2642,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhijit Sankar",
@@ -2539,7 +2651,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sai Teja Kammari",
@@ -2547,7 +2660,8 @@
           "b": 8,
           "f": 0,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ro"
         }
       ],
       "bowling": [
@@ -2661,7 +2775,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karan Sood",
@@ -2669,7 +2784,8 @@
           "b": 19,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Janardhanan Babu",
@@ -2677,7 +2793,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "SHREE SAI PREETHAM GARAGA",
@@ -2685,7 +2802,8 @@
           "b": 30,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -2693,7 +2811,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhijit Sankar",
@@ -2701,7 +2820,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prashanth Manthena",
@@ -2709,7 +2829,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -2717,7 +2838,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Raghunath Nagepalli",
@@ -2733,7 +2855,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Manesh John",
@@ -2835,7 +2958,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sridhar Gp",
@@ -2843,7 +2967,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prashanth Manthena",
@@ -2851,7 +2976,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -2859,7 +2985,8 @@
           "b": 40,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "SHREE SAI PREETHAM GARAGA",
@@ -2867,7 +2994,8 @@
           "b": 18,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kulwant Singh",
@@ -2875,7 +3003,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Deep Punian",
@@ -2883,7 +3012,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhijit Sankar",
@@ -2899,7 +3029,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Vipul Patil",
@@ -3036,7 +3167,8 @@
           "b": 26,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sridhar Gp",
@@ -3044,7 +3176,8 @@
           "b": 22,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -3052,7 +3185,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "SHREE SAI PREETHAM GARAGA",
@@ -3060,7 +3194,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -3068,7 +3203,8 @@
           "b": 25,
           "f": 1,
           "s": 4,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kulwant Singh",
@@ -3208,7 +3344,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Janardhanan Babu",
@@ -3216,7 +3353,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akhilesh Raju",
@@ -3224,7 +3362,8 @@
           "b": 28,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -3232,7 +3371,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Vipul Patil",
@@ -3248,7 +3388,8 @@
           "b": 21,
           "f": 1,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Abhijit Sankar",
@@ -3256,7 +3397,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prashanth Manthena",
@@ -3363,7 +3505,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudhi Vijayakumar",
@@ -3371,7 +3514,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Simarjit Singh",
@@ -3379,7 +3523,8 @@
           "b": 45,
           "f": 1,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kulwant Singh",
@@ -3387,7 +3532,8 @@
           "b": 12,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -3395,7 +3541,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Deep Punian",
@@ -3403,7 +3550,8 @@
           "b": 14,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ankur Singh",
@@ -3411,7 +3559,8 @@
           "b": 9,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Karan Sood",
@@ -3547,7 +3696,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sridhar Gp",
@@ -3555,7 +3705,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Prashanth Manthena",
@@ -3563,7 +3714,8 @@
           "b": 26,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "SHREE SAI PREETHAM GARAGA",
@@ -3571,7 +3723,8 @@
           "b": 25,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhijit Sankar",
@@ -3579,7 +3732,8 @@
           "b": 21,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Lakshmi Prasad Dinesh",
@@ -3587,7 +3741,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Karan Sood",
@@ -3595,7 +3750,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raghavendra Satwik Angaluri",
@@ -3603,7 +3759,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Raghunath Nagepalli",
@@ -3611,7 +3768,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Akhilesh Raju",
@@ -3627,7 +3785,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         }
       ],
       "bowling": [

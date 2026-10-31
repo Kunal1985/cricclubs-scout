@@ -75,7 +75,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rojo John",
@@ -91,7 +92,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kush Saxena",
@@ -99,7 +101,8 @@
           "b": 11,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pulla Manchala",
@@ -107,7 +110,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Yuvraaj Patil",
@@ -228,7 +232,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kiran Bukka",
@@ -244,7 +249,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Yuvraaj Patil",
@@ -252,7 +258,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -260,7 +267,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pulla Manchala",
@@ -366,7 +374,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akshay Vyas",
@@ -374,7 +383,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Saurabh Deshraj",
@@ -382,7 +392,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harish Vasireddy",
@@ -390,7 +401,8 @@
           "b": 34,
           "f": 1,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akbar Ladhani",
@@ -398,7 +410,8 @@
           "b": 21,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Samip Shah",
@@ -414,7 +427,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Zain Shaikh",
@@ -422,7 +436,8 @@
           "b": 10,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dinesh Jayaraman",
@@ -548,7 +563,8 @@
           "b": 13,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pulla Manchala",
@@ -556,7 +572,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Satti Singh",
@@ -564,7 +581,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -572,7 +590,8 @@
           "b": 31,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Yuvraaj Patil",
@@ -580,7 +599,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Saurabh Deshraj",
@@ -588,7 +608,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akbar Ladhani",
@@ -596,7 +617,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Samip Shah",
@@ -604,7 +626,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Dinesh Jayaraman",
@@ -612,7 +635,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Fayaz Aashiq Shaik",
@@ -738,7 +762,8 @@
           "b": 10,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Dabekar",
@@ -746,7 +771,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Satti Singh",
@@ -754,7 +780,8 @@
           "b": 21,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Saurabh Deshraj",
@@ -762,7 +789,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Parth Tanna",
@@ -770,7 +798,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Kiran Bukka",
@@ -778,7 +807,8 @@
           "b": 10,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Aldrin Pious",
@@ -786,7 +816,8 @@
           "b": 12,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Usher Bandela",
@@ -794,7 +825,8 @@
           "b": 9,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Samip Shah",
@@ -802,7 +834,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Zain Shaikh",
@@ -818,7 +851,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         }
       ],
       "bowling": [
@@ -942,7 +976,8 @@
           "b": 11,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Amit Dabekar",
@@ -950,7 +985,8 @@
           "b": 19,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Satti Singh",
@@ -958,7 +994,8 @@
           "b": 18,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rojo John",
@@ -974,7 +1011,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Aldrin Pious",
@@ -982,7 +1020,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Saurabh Deshraj",
@@ -990,7 +1029,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Dinesh Jayaraman",
@@ -1106,7 +1146,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sai Teja Kammari",
@@ -1122,7 +1163,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pulla Manchala",
@@ -1130,7 +1172,8 @@
           "b": 23,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Shravan Dasari",
@@ -1138,7 +1181,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Zain Shaikh",
@@ -1146,7 +1190,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Saurabh Deshraj",
@@ -1154,7 +1199,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dinesh Jayaraman",
@@ -1162,7 +1208,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Fayaz Aashiq Shaik",
@@ -1170,7 +1217,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Parth Tanna",
@@ -1292,7 +1340,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Parth Tanna",
@@ -1300,7 +1349,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -1308,7 +1358,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Rojo John",
@@ -1316,7 +1367,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jeevan Bontha",
@@ -1324,7 +1376,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kiran Bukka",
@@ -1332,7 +1385,8 @@
           "b": 21,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akshay Vyas",
@@ -1340,7 +1394,8 @@
           "b": 34,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Saurabh Deshraj",
@@ -1488,7 +1543,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -1496,7 +1552,8 @@
           "b": 23,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akbar Ladhani",
@@ -1504,7 +1561,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jeevan Bontha",
@@ -1610,7 +1668,8 @@
           "b": 18,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Fayaz Aashiq Shaik",
@@ -1618,7 +1677,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "st"
         },
         {
           "name": "Pulla Manchala",
@@ -1626,7 +1686,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Amit Dabekar",
@@ -1634,7 +1695,8 @@
           "b": 33,
           "f": 0,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -1642,7 +1704,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Samip Shah",
@@ -1650,7 +1713,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Usher Bandela",
@@ -1658,7 +1722,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Zain Shaikh",
@@ -1787,7 +1852,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Dabekar",
@@ -1795,7 +1861,8 @@
           "b": 28,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Harish Vasireddy",
@@ -1803,7 +1870,8 @@
           "b": 34,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -1811,7 +1879,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jeevan Bontha",
@@ -1819,7 +1888,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kiran Bukka",
@@ -1827,7 +1897,8 @@
           "b": 21,
           "f": 1,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Samip Shah",
@@ -1835,7 +1906,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Omkar Nelluri",
@@ -1843,7 +1915,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Saurabh Deshraj",
@@ -1851,7 +1924,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Fayaz Aashiq Shaik",
@@ -1962,7 +2036,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Amit Dabekar",
@@ -1970,7 +2045,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mohan Murthy",
@@ -1978,7 +2054,8 @@
           "b": 33,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harish Vasireddy",
@@ -1986,7 +2063,8 @@
           "b": 14,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rojo John",
@@ -1994,7 +2072,8 @@
           "b": 21,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Aldrin Pious",
@@ -2002,7 +2081,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Amruth Bandi",
@@ -2010,7 +2090,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Kiran Bukka",
@@ -2018,7 +2099,8 @@
           "b": 16,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Saurabh Deshraj",
@@ -2026,7 +2108,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Parth Tanna",
@@ -2132,7 +2215,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Usher Bandela",
@@ -2140,7 +2224,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mohan Murthy",
@@ -2148,7 +2233,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Gautam Mehra",
@@ -2156,7 +2242,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Jeevan Bontha",
@@ -2164,7 +2251,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Saurabh Deshraj",
@@ -2172,7 +2260,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Amruth Bandi",
@@ -2180,7 +2269,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dinesh Jayaraman",
@@ -2188,7 +2278,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Omkar Nelluri",
@@ -2196,7 +2287,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Parth Tanna",
@@ -2212,7 +2304,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         }
       ],
       "bowling": [
@@ -2320,7 +2413,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Parth Tanna",
@@ -2328,7 +2422,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Mohan Murthy",
@@ -2336,7 +2431,8 @@
           "b": 35,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ajay Nair",
@@ -2344,7 +2440,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Saurabh Deshraj",
@@ -2352,7 +2449,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Samip Shah",
@@ -2360,7 +2458,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kiran Bukka",
@@ -2368,7 +2467,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Yuvraaj Patil",
@@ -2376,7 +2476,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Karthik Raman",
@@ -2384,7 +2485,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Fayaz Aashiq Shaik",
@@ -2392,7 +2494,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kush Saxena",
@@ -2504,7 +2607,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sudhir Vaidya",
@@ -2512,7 +2616,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Amit Dabekar",
@@ -2520,7 +2625,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rojo John",
@@ -2528,7 +2634,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Gautam Mehra",
@@ -2536,7 +2643,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Amruth Bandi",
@@ -2544,7 +2652,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Harish Vasireddy",
@@ -2552,7 +2661,8 @@
           "b": 17,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Omkar Nelluri",
@@ -2560,7 +2670,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Aldrin Pious",
@@ -2576,7 +2687,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Fayaz Aashiq Shaik",
@@ -2584,7 +2696,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         }
       ],
       "bowling": [
@@ -2679,7 +2792,8 @@
           "b": 11,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mohan Murthy",
@@ -2687,7 +2801,8 @@
           "b": 35,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Harish Vasireddy",
@@ -2794,7 +2909,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Parth Tanna",
@@ -2802,7 +2918,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -2810,7 +2927,8 @@
           "b": 25,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Harish Vasireddy",
@@ -2818,7 +2936,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Yuvraaj Patil",
@@ -2826,7 +2945,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Akbar Ladhani",
@@ -2834,7 +2954,8 @@
           "b": 25,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Samip Shah",
@@ -2850,7 +2971,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kush Saxena",
@@ -2858,7 +2980,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Prashant Tyagi",
@@ -2866,7 +2989,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Manish I",
@@ -2874,7 +2998,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         }
       ],
       "bowling": [
@@ -2977,7 +3102,8 @@
           "b": 37,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rojo John",
@@ -2985,7 +3111,8 @@
           "b": 12,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -2993,7 +3120,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gautam Mehra",
@@ -3001,7 +3129,8 @@
           "b": 36,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mohan Murthy",
@@ -3009,7 +3138,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Samip Shah",
@@ -3017,7 +3147,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik Raman",
@@ -3025,7 +3156,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kiran Bukka",
@@ -3158,7 +3290,8 @@
           "b": 42,
           "f": 0,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Akshay Vyas",
@@ -3166,7 +3299,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sudhir Vaidya",
@@ -3174,7 +3308,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Amruth Bandi",
@@ -3182,7 +3317,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kiran Bukka",
@@ -3190,7 +3326,8 @@
           "b": 18,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Karthik Raman",
@@ -3198,7 +3335,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ht"
         },
         {
           "name": "Yuvraaj Patil",
@@ -3206,7 +3344,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Aldrin Pious",
@@ -3214,7 +3353,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Dinesh Jayaraman",
@@ -3222,7 +3362,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Parth Tanna",
@@ -3230,7 +3371,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         }
       ],
       "bowling": [
@@ -3323,7 +3465,8 @@
           "b": 45,
           "f": 4,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jeevan Bontha",
@@ -3331,7 +3474,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mohan Murthy",
@@ -3339,7 +3483,8 @@
           "b": 36,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Karthik Raman",
@@ -3347,7 +3492,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Dipesh Rambhiya",
@@ -3456,7 +3602,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amit Dabekar",
@@ -3464,7 +3611,8 @@
           "b": 40,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rojo John",
@@ -3472,7 +3620,8 @@
           "b": 29,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Harish Vasireddy",
@@ -3480,7 +3629,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mohan Murthy",
@@ -3488,7 +3638,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Samip Shah",
@@ -3496,7 +3647,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Aldrin Pious",
@@ -3625,7 +3777,8 @@
           "b": 20,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Mohan Murthy",
@@ -3633,7 +3786,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rojo John",
@@ -3641,7 +3795,8 @@
           "b": 16,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Saurabh Deshraj",
@@ -3649,7 +3804,8 @@
           "b": 37,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sharat Bandugula",
@@ -3657,7 +3813,8 @@
           "b": 15,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kush Saxena",
@@ -3665,7 +3822,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Amruth Bandi",

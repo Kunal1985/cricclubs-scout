@@ -75,7 +75,8 @@
           "b": 9,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Nagpritam Naik",
@@ -83,7 +84,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek B",
@@ -91,7 +93,8 @@
           "b": 38,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ketan Shah",
@@ -99,7 +102,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sunil Bhagwath",
@@ -223,7 +227,8 @@
           "b": 6,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ajay Shenoy",
@@ -231,7 +236,8 @@
           "b": 13,
           "f": 3,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhishek B",
@@ -239,7 +245,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gopi Shastry",
@@ -364,7 +371,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Shridhar Shenoy",
@@ -372,7 +380,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek B",
@@ -380,7 +389,8 @@
           "b": 16,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gopi Shastry",
@@ -388,7 +398,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sundar Rajarathinam",
@@ -396,7 +407,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Taran Malhotra",
@@ -404,7 +416,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ajay Shenoy",
@@ -412,7 +425,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Vishnu Bittu",
@@ -420,7 +434,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Santosh Kikkeri",
@@ -428,7 +443,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Devanath Srinivasa",
@@ -436,7 +452,8 @@
           "b": 10,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudheep Nair",
@@ -533,7 +550,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Gopi Shastry",
@@ -541,7 +559,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhishek B",
@@ -549,7 +568,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sunil Bhagwath",
@@ -557,7 +577,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sumeet Kale",
@@ -565,7 +586,8 @@
           "b": 20,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Santosh Kikkeri",
@@ -573,7 +595,8 @@
           "b": 28,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Jijo John",
@@ -581,7 +604,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudheep Nair",
@@ -589,7 +613,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Nagpritam Naik",
@@ -597,7 +622,8 @@
           "b": 11,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Balaraman Rajan",
@@ -605,7 +631,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Pratap Rao",
@@ -716,7 +743,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mohammed Zeeshan",
@@ -724,7 +752,8 @@
           "b": 8,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Abhishek B",
@@ -732,7 +761,8 @@
           "b": 40,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Gopi Shastry",
@@ -740,7 +770,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mohan Krishna Manchala",
@@ -748,7 +779,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sumeet Kale",
@@ -756,7 +788,8 @@
           "b": 25,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Saroj Kumar Balusu",
@@ -764,7 +797,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sunil Bhagwath",
@@ -780,7 +814,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         }
       ],
       "bowling": [
@@ -888,7 +923,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pratheek Baliga",
@@ -896,7 +932,8 @@
           "b": 11,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek B",
@@ -904,7 +941,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gopi Shastry",
@@ -912,7 +950,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Devanath Srinivasa",
@@ -920,7 +959,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ajay Shenoy",
@@ -928,7 +968,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Jijo John",
@@ -936,7 +977,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Yog Domlur",
@@ -944,7 +986,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ketan Shah",
@@ -952,7 +995,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Santosh Kikkeri",
@@ -968,7 +1012,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         }
       ],
       "bowling": [
@@ -1077,7 +1122,8 @@
           "b": 17,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Mohammed Zeeshan",
@@ -1207,7 +1253,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sumeet Kale",
@@ -1215,7 +1262,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Abhishek B",
@@ -1223,7 +1271,8 @@
           "b": 39,
           "f": 0,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gopi Shastry",
@@ -1231,7 +1280,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Mohan Krishna Manchala",
@@ -1239,7 +1289,8 @@
           "b": 27,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Jijo John",
@@ -1247,7 +1298,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Yog Domlur",
@@ -1255,7 +1307,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ketan Shah",
@@ -1263,7 +1316,8 @@
           "b": 6,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Santosh Kikkeri",
@@ -1279,7 +1333,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -1387,7 +1442,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pratap Rao",
@@ -1395,7 +1451,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Abhishek B",
@@ -1403,7 +1460,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Gopi Shastry",
@@ -1411,7 +1469,8 @@
           "b": 26,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sunil Bhagwath",
@@ -1419,7 +1478,8 @@
           "b": 41,
           "f": 3,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ketan Shah",
@@ -1427,7 +1487,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sumeet Kale",
@@ -1435,7 +1496,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Santosh Kikkeri",
@@ -1443,7 +1505,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sundar Rajarathinam",
@@ -1451,7 +1514,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Balaraman Rajan",
@@ -1467,7 +1531,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -1586,7 +1651,8 @@
           "b": 10,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Rama Kamath",
@@ -1594,7 +1660,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek B",
@@ -1602,7 +1669,8 @@
           "b": 18,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Gopi Shastry",
@@ -1610,7 +1678,8 @@
           "b": 20,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Kalpesh Pathak",
@@ -1618,7 +1687,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Shridhar Shenoy",
@@ -1626,7 +1696,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudheep Nair",
@@ -1634,7 +1705,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Santosh Kikkeri",
@@ -1642,7 +1714,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sandeep Wadgaonkar",
@@ -1650,7 +1723,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Nagpritam Naik",
@@ -1658,7 +1732,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pratap Rao",
@@ -1759,7 +1834,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ketan Shah",
@@ -1767,7 +1843,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ht"
         },
         {
           "name": "Sunil Bhagwath",
@@ -1775,7 +1852,8 @@
           "b": 25,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gopi Shastry",
@@ -1783,7 +1861,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Santosh Kikkeri",
@@ -1791,7 +1870,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Jijo John",
@@ -1799,7 +1879,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Yog Domlur",
@@ -1807,7 +1888,8 @@
           "b": 15,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sumeet Kale",
@@ -1815,7 +1897,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhijeet Kadam",
@@ -1823,7 +1906,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "st"
         },
         {
           "name": "Pratap Rao",
@@ -1831,7 +1915,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Balaraman Rajan",
@@ -1948,7 +2033,8 @@
           "b": 39,
           "f": 4,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pratheek Baliga",
@@ -1956,7 +2042,8 @@
           "b": 8,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Abhishek B",
@@ -1964,7 +2051,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Kalpesh Pathak",
@@ -1972,7 +2060,8 @@
           "b": 7,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gopi Shastry",
@@ -2091,7 +2180,8 @@
           "b": 46,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Santosh Kikkeri",
@@ -2099,7 +2189,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Abhishek B",
@@ -2107,7 +2198,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sumeet Kale",
@@ -2115,7 +2207,8 @@
           "b": 33,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Yog Domlur",
@@ -2279,7 +2372,8 @@
           "b": 11,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Gopi Shastry",
@@ -2287,7 +2381,8 @@
           "b": 19,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Abhishek B",
@@ -2295,7 +2390,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sumeet Kale",
@@ -2303,7 +2399,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Shridhar Shenoy",
@@ -2311,7 +2408,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Azhagiya Singam Ettayapuram Ramaprasad",
@@ -2446,7 +2544,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Adarsh Kashyap",
@@ -2454,7 +2553,8 @@
           "b": 22,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Abhishek B",
@@ -2462,7 +2562,8 @@
           "b": 14,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Taran Malhotra",
@@ -2470,7 +2571,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Rama Kamath",
@@ -2478,7 +2580,8 @@
           "b": 15,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sumeet Kale",
@@ -2486,7 +2589,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudheep Nair",
@@ -2494,7 +2598,8 @@
           "b": 23,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Yog Domlur",
@@ -2502,7 +2607,8 @@
           "b": 18,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ketan Shah",
@@ -2510,7 +2616,8 @@
           "b": 11,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sunil Bhagwath",
@@ -2626,7 +2733,8 @@
           "b": 23,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Pratheek Baliga",
@@ -2634,7 +2742,8 @@
           "b": 21,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek B",
@@ -2642,7 +2751,8 @@
           "b": 33,
           "f": 2,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rama Kamath",
@@ -2650,7 +2760,8 @@
           "b": 9,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Azhagiya Singam Ettayapuram Ramaprasad",
@@ -2658,7 +2769,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Ketan Shah",
@@ -2674,7 +2786,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Adarsh Kashyap",
@@ -2682,7 +2795,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sudheep Nair",
@@ -2690,7 +2804,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sunil Bhagwath",
@@ -2698,7 +2813,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         }
       ],
       "bowling": [
@@ -2795,7 +2911,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Ajay Shenoy",
@@ -2803,7 +2920,8 @@
           "b": 22,
           "f": 0,
           "s": 3,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek B",
@@ -2811,7 +2929,8 @@
           "b": 46,
           "f": 2,
           "s": 2,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Rama Kamath",
@@ -2819,7 +2938,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sumeet Kale",
@@ -2827,7 +2947,8 @@
           "b": 14,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Jijo John",
@@ -2835,7 +2956,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Ketan Shah",
@@ -2843,7 +2965,8 @@
           "b": 2,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Yog Domlur",
@@ -2851,7 +2974,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sunil Bhagwath",
@@ -2859,7 +2983,8 @@
           "b": 13,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudheep Nair",
@@ -2991,7 +3116,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Adarsh Kashyap",
@@ -2999,7 +3125,8 @@
           "b": 13,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek B",
@@ -3015,7 +3142,8 @@
           "b": 12,
           "f": 2,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sandeep Wadgaonkar",
@@ -3023,7 +3151,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Yog Domlur",
@@ -3135,7 +3264,8 @@
           "b": 17,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Pratheek Baliga",
@@ -3143,7 +3273,8 @@
           "b": 6,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhishek B",
@@ -3159,7 +3290,8 @@
           "b": 12,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Rama Kamath",
@@ -3167,7 +3299,8 @@
           "b": 16,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Yog Domlur",
@@ -3175,7 +3308,8 @@
           "b": 15,
           "f": 1,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Ketan Shah",
@@ -3325,7 +3459,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Pratheek Baliga",
@@ -3333,7 +3468,8 @@
           "b": 44,
           "f": 0,
           "s": 1,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Gopi Shastry",
@@ -3341,7 +3477,8 @@
           "b": 8,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Sunil Bhagwath",
@@ -3349,7 +3486,8 @@
           "b": 5,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ctw"
         },
         {
           "name": "Sumeet Kale",
@@ -3357,7 +3495,8 @@
           "b": 29,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sudheep Nair",
@@ -3365,7 +3504,8 @@
           "b": 17,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ro"
         },
         {
           "name": "Santosh Kikkeri",
@@ -3373,7 +3513,8 @@
           "b": 3,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sandeep Wadgaonkar",
@@ -3381,7 +3522,8 @@
           "b": 9,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Abhijeet Kadam",
@@ -3389,7 +3531,8 @@
           "b": 1,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Adarsh Kashyap",
@@ -3532,7 +3675,8 @@
           "b": 7,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Nagpritam Naik",
@@ -3540,7 +3684,8 @@
           "b": 32,
           "f": 1,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "ct"
         },
         {
           "name": "Sandeep Wadgaonkar",
@@ -3548,7 +3693,8 @@
           "b": 4,
           "f": 0,
           "s": 0,
-          "out": true
+          "out": true,
+          "how": "b"
         },
         {
           "name": "Sumeet Kale",
