@@ -272,6 +272,7 @@ function render() {
   const F = Object.values(fld).sort((a, b) => (b.c + b.k + b.r + b.s) - (a.c + a.k + a.r + a.s));
   if (F.length) h += card('🧤', 'Fielders', tbl(['Fielder', 'Ct', 'WK', 'RO', 'St', 'Tot'], F.slice(0, 10).map(x => [`<span class="av" style="background:${hue(x.name)};width:26px;height:26px;font-size:10px;display:inline-grid;vertical-align:middle;margin-right:6px">${esc(ini(x.name))}</span>${esc(x.name)}`, x.c, x.k, x.r, x.s, `<b class="y">${x.c + x.k + x.r + x.s}</b>`])) + `<div class="note">From opponent dismissal text; shared run-outs credit each fielder.${DATA.unresolvedFielders ? ` ${DATA.unresolvedFielders} name(s) unmatched.` : ''}</div>`);
   h += card('📉', 'Weak spots', `<h3>Slowest scorers</h3>${tbl(['Batter', 'SR', 'Runs', 'Balls'], poorBat.map(x => [esc(x.name), `<b class="r">${f1(sr(x))}</b>`, x.r, x.b]))}${note(`${minInn}+ inns & ${minB}+ balls`)}<h3>Most expensive</h3>${tbl(['Bowler', 'Econ', 'Ov', 'Wkts'], poorBowl.map(x => [esc(x.name), `<b class="r">${f1(ec(x))}</b>`, ov(x.balls), x.w]))}${note(`${minOv}+ overs`)}<h3>Lowest batting contribution</h3>${tbl(['Batter', 'Runs', 'Inns', 'Avg', 'Share'], lowBat.map(x => [esc(x.name), x.r, x.inn, f1(x.outs ? x.r / x.outs : NaN), `<b class="r">${pct(x.r, teamRuns)}</b>`]))}${note(`${minInn}+ inns · no balls minimum · % of team runs`)}`);
+  h += howToBeat();
   const vs = (lab, w, n) => `<div class="vsr"><div class="lab"><span>${lab}</span><span><b>${w}</b>/${n} won · ${pct(w, n)}</span></div><div class="track"><i style="width:${n ? 100 * w / n : 0}%;background:var(--green)"></i><i style="width:${n ? 100 * (n - w) / n : 0}%;background:var(--red);opacity:.85"></i></div></div>`;
   h += card('📊', 'Match-ups & toss', `<div class="vs">${vs('🏏 Batting first', a.w, a.n)}${vs('🎯 Chasing', c.w, c.n)}${vs('🪙 Won toss', wl(tw).w, tw.length)}${vs('Lost toss', wl(tl).w, tl.length)}</div>
  <div class="charts" style="margin-top:12px"><div class="chart"><div class="t">Toss decision</div>${donut([{ l: 'Bat', v: tb.length, c: '#4cc3ff' }, { l: 'Bowl', v: tbo.length, c: '#ff4d5e' }], [tw.length, 'tosses won'])}</div>
@@ -288,6 +289,94 @@ function render() {
   h += card('🏟️', 'Favourite grounds', gc(gs.filter(x => x.w).sort((p, q) => q.w / q.n - p.w / p.n || q.n - p.n).slice(0, 4)), 'best win %');
   h += card('🙈', 'Jinxed grounds', gc(gs.filter(x => x.l).sort((p, q) => p.w / p.n - q.w / q.n || q.n - p.n).slice(0, 4), true), 'worst win %');
   $('#main').innerHTML = h;
+  function howToBeat() {
+    const tips = [];
+    const push = (score, html) => { if (score >= 10 && html) tips.push({ score, html }); };
+    const grounds = {};
+    for (const m of ms) if (m.ground) (grounds[m.ground] ??= []).push(m);
+    const groundsList = Object.entries(grounds).map(([name, list]) => ({ name, ...wl(list) }));
+    const firstInns = bf.map(us).filter(Boolean).map(i => i.runs);
+    if (a.n >= minInn && c.n >= minInn) {
+      const gap = a.w / a.n - c.w / c.n;
+      if (Math.abs(gap) >= 0.15) {
+        const tossN = tw.length;
+        const preferBowl = tbo.length >= tb.length;
+        const tossBit = tossN >= minInn ? ` When they win the toss they ${preferBowl ? 'bowl' : 'bat'} (${Math.max(tbo.length, tb.length)}/${tossN}).` : '';
+        const html = gap > 0
+          ? `<b>Bowl first.</b> They win ${pct(a.w, a.n)} batting first (${a.w}/${a.n}) and ${pct(c.w, c.n)} chasing (${c.w}/${c.n}).${tossBit}`
+          : `<b>Bat first.</b> They win ${pct(c.w, c.n)} chasing (${c.w}/${c.n}) and ${pct(a.w, a.n)} setting a total (${a.w}/${a.n}).${tossBit}`;
+        push(Math.abs(gap) * 100 + Math.min(a.n + c.n, 14), html);
+      }
+    }
+    const byRuns = [...qB].sort((p, q) => q.r - p.r);
+    const top2 = [...B].filter(x => x.inn >= minInn).sort((p, q) => q.r - p.r).slice(0, 2);
+    const batRuns = B.reduce((s, x) => s + x.r, 0);
+    const top2Share = batRuns && top2.length === 2 ? (top2[0].r + top2[1].r) / batRuns : 0;
+    if (top2Share > 0.5) {
+      const [p, q] = top2;
+      const srBit = x => x.b >= minB ? `, SR ${f1(sr(x))}` : '';
+      push(36 + (top2Share - 0.5) * 140, `<b>Get ${esc(p.name)} and ${esc(q.name)} early.</b> They make ${pct(p.r + q.r, batRuns)} of the bat runs (${p.r}${srBit(p)}; ${q.r}${srBit(q)}). If they go, the rest of the order is thin.`);
+    } else if (teamRuns && byRuns[0] && byRuns[0].r / teamRuns >= 0.15) {
+      const t = byRuns[0];
+      const u = byRuns[1] && byRuns[1].r / teamRuns >= 0.1 ? byRuns[1] : null;
+      const html = u
+        ? `<b>Target ${esc(t.name)} and ${esc(u.name)} early.</b> ${pct(t.r, teamRuns)} and ${pct(u.r, teamRuns)} of team runs, SR ${f1(sr(t))} and ${f1(sr(u))}.`
+        : `<b>Target ${esc(t.name)} early.</b> ${pct(t.r, teamRuns)} of team runs (${t.r}) at SR ${f1(sr(t))}.`;
+      push((t.r / teamRuns) * 90 + Math.min(t.inn, 8), html);
+    }
+    const slow = [...qB].filter(x => sr(x) < 105).sort((p, q) => sr(p) - sr(q)).slice(0, 2);
+    if (slow.length) {
+      const bits = slow.map(x => `${esc(x.name)} SR ${f1(sr(x))}${teamRuns ? ` (${pct(x.r, teamRuns)} of team runs)` : ''}`).join('; ');
+      push((105 - sr(slow[0])) * 0.7 + slow.length * 5, `<b>Bowl dots at ${slow.map(x => esc(x.name)).join(' and ')}.</b> ${bits}.`);
+    }
+    const spend = [...qW].sort((p, q) => ec(q) - ec(p));
+    const save = [...qW].sort((p, q) => ec(p) - ec(q));
+    const strike = [...qW].sort((p, q) => q.w - p.w || ec(p) - ec(q));
+    if (spend[0] && ec(spend[0]) >= 8) {
+      const x = spend[0];
+      const y = spend[1] && spend[1].name !== x.name && ec(spend[1]) >= 9 ? spend[1] : null;
+      const who = y ? `${esc(x.name)} and ${esc(y.name)}` : esc(x.name);
+      const stat = y
+        ? `${esc(x.name)} ${f1(ec(x))} (${ov(x.balls)} ov, ${x.w} wkts) and ${esc(y.name)} ${f1(ec(y))} (${ov(y.balls)} ov, ${y.w} wkts).`
+        : `${f1(ec(x))} from ${ov(x.balls)} ov, ${x.w} wickets.`;
+      push((ec(x) - 7) * 14 + Math.min(x.balls / 6, 10), `<b>Target ${who}.</b> ${stat}`);
+    }
+    if (save[0] && ec(save[0]) <= 6.5 && (!spend[0] || save[0].name !== spend[0].name)) {
+      const x = save[0];
+      push((6.5 - ec(x)) * 16 + Math.min(x.balls / 6, 10), `<b>Play out ${esc(x.name)}.</b> Econ ${f1(ec(x))} from ${ov(x.balls)} ov, ${x.w} wickets.`);
+    }
+    if (strike[0] && strike[0].w >= (half ? 3 : 6) && !(save[0] && save[0].name === strike[0].name && ec(strike[0]) <= 6.5)) {
+      const x = strike[0];
+      push(x.w * 3.2 + Math.min(x.balls / 6, 8), `<b>See off ${esc(x.name)}'s overs.</b> ${x.w} wickets at econ ${f1(ec(x))} (${ov(x.balls)} ov).`);
+    }
+    const jinx = groundsList.filter(x => x.n >= 2 && x.l && x.w / x.n <= 0.4).sort((p, q) => p.w / p.n - q.w / q.n || q.n - p.n)[0];
+    const thrive = groundsList.filter(x => x.n >= 2 && x.w && x.w / x.n >= 0.65).sort((p, q) => q.w / q.n - p.w / p.n || q.n - p.n)[0];
+    if (jinx || thrive) {
+      const parts = [];
+      if (jinx) parts.push(`struggle at ${esc(jinx.name)} (${jinx.w}W–${jinx.l}L, ${pct(jinx.w, jinx.n)}, ${jinx.n} played)`);
+      if (thrive && (!jinx || thrive.name !== jinx.name)) parts.push(`thrive at ${esc(thrive.name)} (${thrive.w}W–${thrive.l}L, ${pct(thrive.w, thrive.n)}, ${thrive.n} played)`);
+      const edge = (jinx ? 0.5 - jinx.w / jinx.n : 0) + (thrive && (!jinx || thrive.name !== jinx.name) ? thrive.w / thrive.n - 0.5 : 0);
+      const lead = jinx ? `Take them to ${esc(jinx.name)}.` : `Avoid ${esc(thrive.name)}.`;
+      push(edge * 80 + (jinx ? jinx.n : 0) + (thrive ? thrive.n : 0), `<b>${lead}</b> They ${parts.join(' and ')}.`);
+    }
+    let catches = 0, runOuts = 0, wickets = 0;
+    for (const x of Object.values(fld)) { catches += (x.c || 0) + (x.k || 0); runOuts += x.r || 0; }
+    for (const w of W) wickets += w.w;
+    const needW = half ? 8 : 12;
+    if (wickets >= needW && (catches + runOuts) / wickets < 0.35) {
+      const ratio = (catches + runOuts) / wickets;
+      push((0.35 - ratio) * 160 + Math.min(wickets, 24) * 0.5, `<b>Chance the single.</b> ${catches} catches and ${runOuts} run-outs from ${wickets} wickets.`);
+    }
+    if (firstInns.length >= minInn) {
+      const par = Math.round(avg(firstInns));
+      const chaseBit = c.n >= minInn ? ` Chasing they win ${pct(c.w, c.n)} (${c.w}/${c.n}).` : '';
+      push(14 + Math.min(firstInns.length, 10) + (c.n >= minInn ? Math.abs(0.5 - c.w / c.n) * 36 : 0), `<b>Par is ${par}.</b> They average ${par} batting first (${firstInns.length} inns, ${Math.min(...firstInns)}–${Math.max(...firstInns)}).${chaseBit}`);
+    }
+    tips.sort((p, q) => q.score - p.score);
+    const shown = tips.slice(0, 6);
+    if (!shown.length) return '';
+    return card('🎯', 'How to beat them', `<ul class="notes">${shown.map(t => `<li>${t.html}</li>`).join('')}</ul>${note(`T20 · ${minInn}+ inns, ${minB}+ balls, ${minOv}+ overs`)}`, label);
+  }
 }
 $('#go').onclick = () => addLeague($('#lg').value);
 $('#lg').onkeydown = e => { if (e.key === 'Enter') addLeague($('#lg').value); };
