@@ -268,7 +268,7 @@ function render() {
   const resultCard = m => {
     const when = [m.date, m.ground].filter(Boolean).join(' · ');
     const href = `https://cricclubs.com/${encodeURIComponent(LEAGUE.code)}/results/${encodeURIComponent(m.id)}`;
-    const head = `<div class="res-h"><span class="fc ${esc(m.outcome)}">${esc(m.outcome)}</span><div class="res-opp">${face(m.opponent, teamLogo(m.opponent), 'res-logo')}<b>vs ${esc(m.opponent)}</b></div><div class="res-when">${esc(when)}</div></div>`;
+    const head = `<div class="res-h"><span class="fc ${esc(m.outcome)}">${esc(m.outcome)}</span><div class="res-opp"><b>vs ${esc(m.opponent)}</b></div><div class="res-when">${esc(when)}</div></div>`;
     let board;
     if (m.forfeit || !(m.innings || []).length) board = '<div class="res-empty">Forfeit – no play</div>';
     else {
