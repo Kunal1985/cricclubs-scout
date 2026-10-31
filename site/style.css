@@ -12,7 +12,7 @@
 .dock-period{grid-column:1 / -1}.dock-period select{width:100%;height:40px;font-size:14px}
 .page-tabs{display:flex;gap:6px;overflow-x:auto;padding:0 0 8px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .page-tabs::-webkit-scrollbar{display:none}
-.page-tabs button{flex:none;min-height:44px;padding:0 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--mut);font:700 14px var(--body);cursor:pointer}
+.page-tabs button{flex:none;min-height:44px;padding:0 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--mut);font:700 14px var(--body);white-space:nowrap;cursor:pointer}
 .page-tabs button.on{background:var(--gold);color:#1b1300;border-color:transparent}
 #periodHome{flex:0.9;min-width:108px;display:flex}#periodHome select{width:100%;height:42px}
 .brand{display:flex;align-items:center;gap:8px;margin-bottom:8px}.logo{font:28px/1 var(--disp);letter-spacing:1px}.logo b{color:var(--gold);font-weight:400}
