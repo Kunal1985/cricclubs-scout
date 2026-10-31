@@ -526,8 +526,8 @@ function render() {
       const sample = `${scopePlayed.length} matches (this season and the last 5)`;
       const record = `they've won ${sw.w}/${sw.n} setting a total and ${cw.w}/${cw.n} chasing, ${sample}`;
       const html = chaseBetter
-        ? `<b>Toss plan.</b> Win the toss: bat first and make them set a total (${record}). Lose the toss and you bowl first: be very disciplined, because their chasers ${who} win it for them.`
-        : `<b>Toss plan.</b> Win the toss: bowl first and make them chase (${record}). Lose the toss and you bat first: be very disciplined, because their bowlers ${who} win it when they are setting a total.`;
+        ? `<b>Toss plan.</b> Win the toss: bowl first and make them bat first and set a total (${record}). Lose the toss and you bat first: be very disciplined, because their chasers ${who} win it for them.`
+        : `<b>Toss plan.</b> Win the toss: bat first and make them chase (${record}). Lose the toss and you bowl first: be very disciplined, because their bowlers ${who} win it when they are setting a total.`;
       sections.push(html);
     }
     const slog = sloggers.slice(0, cap);
