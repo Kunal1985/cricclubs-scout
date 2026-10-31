@@ -1,6 +1,5 @@
 const $ = s => document.querySelector(s);
 let LEAGUE = null, DATA = null, CATALOG = [];
-const REPO = 'Kunal1985/cricclubs-scout';
 let pollTimer = null, pollGen = 0;
 const pct = (a, b) => b ? Math.round(100 * a / b) + '%' : '–', ov = b => Math.floor(b / 6) + '.' + b % 6, f1 = x => isFinite(x) ? x.toFixed(1) : '–';
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -17,15 +16,6 @@ function parseLeague(s) {
   const code = m ? m[1] : s.replace(/^\/+|\/.*$/g, '');
   return /^[A-Za-z0-9_-]{2,80}$/.test(code) ? code : null;
 }
-function issueUrl(league, team) {
-  const p = new URL(`https://github.com/${REPO}/issues/new`);
-  p.searchParams.set('template', 'scan-request.yml');
-  p.searchParams.set('labels', 'scan-request');
-  p.searchParams.set('title', team ? `Scan ${team} (${league})` : `Add league ${league}`);
-  p.searchParams.set('league', league);
-  if (team) p.searchParams.set('team', team);
-  return p.toString();
-}
 function stopPoll() { pollGen++; if (pollTimer) { clearInterval(pollTimer); pollTimer = null; } }
 function asOf(data) {
   const times = Object.values(data.seasons || {}).map(s => s.scrapedAt).filter(Boolean).sort();
@@ -37,8 +27,8 @@ function asOf(data) {
 function welcomeHTML() {
   return `<section class="welcome" id="welcome"><div class="wball"></div><h1>Know your<br><span>opponent.</span></h1><p>Pick a cached league or add one, then scout a team: form, match-ups, key players, toss habits and grounds.</p><div class="eg">Try <button class="chip" type="button" data-lg="DublinandDanvilleCricketLeague">DublinandDanvilleCricketLeague</button></div></section>`;
 }
-function requestPanel(title, html, href, label) {
-  return `<section class="welcome"><div class="wball"></div><h1>${esc(title)}</h1><p class="lead">${html}</p><p><a class="btn" href="${esc(href)}" target="_blank" rel="noopener">${esc(label)}</a></p><p class="hint" id="pollhint"></p></section>`;
+function requestPanel(title, html) {
+  return `<section class="welcome"><div class="wball"></div><h1>${esc(title)}</h1><p class="lead">${html}</p><img class="soon" src="coming-soon.gif" alt="Coming soon"><p class="hint" id="pollhint"></p></section>`;
 }
 function leagueByCode(code) { return CATALOG.find(l => l.code.toLowerCase() === String(code || '').toLowerCase()) || null; }
 async function loadCatalog() {
@@ -84,7 +74,7 @@ function watch(url, onHit) {
   const hint = () => {
     const h = $('#pollhint'); if (!h) return;
     h.textContent = n >= max
-      ? 'Still waiting. A scan takes a few minutes, then GitHub Pages needs another minute. Reload later.'
+      ? 'Coming Soon!'
       : `Checking every 30s… (${n}/${max})`;
   };
   const tick = async () => {
@@ -145,7 +135,7 @@ async function loadTeam() {
   catch (e) { msg('Network error: ' + e.message); return; }
   if (res.ok) { const data = await res.json(); if (gen === reportGen) showReport(data, gen); return; }
   if (gen !== reportGen) return;
-  $('#main').innerHTML = requestPanel('Not scanned yet', 'Not scanned yet - Request scan (takes a few minutes)', issueUrl(code, team), 'Request scan');
+  $('#main').innerHTML = requestPanel('Not scanned yet', 'Coming Soon!');
   watch(url, data => { if ($('#team').value === team && LEAGUE && LEAGUE.code === code) showReport(data); });
 }
 function selectCached(code, team) {
@@ -188,7 +178,7 @@ async function addLeague(input) {
   syncTeamButton();
   $('#league').textContent = 'Not cached';
   $('#scraped').textContent = '';
-  $('#main').innerHTML = requestPanel('League not cached', `<b>${esc(code)}</b> is not on this site yet. Request it and the workflow will check CricClubs and publish the team list.`, issueUrl(code), 'Request league');
+  $('#main').innerHTML = requestPanel('League not cached', 'Coming Soon!');
   watch(leagueUrl, async () => {
     try { await loadCatalog(); } catch (e) {}
     if (selectCached(code)) return;
