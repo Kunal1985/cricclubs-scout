@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T14:38:58.343Z",
+  "generatedAt": "2026-10-31T15:16:02.828Z",
   "leagues": [
     {
       "code": "DublinandDanvilleCricketLeague",
@@ -201,7 +201,10 @@
         "MTCA Valley Risers": "https://media.cricclubs.com/documentsRep/teamLogos/854ef9f3-24d7-411f-b3f5-4ce16b88f0bc.jpg",
         "MTCA RICM": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg"
       },
-      "scanned": []
+      "scanned": [
+        "MTCA RDX",
+        "MTCA Tri-Valley Titans"
+      ]
     },
     {
       "code": "SrcaUsa",
