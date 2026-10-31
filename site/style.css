@@ -37,7 +37,7 @@ h3{font:600 12px var(--body);text-transform:uppercase;letter-spacing:.1em;color:
 .res-h{display:flex;align-items:center;gap:8px;min-width:0}
 .res-h .fc{flex:none}
 .res-opp{display:flex;align-items:center;gap:6px;min-width:0;flex:1}
-.res-opp b{font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.res-opp b{min-width:0;font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .res-when{flex:none;max-width:46%;font-size:11px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .res-logo{width:20px;height:20px;border-radius:50%;object-fit:cover;flex:none;display:block}
 .res .av.res-logo{width:20px;height:20px;font-size:9px;display:grid;place-items:center;line-height:1}
