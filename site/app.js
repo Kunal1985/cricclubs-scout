@@ -228,6 +228,39 @@ async function loadStandings(code, seasons) {
   return out;
 }
 let reportGen = 0;
+const DDCL_SR = 64.42884569234461, DDCL_ECON = 4.36366880799429, DDCL_EXTRAS = 11.287581699346406;
+let beatScale = { code: '', sr: 1, econ: 1, extras: 1 };
+async function prepareBeatScale() {
+  if (!LEAGUE) { beatScale = { code: '', sr: 1, econ: 1, extras: 1 }; return; }
+  if (beatScale.code === LEAGUE.code) return;
+  if (LEAGUE.code === 'DublinandDanvilleCricketLeague') {
+    beatScale = { code: LEAGUE.code, sr: 1, econ: 1, extras: 1 };
+    return;
+  }
+  const names = (LEAGUE.scanned && LEAGUE.scanned.length) ? LEAGUE.scanned : [];
+  let br = 0, bb = 0, wr = 0, wb = 0, ex = 0, inns = 0;
+  await Promise.all(names.map(async name => {
+    try {
+      const r = await fetch(`data/leagues/${LEAGUE.code.toLowerCase()}/teams/${slug(name)}.json`, { cache: 'no-store' });
+      if (!r.ok) return;
+      const d = await r.json();
+      for (const m of d.matches || []) {
+        if (m.forfeit) continue;
+        inns++;
+        for (const b of m.batting || []) { br += b.r || 0; bb += b.b || 0; }
+        for (const w of m.bowling || []) { wr += w.r || 0; wb += w.balls || 0; }
+        if (m.extrasBowled) ex += (m.extrasBowled.wd || 0) + (m.extrasBowled.nb || 0);
+        else for (const w of m.bowling || []) ex += (w.wd || 0) + (w.nb || 0);
+      }
+    } catch (e) {}
+  }));
+  beatScale = {
+    code: LEAGUE.code,
+    sr: bb ? (100 * br / bb) / DDCL_SR : 1,
+    econ: wb ? (6 * wr / wb) / DDCL_ECON : 1,
+    extras: inns ? (ex / inns) / DDCL_EXTRAS : 1
+  };
+}
 async function showReport(data, gen = ++reportGen) {
   const standings = LEAGUE ? await loadStandings(LEAGUE.code, data.seasons) : {};
   if (gen !== reportGen || ($('#team').value && $('#team').value !== data.team)) return;
@@ -236,6 +269,8 @@ async function showReport(data, gen = ++reportGen) {
   if (!DATA.logo && teamLogo(DATA.team)) DATA.logo = teamLogo(DATA.team);
   $('#scraped').textContent = asOf(DATA);
   restoreTeamText();
+  await prepareBeatScale();
+  if (gen !== reportGen) return;
   render();
 }
 async function loadTeam() {
@@ -645,15 +680,18 @@ function render() {
       if (x.nb) bits.push(`${x.nb} no-ball${x.nb === 1 ? '' : 's'}`);
       return bits.length ? `, ${bits.join(' and ')}` : '';
     };
+    const srK = beatScale.sr || 1, ecK = beatScale.econ || 1, exK = beatScale.extras || 1;
+    const sloggerSr = 130 * srK, rotHi = 125 * srK, rotLo = 90 * srK, rotFloor = 65 * srK, slowSr = 45 * srK;
+    const attackAbs = 7.5 * ecK, seeAbs = 7.2 * ecK, seeGap = 0.3 * ecK, extrasFloor = 8 * exK;
     const mainB = G.B.filter(x => x.inn >= 3 && x.b >= 30);
     const sloggers = [], rotators = [], slowStarters = [];
     for (const x of mainB) {
       const rate = G.srX(x), bound = bPct(x), dots = dotEst(x), d = howInfo(x.how);
       const sixShare = x.r ? 6 * x.s / x.r : 0;
       const row = { x, rate, bound, dots, d, dotBalls: dots == null ? 0 : dots / 100 * x.b };
-      if (rate >= 130 || bound >= 50 || (x.s >= 3 && sixShare >= 0.3)) sloggers.push(row);
-      else if (dots != null && dots <= 45 && bound <= 45 && ((rate >= 90 && rate <= 125) || (rate >= 65 && rate < 90 && bound <= 20))) rotators.push(row);
-      else if (rate <= 45) slowStarters.push(row);
+      if (rate >= sloggerSr || bound >= 50 || (x.s >= 3 && sixShare >= 0.3)) sloggers.push(row);
+      else if (dots != null && dots <= 45 && bound <= 45 && ((rate >= rotLo && rate <= rotHi) || (rate >= rotFloor && rate < rotLo && bound <= 20))) rotators.push(row);
+      else if (rate <= slowSr) slowStarters.push(row);
     }
     sloggers.sort((p, q) => (q.x.s - p.x.s) || (q.bound - p.bound) || (q.rate - p.rate));
     rotators.sort((p, q) => q.x.r - p.x.r || (p.dots ?? 99) - (q.dots ?? 99));
@@ -743,7 +781,7 @@ function render() {
       if (x.balls < minOvBalls) continue;
       const e = G.ecX(x);
       if (scopeEcon != null && e < scopeEcon) continue;
-      if (!(e >= 7.5 || (scopeEcon != null && e >= scopeEcon * 1.15))) continue;
+      if (!(e >= attackAbs || (scopeEcon != null && e >= scopeEcon * 1.15))) continue;
       const excess = scopeEcon == null ? 0 : (e - scopeEcon) * (x.balls / 6);
       attack.push({ x, e, excess });
     }
@@ -769,7 +807,7 @@ function render() {
     for (const x of G.W) {
       if (x.balls < minOvBalls || attackNames.has(x.name)) continue;
       const e = G.ecX(x);
-      if (e <= 7.2 && (scopeEcon == null || e <= scopeEcon - 0.3)) good.push({ x, e });
+      if (e <= seeAbs && (scopeEcon == null || e <= scopeEcon - seeGap)) good.push({ x, e });
     }
     good.sort((a, b) => b.x.w - a.x.w || a.e - b.e);
     const see = good.slice(0, cap);
@@ -782,9 +820,13 @@ function render() {
       const fow = (m.fow || []).slice().sort((p, q) => p.over - q.over);
       if (fow.length) { fowInns++; ppWkts += fow.filter(f => f.over <= 6).length; }
       if (m.extrasBowled) { wd += m.extrasBowled.wd || 0; nb += m.extrasBowled.nb || 0; bowlInns++; }
+      else if ((m.bowling || []).length) {
+        for (const w of m.bowling) { wd += w.wd || 0; nb += w.nb || 0; }
+        bowlInns++;
+      }
     }
     const ppBit = fowInns >= 3 && ppWkts / fowInns >= 1.8 ? `The powerplay is when they wobble: ${ppWkts} wickets fell by over 6 across ${fowInns} innings. Attack with the new ball.` : '';
-    const exBit = bowlInns >= 3 && (wd + nb) / bowlInns >= 8 ? `Their bowlers give away extras: ${wd} wides and ${nb} no-balls across ${bowlInns} bowling innings (${f1((wd + nb) / bowlInns)} a match). Make them bowl it again.` : '';
+    const exBit = bowlInns >= 3 && (wd + nb) / bowlInns >= extrasFloor ? `Their bowlers give away extras: ${wd} wides and ${nb} no-balls across ${bowlInns} bowling innings (${f1((wd + nb) / bowlInns)} a match). Make them bowl it again.` : '';
     if (ppBit || exBit) sections.push(`<b>Powerplay and extras.</b> ${[ppBit, exBit].filter(Boolean).join(' ')}`);
     const grounds = {};
     for (const m of G.played) if (m.ground) (grounds[m.ground] ??= []).push(m);
@@ -822,9 +864,9 @@ function render() {
         const rate = S.srX(x), bound = bPct(x), dots = dotEst(x), pos = posOf(x), d = howInfo(x.how);
         const where = posTxt(x);
         let plan;
-        if (pos != null && pos >= 6 && rate >= 125) plan = 'At the death take the pace off and bowl wide yorkers, with the long boundary protected.';
-        else if (rate >= 130 || bound >= 55) plan = 'Bowl tight lines, set the field, and target them early with your best bowler.';
-        else if (rate < 105) plan = 'Build dot pressure and field a ring.';
+        if (pos != null && pos >= 6 && rate >= 125 * srK) plan = 'At the death take the pace off and bowl wide yorkers, with the long boundary protected.';
+        else if (rate >= sloggerSr || bound >= 55) plan = 'Bowl tight lines, set the field, and target them early with your best bowler.';
+        else if (rate < 105 * srK) plan = 'Build dot pressure and field a ring.';
         else plan = 'Cut off the single with a ring field and squeeze them so the pressure moves to the other end.';
         if (d.caughtMaj) plan += ' Often caught — keep catchers in the deep.';
         else if (d.timberMaj) plan += ' Often bowled or lbw — attack the stumps.';
@@ -832,7 +874,7 @@ function render() {
         return `<div class="pl"><span class="av" style="background:${hue(x.name)}">${esc(ini(x.name))}</span><div class="pn"><b>${esc(x.name)}</b><div class="roles"><span class="role bat">Batter</span></div><span>${stat}</span></div></div><p class="tackle">${plan}</p>`;
       }
       const econ = S.ecX(x);
-      const plan = econ <= 7
+      const plan = econ <= 7 * ecK
         ? 'See them off, rotate the strike, and target the other bowlers.'
         : x.w >= 4
           ? 'See their overs off early and avoid risk against them.'
@@ -841,7 +883,8 @@ function render() {
       return `<div class="pl"><span class="av" style="background:${hue(x.name)}">${esc(ini(x.name))}</span><div class="pn"><b>${esc(x.name)}</b><div class="roles"><span class="role bowl">Bowler</span></div><span>${stat}</span></div></div><p class="tackle">${plan}</p>`;
     }).join('');
     if (!sections.length && !cards) return '';
-    const list = sections.length ? `<ul class="notes">${sections.map(html => `<li>${html}</li>`).join('')}</ul><div class="note">Each section: this season plus the last 5 · up to 4 players · 3+ inns and 30+ balls · slow starter SR 45 or under · 2+ chase innings · 4+ overs. A section is left out when nobody qualifies.</div>` : '';
+    const slowNote = srK === 1 ? 'slow starter SR 45 or under' : `slow starter SR ${f1(slowSr)} or under`;
+    const list = sections.length ? `<ul class="notes">${sections.map(html => `<li>${html}</li>`).join('')}</ul><div class="note">Each section: this season plus the last 5 · up to 4 players · 3+ inns and 30+ balls · ${slowNote} · 2+ chase innings · 4+ overs. A section is left out when nobody qualifies.</div>` : '';
     const sub = cards ? `<h3>Surprise packages</h3><p class="subhead">Haven't played in the last 5 matches</p>${cards}<div class="note">Current and last season · 3+ inns & 30+ balls, 6+ overs</div>` : '';
     return card('🎯', 'How to beat them', list + sub, 'This season and the last 5');
   }
