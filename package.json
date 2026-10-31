@@ -13,7 +13,8 @@
     "league": "node cli.js league",
     "scan": "node cli.js scan",
     "weekly": "node cli.js weekly",
-    "test": "node --test"
+    "test": "node --test",
+    "scan-test": "node server/index.js"
   },
   "dependencies": {
     "puppeteer-core": "^25.16.0"
