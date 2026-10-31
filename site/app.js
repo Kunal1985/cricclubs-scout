@@ -49,23 +49,141 @@ function face(name, url, cls) {
   if (url) return `<img class="${c}" alt="" src="${esc(url)}">`;
   return `<span class="av sm${cls ? ' ' + cls : ''}" style="background:${hue(name)}">${esc(ini(name))}</span>`;
 }
-function syncTeamButton() {
-  const btn = $('#teamBtn'); if (!btn) return;
-  const name = $('#team').value;
-  btn.disabled = $('#team').disabled;
-  if (!name) { btn.innerHTML = '<span>Select a team</span>'; return; }
-  btn.innerHTML = face(name, teamLogo(name), 'logo-img') + `<span>${esc(name)}</span>`;
+let teamGroups = {}, teamIndex = [], teamActive = -1;
+function indexTeams(names) {
+  teamIndex = (names || []).map(name => {
+    const words = String(name).toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+    return { name, low: String(name).toLowerCase(), initials: words.map(w => w[0]).join(''), words };
+  });
+}
+function teamMatches(q, t) {
+  const s = String(q || '').toLowerCase().trim();
+  if (!s) return false;
+  if (t.low.includes(s)) return true;
+  const compact = s.replace(/[^a-z0-9]/g, '');
+  if (compact && t.initials.startsWith(compact)) return true;
+  const parts = s.split(/\s+/).filter(Boolean);
+  return parts.length > 1 && parts.every(p => t.words.some(w => w.startsWith(p)));
+}
+function teamHits(q) {
+  const s = String(q || '').toLowerCase().trim();
+  const compact = s.replace(/[^a-z0-9]/g, '');
+  return teamIndex.filter(t => teamMatches(s, t)).sort((a, b) => {
+    const rank = t => t.low.startsWith(s) ? 0 : (compact && t.initials.startsWith(compact) ? 1 : 2);
+    return rank(a) - rank(b) || a.name.localeCompare(b.name);
+  });
+}
+function closeTeamList() {
+  const list = $('#teamList');
+  if (list) list.hidden = true;
+  const input = $('#teamSearch');
+  if (input) { input.setAttribute('aria-expanded', 'false'); input.removeAttribute('aria-activedescendant'); }
+  teamActive = -1;
+}
+function restoreTeamText() {
+  const input = $('#teamSearch'); if (!input) return;
+  input.value = $('#team').value || '';
+  const clear = $('#teamClear');
+  if (clear) clear.hidden = !input.value;
+}
+function paintTeamActive() {
+  const list = $('#teamList'); if (!list) return;
+  const opts = [...list.querySelectorAll('[role="option"]')];
+  opts.forEach((el, i) => {
+    const on = i === teamActive;
+    el.classList.toggle('on', on);
+    el.setAttribute('aria-selected', on ? 'true' : 'false');
+  });
+  const input = $('#teamSearch');
+  if (input) {
+    if (teamActive >= 0 && opts[teamActive]) input.setAttribute('aria-activedescendant', opts[teamActive].id);
+    else input.removeAttribute('aria-activedescendant');
+  }
+  if (opts[teamActive]) opts[teamActive].scrollIntoView({ block: 'nearest' });
+}
+function openTeamList() {
+  const input = $('#teamSearch'), list = $('#teamList');
+  if (!input || !list || input.disabled) return;
+  const q = input.value.trim();
+  const clear = $('#teamClear');
+  if (clear) clear.hidden = !input.value;
+  if (!q) { closeTeamList(); return; }
+  const hits = teamHits(q);
+  teamActive = hits.length ? 0 : -1;
+  list.hidden = false;
+  input.setAttribute('aria-expanded', 'true');
+  list.innerHTML = hits.length ? hits.map((t, i) => {
+    const g = teamGroups[t.name] || '';
+    return `<div class="team-opt${i === 0 ? ' on' : ''}" role="option" id="team-opt-${i}" data-team="${esc(t.name)}" aria-selected="${i === 0 ? 'true' : 'false'}">${face(t.name, teamLogo(t.name), 'logo-img')}<span class="tn"><b>${esc(t.name)}</b></span>${g ? `<span class="grp">${esc(g)}</span>` : ''}</div>`;
+  }).join('') : '<div class="team-none" role="status">No teams match</div>';
+  if (teamActive >= 0) input.setAttribute('aria-activedescendant', 'team-opt-0');
+}
+function chooseTeam(name) {
+  if (!name || !$('#team')) return;
+  $('#team').value = name;
+  const input = $('#teamSearch');
+  if (input) input.value = name;
+  const clear = $('#teamClear');
+  if (clear) clear.hidden = false;
+  closeTeamList();
+  loadTeam();
+}
+function clearTeamSearch() {
+  if ($('#team')) $('#team').value = '';
+  const input = $('#teamSearch');
+  if (input) input.value = '';
+  const clear = $('#teamClear');
+  if (clear) clear.hidden = true;
+  closeTeamList();
+  if (LEAGUE) { try { localStorage.removeItem('team_' + LEAGUE.code); } catch (e) {} }
+  stopPoll();
+  DATA = null;
+  hideDock();
+  $('#scraped').textContent = '';
+  $('#main').innerHTML = welcomeHTML();
+  if (input && !input.disabled) input.focus();
+}
+async function loadTeamGroups(league) {
+  const name = league.seasons && league.seasons.current && league.seasons.current.name;
+  const code = league.code;
+  if (!name) return;
+  try {
+    const r = await fetch(`data/leagues/${code.toLowerCase()}/standings/${slug(name)}.json`, { cache: 'no-store' });
+    if (!r.ok || !LEAGUE || LEAGUE.code !== code) return;
+    const doc = await r.json();
+    const g = {};
+    for (const [team, row] of Object.entries(doc.teams || {})) if (row && row.group) g[team] = row.group;
+    teamGroups = g;
+    const list = $('#teamList');
+    if (list && !list.hidden) openTeamList();
+  } catch (e) {}
+}
+function resetTeamSearch() {
+  indexTeams([]);
+  teamGroups = {};
+  if ($('#team')) { $('#team').innerHTML = '<option value="">Select a team</option>'; $('#team').disabled = true; }
+  const input = $('#teamSearch');
+  if (input) { input.value = ''; input.disabled = true; }
+  const clear = $('#teamClear');
+  if (clear) clear.hidden = true;
+  closeTeamList();
 }
 function fillTeams(league, keep) {
   LEAGUE = league;
+  teamGroups = {};
   $('#league').textContent = `${league.name} · ${league.seasons.current?.name || ''}`;
   const teams = league.teams || [];
-  $('#team').innerHTML = '<option value="">Select team (' + teams.length + ')</option>' + teams.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
+  indexTeams(teams);
+  $('#team').innerHTML = '<option value=""></option>' + teams.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
   $('#team').disabled = false;
-  const menu = $('#teamMenu');
-  if (menu) menu.innerHTML = teams.map(t => `<button type="button" data-team="${esc(t)}">${face(t, (league.logos || {})[t], 'logo-img')}<span>${esc(t)}</span></button>`).join('');
-  if (keep && teams.includes(keep)) $('#team').value = keep;
-  syncTeamButton();
+  const input = $('#teamSearch');
+  if (input) input.disabled = false;
+  if (keep && teams.includes(keep)) { $('#team').value = keep; if (input) input.value = keep; }
+  else { $('#team').value = ''; if (input) input.value = ''; }
+  const clear = $('#teamClear');
+  if (clear) clear.hidden = !(input && input.value);
+  closeTeamList();
+  loadTeamGroups(league);
 }
 function watch(url, onHit) {
   stopPoll();
@@ -117,7 +235,7 @@ async function showReport(data, gen = ++reportGen) {
   DATA.standings = standings;
   if (!DATA.logo && teamLogo(DATA.team)) DATA.logo = teamLogo(DATA.team);
   $('#scraped').textContent = asOf(DATA);
-  syncTeamButton();
+  restoreTeamText();
   render();
 }
 async function loadTeam() {
@@ -137,9 +255,11 @@ async function loadTeam() {
   catch (e) { msg('Network error: ' + e.message); return; }
   if (res.ok) { const data = await res.json(); if (gen === reportGen) showReport(data, gen); return; }
   if (gen !== reportGen) return;
-  hideDock();
-  $('#main').innerHTML = requestPanel('Not scanned yet', 'Coming Soon!');
-  watch(url, data => { if ($('#team').value === team && LEAGUE && LEAGUE.code === code) showReport(data); });
+  const standings = LEAGUE ? await loadStandings(code, LEAGUE.seasons) : {};
+  if (gen !== reportGen || $('#team').value !== team) return;
+  DATA = { team, logo: teamLogo(team), seasons: LEAGUE && LEAGUE.seasons, matches: [], standings, unscanned: true };
+  restoreTeamText();
+  render();
 }
 function selectCached(code, team) {
   const league = leagueByCode(code);
@@ -175,10 +295,7 @@ async function addLeague(input) {
   LEAGUE = null;
   DATA = null;
   $('#leagueSel').value = '';
-  $('#team').innerHTML = '<option value="">Select a team</option>';
-  $('#team').disabled = true;
-  if ($('#teamMenu')) $('#teamMenu').innerHTML = '';
-  syncTeamButton();
+  resetTeamSearch();
   $('#league').textContent = 'Not cached';
   $('#scraped').textContent = '';
   hideDock();
@@ -222,7 +339,7 @@ function badgeHTML(name, url) {
   return `<div class="badge has-logo">${face(name, url, 'logo-img')}<span class="fallback">${letters}</span></div>`;
 }
 function pick() {
-  const p = $('#period').value, M = DATA.matches, S = DATA.seasons;
+  const p = $('#period').value, M = DATA.matches || [], S = DATA.seasons || {};
   if (p === 'last5') return [M.slice(0, 5), 'Last 5 matches'];
   if (p === 'current') return [M.filter(m => m.seriesId === S.current?.id), S.current?.name || 'Current season'];
   if (p === 'last') return [M.filter(m => m.seriesId === S.last?.id), (S.last?.name || 'Last season') + (S.last && !S.last.inSeason ? ' (did not play)' : '')];
@@ -379,6 +496,10 @@ function render() {
   $('#scraped').textContent = asOf(DATA);
   paintDock(label, ms.length);
   const stand = standingsHTML();
+  if (DATA.unscanned) {
+    $('#main').innerHTML = `<div id="panel" role="tabpanel">${stand}${card('📋', 'Match detail', '<p>Not scanned yet. Standings for this team are above. Match and player detail will show up after a scan.</p>')}</div>`;
+    return;
+  }
   const played = ms.filter(m => !m.forfeit), o = wl(ms); const us = m => (m.innings || []).find(i => i.team === DATA.team), them = m => (m.innings || []).find(i => i.team !== DATA.team);
   const avg = a => a.length ? Math.round(a.reduce((s, x) => s + x, 0) / a.length) : NaN;
   const bat = {}, bowl = {}, fld = {};
@@ -728,8 +849,36 @@ function render() {
 $('#go').onclick = () => addLeague($('#lg').value);
 $('#lg').onkeydown = e => { if (e.key === 'Enter') addLeague($('#lg').value); };
 $('#leagueSel').onchange = () => { if ($('#leagueSel').value) selectCached($('#leagueSel').value); };
-$('#team').onchange = () => { syncTeamButton(); loadTeam(); };
-$('#teamBtn').onclick = () => { if ($('#teamBtn').disabled) return; $('#teamMenu').hidden = !$('#teamMenu').hidden; };
+$('#teamSearch').oninput = () => openTeamList();
+$('#teamSearch').onfocus = () => { if ($('#teamSearch').value.trim() && $('#teamSearch').value !== $('#team').value) openTeamList(); };
+$('#teamSearch').onblur = () => setTimeout(() => {
+  if (document.activeElement && $('#teamList') && $('#teamList').contains(document.activeElement)) return;
+  closeTeamList();
+  restoreTeamText();
+}, 150);
+$('#teamSearch').onkeydown = e => {
+  const list = $('#teamList');
+  const opts = list && !list.hidden ? [...list.querySelectorAll('[role="option"]')] : [];
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    if (!opts.length) { openTeamList(); return; }
+    teamActive = Math.min(opts.length - 1, teamActive + 1);
+    paintTeamActive();
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    if (!opts.length) return;
+    teamActive = Math.max(0, teamActive - 1);
+    paintTeamActive();
+  } else if (e.key === 'Enter') {
+    const name = opts[teamActive] && opts[teamActive].getAttribute('data-team');
+    if (name) { e.preventDefault(); chooseTeam(name); }
+  } else if (e.key === 'Escape') {
+    closeTeamList();
+    restoreTeamText();
+  }
+};
+$('#teamList').onmousedown = e => { if (e.target.closest('[data-team]')) e.preventDefault(); };
+$('#teamClear').onclick = () => clearTeamSearch();
 $('#period').onchange = render;
 document.addEventListener('error', e => {
   const img = e.target;
@@ -774,13 +923,11 @@ document.addEventListener('click', e => {
   const b = e.target.closest('[data-lg]');
   if (b) { addLeague(b.dataset.lg); return; }
   const opt = e.target.closest('[data-team]');
-  if (opt && $('#teamMenu') && $('#teamMenu').contains(opt)) {
-    $('#team').value = opt.getAttribute('data-team');
-    $('#teamMenu').hidden = true;
-    $('#team').dispatchEvent(new Event('change'));
+  if (opt && $('#teamList') && $('#teamList').contains(opt)) {
+    chooseTeam(opt.getAttribute('data-team'));
     return;
   }
-  if (!e.target.closest('.pick') && $('#teamMenu')) $('#teamMenu').hidden = true;
+  if (!e.target.closest('#teamPick')) closeTeamList();
 });
 window.addEventListener('hashchange', () => {
   const id = tabFromHash();
