@@ -4,7 +4,7 @@
     "name": "DDCL Fall 2026"
   },
   "playoffs": {
-    "found": false,
+    "found": true,
     "pending": false
   },
   "teams": {
@@ -19,7 +19,10 @@
       "points": 16,
       "nrr": 0.556,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/e31184e8-0ccd-4f0b-858a-284538f801ae.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Lost in playoffs (Semi Final)",
+        "muted": false
+      }
     },
     "Tipsy Bulls": {
       "position": 2,
@@ -32,7 +35,10 @@
       "points": 14,
       "nrr": 1.0953,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/24150af4-32b9-47de-b632-f0edb3d6622c.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Lost in playoffs (Semi Final)",
+        "muted": false
+      }
     },
     "Vodoo Rangers": {
       "position": 3,
@@ -45,7 +51,10 @@
       "points": 14,
       "nrr": 0.6621,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/cdbd7647-2bdb-4af7-bcee-c86f153e6f52.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Advanced from Semi Final",
+        "muted": false
+      }
     },
     "Retro Runners": {
       "position": 4,
@@ -58,7 +67,10 @@
       "points": 12,
       "nrr": 0.0291,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/6dfe256e-6bd1-4342-b8c7-0bb33fa52e04.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Lost in playoffs (Semi Final)",
+        "muted": false
+      }
     },
     "PVCC": {
       "position": 5,
@@ -71,7 +83,10 @@
       "points": 11,
       "nrr": 0.1621,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/5879816b-3fe4-42cc-a384-33e6af2b8ef6.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "Trivalley Titans": {
       "position": 6,
@@ -84,7 +99,10 @@
       "points": 9,
       "nrr": -0.2628,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/97cd7420-3911-45e3-92ea-47392bacf01c.png",
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "Loyals": {
       "position": 7,
@@ -97,7 +115,10 @@
       "points": 6,
       "nrr": -0.8153,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/5c5c5e63-7a28-4805-802c-5257d131363f.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "Deccan Chargers": {
       "position": 8,
@@ -110,7 +131,10 @@
       "points": 6,
       "nrr": -0.8962,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/30358e13-46be-45ca-b7c0-cb1693a1d3e8.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "Chhavas": {
       "position": 9,
@@ -123,7 +147,10 @@
       "points": 2,
       "nrr": -1.3242,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/b58e53fa-5031-4279-870b-af5a75971dcb.png",
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "Dublin Super Kings": {
       "position": 1,
@@ -136,7 +163,10 @@
       "points": 16,
       "nrr": 1.2809,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/13bf5847-60cf-411c-9ba3-b63bb275170c.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Advanced from Semi Final",
+        "muted": false
+      }
     },
     "Namma Boys": {
       "position": 2,
@@ -149,7 +179,10 @@
       "points": 16,
       "nrr": 1.2254,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/a9b4665c-b906-4a05-a9c9-f06a91ce36a7.jpeg",
-      "playoff": null
+      "playoff": {
+        "text": "Advanced from Semi Final",
+        "muted": false
+      }
     },
     "Legion Mavericks": {
       "position": 3,
@@ -162,7 +195,10 @@
       "points": 14,
       "nrr": 0.8228,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/93a034a8-a607-41ec-8763-ad3fd4b4eec7.jpeg",
-      "playoff": null
+      "playoff": {
+        "text": "Advanced from Semi Final",
+        "muted": false
+      }
     },
     "Bay Strikers": {
       "position": 4,
@@ -175,7 +211,10 @@
       "points": 14,
       "nrr": 0.6939,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/ea482ccb-1fe9-45ff-80b5-77eb34fa5467.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Lost in playoffs (Semi Final)",
+        "muted": false
+      }
     },
     "Bay Area Falcons": {
       "position": 5,
@@ -188,7 +227,10 @@
       "points": 10,
       "nrr": 0.1802,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/3c575945-947f-4b39-a26a-9a0f938127a4.png",
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "Storm Chasers": {
       "position": 6,
@@ -201,7 +243,10 @@
       "points": 8,
       "nrr": -0.4924,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/551e9b3e-9130-4c65-9ca5-79866ae4df67.jpeg",
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "Sunrise Strikers": {
       "position": 7,
@@ -214,7 +259,10 @@
       "points": 6,
       "nrr": 0.1305,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/1ed4cd12-29a6-4269-a903-4c614bf8151d.jpg",
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "Monks": {
       "position": 8,
@@ -227,7 +275,10 @@
       "points": 6,
       "nrr": -0.8154,
       "logo": null,
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     },
     "OG": {
       "position": 9,
@@ -240,7 +291,10 @@
       "points": 0,
       "nrr": -2.885,
       "logo": null,
-      "playoff": null
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
     }
   },
   "logos": {
