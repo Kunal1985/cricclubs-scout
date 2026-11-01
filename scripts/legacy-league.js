@@ -51,6 +51,7 @@ async function season(firstId) {
   const cfg = (require('./legacy-config.json')[code.toLowerCase()]) || {};
   const excl = cfg.excludeSeries ? new RegExp(cfg.excludeSeries, 'i') : null;
   const main = series.filter(s => !skip.test(s.name) && !(excl && excl.test(s.name)));
+  // current and last only. prev2 (store.SEASON_KEYS) is not fetched; a league file can add it later.
   const picks = { current: main[0], last: main[1] };
   console.error('series', JSON.stringify(picks));
   const league = { code, name: dispName || code, checkedAt: new Date().toISOString(), legacy: true, excludeSeries: cfg.excludeSeries || null, seasons: {}, teams: [], logos: {} };

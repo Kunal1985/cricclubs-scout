@@ -7,6 +7,8 @@ const ini = n => String(n).split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0
 const HUES = ['#2fd27a', '#ffc83d', '#4cc3ff', '#ff8a95', '#b78cff', '#7ee0c3', '#ffa05c'];
 const hue = n => HUES[[...n].reduce((s, c) => s + c.charCodeAt(0), 0) % HUES.length];
 const slug = s => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const SEASON_KEYS = ['current', 'last', 'prev2'];
+let periodChoice = 'current';
 function remember(k, v) { try { localStorage[k] = v; } catch (e) {} }
 function recall(k) { try { return localStorage[k] || ''; } catch (e) { return ''; } }
 function msg(t) { const m = $('#msg'); m.hidden = !t; m.textContent = t || ''; }
@@ -172,6 +174,7 @@ function fillTeams(league, keep) {
   LEAGUE = league;
   teamGroups = {};
   $('#league').textContent = `${league.name} · ${league.seasons.current?.name || ''}`;
+  fillPeriod(league.seasons);
   const teams = league.teams || [];
   indexTeams(teams);
   $('#team').innerHTML = '<option value=""></option>' + teams.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
@@ -217,7 +220,7 @@ function watch(url, onHit) {
 }
 async function loadStandings(code, seasons) {
   const out = {};
-  await Promise.all(['current', 'last'].map(async k => {
+  await Promise.all(SEASON_KEYS.map(async k => {
     const s = seasons && seasons[k];
     if (!s || !s.name) return;
     try {
@@ -358,8 +361,8 @@ function nrrText(n) {
 function standingsHTML() {
   if (!DATA || !DATA.standings) return '';
   const p = $('#period').value;
-  const keys = p === 'last' ? ['last'] : p === 'all' ? ['current', 'last'] : ['current'];
-  return keys.map(k => {
+  const key = SEASON_KEYS.includes(p) ? p : 'current';
+  return [key].map(k => {
     const doc = DATA.standings[k];
     const row = doc && doc.teams && doc.teams[DATA.team];
     if (!row) return '';
@@ -373,12 +376,33 @@ function badgeHTML(name, url) {
   if (!url) return `<div class="badge">${letters}</div>`;
   return `<div class="badge has-logo">${face(name, url, 'logo-img')}<span class="fallback">${letters}</span></div>`;
 }
+function seasonMeta(key) {
+  const teamS = DATA && DATA.seasons && DATA.seasons[key];
+  const leagueS = LEAGUE && LEAGUE.seasons && LEAGUE.seasons[key];
+  const s = teamS || leagueS;
+  if (!s || !s.name) return null;
+  return {
+    id: s.id || (leagueS && leagueS.id) || (teamS && teamS.id),
+    name: s.name,
+    inSeason: teamS && Object.prototype.hasOwnProperty.call(teamS, 'inSeason') ? !!teamS.inSeason : true
+  };
+}
+function fillPeriod(seasons) {
+  const sel = $('#period');
+  if (!sel) return;
+  const present = SEASON_KEYS.filter(k => seasons && seasons[k] && seasons[k].name);
+  const opts = [{ value: 'last5', label: 'Last 5' }].concat(present.map(k => ({ value: k, label: seasons[k].name })));
+  const wanted = opts.some(o => o.value === periodChoice) ? periodChoice : (present.includes('current') ? 'current' : 'last5');
+  sel.innerHTML = opts.map(o => `<option value="${esc(o.value)}">${esc(o.label)}</option>`).join('');
+  sel.value = wanted;
+  periodChoice = sel.value || wanted;
+}
 function pick() {
-  const p = $('#period').value, M = DATA.matches || [], S = DATA.seasons || {};
+  const p = $('#period').value, M = DATA.matches || [];
   if (p === 'last5') return [M.slice(0, 5), 'Last 5 matches'];
-  if (p === 'current') return [M.filter(m => m.seriesId === S.current?.id), S.current?.name || 'Current season'];
-  if (p === 'last') return [M.filter(m => m.seriesId === S.last?.id), (S.last?.name || 'Last season') + (S.last && !S.last.inSeason ? ' (did not play)' : '')];
-  return [M, 'Both seasons'];
+  const s = seasonMeta(p) || seasonMeta('current');
+  if (!s) return [[], 'Current season'];
+  return [M.filter(m => m.seriesId === s.id), s.name + (s.inSeason ? '' : ' (did not play)')];
 }
 const wl = ms => ({ n: ms.length, w: ms.filter(m => m.outcome === 'W').length, l: ms.filter(m => m.outcome === 'L').length });
 let psTab = 'bat';
@@ -1038,7 +1062,7 @@ $('#teamSearch').onkeydown = e => {
 };
 $('#teamList').onmousedown = e => { if (e.target.closest('[data-team]')) e.preventDefault(); };
 $('#teamClear').onclick = () => clearTeamSearch();
-$('#period').onchange = render;
+$('#period').onchange = () => { periodChoice = $('#period').value; render(); };
 document.addEventListener('error', e => {
   const img = e.target;
   if (!img || img.tagName !== 'IMG') return;
@@ -1101,7 +1125,7 @@ async function init() {
   const saved = recall('tab');
   pageTab = fromHash || (PAGE_TABS.some(t => t[0] === saved) ? saved : 'overview');
   const q = new URLSearchParams(location.search);
-  if (['last5', 'current', 'last', 'all'].includes(q.get('period'))) $('#period').value = q.get('period');
+  if (['last5', 'current', 'last', 'prev2'].includes(q.get('period'))) periodChoice = q.get('period');
   try { await loadCatalog(); }
   catch (e) { msg(e.message); hideDock(); $('#main').innerHTML = welcomeHTML(); return; }
   const code = q.get('league') || recall('lg');

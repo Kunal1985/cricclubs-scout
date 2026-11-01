@@ -15,16 +15,16 @@ site/                  GitHub Pages (relative URLs, works under /cricclubs-scout
   data/leagues/<code>/teams/<slug>.json
   data/leagues/<code>/standings/<season>.json
 data/store/            scraper cache committed to the repo (scorecards included)
-  leagues/<code>/league.json    league id, current + last season, team ids
+  leagues/<code>/league.json    league id, seasons (current, last, prev2 when present), team ids
   leagues/<code>/teams/         normalized matches, including dismissals
   leagues/<code>/scorecards/    raw scorecards, reused across teams
 ```
 
-Each published team file includes a logo URL when the points table has one (`https://media.cricclubs.com/...`). The standings card uses the current season for Last 5 and the current season view, the previous season for Last season, and both when Both seasons is selected. A playoff line appears only after that season's playoffs have a result.
+Each published team file includes a logo URL when the points table has one (`https://media.cricclubs.com/...`). The period menu lists Last 5 plus each cached season under its real name (`current`, `last`, and `prev2` when that season exists). There is no both-seasons option. The standings card follows the selected season; Last 5 uses the current season's table. A playoff line appears only after that season's playoffs have a result.
 
 The browser ranks players from the published team JSON. Ranking rules are the same as the previous app: batters need 3 innings and 30 balls (2 and 15 for the last 5) and sort by runs × strike rate ÷ 100; bowlers need 6 overs (2 for the last 5) and sort by wickets, then economy. Fielding is parsed from opponent dismissal text when the JSON is published.
 
-Seasons are the two series that have already started, ordered by start date (`MM/DD/YYYY`), using today's date in `America/Los_Angeles`. The newer one is current. The older one is last.
+The indexer stores the two series that have already started, ordered by start date (`MM/DD/YYYY`), using today's date in `America/Los_Angeles`. The newer one is `current`. The older one is `last`. `prev2` is the season before those and is not fetched; publish and scans copy it when a league file already has it.
 
 A team scan fetches the current-season match list and downloads scorecards only for match ids that are not already stored. The last season is scanned once and then left alone. The Monday job refreshes each cached league, then repeats that current-season incremental scan for every team that already has a file under `data/store/.../teams/`.
 
@@ -44,7 +44,7 @@ A team scan fetches the current-season match list and downloads scorecards only 
 | `scan.yml` | Issue opened or labeled `scan-request` | Validate, scan, comment the result and site link, close the issue |
 | `labels.yml` | Push of this file to `main`, or manual | Create the `scan-request` label |
 
-Invalid league or team text gets an error comment and the issue is closed. The scraper is only started as `node cli.js run`. League and team reach it through environment variables after `prepare.js` checks the characters. A team must match a name in the current or last season exactly (case-insensitive). The workflow does not put issue text in a shell command.
+Invalid league or team text gets an error comment and the issue is closed. The scraper is only started as `node cli.js run`. League and team reach it through environment variables after `prepare.js` checks the characters. A team must match a name in a cached season exactly (case-insensitive). The workflow does not put issue text in a shell command.
 
 `scan.yml` uses one concurrency group, `scout-data`, so two runs cannot commit at the same time. A second `opened`/`labeled` pair for the same issue is ignored once this run has already commented. A failed scrape comments and leaves the issue open; remove the label and add it again to retry.
 
