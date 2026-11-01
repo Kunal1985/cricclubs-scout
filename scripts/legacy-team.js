@@ -77,6 +77,7 @@ async function scorecard(mid, clubId) {
     const doc = { team, league: { code, name: league.name }, series: {}, matches: {} };
     for (const k of ['current', 'last']) {
       const s = league.seasons[k]; if (!s || !s.teams[team]) continue;
+      if (league.excludeSeries && new RegExp(league.excludeSeries, 'i').test(s.name)) continue;
       const tid = s.teams[team];
       const st = standings.find(d => d.series.id === s.id);
       const gname = st && st.teams[team] && st.teams[team].group;
