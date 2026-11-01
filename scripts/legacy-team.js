@@ -106,7 +106,34 @@ async function clubIdFor(league) {
   store.writeLeague(league);
   return league.clubId;
 }
-async function matchIds(s, tid, gid, clubId) {
+// Fixtures rows for one team: matchId (scorecard link) + ground (4 cells after the date).
+const FIXTURE_ROWS = () => [...document.querySelectorAll('tr')].map(tr => {
+  const c = [...tr.children].map(x => x.textContent.replace(/\s+/g, ' ').trim());
+  const a = tr.querySelector('a[href*="viewScorecard.do?matchId="]'); const d = c.findIndex(x => /^\d\d\/\d\d\/\d{4}$/.test(x));
+  return d >= 0 && c.length >= 8 ? { mid: a ? a.getAttribute('href').match(/matchId=(\d+)/)[1] : null, ground: c[d + 4] || null } : null;
+}).filter(Boolean);
+async function fixtures(s, tid, gid, clubId) {
+  // Server-rendered; wait for the fixtures table body before reading so a slow render can't return a short list.
+  const h = await pager.html(`${base}/fixtures.do?league=${gid}&teamId=${tid}&clubId=${clubId}&year=${s.year || ''}`, { kind: 'fixtures', ready: 'table tbody tr' });
+  const rows = await pager.parse(h, FIXTURE_ROWS); const out = new Map();
+  for (const r of rows) if (r.mid && !out.has(r.mid)) out.set(r.mid, r.ground);
+  out.scheduled = rows.length; return out;
+}
+const groupOf = (s, team, standings) => {
+  if (s.teamGroups && s.teamGroups[team]) return s.teamGroups[team];
+  const st = standings.find(d => d.series.id === s.id); const gn = st && st.teams[team] && st.teams[team].group;
+  return ((s.groups || []).find(g => g.name === gn || 'Group ' + g.name === gn) || (s.groups || []).length === 1 && s.groups[0] || {}).id;
+};
+// The one list page per season: fixtures.do (match ids + grounds). Fallback: other groups, then listMatches.do.
+async function matchList(s, team, standings, clubId, grounds) {
+  const tid = s.teams[team]; const gid = groupOf(s, team, standings);
+  const tries = [gid, ...(s.groups || []).map(g => g.id).filter(g => g !== gid)].filter(Boolean);
+  for (const g of tries) {
+    let fx; try { fx = await fixtures(s, tid, g, clubId); } catch (e) { console.error('  fixtures failed', g, e.message); continue; }
+    if (!fx.size && fx.scheduled) { console.error(`  ${s.name}: ${fx.scheduled} fixtures, none played yet`); return []; }
+    if (fx.size) { if (g !== gid) console.error(`  fallback: ${s.name} matches found in group ${g}, not ${gid}`); for (const [m, gr] of fx) if (gr) grounds[m] = gr; return [...fx.keys()]; }
+  }
+  console.error(`  fallback: ${s.name} fixtures empty in all groups, using listMatches.do`);
   const h = await pager.html(`${base}/listMatches.do?league=${gid}&teamId=${tid}&internalClubId=null&year=null&clubId=${clubId}`, { kind: 'listMatches', ready: 'table' });
   return [...new Set(h.match(/viewScorecard\.do\?matchId=\d+/g) || [])].map(x => x.split('=')[1]);
 }
@@ -147,13 +174,8 @@ async function scanTeam(league, team, clubId) {
         for (const id of old.matchIds) if (prev.matches[id] && !readRaw(id.replace(/^legacy-/, ''))) doc.matches[id] = prev.matches[id];
       }
     } else {
-      const tid = s.teams[team];
-      const st = standings.find(d => d.series.id === s.id);
-      const gname = st && st.teams[team] && st.teams[team].group;
-      const gid = ((s.groups || []).find(g => (g.name === gname) || ('Group ' + g.name) === gname) || {}).id;
-      mids = await matchIds(s, tid, gid, clubId); scrapedAt = new Date().toISOString();
+      mids = await matchList(s, team, standings, clubId, grounds); scrapedAt = new Date().toISOString();
       await download(mids, clubId);
-      s._gid = gid;
     }
     const ids = []; const noGround = [];
     for (const mid of mids) {
@@ -168,10 +190,10 @@ async function scanTeam(league, team, clubId) {
       doc.matches[id] = m; ids.push(id);
     }
     // Grounds are not on scorecards: use raw/grounds.json or the saved match; only if a match still
-    // lacks one, load fixtures.do once for this season (URL built from stored ids) and cache per matchId.
+    // lacks one (past season reused from an old list), load fixtures.do once for this season (URL built from stored ids) and cache per matchId.
     if (noGround.length && !REPARSE) {
       try {
-        const gid = s._gid || ((s.groups || []).find(g => { const st = standings.find(d => d.series.id === s.id); const gn = st && st.teams[team] && st.teams[team].group; return g.name === gn || ('Group ' + g.name) === gn; }) || {}).id;
+        const gid = groupOf(s, team, standings);
         const h = await pager.html(`${base}/fixtures.do?league=${gid}&teamId=${s.teams[team]}&clubId=${clubId}&year=${s.year}`, { kind: 'fixtures' });
         const fx = await pager.parse(h, FIXTURES);
         for (const m of noGround) { const r = m._hm && fx.find(r => r.includes(m._hm) && r.includes(m.opponent)); m.ground = r ? r[r.indexOf(m._hm) + 4] || null : null; if (m.ground) grounds[m.id.slice(7)] = m.ground; }
