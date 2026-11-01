@@ -49,6 +49,7 @@ async function season(firstId) {
   const series = dropdowns(h)[0].filter((s, i, a) => a.findIndex(t => t.id === s.id) === i);
   const skip = /corporate|playoff|charity|practice|tournament|knock/i;
   const main = series.filter(s => !skip.test(s.name));
+  // current and last only. prev2 (store.SEASON_KEYS) is not fetched; a league file can add it later.
   const picks = { current: main[0], last: main[1] };
   console.error('series', JSON.stringify(picks));
   const league = { code, name: dispName || code, checkedAt: new Date().toISOString(), legacy: true, seasons: {}, teams: [], logos: {} };

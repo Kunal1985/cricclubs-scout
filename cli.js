@@ -24,7 +24,10 @@ function matchTeam(league, name) {
   return (league.teams || []).find(t => t.toLowerCase() === want) || null;
 }
 function seasonBits(league) {
-  return { current: league.seasons.current?.name || null, last: league.seasons.last?.name || null };
+  const s = league.seasons || {};
+  const out = { current: s.current?.name || null, last: s.last?.name || null };
+  if (s.prev2 && s.prev2.name) out.prev2 = s.prev2.name;
+  return out;
 }
 function asOfFromTeam(code, team) {
   const t = store.readTeam(code, team);
@@ -57,6 +60,7 @@ async function ensureLeague(input, { refresh = false } = {}) {
   const all = [...await cc.seriesForYear(info.code, info.id, y), ...await cc.seriesForYear(info.code, info.id, y - 1)];
   const started = all.filter(s => seriesIso(s) && seriesIso(s) <= today).sort((a, b) => seriesIso(b).localeCompare(seriesIso(a)));
   const seasons = {};
+  // Two newest started series. prev2 is left unset; scans and publish already read it when a league file has it.
   for (const [k, s] of [['current', started[0]], ['last', started[1]]]) {
     if (s) seasons[k] = { ...s, teams: await cc.seriesTeams(info.code, info.id, s) };
   }
@@ -65,7 +69,7 @@ async function ensureLeague(input, { refresh = false } = {}) {
   const league = { ...info, checkedAt: new Date().toISOString(), seasons, teams, logos: (cached && cached.logos) || {} };
   store.writeLeague(league);
   console.error(`league ${league.code} (${league.name}) current=${seasons.current.name} teams=${teams.length}`);
-  await refreshStandings(league, ['current', 'last']);
+  await refreshStandings(league, store.SEASON_KEYS);
   return { league, cached: false };
 }
 
@@ -99,13 +103,13 @@ async function refreshStandings(league, keys) {
 
 async function scanTeam(league, team, { currentOnly = false } = {}) {
   const canonical = matchTeam(league, team);
-  if (!canonical) return { error: `Team "${team}" is not in the current or last season of ${league.name}.` };
+  if (!canonical) return { error: `Team "${team}" is not in a cached season of ${league.name}.` };
   const t = store.readTeam(league.code, canonical) || { team: canonical, league: league.code, series: {}, matches: {} };
   t.team = canonical;
   t.league = league.code;
   const plan = [];
-  for (const k of ['current', 'last']) {
-    if (currentOnly && k === 'last') continue;
+  for (const k of store.SEASON_KEYS) {
+    if (currentOnly && k !== 'current') continue;
     const s = league.seasons[k];
     if (!s || !s.teams || !s.teams[canonical]) continue;
     const st = t.series[s.id];
@@ -173,7 +177,7 @@ async function scanOne(input, teamInput, { refreshLeague = false, currentOnly = 
   }
   if (!team) {
     const sample = (league.teams || []).slice(0, 40).join(', ');
-    return finish({ ok: false, error: `Team "${teamCheck.value}" is not in the current or last season of ${league.name}. Teams: ${sample}` }, 2);
+    return finish({ ok: false, error: `Team "${teamCheck.value}" is not in a cached season of ${league.name}. Teams: ${sample}` }, 2);
   }
   const scan = await scanTeam(league, team, { currentOnly });
   if (scan.error) return finish({ ok: false, error: scan.error }, 2);
