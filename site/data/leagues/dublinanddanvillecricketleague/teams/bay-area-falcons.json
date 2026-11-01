@@ -31,19 +31,19 @@
       "id": "xD6Qicr7gkrAMq0_MoX4Dw",
       "name": "DDCL Fall 2026",
       "inSeason": true,
-      "scrapedAt": "2026-11-01T19:14:43.857Z"
+      "scrapedAt": "2026-11-01T20:02:24.388Z"
     },
     "last": {
       "id": "u2KnAWQG_l9DZ_jsRAByWA",
       "name": "DDCL Summer 26",
       "inSeason": true,
-      "scrapedAt": "2026-10-31T07:55:21.830Z"
+      "scrapedAt": "2026-11-01T19:59:53.287Z"
     },
     "prev2": {
       "id": "RrVi9ccTsSYpRdWpiBT7sg",
       "name": "DDCL Spring 2026",
       "inSeason": true,
-      "scrapedAt": "2026-11-01T19:14:46.136Z"
+      "scrapedAt": "2026-11-01T20:00:07.012Z"
     }
   },
   "matches": [
@@ -82,8 +82,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "b"
+          "how": "b",
+          "pos": 1
         },
         {
           "name": "Vignesh Mahadevan",
@@ -92,8 +92,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Karthick Ganesan",
@@ -102,8 +102,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "b"
+          "how": "b",
+          "pos": 3
         },
         {
           "name": "Shriraj Iyer",
@@ -112,8 +112,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 4
         },
         {
           "name": "Shriram Kumar",
@@ -122,8 +122,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Navroop Singh",
@@ -132,8 +132,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Janardhanan Babu",
@@ -151,8 +151,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "ct"
+          "how": "ct",
+          "pos": 8
         },
         {
           "name": "Devender Singh",
@@ -347,8 +347,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Kunal Ugale",
@@ -357,8 +357,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -367,8 +367,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ro"
+          "how": "ro",
+          "pos": 3
         },
         {
           "name": "Vignesh Mahadevan",
@@ -377,8 +377,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ct"
+          "how": "ct",
+          "pos": 4
         },
         {
           "name": "Navroop Singh",
@@ -387,8 +387,8 @@
           "f": 1,
           "s": 1,
           "out": true,
-          "pos": 5,
-          "how": "b"
+          "how": "b",
+          "pos": 5
         },
         {
           "name": "Shriram Kumar",
@@ -397,8 +397,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "b"
+          "how": "b",
+          "pos": 6
         },
         {
           "name": "Vishal Rana",
@@ -407,8 +407,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "ct"
+          "how": "ct",
+          "pos": 7
         },
         {
           "name": "Devender Singh",
@@ -417,8 +417,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "b"
+          "how": "b",
+          "pos": 8
         },
         {
           "name": "Sandeep Appaji",
@@ -584,8 +584,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ro"
+          "how": "ro",
+          "pos": 1
         },
         {
           "name": "Vishok Amar Kumar",
@@ -603,8 +603,8 @@
           "f": 0,
           "s": 1,
           "out": true,
-          "pos": 3,
-          "how": "st"
+          "how": "st",
+          "pos": 3
         },
         {
           "name": "Vignesh Mahadevan",
@@ -613,8 +613,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ct"
+          "how": "ct",
+          "pos": 4
         },
         {
           "name": "Devender Singh",
@@ -623,8 +623,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Sid Mahadevan",
@@ -790,8 +790,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "b"
+          "how": "b",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -800,8 +800,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -810,8 +810,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 3
         },
         {
           "name": "Sid Mahadevan",
@@ -820,8 +820,8 @@
           "f": 1,
           "s": 1,
           "out": true,
-          "pos": 4,
-          "how": "ct"
+          "how": "ct",
+          "pos": 4
         },
         {
           "name": "Vignesh Mahadevan",
@@ -830,8 +830,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Sriram Jaikrishnan",
@@ -840,8 +840,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "b"
+          "how": "b",
+          "pos": 6
         },
         {
           "name": "Shriram Kumar",
@@ -850,8 +850,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "b"
+          "how": "b",
+          "pos": 7
         },
         {
           "name": "Navroop Singh",
@@ -860,8 +860,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "ct"
+          "how": "ct",
+          "pos": 8
         },
         {
           "name": "Devender Singh",
@@ -870,8 +870,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 9,
-          "how": "b"
+          "how": "b",
+          "pos": 9
         },
         {
           "name": "Srujan Emani",
@@ -880,8 +880,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 10,
-          "how": "ct"
+          "how": "ct",
+          "pos": 10
         },
         {
           "name": "Karthick Ganesan",
@@ -1061,8 +1061,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -1071,8 +1071,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -1081,8 +1081,8 @@
           "f": 1,
           "s": 1,
           "out": true,
-          "pos": 3,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 3
         },
         {
           "name": "Vishok Amar Kumar",
@@ -1091,8 +1091,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "b"
+          "how": "b",
+          "pos": 4
         },
         {
           "name": "Sriram Jaikrishnan",
@@ -1101,8 +1101,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Amit Pinge",
@@ -1111,8 +1111,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Kunal Ugale",
@@ -1121,8 +1121,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "ct"
+          "how": "ct",
+          "pos": 7
         },
         {
           "name": "Devender Singh",
@@ -1131,8 +1131,8 @@
           "f": 0,
           "s": 1,
           "out": true,
-          "pos": 8,
-          "how": "ct"
+          "how": "ct",
+          "pos": 8
         },
         {
           "name": "Shriram Kumar",
@@ -1141,8 +1141,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 9,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 9
         },
         {
           "name": "Sandeep Appaji",
@@ -1151,8 +1151,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 10,
-          "how": "ct"
+          "how": "ct",
+          "pos": 10
         },
         {
           "name": "Karthick Ganesan",
@@ -1347,8 +1347,8 @@
           "f": 2,
           "s": 2,
           "out": true,
-          "pos": 1,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -1357,8 +1357,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -1367,8 +1367,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ro"
+          "how": "ro",
+          "pos": 3
         },
         {
           "name": "Janardhanan Babu",
@@ -1377,8 +1377,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ct"
+          "how": "ct",
+          "pos": 4
         },
         {
           "name": "Amit Pinge",
@@ -1387,8 +1387,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 5
         },
         {
           "name": "Vignesh Mahadevan",
@@ -1397,8 +1397,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Devender Singh",
@@ -1407,8 +1407,8 @@
           "f": 2,
           "s": 1,
           "out": true,
-          "pos": 7,
-          "how": "b"
+          "how": "b",
+          "pos": 7
         },
         {
           "name": "Srujan Emani",
@@ -1417,8 +1417,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "ct"
+          "how": "ct",
+          "pos": 8
         },
         {
           "name": "Shriraj Iyer",
@@ -1617,8 +1617,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -1627,8 +1627,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 2
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -1637,8 +1637,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Sid Mahadevan",
@@ -1647,8 +1647,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ct"
+          "how": "ct",
+          "pos": 4
         },
         {
           "name": "Amit Pinge",
@@ -1657,8 +1657,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 5
         },
         {
           "name": "Vignesh Mahadevan",
@@ -1667,8 +1667,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Devender Singh",
@@ -1677,8 +1677,8 @@
           "f": 1,
           "s": 3,
           "out": true,
-          "pos": 7,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 7
         },
         {
           "name": "Navroop Singh",
@@ -1696,8 +1696,8 @@
           "f": 0,
           "s": 1,
           "out": true,
-          "pos": 9,
-          "how": "ct"
+          "how": "ct",
+          "pos": 9
         },
         {
           "name": "Srujan Emani",
@@ -1706,8 +1706,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 10,
-          "how": "ct"
+          "how": "ct",
+          "pos": 10
         },
         {
           "name": "Shriraj Iyer",
@@ -1716,8 +1716,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 11,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 11
         }
       ],
       "bowling": [
@@ -1882,8 +1882,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -1892,8 +1892,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 2
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -1902,8 +1902,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Amit Pinge",
@@ -1912,8 +1912,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ct"
+          "how": "ct",
+          "pos": 4
         },
         {
           "name": "Devender Singh",
@@ -1922,8 +1922,8 @@
           "f": 0,
           "s": 1,
           "out": true,
-          "pos": 5,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 5
         },
         {
           "name": "Navroop Singh",
@@ -1932,8 +1932,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Shriraj Iyer",
@@ -1942,8 +1942,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "b"
+          "how": "b",
+          "pos": 7
         },
         {
           "name": "Vignesh Mahadevan",
@@ -1952,8 +1952,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "ct"
+          "how": "ct",
+          "pos": 8
         },
         {
           "name": "Srujan Emani",
@@ -1962,8 +1962,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 9,
-          "how": "ct"
+          "how": "ct",
+          "pos": 9
         },
         {
           "name": "Sandeep Appaji",
@@ -2149,8 +2149,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -2159,8 +2159,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Sandeep Appaji",
@@ -2169,8 +2169,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Sid Mahadevan",
@@ -2179,8 +2179,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "b"
+          "how": "b",
+          "pos": 4
         },
         {
           "name": "Devender Singh",
@@ -2189,8 +2189,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -2199,8 +2199,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Vignesh Mahadevan",
@@ -2218,8 +2218,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "ct"
+          "how": "ct",
+          "pos": 8
         },
         {
           "name": "Karthick Ganesan",
@@ -2396,8 +2396,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -2406,8 +2406,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -2416,8 +2416,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "b"
+          "how": "b",
+          "pos": 3
         },
         {
           "name": "Sid Mahadevan",
@@ -2435,8 +2435,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "b"
+          "how": "b",
+          "pos": 5
         },
         {
           "name": "Devender Singh",
@@ -2445,8 +2445,8 @@
           "f": 0,
           "s": 1,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Navroop Singh",
@@ -2455,8 +2455,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "ct"
+          "how": "ct",
+          "pos": 7
         },
         {
           "name": "Vignesh Mahadevan",
@@ -2644,8 +2644,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "b"
+          "how": "b",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -2663,8 +2663,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Akshay Mungrey",
@@ -2834,8 +2834,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Karthick Ganesan",
@@ -2844,8 +2844,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -2854,8 +2854,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Pranay Sai Dadi",
@@ -2864,8 +2864,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 4
         },
         {
           "name": "Kunal Ugale",
@@ -2874,8 +2874,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Amit Pinge",
@@ -2884,8 +2884,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Chait A",
@@ -2903,8 +2903,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "ct"
+          "how": "ct",
+          "pos": 8
         },
         {
           "name": "Srujan Emani",
@@ -2913,8 +2913,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 9,
-          "how": "ct"
+          "how": "ct",
+          "pos": 9
         },
         {
           "name": "Sandeep Appaji",
@@ -2923,8 +2923,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 10,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 10
         },
         {
           "name": "Anand Vasudevan",
@@ -3104,8 +3104,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Pranay Sai Dadi",
@@ -3114,8 +3114,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 2
         },
         {
           "name": "Akshay Mungrey",
@@ -3124,8 +3124,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 3
         },
         {
           "name": "Sid Mahadevan",
@@ -3134,8 +3134,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 4
         },
         {
           "name": "Amit Pinge",
@@ -3144,8 +3144,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Navroop Singh",
@@ -3154,8 +3154,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Shrinath Jadhav",
@@ -3164,8 +3164,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "ct"
+          "how": "ct",
+          "pos": 7
         },
         {
           "name": "Srujan Emani",
@@ -3174,8 +3174,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "b"
+          "how": "b",
+          "pos": 8
         },
         {
           "name": "Shriram Kumar",
@@ -3184,8 +3184,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 9,
-          "how": "ct"
+          "how": "ct",
+          "pos": 9
         },
         {
           "name": "Karthick Ganesan",
@@ -3194,8 +3194,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 10,
-          "how": "ro"
+          "how": "ro",
+          "pos": 10
         },
         {
           "name": "Sandeep Appaji",
@@ -3370,8 +3370,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -3380,8 +3380,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Akshay Mungrey",
@@ -3390,8 +3390,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Sid Mahadevan",
@@ -3579,8 +3579,8 @@
           "f": 2,
           "s": 2,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -3589,8 +3589,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Sid Mahadevan",
@@ -3599,8 +3599,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 3
         },
         {
           "name": "Vignesh Mahadevan",
@@ -3609,8 +3609,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "b"
+          "how": "b",
+          "pos": 4
         },
         {
           "name": "Kunal Ugale",
@@ -3619,8 +3619,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ro"
+          "how": "ro",
+          "pos": 5
         },
         {
           "name": "Shriram Kumar",
@@ -3629,8 +3629,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Amit Pinge",
@@ -3639,8 +3639,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "ro"
+          "how": "ro",
+          "pos": 7
         },
         {
           "name": "Karthick Ganesan",
@@ -3649,8 +3649,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "ro"
+          "how": "ro",
+          "pos": 8
         },
         {
           "name": "Santosh Bande",
@@ -3808,8 +3808,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -3818,8 +3818,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Akshay Mungrey",
@@ -3828,8 +3828,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Shrinath Jadhav",
@@ -3838,8 +3838,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ct"
+          "how": "ct",
+          "pos": 4
         },
         {
           "name": "Amit Pinge",
@@ -3848,8 +3848,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 5
         },
         {
           "name": "Sid Mahadevan",
@@ -3858,8 +3858,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ct"
+          "how": "ct",
+          "pos": 6
         },
         {
           "name": "Vignesh Mahadevan",
@@ -3868,8 +3868,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "ct"
+          "how": "ct",
+          "pos": 7
         },
         {
           "name": "Srujan Emani",
@@ -3878,8 +3878,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "b"
+          "how": "b",
+          "pos": 8
         },
         {
           "name": "Kunal Ugale",
@@ -3888,8 +3888,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 9,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 9
         },
         {
           "name": "Karthick Ganesan",
@@ -3907,8 +3907,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 11,
-          "how": "ct"
+          "how": "ct",
+          "pos": 11
         }
       ],
       "bowling": [
@@ -4069,8 +4069,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "b"
+          "how": "b",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -4079,8 +4079,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 2,
-          "how": "ro"
+          "how": "ro",
+          "pos": 2
         },
         {
           "name": "Akshay Mungrey",
@@ -4089,8 +4089,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Sid Mahadevan",
@@ -4099,8 +4099,8 @@
           "f": 1,
           "s": 1,
           "out": true,
-          "pos": 4,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 4
         },
         {
           "name": "Vignesh Mahadevan",
@@ -4109,8 +4109,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Navroop Singh",
@@ -4119,8 +4119,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "b"
+          "how": "b",
+          "pos": 6
         },
         {
           "name": "Srujan Emani",
@@ -4129,8 +4129,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 7,
-          "how": "ct"
+          "how": "ct",
+          "pos": 7
         },
         {
           "name": "Karthick Ganesan",
@@ -4139,8 +4139,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 8,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 8
         },
         {
           "name": "Shriram Kumar",
@@ -4149,8 +4149,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 9,
-          "how": "ro"
+          "how": "ro",
+          "pos": 9
         },
         {
           "name": "Santosh Bande",
@@ -4159,8 +4159,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 10,
-          "how": "ct"
+          "how": "ct",
+          "pos": 10
         },
         {
           "name": "Anand Vasudevan",
@@ -4334,8 +4334,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -4344,8 +4344,8 @@
           "f": 1,
           "s": 2,
           "out": true,
-          "pos": 2,
-          "how": "ro"
+          "how": "ro",
+          "pos": 2
         },
         {
           "name": "Kunal Ugale",
@@ -4354,8 +4354,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Akshay Mungrey",
@@ -4364,8 +4364,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 4
         },
         {
           "name": "Navroop Singh",
@@ -4374,8 +4374,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Chaitanya S",
@@ -4384,8 +4384,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ro"
+          "how": "ro",
+          "pos": 6
         }
       ],
       "bowling": [
@@ -4535,8 +4535,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 1,
-          "how": "ct"
+          "how": "ct",
+          "pos": 1
         },
         {
           "name": "Chait A",
@@ -4545,8 +4545,8 @@
           "f": 0,
           "s": 1,
           "out": true,
-          "pos": 2,
-          "how": "ct"
+          "how": "ct",
+          "pos": 2
         },
         {
           "name": "Akshay Mungrey",
@@ -4555,8 +4555,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 3,
-          "how": "ct"
+          "how": "ct",
+          "pos": 3
         },
         {
           "name": "Amit Pinge",
@@ -4565,8 +4565,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 4,
-          "how": "b"
+          "how": "b",
+          "pos": 4
         },
         {
           "name": "Vigneshwaran Kannan",
@@ -4575,8 +4575,8 @@
           "f": 1,
           "s": 0,
           "out": true,
-          "pos": 5,
-          "how": "ct"
+          "how": "ct",
+          "pos": 5
         },
         {
           "name": "Navroop Singh",
@@ -4585,8 +4585,8 @@
           "f": 0,
           "s": 0,
           "out": true,
-          "pos": 6,
-          "how": "ctw"
+          "how": "ctw",
+          "pos": 6
         },
         {
           "name": "Vignesh Mahadevan",

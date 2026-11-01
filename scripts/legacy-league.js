@@ -1,19 +1,12 @@
 // Index a legacy (server-rendered .do) CricClubs club: seasons, groups, teams, logos, standings.
 // Usage: CHROME_PATH=... node scripts/legacy-league.js <ClubCode> "<Display name>"
-const puppeteer = require('puppeteer-core');
 const store = require('../lib/store');
 const [code, dispName] = process.argv.slice(2);
-const sleep = ms => new Promise(r => setTimeout(r, ms));
+const { Pager, stats } = require('../lib/pager');
+const pager = new Pager();
 const dec = s => s.replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-let b, pg;
-async function get(url) {
-  for (let i = 0; i < 3; i++) {
-    await pg.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(e => console.error(e.message));
-    for (let k = 0; k < 20; k++) { const t = await pg.title(); if (!/just a moment/i.test(t)) break; await sleep(1000); }
-    const h = await pg.content(); if (!/Just a moment/.test(await pg.title())) { await sleep(1500); return h; }
-  }
-  throw new Error('cloudflare ' + url);
-}
+const slot = { pg: null };
+const get = url => pager.html(url, { slot, kind: url.includes('league=') ? 'groupPointsTable' : 'pointsTable' });
 const dropdowns = h => [...h.matchAll(/<ul class="dropdown-menu[^"]*"[^>]*>([\s\S]*?)<\/ul>/g)].map(m => [...m[1].matchAll(/href="[^"]*viewPointsTable\.do\?league=(\d+)[^"]*">([^<]*)</g)].map(x => ({ id: x[1], name: dec(x[2]) }))).filter(a => a.length);
 function table(h, group) {
   const rows = [];
@@ -39,12 +32,8 @@ async function season(firstId) {
   return { groups, all, teams };
 }
 (async () => {
-  b = await puppeteer.launch({ executablePath: process.env.CHROME_PATH, headless: 'new', args: ['--no-sandbox', '--disable-dev-shm-usage', '--disable-blink-features=AutomationControlled'], ignoreDefaultArgs: ['--enable-automation'] });
-  pg = await b.newPage();
-  await pg.setUserAgent((await b.userAgent()).replace('HeadlessChrome', 'Chrome'));
-  await pg.evaluateOnNewDocument(() => { Object.defineProperty(navigator, 'webdriver', { get: () => undefined }); });
-  await pg.setRequestInterception(true);
-  pg.on('request', r => (/cricclubs\.com|challenges\.cloudflare/.test(r.url()) && !['image', 'media', 'font', 'stylesheet'].includes(r.resourceType())) ? r.continue() : r.abort());
+  const prev = store.readLeague(code);
+  const prevStandings = store.listStandings(code);
   const h = await get(`https://cricclubs.com/${code}/viewPointsTable.do`);
   const series = dropdowns(h)[0].filter((s, i, a) => a.findIndex(t => t.id === s.id) === i);
   const skip = /corporate|playoff|charity|practice|tournament|knock/i;
@@ -54,10 +43,17 @@ async function season(firstId) {
   // Three newest non-excluded series: current, last, prev2 (store.SEASON_KEYS).
   const picks = { current: main[0], last: main[1], prev2: main[2] };
   console.error('series', JSON.stringify(picks));
-  const league = { code, name: dispName || code, checkedAt: new Date().toISOString(), legacy: true, excludeSeries: cfg.excludeSeries || null, seasons: {}, teams: [], logos: {} };
+  const clubId = (h.match(/clubId=(\d+)/) || [])[1] || (prev && prev.clubId) || null;
+  const league = { code, clubId, timeLimitSec: cfg.timeLimitSec || (prev && prev.timeLimitSec) || undefined, name: dispName || (prev && prev.name) || code, checkedAt: new Date().toISOString(), legacy: true, excludeSeries: cfg.excludeSeries || null, seasons: {}, teams: [], logos: {} };
   const names = new Set();
   for (const [k, s] of Object.entries(picks)) {
     if (!s) continue;
+    // Past seasons never change: reuse the saved season + standings instead of reloading every group page.
+    const old = prev && Object.values(prev.seasons || {}).find(o => o.id === 'legacy-' + s.id);
+    if (k !== 'current' && old && prevStandings.some(d => d.series && d.series.id === old.id) && process.env.FULL !== '1') {
+      league.seasons[k] = old; for (const [n, l] of Object.entries(prev.logos || {})) if (!league.logos[n]) league.logos[n] = l;
+      console.error(' reuse', k, s.name); continue;
+    }
     const r = await season(s.id);
     const year = Number((s.name.match(/20\d\d/) || [])[0]) || null;
     league.seasons[k] = { id: 'legacy-' + s.id, name: s.name, startDate: null, year, teams: r.teams, groups: r.groups.map(g => ({ id: g.id, name: g.name })) };
@@ -70,5 +66,6 @@ async function season(firstId) {
   store.writeLeague(league);
   store.publish();
   console.log(JSON.stringify({ code, current: league.seasons.current && league.seasons.current.name, groups: league.seasons.current && league.seasons.current.groups.length, teams: league.teams.length, last: league.seasons.last && league.seasons.last.name, prev2: league.seasons.prev2 && league.seasons.prev2.name }));
-  await b.close();
-})().catch(e => { console.error(e); process.exit(1); });
+  console.error('stats', JSON.stringify(stats));
+  await pager.close();
+})().catch(async e => { console.error(e); await pager.close(); process.exit(1); });

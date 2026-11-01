@@ -10,7 +10,15 @@ const { sanitizeLeague, sanitizeTeam, siteUrl, commentFor } = require('./lib/iss
 
 const TZ = 'America/Los_Angeles';
 const RESULT = path.join(store.ROOT, 'scan-result.json');
-const refreshedStandings = new Set();
+const os = require('os');
+// Standings refresh once per league per run. A batch runner sets SCAN_RUN_ID so separate
+// team processes share the record; past seasons never change, so an existing file is final.
+const RUN_FILE = process.env.SCAN_RUN_ID ? path.join(os.tmpdir(), `cricscout-run-${process.env.SCAN_RUN_ID}.json`) : null;
+const refreshedStandings = new Set(RUN_FILE ? (() => { try { return JSON.parse(fs.readFileSync(RUN_FILE, 'utf8')); } catch { return []; } })() : []);
+function markRefreshed(key) {
+  refreshedStandings.add(key);
+  if (RUN_FILE) { let cur = []; try { cur = JSON.parse(fs.readFileSync(RUN_FILE, 'utf8')); } catch {} fs.writeFileSync(RUN_FILE, JSON.stringify([...new Set([...cur, key])])); }
+}
 
 function laDate(d = new Date()) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
@@ -62,7 +70,10 @@ async function ensureLeague(input, { refresh = false } = {}) {
   const seasons = {};
   // Three newest started series: current, last, prev2.
   for (const [k, s] of [['current', started[0]], ['last', started[1]], ['prev2', started[2]]]) {
-    if (s) seasons[k] = { ...s, teams: await cc.seriesTeams(info.code, info.id, s) };
+    if (!s) continue;
+    const old = cached && Object.values(cached.seasons || {}).find(o => o.id === s.id);
+    // A past season's team list is fixed: reuse it instead of loading the page again.
+    seasons[k] = { ...s, teams: (k !== 'current' && old && old.teams && Object.keys(old.teams).length) ? old.teams : await cc.seriesTeams(info.code, info.id, s) };
   }
   if (!seasons.current) return { error: `League "${info.name}" has no seasons in ${y - 2}–${y}.` };
   const teams = [...new Set(Object.values(seasons).flatMap(s => Object.keys(s.teams)))].sort((a, b) => a.localeCompare(b));
@@ -75,7 +86,9 @@ async function ensureLeague(input, { refresh = false } = {}) {
 
 async function refreshStandings(league, keys) {
   const seasons = [...new Set(keys)].map(k => league.seasons[k]).filter(s => s && s.id);
-  const pending = seasons.filter(s => !refreshedStandings.has(league.code + '|' + s.id));
+  const have = new Set(store.listStandings(league.code).map(d => d.series && d.series.id));
+  const cur = league.seasons.current && league.seasons.current.id;
+  const pending = seasons.filter(s => !refreshedStandings.has(league.code + '|' + s.id) && (s.id === cur || !have.has(s.id)));
   if (!pending.length) return;
   let all = null;
   const logos = { ...(league.logos || {}) };
@@ -88,7 +101,7 @@ async function refreshStandings(league, keys) {
       const doc = buildStandingsDoc(pt, po);
       store.writeStandings(league.code, s.name, doc);
       Object.assign(logos, doc.logos || {});
-      refreshedStandings.add(league.code + '|' + s.id);
+      markRefreshed(league.code + '|' + s.id);
       changed = true;
       console.error('standings', s.name);
     } catch (e) {
@@ -99,6 +112,24 @@ async function refreshStandings(league, keys) {
     league.logos = logos;
     store.writeLeague(league);
   }
+}
+
+// Raw match lists (the JSON the results page fetched), so 'reparse' can rebuild offline.
+const rawListFile = (code, sid, tid) => path.join(store.STORE, 'leagues', store.codeKey(code), 'raw', 'lists', `${sid}-${tid}.json`);
+function writeRawList(code, sid, tid, list) { const f = rawListFile(code, sid, tid); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, JSON.stringify(list)); }
+// Rebuild a team's matches from cached match lists + cached scorecards. Zero network.
+function reparseTeam(league, team) {
+  const canonical = matchTeam(league, team);
+  const t = canonical && store.readTeam(league.code, canonical);
+  if (!t) return { error: `Team "${team}" has no saved data in ${league.code}.` };
+  let rebuilt = 0, kept = 0;
+  for (const s of Object.values(league.seasons || {})) {
+    const st = t.series[s.id]; const tid = s.teams && s.teams[canonical]; if (!st || !tid) continue;
+    let list; try { list = JSON.parse(fs.readFileSync(rawListFile(league.code, s.id, tid), 'utf8')); } catch { console.error('no cached list for', s.name, '- kept saved matches'); kept += st.matchIds.length; continue; }
+    for (const m of list) { const mid = m.scoreSummary.matchId; const raw = store.readScore(league.code, mid); if (!raw) { kept++; continue; } t.matches[mid] = normMatch(m, raw, tid, canonical, s); rebuilt++; }
+  }
+  store.writeTeam(league.code, canonical, t);
+  return { ok: true, team: canonical, rebuilt, kept };
 }
 
 async function scanTeam(league, team, { currentOnly = false } = {}) {
@@ -120,6 +151,7 @@ async function scanTeam(league, team, { currentOnly = false } = {}) {
   for (const p of plan) {
     const tid = p.s.teams[canonical];
     const list = await cc.teamMatchList(league.code, league.id, p.s, tid);
+    writeRawList(league.code, p.s.id, tid, list);
     const fresh = list.filter(m => !t.matches[m.scoreSummary.matchId]);
     console.error(`${p.s.name}: ${list.length} matches, ${fresh.length} new (${p.mode})`);
     for (const m of fresh) {
@@ -259,6 +291,11 @@ async function run() {
   if (cmd === 'league') return addLeague(argLeague(), { refresh: process.env.REFRESH === '1' || process.argv.includes('--refresh') });
   if (cmd === 'scan') return scanOne(argLeague(), argTeam(), { refreshLeague: false });
   if (cmd === 'weekly') return weekly();
+  if (cmd === 'reparse') {
+    const league = store.readLeague(sanitizeLeague(argLeague()));
+    if (!league) throw new Error('league not cached');
+    const r = reparseTeam(league, argTeam()); store.publish(); console.log(JSON.stringify(r)); return;
+  }
   if (cmd === 'run') {
     const mode = process.env.MODE;
     if (mode === 'weekly') return weekly();
@@ -273,4 +310,4 @@ async function run() {
 run().catch(e => {
   console.error(e);
   finish({ ok: false, error: String(e.message || e) }, 1);
-}).finally(() => cc.close());
+}).finally(async () => { await cc.close(); console.error('stats', JSON.stringify(cc.stats)); });
