@@ -1,0 +1,3588 @@
+{
+  "team": "MTCA Hurricanes",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/923e13da-3de0-4a4c-b4c3-6bbe3b3a2a30.jpg",
+  "logos": {
+    "MTCA Azmari": "https://media.cricclubs.com/documentsRep/teamLogos/f9517260-8b82-480d-b12a-bf8582469783.jpg",
+    "MTCA SNIPERS": "https://media.cricclubs.com/documentsRep/teamLogos/e218535c-be05-4422-a033-14965ca3c2ed.jpg",
+    "MTCA Blasters": "https://media.cricclubs.com/documentsRep/teamLogos/b29f2fdc-fb29-4e1c-b5fa-e32895746e49.jpg",
+    "MTCA Khalsa Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/768d4d96-1476-4703-a175-28c3b331e121.jpg",
+    "MTCA Game Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/7d5c7d6d-0c82-4047-a5f3-67bfcef9dfdf.jpg",
+    "MTCA Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/7bbfe602-f45b-45f8-b8f8-d07da7613246.jpeg",
+    "MTCA Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/ea9efbed-1c79-4a4b-ae39-9366c4c7ec8f.jpg",
+    "MTCA Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/26b84237-6348-45d5-ba36-9c1b1313c7c3.jpg",
+    "MTCA Hurricanes": "https://media.cricclubs.com/documentsRep/teamLogos/923e13da-3de0-4a4c-b4c3-6bbe3b3a2a30.jpg",
+    "MTCA Risers": "https://media.cricclubs.com/documentsRep/teamLogos/dcda0544-5c47-470c-81e4-5db09efaa4d4.jpg",
+    "MTCA Badgers": "https://media.cricclubs.com/documentsRep/teamLogos/97fe019d-0c36-4b60-afea-038bdd369230.jpg",
+    "MTCA Vintage Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/efb0951f-b9ab-43e7-86aa-eeddaafe2051.jpg",
+    "MTCA RDX": "https://media.cricclubs.com/documentsRep/teamLogos/f61bd45c-8554-44e0-a716-99d64d3268ec.jpg",
+    "MTCA Dark Knights": "https://media.cricclubs.com/documentsRep/teamLogos/74a3e251-505c-4752-95af-38e61630c314.jpg",
+    "MTCA Sundance Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/ee2bde70-2436-4d71-84b7-648eda8d7ce9.jpg",
+    "MTCA Mumbai Indians": "https://media.cricclubs.com/documentsRep/teamLogos/dbd04d47-f111-4f3f-928e-5c67e1964f72.jpg",
+    "MTCA Tri-Valley Titans": "https://media.cricclubs.com/documentsRep/teamLogos/a3ad8d13-c01a-451a-8c4a-6d31c8124bce.jpg",
+    "MTCA Legends": "https://media.cricclubs.com/documentsRep/teamLogos/ee1e598a-3459-4571-869e-2d180a80f519.jpg",
+    "MTCA Oakwood Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/f9f79711-1f39-4ab0-8a83-b5ed091c91c5.jpg",
+    "MTCA Legacy Lions": "https://media.cricclubs.com/documentsRep/teamLogos/05ca2286-3065-449f-b6cb-483765b4761f.jpg",
+    "MTCA Ellis Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/f23b7d26-276f-4023-a6ef-1a29376a57da.jpg",
+    "MTCA Raging Bulls": "https://media.cricclubs.com/documentsRep/teamLogos/f23053f1-697f-4a4d-a9df-0dc3346c7880.jpg",
+    "MTCA All-Rounders": "https://media.cricclubs.com/documentsRep/teamLogos/25825f86-da6d-4fd1-ad94-e1bd565b2f3a.jpg",
+    "MTCA Phantoms": "https://media.cricclubs.com/documentsRep/teamLogos/f58550a4-b430-4872-8656-19916e2ef835.jpg",
+    "MTCA Smashers XI": "https://media.cricclubs.com/documentsRep/teamLogos/43c2a957-4f4d-49d7-9301-ae372cf24372.jpg",
+    "MTCA Hillview Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/95bc83fa-551e-4cb3-81d9-14ba1ae018b0.jpg",
+    "MTCA Centurions": "https://media.cricclubs.com/documentsRep/teamLogos/a26a2c7b-3d2a-498a-8794-a735cb75ea6b.jpg",
+    "MTCA Sunrisers Manteca": "https://media.cricclubs.com/documentsRep/teamLogos/e609a03e-3f6d-4f50-93fe-43e59de1f8e7.jpg",
+    "MTCA Avatars": "https://media.cricclubs.com/documentsRep/teamLogos/cd82cf0c-8afa-4b59-a6d8-a2cbd87673af.jpeg",
+    "MTCA Power Stars": "https://media.cricclubs.com/documentsRep/teamLogos/25fb2f67-5f9b-4455-98d3-1411f43e9467.jpg",
+    "MTCA Asuras": "https://media.cricclubs.com/documentsRep/teamLogos/06657bd0-899c-49e8-b048-1abffdb39940.jpg",
+    "MTCA California Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/119e8434-4687-43bc-97fe-83345e540454.jpg",
+    "MTCA Mountaineers": "https://media.cricclubs.com/documentsRep/teamLogos/68f9fcc5-67e8-462d-9199-20e9fc901ceb.jpg",
+    "MTCA Jolly-lo-Gymkhana": "https://media.cricclubs.com/documentsRep/teamLogos/63772208-c3ca-4281-a908-6e6a9c554d39.jpg",
+    "MTCA ICT": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "MTCA Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/457009a4-15de-4b7d-9138-aa1a62b169ca.jpg",
+    "MTCA Sky Risers": "https://media.cricclubs.com/documentsRep/teamLogos/4375726c-a0bf-4382-96d4-adf8cd6f4b29.jpg",
+    "MTCA Stanford Islanders": "https://media.cricclubs.com/documentsRep/teamLogos/08dcbe49-210f-4bf0-af03-517850ee2241.jpg",
+    "MTCA Sunheaven Leopards": "https://media.cricclubs.com/documentsRep/teamLogos/b9633797-ec72-4a0b-8e9c-98edac7a0d8b.jpg",
+    "MTCA Hawks": "https://media.cricclubs.com/documentsRep/teamLogos/5403f663-6bc9-40f0-a400-9d88a3489509.jpg",
+    "MTCA Golden Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/45bf856d-80ca-4cbc-b519-9c70388a56c5.jpg",
+    "MTCA StanTerra Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d24f29a1-b2bf-4e09-95f2-29eb1dc06aaa.jpg",
+    "MTCA DevAsuras": "https://media.cricclubs.com/documentsRep/teamLogos/c87567e1-76e0-4527-8fa1-260c311d7188.jpg",
+    "MTCA Sapphires": "https://media.cricclubs.com/documentsRep/teamLogos/f99417ec-61fe-4aed-8734-368e68598b87.jpg",
+    "MTCA Manteca Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/6cb01ac3-3fc9-42fa-87df-fecc3628fd90.jpg",
+    "MTCA Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/92e14033-e281-4635-a3b3-967c7c7b8ebe.jpg",
+    "MTCA Brentwood Bulls": "https://media.cricclubs.com/documentsRep/teamLogos/36b3b9bd-33f1-4447-8e5e-82bbf29fd640.jpg",
+    "MTCA Elite XI": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "MTCA Singhz": "https://media.cricclubs.com/documentsRep/teamLogos/0b8af999-7bff-4d29-b592-85d81dd0f40f.jpg",
+    "MTCA RICC": "https://media.cricclubs.com/documentsRep/teamLogos/58341203-2511-44d0-ad32-bb5c84b19877.jpg",
+    "MTCA River Hawks": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "MTCA California Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/ba1e97a6-f18c-42da-9440-b79cd0bc00f2.jpg",
+    "MTCA Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/bf07340b-37cb-4377-863f-8690d0c7a0cd.jpg",
+    "MTCA Valley Risers": "https://media.cricclubs.com/documentsRep/teamLogos/854ef9f3-24d7-411f-b3f5-4ce16b88f0bc.jpg",
+    "MTCA RICM": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg"
+  },
+  "league": {
+    "code": "MountainHouseTracyCricketAssociationMTCA",
+    "name": "MTCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-93",
+      "name": "2026 MTCA Fall League",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T04:50:55.745Z"
+    },
+    "last": {
+      "id": "legacy-87",
+      "name": "2026 MTCA Spring League",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T04:51:38.748Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-3486",
+      "date": "2026-10-31",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Vintage Warriors",
+      "ground": "Hansen School - BaseBall 2",
+      "result": "MTCA Hurricanes won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Vintage Warriors",
+          "runs": 63,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 65,
+          "wkts": 5,
+          "overs": "11"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sushil Vellanki",
+          "r": 6,
+          "b": 4,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 9,
+          "b": 9,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhinav Aggarwal",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 22,
+          "b": 24,
+          "f": 2,
+          "s": 1,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Navdeep Singh",
+          "r": 8,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Yugandhar Devarapalli",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 3,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Yugandhar Devarapalli",
+          "balls": 18,
+          "r": 12,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 19,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Lakshman Ganga",
+          "balls": 24,
+          "r": 7,
+          "w": 5,
+          "dots": 21,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Navdeep Singh",
+          "balls": 12,
+          "r": 8,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 24,
+          "r": 11,
+          "w": 0,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Siva Rambilli",
+          "balls": 6,
+          "r": 3,
+          "w": 0,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Yugandhar Devarapalli",
+          "c",
+          1
+        ],
+        [
+          "Pramodh B",
+          "c",
+          1
+        ],
+        [
+          "Siva Rambilli",
+          "k",
+          1
+        ],
+        [
+          "Navdeep Singh",
+          "c",
+          1
+        ],
+        [
+          "Veerendra Tubati",
+          "c",
+          1
+        ],
+        [
+          "Mahendra Kuchipudi",
+          "c",
+          1
+        ],
+        [
+          "Nishanth Kolli",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3483",
+      "date": "2026-10-25",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Blasters",
+      "ground": "Cordes Park",
+      "result": "No Result",
+      "forfeit": true,
+      "outcome": "NR",
+      "tossWonByUs": null,
+      "tossDecision": null,
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        },
+        {
+          "team": "MTCA Blasters",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        }
+      ],
+      "batting": [],
+      "bowling": [],
+      "fielding": []
+    },
+    {
+      "id": "legacy-3427",
+      "date": "2026-10-17",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Spartans",
+      "ground": "Altamont Park - BaseBall",
+      "result": "MTCA Spartans won by 9 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 80,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Spartans",
+          "runs": 81,
+          "wkts": 1,
+          "overs": "15"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Vamsi Krishna Alluri",
+          "r": 13,
+          "b": 27,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Lakshman Ganga",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Sushil Vellanki",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Musunuru",
+          "r": 26,
+          "b": 36,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Jaya Sai Reddy Vaka",
+          "r": 4,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Navdeep Singh",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 20,
+          "b": 15,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Ganesh Ramamoorthy",
+          "r": 0,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Lakshman Ganga",
+          "balls": 18,
+          "r": 16,
+          "w": 0,
+          "dots": 10,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 16,
+          "w": 0,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 12,
+          "r": 12,
+          "w": 0,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Navdeep Singh",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 18,
+          "r": 15,
+          "w": 1,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Navdeep Singh",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3420",
+      "date": "2026-10-11",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Risers",
+      "ground": "Cordes Park",
+      "result": "MTCA Hurricanes won by 27 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 100,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Risers",
+          "runs": 73,
+          "wkts": 10,
+          "overs": "17.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Vamsi Krishna Alluri",
+          "r": 12,
+          "b": 8,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Lakshman Ganga",
+          "r": 27,
+          "b": 39,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sushil Vellanki",
+          "r": 13,
+          "b": 16,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 2,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 5,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 17,
+          "b": 18,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Navdeep Singh",
+          "r": 4,
+          "b": 3,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 8,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 12,
+          "r": 1,
+          "w": 2,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 18,
+          "r": 9,
+          "w": 0,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Navdeep Singh",
+          "balls": 12,
+          "r": 21,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 16,
+          "r": 5,
+          "w": 3,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 24,
+          "r": 14,
+          "w": 2,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 18,
+          "r": 16,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Lakshman Ganga",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Vamsi Krishna Alluri",
+          "c",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "r",
+          2
+        ],
+        [
+          "Sai Dev Kasaraneni",
+          "r",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "c",
+          1
+        ],
+        [
+          "Sai Dev Kasaraneni",
+          "c",
+          2
+        ],
+        [
+          "Navdeep Singh",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3371",
+      "date": "2026-10-03",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Azmari",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Azmari won by 19 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 85,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 66,
+          "wkts": 10,
+          "overs": "17.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raghuveera Mundra",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Vamsi Krishna Alluri",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sushil Vellanki",
+          "r": 32,
+          "b": 45,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Arun Valiveru",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 2,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Nagesh Rao",
+          "r": 7,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Jaya Sai Reddy Vaka",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 2,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Pramodh B",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Sateesh K",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Arun Valiveru",
+          "balls": 24,
+          "r": 19,
+          "w": 2,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 18,
+          "r": 13,
+          "w": 0,
+          "dots": 12,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 18,
+          "r": 6,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 24,
+          "r": 13,
+          "w": 2,
+          "dots": 17,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 24,
+          "r": 20,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Nagesh Rao",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Jaya Sai Reddy Vaka",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Arun Valiveru",
+          "k",
+          2
+        ],
+        [
+          "Vamsi Krishna Alluri",
+          "c",
+          1
+        ],
+        [
+          "Abhishek Devgan",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3341",
+      "date": "2026-09-19",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA SNIPERS",
+      "ground": "Hansen Park",
+      "result": "MTCA SNIPERS won by 10 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 109,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 99,
+          "wkts": 7,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sushil Vellanki",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 1,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Praveen Musunuru",
+          "r": 41,
+          "b": 48,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 29,
+          "b": 44,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 4,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Abhiram Mallempati",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Shashidhara Sreenivasa",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Lakshman Ganga",
+          "balls": 18,
+          "r": 21,
+          "w": 0,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 16,
+          "w": 4,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Abhiram Mallempati",
+          "balls": 24,
+          "r": 14,
+          "w": 2,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Siva Rambilli",
+          "balls": 6,
+          "r": 11,
+          "w": 0,
+          "dots": 3,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 18,
+          "r": 25,
+          "w": 0,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 16,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Abhishek Devgan",
+          "c",
+          1
+        ],
+        [
+          "Lakshman Ganga",
+          "c",
+          1
+        ],
+        [
+          "Abhiram Mallempati",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3329",
+      "date": "2026-09-12",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Ellis Strikers",
+      "ground": "Hansen School - BaseBall 2",
+      "result": "MTCA Ellis Strikers won by 3 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Ellis Strikers",
+          "runs": 96,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 93,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sushil Vellanki",
+          "r": 40,
+          "b": 45,
+          "f": 0,
+          "s": 4,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Arun Valiveru",
+          "r": 1,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Pramodh B",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Shashidhara Sreenivasa",
+          "r": 6,
+          "b": 15,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 8,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 5,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Lakshman Ganga",
+          "r": 8,
+          "b": 9,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 9,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Sravan Barla",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Venky Kalidindi",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Lakshman Ganga",
+          "balls": 24,
+          "r": 13,
+          "w": 3,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 12,
+          "w": 0,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Siva Rambilli",
+          "balls": 18,
+          "r": 19,
+          "w": 0,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 18,
+          "r": 22,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Veerendra Tubati",
+          "balls": 24,
+          "r": 25,
+          "w": 1,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 12,
+          "r": 5,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Shashidhara Sreenivasa",
+          "k",
+          2
+        ],
+        [
+          "Arun Valiveru",
+          "c",
+          1
+        ],
+        [
+          "Shashidhara Sreenivasa",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3326",
+      "date": "2026-08-30",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Mountaineers",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Hurricanes won by 7 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Mountaineers",
+          "runs": 43,
+          "wkts": 10,
+          "overs": "16.4"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 44,
+          "wkts": 3,
+          "overs": "12.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 6,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 18,
+          "b": 34,
+          "f": 3,
+          "s": 0,
+          "out": false,
+          "pos": 2
+        },
+        {
+          "name": "Vamsi Krishna Alluri",
+          "r": 6,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Mahesh A",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Arun Valiveru",
+          "r": 5,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Lakshman Ganga",
+          "balls": 18,
+          "r": 7,
+          "w": 1,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Siva Rambilli",
+          "balls": 16,
+          "r": 7,
+          "w": 2,
+          "dots": 13,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 18,
+          "r": 11,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 24,
+          "r": 6,
+          "w": 3,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 6,
+          "r": 2,
+          "w": 1,
+          "dots": 5,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Veerendra Tubati",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Shashidhara Sreenivasa",
+          "k",
+          1
+        ],
+        [
+          "Mahesh A",
+          "c",
+          1
+        ],
+        [
+          "Veerendra Tubati",
+          "c",
+          1
+        ],
+        [
+          "Mahendra Kuchipudi",
+          "c",
+          1
+        ],
+        [
+          "Lakshman Ganga",
+          "r",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "c",
+          1
+        ],
+        [
+          "Lakshman Ganga",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3308",
+      "date": "2026-08-23",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Badgers",
+      "ground": "Altamont School ground",
+      "result": "",
+      "forfeit": false,
+      "outcome": "NR",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 73,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Badgers",
+          "runs": 73,
+          "wkts": 10,
+          "overs": "19.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sushil Vellanki",
+          "r": 15,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 9,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Praveen Musunuru",
+          "r": 4,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Shashidhara Sreenivasa",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 20,
+          "b": 31,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 15,
+          "b": 29,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Lakshman Ganga",
+          "balls": 24,
+          "r": 17,
+          "w": 1,
+          "dots": 19,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 16,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Siva Rambilli",
+          "balls": 18,
+          "r": 13,
+          "w": 3,
+          "dots": 11,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 12,
+          "r": 17,
+          "w": 0,
+          "dots": 3,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "balls": 24,
+          "r": 7,
+          "w": 1,
+          "dots": 18,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 16,
+          "r": 7,
+          "w": 2,
+          "dots": 12,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Shashidhara Sreenivasa",
+          "c",
+          2
+        ],
+        [
+          "Siva Rambilli",
+          "c",
+          1
+        ],
+        [
+          "Lakshman Ganga",
+          "c",
+          1
+        ],
+        [
+          "Nishanth Kolli",
+          "c",
+          1
+        ],
+        [
+          "Abhishek Devgan",
+          "c",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "c",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3275",
+      "date": "2026-08-15",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Tri-Valley Titans",
+      "ground": "Hansen School - BaseBall 2",
+      "result": "MTCA Hurricanes won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Tri-Valley Titans",
+          "runs": 63,
+          "wkts": 10,
+          "overs": "19.1"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 65,
+          "wkts": 4,
+          "overs": "12.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sushil Vellanki",
+          "r": 50,
+          "b": 46,
+          "f": 1,
+          "s": 4,
+          "out": false,
+          "pos": 1
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 3,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Venky Kalidindi",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Shashidhara Sreenivasa",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Lakshman Ganga",
+          "balls": 19,
+          "r": 8,
+          "w": 2,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 18,
+          "r": 9,
+          "w": 3,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Siva Rambilli",
+          "balls": 24,
+          "r": 9,
+          "w": 3,
+          "dots": 17,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "balls": 12,
+          "r": 9,
+          "w": 0,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 12,
+          "r": 4,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Abhishek Devgan",
+          "c",
+          1
+        ],
+        [
+          "Shashidhara Sreenivasa",
+          "c",
+          1
+        ],
+        [
+          "Lakshman Ganga",
+          "c",
+          1
+        ],
+        [
+          "Pramodh B",
+          "c",
+          1
+        ],
+        [
+          "Vamshikrishna Jakku",
+          "c",
+          1
+        ],
+        [
+          "Veerendra Tubati",
+          "c",
+          1
+        ],
+        [
+          "Veerendra Tubati",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3264",
+      "date": "2026-08-09",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Hillview Eagles",
+      "ground": "Altamont Park - BaseBall",
+      "result": "MTCA Hurricanes won by 2 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Hillview Eagles",
+          "runs": 88,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 89,
+          "wkts": 8,
+          "overs": "19.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sushil Vellanki",
+          "r": 5,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 8,
+          "b": 13,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Shashidhara Sreenivasa",
+          "r": 13,
+          "b": 24,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 30,
+          "b": 23,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "r": 4,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Lakshman Ganga",
+          "r": 10,
+          "b": 10,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 18,
+          "r": 15,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Lakshman Ganga",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 26,
+          "w": 2,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 3,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 12,
+          "r": 4,
+          "w": 1,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Mahendra Kuchipudi",
+          "c",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "c",
+          3
+        ],
+        [
+          "Vamshikrishna Jakku",
+          "c",
+          1
+        ],
+        [
+          "Lakshman Ganga",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3228",
+      "date": "2026-08-01",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Vintage Warriors",
+      "ground": "Hansen Park",
+      "result": "MTCA Vintage Warriors won by 17 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Vintage Warriors",
+          "runs": 93,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 76,
+          "wkts": 10,
+          "overs": "19"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Vamshikrishna Jakku",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhinav Aggarwal",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Siddhardha Reddy",
+          "r": 11,
+          "b": 29,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ro"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 20,
+          "b": 21,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 5,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 14,
+          "b": 13,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Sushil Vellanki",
+          "r": 10,
+          "b": 13,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Venky Kalidindi",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 17,
+          "w": 0,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Siva Rambilli",
+          "balls": 24,
+          "r": 19,
+          "w": 4,
+          "dots": 14,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 18,
+          "r": 17,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Abhinav Aggarwal",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 24,
+          "r": 9,
+          "w": 1,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sushil Vellanki",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Vamshikrishna Jakku",
+          "k",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "c",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "r",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3223",
+      "date": "2026-07-26",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Smashers XI",
+      "ground": "Cordes Park",
+      "result": "MTCA Hurricanes won by 17 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 150,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Smashers XI",
+          "runs": 133,
+          "wkts": 8,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raghuveera Mundra",
+          "r": 21,
+          "b": 20,
+          "f": 3,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Lakshman Ganga",
+          "r": 21,
+          "b": 27,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 17,
+          "b": 8,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "r": 39,
+          "b": 31,
+          "f": 4,
+          "s": 2,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Venky Kalidindi",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 28,
+          "b": 16,
+          "f": 2,
+          "s": 2,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 6,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 3,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Nagesh Rao",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Lakshman Ganga",
+          "balls": 24,
+          "r": 28,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 24,
+          "r": 30,
+          "w": 2,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 17,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "balls": 18,
+          "r": 31,
+          "w": 2,
+          "dots": 8,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Sravan Barla",
+          "balls": 12,
+          "r": 7,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Nagesh Rao",
+          "balls": 12,
+          "r": 12,
+          "w": 1,
+          "dots": 8,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Siva Rambilli",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 2,
+          "wd": 5,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Sravan Barla",
+          "c",
+          1
+        ],
+        [
+          "Vamshikrishna Jakku",
+          "c",
+          2
+        ],
+        [
+          "Venky Kalidindi",
+          "c",
+          2
+        ],
+        [
+          "Raghuveera Mundra",
+          "c",
+          1
+        ],
+        [
+          "Siva Rambilli",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3165",
+      "date": "2026-06-21",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Legacy Lions",
+      "ground": "Cordes Park",
+      "result": "MTCA Hurricanes won by 11 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 139,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Legacy Lions",
+          "runs": 128,
+          "wkts": 10,
+          "overs": "19.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Vamshikrishna Jakku",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Musunuru",
+          "r": 13,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 20,
+          "b": 25,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhinav Aggarwal",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Raghav M",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Harish Inampudi",
+          "r": 34,
+          "b": 22,
+          "f": 3,
+          "s": 2,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 26,
+          "b": 25,
+          "f": 0,
+          "s": 3,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Mahesh A",
+          "r": 16,
+          "b": 14,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 2,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 18,
+          "r": 32,
+          "w": 3,
+          "dots": 10,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Praveen Musunuru",
+          "balls": 14,
+          "r": 18,
+          "w": 1,
+          "dots": 7,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "balls": 24,
+          "r": 25,
+          "w": 2,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 24,
+          "r": 21,
+          "w": 2,
+          "dots": 17,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhinav Aggarwal",
+          "balls": 12,
+          "r": 14,
+          "w": 0,
+          "dots": 7,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Raghuveera Mundra",
+          "c",
+          1
+        ],
+        [
+          "Abhishek Devgan",
+          "c",
+          1
+        ],
+        [
+          "Nishanth Kolli",
+          "c",
+          1
+        ],
+        [
+          "Raghav M",
+          "c",
+          1
+        ],
+        [
+          "Praveen Musunuru",
+          "k",
+          1
+        ],
+        [
+          "Sai Dev Kasaraneni",
+          "c",
+          2
+        ],
+        [
+          "Raghuveera Mundra",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3110",
+      "date": "2026-05-30",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA RICC",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Hurricanes won by 7 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA RICC",
+          "runs": 52,
+          "wkts": 10,
+          "overs": "18"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 57,
+          "wkts": 3,
+          "overs": "13.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raghuveera Mundra",
+          "r": 6,
+          "b": 22,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Vamsi Krishna Alluri",
+          "r": 8,
+          "b": 15,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sravan Barla",
+          "r": 6,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 24,
+          "b": 19,
+          "f": 1,
+          "s": 3,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Shashidhara Sreenivasa",
+          "r": 5,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Lakshman Ganga",
+          "balls": 24,
+          "r": 11,
+          "w": 3,
+          "dots": 17,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Abhiram Mallempati",
+          "balls": 18,
+          "r": 7,
+          "w": 2,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 18,
+          "r": 9,
+          "w": 2,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Vamshikrishna Jakku",
+          "balls": 18,
+          "r": 9,
+          "w": 1,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 18,
+          "r": 7,
+          "w": 2,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Praveen Musunuru",
+          "balls": 12,
+          "r": 9,
+          "w": 0,
+          "dots": 7,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Praveen Musunuru",
+          "c",
+          1
+        ],
+        [
+          "Vamsi Krishna Alluri",
+          "c",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "c",
+          2
+        ],
+        [
+          "Abhishek Devgan",
+          "c",
+          1
+        ],
+        [
+          "Vamshikrishna Jakku",
+          "c",
+          1
+        ],
+        [
+          "Veerendra Tubati",
+          "c",
+          1
+        ],
+        [
+          "Shashidhara Sreenivasa",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3092",
+      "date": "2026-05-17",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Raging Bulls",
+      "ground": "Altamont Park - BaseBall",
+      "result": "MTCA Raging Bulls won by 2 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 105,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Raging Bulls",
+          "runs": 106,
+          "wkts": 8,
+          "overs": "19.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raghuveera Mundra",
+          "r": 27,
+          "b": 30,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Nishanth Kolli",
+          "r": 18,
+          "b": 14,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ro"
+        },
+        {
+          "name": "Vamsi Krishna Alluri",
+          "r": 30,
+          "b": 42,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Pramodh B",
+          "r": 2,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Nagesh Rao",
+          "r": 4,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 4,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Abhinav Aggarwal",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Lakshman Ganga",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 20,
+          "r": 23,
+          "w": 0,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Lakshman Ganga",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abhinav Aggarwal",
+          "balls": 24,
+          "r": 24,
+          "w": 3,
+          "dots": 14,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 24,
+          "r": 24,
+          "w": 1,
+          "dots": 10,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Vamsi Krishna Alluri",
+          "balls": 18,
+          "r": 13,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Nagesh Rao",
+          "balls": 6,
+          "r": 7,
+          "w": 1,
+          "dots": 2,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Sai Dev Kasaraneni",
+          "c",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "c",
+          2
+        ],
+        [
+          "Lakshman Ganga",
+          "k",
+          1
+        ],
+        [
+          "Abhishek Devgan",
+          "c",
+          1
+        ],
+        [
+          "Raghuveera Mundra",
+          "r",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3061",
+      "date": "2026-05-09",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA SNIPERS",
+      "ground": "E-Costa School Ground",
+      "result": "MTCA SNIPERS won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 90,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 96,
+          "wkts": 4,
+          "overs": "18.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sai Dev Kasaraneni",
+          "r": 9,
+          "b": 24,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 10,
+          "b": 15,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Abhiram Mallempati",
+          "r": 7,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Musunuru",
+          "r": 19,
+          "b": 27,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 13,
+          "b": 16,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Revanth Kumar Chekuri",
+          "r": 1,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "r": 11,
+          "b": 12,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Siva Rambilli",
+          "balls": 24,
+          "r": 18,
+          "w": 0,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 18,
+          "w": 2,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhiram Mallempati",
+          "balls": 18,
+          "r": 13,
+          "w": 0,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sai Dev Kasaraneni",
+          "balls": 24,
+          "r": 21,
+          "w": 1,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera Mundra",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Nagesh Rao",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Veerendra Tubati",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 5,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Revanth Kumar Chekuri",
+          "balls": 1,
+          "r": 6,
+          "w": 0,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Raghuveera Mundra",
+          "c",
+          1
+        ],
+        [
+          "Siva Rambilli",
+          "c",
+          1
+        ],
+        [
+          "Praveen Musunuru",
+          "k",
+          1
+        ],
+        [
+          "Veerendra Tubati",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3046",
+      "date": "2026-05-03",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Sundance Warriors",
+      "ground": "E-Costa School Ground",
+      "result": "MTCA Sundance Warriors won by 95 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Sundance Warriors",
+          "runs": 137,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 42,
+          "wkts": 8,
+          "overs": "11.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Mahesh A",
+          "r": 13,
+          "b": 10,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Siva Rambilli",
+          "r": 4,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Veerendra Tubati",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Lakshman Ganga",
+          "r": 7,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Nagesh Rao",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Sravan Barla",
+          "r": 0,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Abhishek Devgan",
+          "r": 3,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Pramodh B",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Siva Rambilli",
+          "balls": 24,
+          "r": 20,
+          "w": 2,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Lakshman Ganga",
+          "balls": 24,
+          "r": 24,
+          "w": 1,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mahendra Kuchipudi",
+          "balls": 24,
+          "r": 27,
+          "w": 1,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sravan Barla",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 3,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Devgan",
+          "balls": 12,
+          "r": 23,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Veerendra Tubati",
+          "balls": 12,
+          "r": 14,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Nagesh Rao",
+          "balls": 18,
+          "r": 18,
+          "w": 2,
+          "dots": 8,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Pramodh B",
+          "c",
+          1
+        ],
+        [
+          "Pramodh B",
+          "r",
+          1
+        ],
+        [
+          "Siva Rambilli",
+          "c",
+          2
+        ],
+        [
+          "Mahesh A",
+          "r",
+          1
+        ],
+        [
+          "Veerendra Tubati",
+          "c",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 5
+}

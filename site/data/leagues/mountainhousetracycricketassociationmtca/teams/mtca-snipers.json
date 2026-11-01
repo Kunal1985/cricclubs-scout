@@ -1,0 +1,3754 @@
+{
+  "team": "MTCA SNIPERS",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/e218535c-be05-4422-a033-14965ca3c2ed.jpg",
+  "logos": {
+    "MTCA Azmari": "https://media.cricclubs.com/documentsRep/teamLogos/f9517260-8b82-480d-b12a-bf8582469783.jpg",
+    "MTCA SNIPERS": "https://media.cricclubs.com/documentsRep/teamLogos/e218535c-be05-4422-a033-14965ca3c2ed.jpg",
+    "MTCA Blasters": "https://media.cricclubs.com/documentsRep/teamLogos/b29f2fdc-fb29-4e1c-b5fa-e32895746e49.jpg",
+    "MTCA Khalsa Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/768d4d96-1476-4703-a175-28c3b331e121.jpg",
+    "MTCA Game Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/7d5c7d6d-0c82-4047-a5f3-67bfcef9dfdf.jpg",
+    "MTCA Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/7bbfe602-f45b-45f8-b8f8-d07da7613246.jpeg",
+    "MTCA Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/ea9efbed-1c79-4a4b-ae39-9366c4c7ec8f.jpg",
+    "MTCA Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/26b84237-6348-45d5-ba36-9c1b1313c7c3.jpg",
+    "MTCA Hurricanes": "https://media.cricclubs.com/documentsRep/teamLogos/923e13da-3de0-4a4c-b4c3-6bbe3b3a2a30.jpg",
+    "MTCA Risers": "https://media.cricclubs.com/documentsRep/teamLogos/dcda0544-5c47-470c-81e4-5db09efaa4d4.jpg",
+    "MTCA Badgers": "https://media.cricclubs.com/documentsRep/teamLogos/97fe019d-0c36-4b60-afea-038bdd369230.jpg",
+    "MTCA Vintage Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/efb0951f-b9ab-43e7-86aa-eeddaafe2051.jpg",
+    "MTCA RDX": "https://media.cricclubs.com/documentsRep/teamLogos/f61bd45c-8554-44e0-a716-99d64d3268ec.jpg",
+    "MTCA Dark Knights": "https://media.cricclubs.com/documentsRep/teamLogos/74a3e251-505c-4752-95af-38e61630c314.jpg",
+    "MTCA Sundance Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/ee2bde70-2436-4d71-84b7-648eda8d7ce9.jpg",
+    "MTCA Mumbai Indians": "https://media.cricclubs.com/documentsRep/teamLogos/dbd04d47-f111-4f3f-928e-5c67e1964f72.jpg",
+    "MTCA Tri-Valley Titans": "https://media.cricclubs.com/documentsRep/teamLogos/a3ad8d13-c01a-451a-8c4a-6d31c8124bce.jpg",
+    "MTCA Legends": "https://media.cricclubs.com/documentsRep/teamLogos/ee1e598a-3459-4571-869e-2d180a80f519.jpg",
+    "MTCA Oakwood Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/f9f79711-1f39-4ab0-8a83-b5ed091c91c5.jpg",
+    "MTCA Legacy Lions": "https://media.cricclubs.com/documentsRep/teamLogos/05ca2286-3065-449f-b6cb-483765b4761f.jpg",
+    "MTCA Ellis Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/f23b7d26-276f-4023-a6ef-1a29376a57da.jpg",
+    "MTCA Raging Bulls": "https://media.cricclubs.com/documentsRep/teamLogos/f23053f1-697f-4a4d-a9df-0dc3346c7880.jpg",
+    "MTCA All-Rounders": "https://media.cricclubs.com/documentsRep/teamLogos/25825f86-da6d-4fd1-ad94-e1bd565b2f3a.jpg",
+    "MTCA Phantoms": "https://media.cricclubs.com/documentsRep/teamLogos/f58550a4-b430-4872-8656-19916e2ef835.jpg",
+    "MTCA Smashers XI": "https://media.cricclubs.com/documentsRep/teamLogos/43c2a957-4f4d-49d7-9301-ae372cf24372.jpg",
+    "MTCA Hillview Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/95bc83fa-551e-4cb3-81d9-14ba1ae018b0.jpg",
+    "MTCA Centurions": "https://media.cricclubs.com/documentsRep/teamLogos/a26a2c7b-3d2a-498a-8794-a735cb75ea6b.jpg",
+    "MTCA Sunrisers Manteca": "https://media.cricclubs.com/documentsRep/teamLogos/e609a03e-3f6d-4f50-93fe-43e59de1f8e7.jpg",
+    "MTCA Avatars": "https://media.cricclubs.com/documentsRep/teamLogos/cd82cf0c-8afa-4b59-a6d8-a2cbd87673af.jpeg",
+    "MTCA Power Stars": "https://media.cricclubs.com/documentsRep/teamLogos/25fb2f67-5f9b-4455-98d3-1411f43e9467.jpg",
+    "MTCA Asuras": "https://media.cricclubs.com/documentsRep/teamLogos/06657bd0-899c-49e8-b048-1abffdb39940.jpg",
+    "MTCA California Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/119e8434-4687-43bc-97fe-83345e540454.jpg",
+    "MTCA Mountaineers": "https://media.cricclubs.com/documentsRep/teamLogos/68f9fcc5-67e8-462d-9199-20e9fc901ceb.jpg",
+    "MTCA Jolly-lo-Gymkhana": "https://media.cricclubs.com/documentsRep/teamLogos/63772208-c3ca-4281-a908-6e6a9c554d39.jpg",
+    "MTCA ICT": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "MTCA Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/457009a4-15de-4b7d-9138-aa1a62b169ca.jpg",
+    "MTCA Sky Risers": "https://media.cricclubs.com/documentsRep/teamLogos/4375726c-a0bf-4382-96d4-adf8cd6f4b29.jpg",
+    "MTCA Stanford Islanders": "https://media.cricclubs.com/documentsRep/teamLogos/08dcbe49-210f-4bf0-af03-517850ee2241.jpg",
+    "MTCA Sunheaven Leopards": "https://media.cricclubs.com/documentsRep/teamLogos/b9633797-ec72-4a0b-8e9c-98edac7a0d8b.jpg",
+    "MTCA Hawks": "https://media.cricclubs.com/documentsRep/teamLogos/5403f663-6bc9-40f0-a400-9d88a3489509.jpg",
+    "MTCA Golden Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/45bf856d-80ca-4cbc-b519-9c70388a56c5.jpg",
+    "MTCA StanTerra Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d24f29a1-b2bf-4e09-95f2-29eb1dc06aaa.jpg",
+    "MTCA DevAsuras": "https://media.cricclubs.com/documentsRep/teamLogos/c87567e1-76e0-4527-8fa1-260c311d7188.jpg",
+    "MTCA Sapphires": "https://media.cricclubs.com/documentsRep/teamLogos/f99417ec-61fe-4aed-8734-368e68598b87.jpg",
+    "MTCA Manteca Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/6cb01ac3-3fc9-42fa-87df-fecc3628fd90.jpg",
+    "MTCA Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/92e14033-e281-4635-a3b3-967c7c7b8ebe.jpg",
+    "MTCA Brentwood Bulls": "https://media.cricclubs.com/documentsRep/teamLogos/36b3b9bd-33f1-4447-8e5e-82bbf29fd640.jpg",
+    "MTCA Elite XI": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "MTCA Singhz": "https://media.cricclubs.com/documentsRep/teamLogos/0b8af999-7bff-4d29-b592-85d81dd0f40f.jpg",
+    "MTCA RICC": "https://media.cricclubs.com/documentsRep/teamLogos/58341203-2511-44d0-ad32-bb5c84b19877.jpg",
+    "MTCA River Hawks": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "MTCA California Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/ba1e97a6-f18c-42da-9440-b79cd0bc00f2.jpg",
+    "MTCA Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/bf07340b-37cb-4377-863f-8690d0c7a0cd.jpg",
+    "MTCA Valley Risers": "https://media.cricclubs.com/documentsRep/teamLogos/854ef9f3-24d7-411f-b3f5-4ce16b88f0bc.jpg",
+    "MTCA RICM": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg"
+  },
+  "league": {
+    "code": "MountainHouseTracyCricketAssociationMTCA",
+    "name": "MTCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-93",
+      "name": "2026 MTCA Fall League",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T04:42:43.614Z"
+    },
+    "last": {
+      "id": "legacy-87",
+      "name": "2026 MTCA Spring League",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T04:43:29.293Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-3489",
+      "date": "2026-10-31",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Azmari",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Azmari won by 30 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 82,
+          "wkts": 10,
+          "overs": "19.5"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 52,
+          "wkts": 10,
+          "overs": "18.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Swamy Srk",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Suribabu Jatla",
+          "r": 4,
+          "b": 26,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 4,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 14,
+          "b": 25,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Sudipto Roy Choudhury",
+          "r": 6,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 4,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Bharghav R",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 24,
+          "r": 16,
+          "w": 2,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Swamy Srk",
+          "balls": 24,
+          "r": 5,
+          "w": 3,
+          "dots": 21,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 24,
+          "r": 13,
+          "w": 3,
+          "dots": 17,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 18,
+          "r": 17,
+          "w": 1,
+          "dots": 10,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 6,
+          "r": 13,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 4,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharghav R",
+          "balls": 12,
+          "r": 9,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Anil Kasu",
+          "balls": 5,
+          "r": 1,
+          "w": 1,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Swamy Srk",
+          "c",
+          1
+        ],
+        [
+          "BHARGAV S",
+          "c",
+          3
+        ],
+        [
+          "Bharghav R",
+          "c",
+          1
+        ],
+        [
+          "Balakrishnan Pandurangan",
+          "k",
+          2
+        ],
+        [
+          "Soumendra Kumar Mohanty",
+          "c",
+          1
+        ],
+        [
+          "Madhu Dasari",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3478",
+      "date": "2026-10-25",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Risers",
+      "ground": "Hansen School - BaseBall 2",
+      "result": "MTCA SNIPERS won by 4 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Risers",
+          "runs": 62,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 63,
+          "wkts": 6,
+          "overs": "19.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 10,
+          "b": 28,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Suribabu Jatla",
+          "r": 15,
+          "b": 31,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 9,
+          "b": 24,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Swamy Srk",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 11,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "r": 7,
+          "b": 3,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Naresh Gorantla",
+          "r": 8,
+          "b": 3,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 24,
+          "r": 8,
+          "w": 1,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Swamy Srk",
+          "balls": 24,
+          "r": 10,
+          "w": 3,
+          "dots": 18,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 12,
+          "r": 5,
+          "w": 0,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 18,
+          "r": 6,
+          "w": 3,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Santosh Gandi",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Suribabu Jatla",
+          "c",
+          1
+        ],
+        [
+          "Naresh Gorantla",
+          "c",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "c",
+          1
+        ],
+        [
+          "BHARGAV S",
+          "c",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "k",
+          1
+        ],
+        [
+          "Swamy Srk",
+          "r",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3425",
+      "date": "2026-10-17",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Badgers",
+      "ground": "Hansen Park",
+      "result": "MTCA SNIPERS won by 4 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Badgers",
+          "runs": 80,
+          "wkts": 10,
+          "overs": "19.2"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 82,
+          "wkts": 6,
+          "overs": "18.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 10,
+          "b": 20,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 22,
+          "b": 43,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Sudipto Roy Choudhury",
+          "r": 7,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "st"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 0,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 6,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Swamy Srk",
+          "r": 14,
+          "b": 9,
+          "f": 3,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 24,
+          "r": 17,
+          "w": 1,
+          "dots": 15,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Swamy Srk",
+          "balls": 24,
+          "r": 17,
+          "w": 3,
+          "dots": 18,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 18,
+          "r": 10,
+          "w": 1,
+          "dots": 14,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 24,
+          "r": 9,
+          "w": 2,
+          "dots": 19,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 12,
+          "r": 13,
+          "w": 1,
+          "dots": 5,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Anil Kasu",
+          "balls": 8,
+          "r": 4,
+          "w": 1,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Lalit Raghav",
+          "k",
+          2
+        ],
+        [
+          "Balakrishnan Pandurangan",
+          "c",
+          1
+        ],
+        [
+          "Suribabu Jatla",
+          "r",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "r",
+          1
+        ],
+        [
+          "Madhu Dasari",
+          "c",
+          1
+        ],
+        [
+          "Sudipto Roy Choudhury",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3417",
+      "date": "2026-10-11",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Khalsa Warriors",
+      "ground": "Altamont Park - BaseBall",
+      "result": "MTCA SNIPERS won by 30 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 79,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Khalsa Warriors",
+          "runs": 49,
+          "wkts": 10,
+          "overs": "15.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 33,
+          "b": 52,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Bramha Reddy",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Narayana Reddy M",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 10,
+          "b": 20,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Sudipto Roy Choudhury",
+          "r": 4,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 13,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Swamy Srk",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Suribabu Jatla",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 19,
+          "r": 5,
+          "w": 5,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Swamy Srk",
+          "balls": 18,
+          "r": 6,
+          "w": 2,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 21,
+          "w": 1,
+          "dots": 15,
+          "wd": 7,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 12,
+          "r": 8,
+          "w": 1,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 6,
+          "r": 3,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "BHARGAV S",
+          "c",
+          2
+        ],
+        [
+          "Lalit Raghav",
+          "k",
+          2
+        ],
+        [
+          "Swamy Srk",
+          "c",
+          1
+        ],
+        [
+          "Bramha Reddy",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3369",
+      "date": "2026-10-03",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Vintage Warriors",
+      "ground": "Altamont Park - BaseBall",
+      "result": "MTCA Vintage Warriors won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 55,
+          "wkts": 10,
+          "overs": "17"
+        },
+        {
+          "team": "MTCA Vintage Warriors",
+          "runs": 59,
+          "wkts": 7,
+          "overs": "17.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rakesh Reddy",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sampath Jaini",
+          "r": 7,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 8,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 7,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 4,
+          "b": 4,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 7,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Swamy Srk",
+          "r": 5,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "CHAITANYA MADDIPATI",
+          "r": 2,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "Suribabu Jatla",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        },
+        {
+          "name": "Lalit Raghav",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 12
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Madhu Dasari",
+          "balls": 18,
+          "r": 8,
+          "w": 1,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Swamy Srk",
+          "balls": 14,
+          "r": 12,
+          "w": 0,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 10,
+          "w": 3,
+          "dots": 19,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 24,
+          "r": 7,
+          "w": 2,
+          "dots": 19,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "CHAITANYA MADDIPATI",
+          "balls": 6,
+          "r": 5,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 18,
+          "r": 17,
+          "w": 0,
+          "dots": 10,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Suribabu Jatla",
+          "c",
+          2
+        ],
+        [
+          "BHARGAV S",
+          "c",
+          1
+        ],
+        [
+          "BHARGAV S",
+          "r",
+          1
+        ],
+        [
+          "CHAITANYA MADDIPATI",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3366",
+      "date": "2026-09-27",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Badgers",
+      "ground": "Cordes Park",
+      "result": "MTCA SNIPERS won by 4 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Badgers",
+          "runs": 116,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 121,
+          "wkts": 6,
+          "overs": "18.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 12,
+          "b": 17,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 18,
+          "b": 21,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 3,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 16,
+          "b": 20,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 12,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Swamy Srk",
+          "r": 35,
+          "b": 16,
+          "f": 2,
+          "s": 3,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 16,
+          "b": 10,
+          "f": 0,
+          "s": 2,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 24,
+          "r": 28,
+          "w": 2,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Swamy Srk",
+          "balls": 24,
+          "r": 23,
+          "w": 1,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 24,
+          "r": 13,
+          "w": 2,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "balls": 12,
+          "r": 18,
+          "w": 0,
+          "dots": 6,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 18,
+          "r": 20,
+          "w": 2,
+          "dots": 8,
+          "wd": 4,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Soumendra Kumar Mohanty",
+          "c",
+          1
+        ],
+        [
+          "Dhayanithi Rajendiran",
+          "c",
+          1
+        ],
+        [
+          "Swamy Srk",
+          "c",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "c",
+          1
+        ],
+        [
+          "Balakrishnan Pandurangan",
+          "c",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "k",
+          1
+        ],
+        [
+          "Dhayanithi Rajendiran",
+          "r",
+          1
+        ],
+        [
+          "Swamy Srk",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3341",
+      "date": "2026-09-19",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Hurricanes",
+      "ground": "Hansen Park",
+      "result": "MTCA SNIPERS won by 10 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 109,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 99,
+          "wkts": 7,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 25,
+          "b": 37,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 27,
+          "b": 40,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Swamy Srk",
+          "r": 31,
+          "b": 18,
+          "f": 1,
+          "s": 3,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Naresh Gorantla",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 24,
+          "r": 10,
+          "w": 2,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Swamy Srk",
+          "balls": 24,
+          "r": 10,
+          "w": 1,
+          "dots": 17,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 18,
+          "r": 22,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 25,
+          "w": 2,
+          "dots": 15,
+          "wd": 7,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 12,
+          "r": 13,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 12,
+          "r": 9,
+          "w": 1,
+          "dots": 5,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Lalit Raghav",
+          "k",
+          1
+        ],
+        [
+          "Swamy Srk",
+          "r",
+          1
+        ],
+        [
+          "Swamy Srk",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3324",
+      "date": "2026-08-30",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Legacy Lions",
+      "ground": "Cordes Park",
+      "result": "MTCA SNIPERS won by 6 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 98,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Legacy Lions",
+          "runs": 92,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 6,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Suribabu Jatla",
+          "r": 3,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 34,
+          "b": 41,
+          "f": 5,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 5,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 2,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 30,
+          "b": 34,
+          "f": 0,
+          "s": 2,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 24,
+          "r": 13,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 24,
+          "r": 26,
+          "w": 3,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 24,
+          "r": 22,
+          "w": 0,
+          "dots": 10,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 24,
+          "r": 13,
+          "w": 1,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Anil Kasu",
+          "balls": 24,
+          "r": 18,
+          "w": 2,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Bramha Reddy",
+          "k",
+          2
+        ],
+        [
+          "Srinivas Pothala",
+          "r",
+          1
+        ],
+        [
+          "Anil Kasu",
+          "r",
+          1
+        ],
+        [
+          "Rakesh Reddy",
+          "r",
+          1
+        ],
+        [
+          "Suribabu Jatla",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3315",
+      "date": "2026-08-23",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Hillview Eagles",
+      "ground": "Cordes Park",
+      "result": "MTCA SNIPERS won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Hillview Eagles",
+          "runs": 82,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 85,
+          "wkts": 5,
+          "overs": "17.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 7,
+          "b": 6,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Narayana Reddy M",
+          "r": 5,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 23,
+          "b": 40,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 16,
+          "b": 30,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Swamy Srk",
+          "r": 19,
+          "b": 13,
+          "f": 0,
+          "s": 3,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Swamy Srk",
+          "balls": 24,
+          "r": 13,
+          "w": 2,
+          "dots": 16,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 23,
+          "w": 3,
+          "dots": 13,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Bharghav R",
+          "balls": 24,
+          "r": 10,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "balls": 24,
+          "r": 15,
+          "w": 0,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 24,
+          "r": 20,
+          "w": 3,
+          "dots": 11,
+          "wd": 4,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Bramha Reddy",
+          "k",
+          1
+        ],
+        [
+          "Anil Kasu",
+          "c",
+          1
+        ],
+        [
+          "Bramha Reddy",
+          "c",
+          1
+        ],
+        [
+          "BHARGAV S",
+          "c",
+          1
+        ],
+        [
+          "Bharghav R",
+          "c",
+          1
+        ],
+        [
+          "Chaitanya Vadlapatla",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3277",
+      "date": "2026-08-15",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Vintage Warriors",
+      "ground": "Hansen School - BaseBall 2",
+      "result": "MTCA Vintage Warriors won by 15 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Vintage Warriors",
+          "runs": 99,
+          "wkts": 10,
+          "overs": "19.4"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 84,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Swamy Srk",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Lalit Raghav",
+          "r": 13,
+          "b": 13,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ro"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 22,
+          "b": 32,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Naresh Gorantla",
+          "r": 4,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "st"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 9,
+          "b": 16,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 23,
+          "b": 23,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Bramha Reddy",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Swamy Srk",
+          "balls": 24,
+          "r": 19,
+          "w": 3,
+          "dots": 16,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 22,
+          "r": 20,
+          "w": 2,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 15,
+          "w": 2,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 18,
+          "r": 21,
+          "w": 1,
+          "dots": 10,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 7,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Chaitanya Vadlapatla",
+          "c",
+          1
+        ],
+        [
+          "Srinivas Pothala",
+          "c",
+          1
+        ],
+        [
+          "Rakesh Reddy",
+          "c",
+          1
+        ],
+        [
+          "Naresh Gorantla",
+          "c",
+          2
+        ],
+        [
+          "BHARGAV S",
+          "r",
+          1
+        ],
+        [
+          "Chaitanya Vadlapatla",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3226",
+      "date": "2026-08-01",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Mountaineers",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "",
+      "forfeit": true,
+      "outcome": "NR",
+      "tossWonByUs": null,
+      "tossDecision": null,
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 80,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Mountaineers",
+          "runs": 70,
+          "wkts": 10,
+          "overs": "20"
+        }
+      ],
+      "batting": [],
+      "bowling": [],
+      "fielding": []
+    },
+    {
+      "id": "legacy-3201",
+      "date": "2026-07-19",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Smashers XI",
+      "ground": "Cordes Park",
+      "result": "MTCA SNIPERS won by 43 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 98,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Smashers XI",
+          "runs": 55,
+          "wkts": 10,
+          "overs": "14.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 9,
+          "b": 10,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 8,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 8,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 27,
+          "b": 27,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Sandeep Reddy M",
+          "r": 7,
+          "b": 4,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 2,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 7,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Sainath Rapolu",
+          "r": 3,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 7,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Anil Kasu",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Bramha Reddy",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sainath Rapolu",
+          "balls": 18,
+          "r": 16,
+          "w": 2,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 12,
+          "r": 5,
+          "w": 1,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 18,
+          "r": 8,
+          "w": 0,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Lalit Raghav",
+          "balls": 18,
+          "r": 13,
+          "w": 2,
+          "dots": 12,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "balls": 18,
+          "r": 7,
+          "w": 2,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Srinivas Pothala",
+          "balls": 3,
+          "r": 6,
+          "w": 1,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Srinivas Pothala",
+          "c",
+          1
+        ],
+        [
+          "Sainath Rapolu",
+          "c",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "r",
+          1
+        ],
+        [
+          "Sandeep Reddy M",
+          "r",
+          1
+        ],
+        [
+          "Rakesh Reddy",
+          "c",
+          4
+        ],
+        [
+          "Bramha Reddy",
+          "r",
+          1
+        ],
+        [
+          "Sainath Rapolu",
+          "r",
+          1
+        ],
+        [
+          "Naresh Gorantla",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3189",
+      "date": "2026-07-11",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA RICC",
+      "ground": "Hansen Park",
+      "result": "MTCA SNIPERS won by 9 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA RICC",
+          "runs": 60,
+          "wkts": 10,
+          "overs": "19.5"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 64,
+          "wkts": 1,
+          "overs": "15.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 24,
+          "b": 45,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 1
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 0,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Naresh Gorantla",
+          "r": 15,
+          "b": 26,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 3
+        },
+        {
+          "name": "Sampath Jaini",
+          "r": 3,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 5,
+          "b": 2,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Swamy Srk",
+          "balls": 18,
+          "r": 9,
+          "w": 1,
+          "dots": 13,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 23,
+          "r": 12,
+          "w": 3,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 24,
+          "r": 16,
+          "w": 0,
+          "dots": 13,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 24,
+          "r": 8,
+          "w": 2,
+          "dots": 18,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 18,
+          "r": 6,
+          "w": 1,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Srinivas Pothala",
+          "balls": 6,
+          "r": 6,
+          "w": 1,
+          "dots": 5,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Lalit Raghav",
+          "balls": 6,
+          "r": 2,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Ajay Mahabhyashm",
+          "c",
+          2
+        ],
+        [
+          "Naresh Gorantla",
+          "c",
+          1
+        ],
+        [
+          "Sandeep Reddy M",
+          "c",
+          1
+        ],
+        [
+          "Swamy Srk",
+          "r",
+          1
+        ],
+        [
+          "Sampath Jaini",
+          "r",
+          1
+        ],
+        [
+          "Naresh Gorantla",
+          "r",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3181",
+      "date": "2026-06-27",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Ellis Strikers",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA SNIPERS won by 20 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 104,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Ellis Strikers",
+          "runs": 84,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Hari Vuppala",
+          "r": 10,
+          "b": 17,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 43,
+          "b": 58,
+          "f": 1,
+          "s": 2,
+          "out": false,
+          "pos": 2
+        },
+        {
+          "name": "Sampath Jaini",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ro"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 9,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Lalit Raghav",
+          "r": 7,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 10,
+          "b": 12,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 4,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Suribabu Jatla",
+          "balls": 18,
+          "r": 16,
+          "w": 0,
+          "dots": 9,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 24,
+          "r": 22,
+          "w": 3,
+          "dots": 15,
+          "wd": 7,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 16,
+          "w": 2,
+          "dots": 19,
+          "wd": 7,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 18,
+          "r": 8,
+          "w": 2,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "balls": 12,
+          "r": 12,
+          "w": 0,
+          "dots": 8,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 24,
+          "r": 10,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Lalit Raghav",
+          "k",
+          1
+        ],
+        [
+          "BHARGAV S",
+          "c",
+          1
+        ],
+        [
+          "Suribabu Jatla",
+          "r",
+          1
+        ],
+        [
+          "BHARGAV S",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3142",
+      "date": "2026-06-13",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Tri-Valley Titans",
+      "ground": "Hansen Park",
+      "result": "MTCA SNIPERS won by 26 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 83,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Tri-Valley Titans",
+          "runs": 57,
+          "wkts": 10,
+          "overs": "18.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 32,
+          "b": 50,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 3,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 0,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 16,
+          "b": 18,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 16,
+          "b": 19,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Hari Vuppala",
+          "r": 10,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "st"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 18,
+          "r": 6,
+          "w": 0,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 23,
+          "r": 12,
+          "w": 2,
+          "dots": 17,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 12,
+          "w": 3,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "balls": 12,
+          "r": 3,
+          "w": 1,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 12,
+          "r": 13,
+          "w": 0,
+          "dots": 6,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 12,
+          "r": 3,
+          "w": 3,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Balakrishnan Pandurangan",
+          "k",
+          2
+        ],
+        [
+          "Ajay Mahabhyashm",
+          "c",
+          2
+        ],
+        [
+          "Madhu Dasari",
+          "c",
+          1
+        ],
+        [
+          "Chaitanya Vadlapatla",
+          "k",
+          2
+        ],
+        [
+          "BHARGAV S",
+          "c",
+          1
+        ],
+        [
+          "Rakesh Reddy",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3133",
+      "date": "2026-06-07",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Raging Bulls",
+      "ground": "Cordes Park",
+      "result": "MTCA SNIPERS won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Raging Bulls",
+          "runs": 84,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 86,
+          "wkts": 4,
+          "overs": "13.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 25,
+          "b": 27,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 15,
+          "b": 19,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Swamy Srk",
+          "r": 10,
+          "b": 8,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Suribabu Jatla",
+          "r": 4,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 14,
+          "b": 10,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 4,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Swamy Srk",
+          "balls": 24,
+          "r": 21,
+          "w": 1,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sainath Rapolu",
+          "balls": 18,
+          "r": 18,
+          "w": 1,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "balls": 12,
+          "r": 8,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 24,
+          "r": 7,
+          "w": 0,
+          "dots": 17,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 12,
+          "r": 4,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 18,
+          "r": 16,
+          "w": 2,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Lalit Raghav",
+          "c",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "k",
+          1
+        ],
+        [
+          "Dhayanithi Rajendiran",
+          "c",
+          1
+        ],
+        [
+          "Ajay Mahabhyashm",
+          "r",
+          1
+        ],
+        [
+          "Bramha Reddy",
+          "r",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3094",
+      "date": "2026-05-17",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Sundance Warriors",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Sundance Warriors won by 4 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 53,
+          "wkts": 10,
+          "overs": "19.2"
+        },
+        {
+          "team": "MTCA Sundance Warriors",
+          "runs": 55,
+          "wkts": 6,
+          "overs": "14.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 11,
+          "b": 17,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ro"
+        },
+        {
+          "name": "Madhu Dasari",
+          "r": 4,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 6,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Akshat Agrawal",
+          "r": 14,
+          "b": 26,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "st"
+        },
+        {
+          "name": "Dhayanithi Rajendiran",
+          "r": 6,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Naresh Gorantla",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 5,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ro"
+        },
+        {
+          "name": "Sainath Rapolu",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sainath Rapolu",
+          "balls": 12,
+          "r": 8,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 24,
+          "r": 12,
+          "w": 0,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Akshat Agrawal",
+          "balls": 18,
+          "r": 12,
+          "w": 2,
+          "dots": 10,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 18,
+          "r": 14,
+          "w": 3,
+          "dots": 10,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Dasari",
+          "balls": 12,
+          "r": 7,
+          "w": 1,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "balls": 1,
+          "r": 2,
+          "w": 0,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Lalit Raghav",
+          "k",
+          3
+        ],
+        [
+          "Dhayanithi Rajendiran",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3061",
+      "date": "2026-05-09",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Hurricanes",
+      "ground": "E-Costa School Ground",
+      "result": "MTCA SNIPERS won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 90,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 96,
+          "wkts": 4,
+          "overs": "18.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 30,
+          "b": 37,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vadlapatla",
+          "r": 7,
+          "b": 17,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Naresh Gorantla",
+          "r": 17,
+          "b": 22,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 23,
+          "b": 25,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "BHARGAV S",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharghav R",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 14,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 12,
+          "r": 9,
+          "w": 1,
+          "dots": 8,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 12,
+          "r": 13,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 23,
+          "w": 1,
+          "dots": 11,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 16,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Rakesh Reddy",
+          "c",
+          1
+        ],
+        [
+          "Chaitanya Vadlapatla",
+          "c",
+          1
+        ],
+        [
+          "BHARGAV S",
+          "c",
+          1
+        ],
+        [
+          "Ajay Mahabhyashm",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3047",
+      "date": "2026-05-03",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Badgers",
+      "ground": "E-Costa School Ground",
+      "result": "MTCA SNIPERS won by 7 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Badgers",
+          "runs": 103,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 104,
+          "wkts": 3,
+          "overs": "17"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Lalit Raghav",
+          "r": 61,
+          "b": 53,
+          "f": 3,
+          "s": 5,
+          "out": false,
+          "pos": 1
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 0,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Ajay Mahabhyashm",
+          "r": 13,
+          "b": 20,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Srinivas Pothala",
+          "r": 12,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "r": 7,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Soumendra Kumar Mohanty",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sainath Rapolu",
+          "balls": 18,
+          "r": 19,
+          "w": 2,
+          "dots": 11,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Balakrishnan Pandurangan",
+          "balls": 24,
+          "r": 30,
+          "w": 1,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Suribabu Jatla",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Gorantla",
+          "balls": 18,
+          "r": 18,
+          "w": 1,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "BHARGAV S",
+          "balls": 24,
+          "r": 4,
+          "w": 1,
+          "dots": 22,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Lalit Raghav",
+          "k",
+          1
+        ],
+        [
+          "Balakrishnan Pandurangan",
+          "c",
+          1
+        ],
+        [
+          "Sainath Rapolu",
+          "c",
+          1
+        ],
+        [
+          "BHARGAV S",
+          "r",
+          1
+        ],
+        [
+          "Lalit Raghav",
+          "r",
+          1
+        ],
+        [
+          "Rakesh Reddy",
+          "c",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 0
+}
