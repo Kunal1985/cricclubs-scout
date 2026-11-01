@@ -60,8 +60,21 @@
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/9abfb72d-8bc7-4fd6-8879-a942272de7c1.jpg",
       "playoff": null
     },
-    "Lords": {
+    "Innovation Strikers": {
       "position": 5,
+      "of": 16,
+      "group": "Group Winter 2026-27 - A",
+      "played": 1,
+      "won": 0,
+      "lost": 1,
+      "nr": 0,
+      "points": 0,
+      "nrr": -2.4,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/78bf3d98-bc9f-4580-b23e-785525182e35.jpg",
+      "playoff": null
+    },
+    "Lords": {
+      "position": 6,
       "of": 16,
       "group": "Group Winter 2026-27 - A",
       "played": 1,
@@ -74,19 +87,6 @@
       "playoff": null
     },
     "Chargers": {
-      "position": 6,
-      "of": 16,
-      "group": "Group Winter 2026-27 - A",
-      "played": 0,
-      "won": 0,
-      "lost": 0,
-      "nr": 0,
-      "points": 0,
-      "nrr": 0,
-      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/f3a9ee66-ff89-4c61-b905-2cc039ba3d84.jpg",
-      "playoff": null
-    },
-    "Innovation Strikers": {
       "position": 7,
       "of": 16,
       "group": "Group Winter 2026-27 - A",
@@ -96,7 +96,7 @@
       "nr": 0,
       "points": 0,
       "nrr": 0,
-      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/78bf3d98-bc9f-4580-b23e-785525182e35.jpg",
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/f3a9ee66-ff89-4c61-b905-2cc039ba3d84.jpg",
       "playoff": null
     },
     "Vikings": {
@@ -125,8 +125,21 @@
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/5f95a970-9b50-46c3-86b3-d350fe2af6f8.jpg",
       "playoff": null
     },
-    "Skippers": {
+    "Money Heist": {
       "position": 2,
+      "of": 16,
+      "group": "Group Winter 2026-27 - A",
+      "played": 1,
+      "won": 1,
+      "lost": 0,
+      "nr": 0,
+      "points": 4,
+      "nrr": 2.4,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/5a831fc5-8ef9-455a-975b-1a91ff8e1cae.jpg",
+      "playoff": null
+    },
+    "Skippers": {
+      "position": 3,
       "of": 16,
       "group": "Group Winter 2026-27 - A",
       "played": 1,
@@ -139,7 +152,7 @@
       "playoff": null
     },
     "Revenants": {
-      "position": 3,
+      "position": 4,
       "of": 16,
       "group": "Group Winter 2026-27 - A",
       "played": 1,
@@ -152,7 +165,7 @@
       "playoff": null
     },
     "Royal Singhs": {
-      "position": 4,
+      "position": 5,
       "of": 16,
       "group": "Group Winter 2026-27 - A",
       "played": 1,
@@ -165,7 +178,7 @@
       "playoff": null
     },
     "Sabertooths": {
-      "position": 5,
+      "position": 6,
       "of": 16,
       "group": "Group Winter 2026-27 - A",
       "played": 1,
@@ -178,19 +191,6 @@
       "playoff": null
     },
     "CSK Yorkers": {
-      "position": 6,
-      "of": 16,
-      "group": "Group Winter 2026-27 - A",
-      "played": 0,
-      "won": 0,
-      "lost": 0,
-      "nr": 0,
-      "points": 0,
-      "nrr": 0,
-      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/092d89b2-93ea-468f-9bc2-d1f38bb73400.jpg",
-      "playoff": null
-    },
-    "Money Heist": {
       "position": 7,
       "of": 16,
       "group": "Group Winter 2026-27 - A",
@@ -200,7 +200,7 @@
       "nr": 0,
       "points": 0,
       "nrr": 0,
-      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/5a831fc5-8ef9-455a-975b-1a91ff8e1cae.jpg",
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/092d89b2-93ea-468f-9bc2-d1f38bb73400.jpg",
       "playoff": null
     },
     "Unstoppable": {
@@ -473,7 +473,7 @@
       "nr": 0,
       "points": 0,
       "nrr": -0.4388,
-      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
       "playoff": null
     },
     "Absolute XI": {
@@ -642,7 +642,7 @@
       "nr": 0,
       "points": 4,
       "nrr": 0.1333,
-      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
       "playoff": null
     },
     "Raptors": {
@@ -655,7 +655,7 @@
       "nr": 0,
       "points": 0,
       "nrr": -0.1333,
-      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
       "playoff": null
     },
     "Cali Lions": {
@@ -785,7 +785,7 @@
       "nr": 0,
       "points": 0,
       "nrr": 0,
-      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
       "playoff": null
     },
     "Centurions": {
@@ -824,7 +824,7 @@
       "nr": 0,
       "points": 0,
       "nrr": 0,
-      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
       "playoff": null
     },
     "Smash Blasters": {
@@ -863,7 +863,7 @@
       "nr": 0,
       "points": 0,
       "nrr": 0,
-      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+      "logo": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
       "playoff": null
     }
   }

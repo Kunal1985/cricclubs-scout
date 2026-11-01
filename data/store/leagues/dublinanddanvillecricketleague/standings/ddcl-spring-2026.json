@@ -1,0 +1,298 @@
+{
+  "series": {
+    "id": "RrVi9ccTsSYpRdWpiBT7sg",
+    "name": "DDCL Spring 2026"
+  },
+  "playoffs": {
+    "found": true,
+    "pending": false
+  },
+  "teams": {
+    "Dublin Super Kings": {
+      "position": 1,
+      "of": 9,
+      "group": "Group A",
+      "played": 9,
+      "won": 8,
+      "lost": 1,
+      "nr": 0,
+      "points": 16,
+      "nrr": 1.4878,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/13bf5847-60cf-411c-9ba3-b63bb275170c.jpg",
+      "playoff": {
+        "text": "Winner",
+        "muted": false
+      }
+    },
+    "Retro Runners": {
+      "position": 2,
+      "of": 9,
+      "group": "Group A",
+      "played": 9,
+      "won": 5,
+      "lost": 3,
+      "nr": 0,
+      "points": 11,
+      "nrr": 0.7856,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/6dfe256e-6bd1-4342-b8c7-0bb33fa52e04.jpg",
+      "playoff": {
+        "text": "Lost in playoffs (Semi Final)",
+        "muted": false
+      }
+    },
+    "Vikings": {
+      "position": 3,
+      "of": 9,
+      "group": "Group A",
+      "played": 9,
+      "won": 5,
+      "lost": 4,
+      "nr": 0,
+      "points": 10,
+      "nrr": -0.0007,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/7f93325e-817b-49b2-83c0-3faee144f559.png",
+      "playoff": {
+        "text": "Runner-up – secondary final",
+        "muted": false
+      }
+    },
+    "Dabangg": {
+      "position": 4,
+      "of": 9,
+      "group": "Group A",
+      "played": 9,
+      "won": 5,
+      "lost": 4,
+      "nr": 0,
+      "points": 10,
+      "nrr": -0.251,
+      "logo": null,
+      "playoff": {
+        "text": "Lost in playoffs (Semi Final)",
+        "muted": false
+      }
+    },
+    "Deccan Chargers": {
+      "position": 5,
+      "of": 9,
+      "group": "Group A",
+      "played": 9,
+      "won": 4,
+      "lost": 5,
+      "nr": 0,
+      "points": 8,
+      "nrr": -0.3525,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/30358e13-46be-45ca-b7c0-cb1693a1d3e8.jpg",
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    },
+    "Chhavas": {
+      "position": 6,
+      "of": 9,
+      "group": "Group A",
+      "played": 9,
+      "won": 4,
+      "lost": 5,
+      "nr": 0,
+      "points": 8,
+      "nrr": -0.5713,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/fe633c2c-f14c-4bf1-827e-86e39a386811.jpg",
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    },
+    "Goodfellas": {
+      "position": 7,
+      "of": 9,
+      "group": "Group A",
+      "played": 9,
+      "won": 2,
+      "lost": 7,
+      "nr": 0,
+      "points": 4,
+      "nrr": -2.312,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/5a7e30ba-2f26-435e-9127-5348a27d92f1.jpg",
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    },
+    "Tipsy Bulls": {
+      "position": 8,
+      "of": 9,
+      "group": "Group A",
+      "played": 9,
+      "won": 1,
+      "lost": 8,
+      "nr": 0,
+      "points": 2,
+      "nrr": -1.333,
+      "logo": null,
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    },
+    "Namma Boys": {
+      "position": 9,
+      "of": 9,
+      "group": "Group A",
+      "played": 0,
+      "won": 0,
+      "lost": 0,
+      "nr": 0,
+      "points": 0,
+      "nrr": 0,
+      "logo": null,
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    },
+    "Sunrise Strikers": {
+      "position": 1,
+      "of": 8,
+      "group": "Group B",
+      "played": 9,
+      "won": 7,
+      "lost": 2,
+      "nr": 0,
+      "points": 14,
+      "nrr": 0.8316,
+      "logo": null,
+      "playoff": {
+        "text": "Runner-up",
+        "muted": false
+      }
+    },
+    "Loyals": {
+      "position": 2,
+      "of": 8,
+      "group": "Group B",
+      "played": 9,
+      "won": 7,
+      "lost": 2,
+      "nr": 0,
+      "points": 14,
+      "nrr": 0.4407,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/5c5c5e63-7a28-4805-802c-5257d131363f.jpg",
+      "playoff": {
+        "text": "Lost in playoffs (Semi Final)",
+        "muted": false
+      }
+    },
+    "Legion Mavericks": {
+      "position": 3,
+      "of": 8,
+      "group": "Group B",
+      "played": 9,
+      "won": 6,
+      "lost": 3,
+      "nr": 0,
+      "points": 12,
+      "nrr": 0.6522,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/93a034a8-a607-41ec-8763-ad3fd4b4eec7.jpeg",
+      "playoff": {
+        "text": "Winner – secondary final",
+        "muted": false
+      }
+    },
+    "Bay Strikers": {
+      "position": 4,
+      "of": 8,
+      "group": "Group B",
+      "played": 9,
+      "won": 5,
+      "lost": 4,
+      "nr": 0,
+      "points": 10,
+      "nrr": 0.4106,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/ea482ccb-1fe9-45ff-80b5-77eb34fa5467.jpg",
+      "playoff": {
+        "text": "Lost in playoffs (Semi Final)",
+        "muted": false
+      }
+    },
+    "Fundoos": {
+      "position": 5,
+      "of": 8,
+      "group": "Group B",
+      "played": 9,
+      "won": 4,
+      "lost": 5,
+      "nr": 0,
+      "points": 8,
+      "nrr": -0.395,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/e31184e8-0ccd-4f0b-858a-284538f801ae.jpg",
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    },
+    "Monks": {
+      "position": 6,
+      "of": 8,
+      "group": "Group B",
+      "played": 9,
+      "won": 3,
+      "lost": 5,
+      "nr": 0,
+      "points": 7,
+      "nrr": -0.207,
+      "logo": null,
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    },
+    "Bay Area Falcons": {
+      "position": 7,
+      "of": 8,
+      "group": "Group B",
+      "played": 9,
+      "won": 3,
+      "lost": 6,
+      "nr": 0,
+      "points": 6,
+      "nrr": -0.7819,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/3c575945-947f-4b39-a26a-9a0f938127a4.png",
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    },
+    "PVCC": {
+      "position": 8,
+      "of": 8,
+      "group": "Group B",
+      "played": 9,
+      "won": 2,
+      "lost": 7,
+      "nr": 0,
+      "points": 4,
+      "nrr": -0.5897,
+      "logo": "https://media.cricclubs.com/documentsRep/teamLogos/5879816b-3fe4-42cc-a384-33e6af2b8ef6.jpg",
+      "playoff": {
+        "text": "Did not qualify",
+        "muted": true
+      }
+    }
+  },
+  "logos": {
+    "Dublin Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/13bf5847-60cf-411c-9ba3-b63bb275170c.jpg",
+    "Retro Runners": "https://media.cricclubs.com/documentsRep/teamLogos/6dfe256e-6bd1-4342-b8c7-0bb33fa52e04.jpg",
+    "Vikings": "https://media.cricclubs.com/documentsRep/teamLogos/7f93325e-817b-49b2-83c0-3faee144f559.png",
+    "Deccan Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/30358e13-46be-45ca-b7c0-cb1693a1d3e8.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/fe633c2c-f14c-4bf1-827e-86e39a386811.jpg",
+    "Goodfellas": "https://media.cricclubs.com/documentsRep/teamLogos/5a7e30ba-2f26-435e-9127-5348a27d92f1.jpg",
+    "Loyals": "https://media.cricclubs.com/documentsRep/teamLogos/5c5c5e63-7a28-4805-802c-5257d131363f.jpg",
+    "Legion Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/93a034a8-a607-41ec-8763-ad3fd4b4eec7.jpeg",
+    "Bay Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/ea482ccb-1fe9-45ff-80b5-77eb34fa5467.jpg",
+    "Fundoos": "https://media.cricclubs.com/documentsRep/teamLogos/e31184e8-0ccd-4f0b-858a-284538f801ae.jpg",
+    "Bay Area Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/3c575945-947f-4b39-a26a-9a0f938127a4.png",
+    "PVCC": "https://media.cricclubs.com/documentsRep/teamLogos/5879816b-3fe4-42cc-a384-33e6af2b8ef6.jpg"
+  }
+}

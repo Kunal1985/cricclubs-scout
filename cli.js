@@ -57,14 +57,14 @@ async function ensureLeague(input, { refresh = false } = {}) {
   if (!info) return { error: `League "${code}" was not found on CricClubs.` };
   const y = Number(laDate().slice(0, 4));
   const today = laDate();
-  const all = [...await cc.seriesForYear(info.code, info.id, y), ...await cc.seriesForYear(info.code, info.id, y - 1)];
+  const all = [...await cc.seriesForYear(info.code, info.id, y), ...await cc.seriesForYear(info.code, info.id, y - 1), ...await cc.seriesForYear(info.code, info.id, y - 2)];
   const started = all.filter(s => seriesIso(s) && seriesIso(s) <= today).sort((a, b) => seriesIso(b).localeCompare(seriesIso(a)));
   const seasons = {};
-  // Two newest started series. prev2 is left unset; scans and publish already read it when a league file has it.
-  for (const [k, s] of [['current', started[0]], ['last', started[1]]]) {
+  // Three newest started series: current, last, prev2.
+  for (const [k, s] of [['current', started[0]], ['last', started[1]], ['prev2', started[2]]]) {
     if (s) seasons[k] = { ...s, teams: await cc.seriesTeams(info.code, info.id, s) };
   }
-  if (!seasons.current) return { error: `League "${info.name}" has no seasons in ${y - 1}–${y}.` };
+  if (!seasons.current) return { error: `League "${info.name}" has no seasons in ${y - 2}–${y}.` };
   const teams = [...new Set(Object.values(seasons).flatMap(s => Object.keys(s.teams)))].sort((a, b) => a.localeCompare(b));
   const league = { ...info, checkedAt: new Date().toISOString(), seasons, teams, logos: (cached && cached.logos) || {} };
   store.writeLeague(league);
