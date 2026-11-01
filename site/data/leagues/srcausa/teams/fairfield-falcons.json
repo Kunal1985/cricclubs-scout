@@ -1,0 +1,3602 @@
+{
+  "team": "Fairfield Falcons",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/e77c18ec-06eb-4575-b9d2-26c7ffefbd66.jpg",
+  "logos": {
+    "Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/superkings.jpg",
+    "CSK Jaguars": "https://media.cricclubs.com/documentsRep/teamLogos/cfc2250d-3186-4f2c-8d48-c2739706f44d.jpg",
+    "Bay Area Paltan": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/7e39bc8f-197c-465a-966f-a472d12347e4.jpg",
+    "White Lightning": "https://media.cricclubs.com/documentsRep/teamLogos/c52ac345-0288-40b0-9e24-7cc4b9f30bbf.jpg",
+    "Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/9976f4b9-f7eb-4da4-b723-30221da86858.jpg",
+    "Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d95d4387-973f-457a-aa1a-8284505734bb.jpg",
+    "Titans": "https://media.cricclubs.com/documentsRep/teamLogos/titans.jpg",
+    "Dukes XI": "https://media.cricclubs.com/documentsRep/teamLogos/20625c9e-4b6f-45a2-a2ed-e18b9755e473.jpg",
+    "Skippers": "https://media.cricclubs.com/documentsRep/teamLogos/98d9d9d1-f0e8-47cb-8086-141dc0df600d.jpg",
+    "Gully Cricketers": "https://media.cricclubs.com/documentsRep/teamLogos/5bc67916-4509-47e5-bb4c-4ecd65398d12.jpg",
+    "Challengers": "https://media.cricclubs.com/documentsRep/teamLogos/challengers.jpg",
+    "United CC": "https://media.cricclubs.com/documentsRep/teamLogos/9b19eda5-e3cc-4f6f-aa5d-e45311d79f6c.jpg",
+    "Fire Friends": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/6e7e01fe-3bcf-4bf6-8b5f-8e6c5a2e1e1c.jpg",
+    "Pleasanton Mercers": "https://media.cricclubs.com/documentsRep/teamLogos/9149bc1c-6f1f-4e10-834a-4249cfbfc604.jpg",
+    "Punjab Battalion": "https://media.cricclubs.com/documentsRep/teamLogos/762faa14-bc64-41c2-a51e-d6373295a5e6.jpg",
+    "Black Caps": "https://media.cricclubs.com/documentsRep/teamLogos/dcdbdf97-a8ee-448a-93b0-69abdf80cb18.jpg",
+    "Friendz United": "https://media.cricclubs.com/documentsRep/teamLogos/d0f59da6-cd5e-4f0b-936b-35908223c609.jpg",
+    "Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/81d7179e-d627-4b1b-ac81-7bf35409872f.jpg",
+    "Fairfield Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/e77c18ec-06eb-4575-b9d2-26c7ffefbd66.jpg",
+    "Pine Valley Cricket Club": "https://media.cricclubs.com/documentsRep/teamLogos/de49dcc8-0a6c-4731-a156-7166acb5d2ec.jpg",
+    "007": "https://media.cricclubs.com/documentsRep/teamLogos/18c99f03-1ba0-4df2-8ea0-482508564ffc.jpg",
+    "Pullaingo": "https://media.cricclubs.com/documentsRep/teamLogos/abb3a261-9073-4355-84d3-18db1658b97a.jpg",
+    "Gale Ranch Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/f1fa21b0-9998-4134-a43c-3c93b6058309.jpg",
+    "Emerald Titans": "https://media.cricclubs.com/documentsRep/teamLogos/9c4c0bc2-d2ac-447a-b3e5-fc6f53b575f8.jpg",
+    "Kingfishers": "https://media.cricclubs.com/documentsRep/teamLogos/14163cda-0e4f-4b53-bbfa-026645d57cae.jpg",
+    "Fallon Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/4e98ec5b-ef96-4257-b0bd-fac7dffc8105.jpg",
+    "Mt Diablo Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/f3069d7a-8a7a-460a-be5b-7317271c52a5.jpg",
+    "GRCC": "https://media.cricclubs.com/documentsRep/teamLogos/e0d5d230-6712-412f-9d5a-10b1315d75df.jpg",
+    "Emerald Kings": "https://media.cricclubs.com/documentsRep/teamLogos/b7852a3a-7fe5-4f50-b44a-8e90dfcccf37.jpg",
+    "Champions": "https://media.cricclubs.com/documentsRep/teamLogos/51ccc4cc-16a6-42eb-8b5d-e3922373bf94.jpg",
+    "Fundoos": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Bravehearts": "https://media.cricclubs.com/documentsRep/teamLogos/96a438f6-cd65-49c2-8cfe-2fd1f8eeb8fc.jpg",
+    "Dabangg": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Preserve": "https://media.cricclubs.com/documentsRep/teamLogos/256d0d01-b22e-4d98-817c-b389b953af56.jpeg",
+    "Livermore Lions": "https://media.cricclubs.com/documentsRep/teamLogos/167c5a95-6a22-49a1-8df8-40150301f3ed.jpg",
+    "Dublin Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Shockwave": "https://media.cricclubs.com/documentsRep/teamLogos/waves.jpg",
+    "Rebels": "https://media.cricclubs.com/documentsRep/teamLogos/d24ad128-903e-4573-8996-cec81c7aa220.jpg",
+    "Dominators": "https://media.cricclubs.com/documentsRep/teamLogos/5c96eb11-b7f6-42e0-8e20-4950cef022c2.jpg",
+    "CaliLegends": "https://media.cricclubs.com/documentsRep/teamLogos/b2f485e8-466e-48c0-a8e0-d50b484f7fbd.jpg",
+    "Phoenix": "https://media.cricclubs.com/documentsRep/teamLogos/432093c3-f50d-4809-b84f-19f2fc28a6b7.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/b267fb78-2cb7-46c7-b739-86ba847fa2ee.jpg",
+    "MCC": "https://media.cricclubs.com/documentsRep/teamLogos/d8449c81-45b7-4fe9-9771-b6e93d1ae886.jpg",
+    "Buddies": "https://media.cricclubs.com/documentsRep/teamLogos/21f0fb91-ef52-4b3b-86e3-5823c71231d0.jpg",
+    "Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/b473d1ce-8394-44ec-a7fe-9a7514abbd82.jpg",
+    "Iron Horse Riders": "https://media.cricclubs.com/documentsRep/teamLogos/16ec0648-dec2-427e-b6c8-5ea2f9009d60.jpg",
+    "Elite XI": "https://media.cricclubs.com/documentsRep/teamLogos/37ee9d33-523e-40f8-bb5c-b039c0b7bb6f.jpg",
+    "Emerald Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/39a3d678-295b-438f-9ac6-2b4b6b5391f7.jpg",
+    "OG": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Bay Cc Elites": "https://media.cricclubs.com/documentsRep/teamLogos/elites.jpg",
+    "Tigers": "https://media.cricclubs.com/documentsRep/teamLogos/2a79d41a-93b8-4c83-88ca-82dc5628a69d.jpg",
+    "Dublin Green Caps": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Trailblazers": "https://media.cricclubs.com/documentsRep/teamLogos/efcb826d-735b-4f9f-a1aa-a6f2c7eafcbf.jpg",
+    "Dublin Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/2f596dc4-51ba-4243-af5f-df9981b074b0.jpg",
+    "AFG XI": "https://media.cricclubs.com/documentsRep/teamLogos/57db8fd6-1ecf-40c0-8593-eeefc2396c7e.jpg",
+    "Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/935b8be6-2a53-4a16-9bbe-4d476dcddeb8.jpg",
+    "Dublin Emeralds": "https://media.cricclubs.com/documentsRep/teamLogos/a16d2e01-7a08-4883-93d7-094b18a778a3.jpg"
+  },
+  "league": {
+    "code": "SrcaUsa",
+    "name": "SRCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-110",
+      "name": "SRCA Summer 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T01:12:00.570Z"
+    },
+    "last": {
+      "id": "legacy-99",
+      "name": "SRCA Spring 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T01:12:27.798Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-4289",
+      "date": "2026-10-18",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Friendz United",
+      "ground": "GRMS",
+      "result": "Fairfield Falcons won by 25 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 91,
+          "wkts": 10,
+          "overs": "19.4"
+        },
+        {
+          "team": "Friendz United",
+          "runs": 66,
+          "wkts": 10,
+          "overs": "17.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raj Pasi",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Srikanth Banda",
+          "r": 9,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Tarun Adada",
+          "r": 42,
+          "b": 28,
+          "f": 4,
+          "s": 3,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Karthik Reddy Komma",
+          "r": 9,
+          "b": 16,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "r": 13,
+          "b": 28,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Sacheth SR",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 6,
+          "b": 2,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Amit Bajpai",
+          "r": 1,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "rt"
+        },
+        {
+          "name": "Fahad Arif",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ro"
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Amit Bajpai",
+          "balls": 18,
+          "r": 9,
+          "w": 1,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raj Pasi",
+          "balls": 21,
+          "r": 17,
+          "w": 2,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Fahad Arif",
+          "balls": 12,
+          "r": 15,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 9,
+          "w": 3,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Tarun Adada",
+          "balls": 24,
+          "r": 9,
+          "w": 4,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Srikanth Banda",
+          "k",
+          4
+        ],
+        [
+          "Hasnain Lakhani",
+          "c",
+          1
+        ],
+        [
+          "Siva Kumar Reddy",
+          "c",
+          1
+        ],
+        [
+          "Sacheth SR",
+          "c",
+          1
+        ],
+        [
+          "Tarun Adada",
+          "c",
+          1
+        ],
+        [
+          "Fahad Arif",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4263",
+      "date": "2026-10-10",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "007",
+      "ground": "GRMS",
+      "result": "Abandoned.",
+      "forfeit": true,
+      "outcome": "NR",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "007",
+          "runs": 57,
+          "wkts": 2,
+          "overs": "8.5"
+        },
+        {
+          "team": "Fairfield Falcons",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        }
+      ],
+      "batting": [],
+      "bowling": [
+        {
+          "name": "Raj Pasi",
+          "balls": 18,
+          "r": 17,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 6,
+          "r": 2,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Tarun Adada",
+          "balls": 6,
+          "r": 9,
+          "w": 1,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Gattamaneni",
+          "balls": 12,
+          "r": 16,
+          "w": 0,
+          "dots": 4,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sreeni Y",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 5,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Bikram Singh",
+          "balls": 5,
+          "r": 7,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Ashok Gattamaneni",
+          "c",
+          1
+        ],
+        [
+          "Tarun Adada",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4218",
+      "date": "2026-09-19",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Mavericks",
+      "ground": "Rancho",
+      "result": "Fairfield Falcons won by 7 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 87,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Mavericks",
+          "runs": 80,
+          "wkts": 10,
+          "overs": "19.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Abdullah Syed",
+          "r": 4,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Sacheth SR",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "r": 14,
+          "b": 17,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Karthik Reddy Komma",
+          "r": 18,
+          "b": 19,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Srikanth Banda",
+          "r": 12,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "st"
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "r": 7,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Chandra Reddy",
+          "r": 8,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "st"
+        },
+        {
+          "name": "Sreeni Y",
+          "r": 10,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Amit Bajpai",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "b"
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Amit Bajpai",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 3,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 21,
+          "w": 2,
+          "dots": 15,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "balls": 18,
+          "r": 13,
+          "w": 1,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 15,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Sreeni Y",
+          "balls": 24,
+          "r": 14,
+          "w": 2,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Karthik Reddy Komma",
+          "c",
+          1
+        ],
+        [
+          "Srikanth Banda",
+          "k",
+          1
+        ],
+        [
+          "Abdullah Syed",
+          "c",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4206",
+      "date": "2026-09-13",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "007",
+      "ground": "Central Park1",
+      "result": "Fairfield Falcons won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "007",
+          "runs": 89,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "Fairfield Falcons",
+          "runs": 90,
+          "wkts": 5,
+          "overs": "19"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sanjog Chanana",
+          "r": 19,
+          "b": 14,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Samir Gundawar",
+          "r": 23,
+          "b": 37,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Srikanth Banda",
+          "r": 2,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Tarun Adada",
+          "r": 4,
+          "b": 3,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Chandra Reddy",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "r": 30,
+          "b": 37,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Abdullah Syed",
+          "r": 6,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 15,
+          "w": 3,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 18,
+          "r": 16,
+          "w": 0,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Javed Mohammad",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Tarun Adada",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sreeni Y",
+          "balls": 24,
+          "r": 18,
+          "w": 0,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Siva Kumar Reddy",
+          "c",
+          2
+        ],
+        [
+          "Tarun Adada",
+          "r",
+          1
+        ],
+        [
+          "Srikanth Banda",
+          "k",
+          1
+        ],
+        [
+          "Sanjog Chanana",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4171",
+      "date": "2026-08-23",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Pullaingo",
+      "ground": "Rancho",
+      "result": "Fairfield Falcons won by 18 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 76,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Pullaingo",
+          "runs": 58,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raj Pasi",
+          "r": 14,
+          "b": 29,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Srikanth Banda",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Chandra Reddy",
+          "r": 5,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ashok Gattamaneni",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Tarun Adada",
+          "r": 24,
+          "b": 24,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Sai Kiran",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Sreeni Y",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 3,
+          "b": 32,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Yaad Sandhu",
+          "r": 2,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Sandeep Mandapelly",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 7,
+          "w": 2,
+          "dots": 18,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raj Pasi",
+          "balls": 24,
+          "r": 9,
+          "w": 3,
+          "dots": 18,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Tarun Adada",
+          "balls": 24,
+          "r": 16,
+          "w": 2,
+          "dots": 17,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Ashok Gattamaneni",
+          "balls": 24,
+          "r": 12,
+          "w": 0,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sreeni Y",
+          "balls": 24,
+          "r": 14,
+          "w": 2,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Srikanth Banda",
+          "k",
+          3
+        ],
+        [
+          "Tarun Adada",
+          "c",
+          2
+        ],
+        [
+          "Raj Pasi",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4144",
+      "date": "2026-08-09",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Mavericks",
+      "ground": "Central Park1",
+      "result": "Mavericks won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 52,
+          "wkts": 10,
+          "overs": "19.4"
+        },
+        {
+          "team": "Mavericks",
+          "runs": 53,
+          "wkts": 7,
+          "overs": "17.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raj Pasi",
+          "r": 4,
+          "b": 3,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Abdullah Syed",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Srikanth Banda",
+          "r": 9,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ashok Gattamaneni",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Sacheth SR",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 0,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Monty Khatak",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 3,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Sreeni Y",
+          "r": 13,
+          "b": 22,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Varun Kumar",
+          "r": 4,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ro"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 5,
+          "w": 2,
+          "dots": 19,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Raj Pasi",
+          "balls": 24,
+          "r": 9,
+          "w": 0,
+          "dots": 17,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Gattamaneni",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Varun Kumar",
+          "balls": 22,
+          "r": 12,
+          "w": 2,
+          "dots": 18,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 6,
+          "r": 10,
+          "w": 1,
+          "dots": 2,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Sreeni Y",
+          "balls": 6,
+          "r": 2,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Srinivasu Veeraiahgari",
+          "c",
+          1
+        ],
+        [
+          "Abdullah Syed",
+          "c",
+          1
+        ],
+        [
+          "Srikanth Banda",
+          "k",
+          1
+        ],
+        [
+          "Raj Pasi",
+          "r",
+          1
+        ],
+        [
+          "Raj Pasi",
+          "c",
+          1
+        ],
+        [
+          "Siva Kumar Reddy",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4106",
+      "date": "2026-07-25",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Punjab Battalion",
+      "ground": "GRMS",
+      "result": "Punjab Battalion won by 30 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Punjab Battalion",
+          "runs": 138,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "Fairfield Falcons",
+          "runs": 108,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zain Shaw",
+          "r": 5,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Abdullah Syed",
+          "r": 30,
+          "b": 30,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "r": 4,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Ali Tinwala",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Deepak Kumar",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Krishna Chaitanya Achutuni",
+          "r": 6,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Bikram Singh",
+          "r": 27,
+          "b": 33,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 6,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Alok Shah",
+          "r": 5,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Putta Reddy",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 15,
+          "w": 0,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 24,
+          "r": 29,
+          "w": 1,
+          "dots": 12,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Bikram Singh",
+          "balls": 18,
+          "r": 20,
+          "w": 1,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Ali Tinwala",
+          "balls": 24,
+          "r": 28,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "balls": 12,
+          "r": 17,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Alok Shah",
+          "balls": 12,
+          "r": 20,
+          "w": 2,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Zain Shaw",
+          "balls": 6,
+          "r": 9,
+          "w": 1,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Deepak Kumar",
+          "c",
+          1
+        ],
+        [
+          "Srinivasu Veeraiahgari",
+          "c",
+          1
+        ],
+        [
+          "Krishna Chaitanya Achutuni",
+          "k",
+          1
+        ],
+        [
+          "Alok Shah",
+          "c",
+          1
+        ],
+        [
+          "Ali Tinwala",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4075",
+      "date": "2026-07-12",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Black Caps",
+      "ground": "Rancho",
+      "result": "Black Caps won by 17 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Black Caps",
+          "runs": 102,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "Fairfield Falcons",
+          "runs": 85,
+          "wkts": 10,
+          "overs": "18.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Ashok Gattamaneni",
+          "r": 24,
+          "b": 30,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Sridhar Verose",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Raj Pasi",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Srikanth Banda",
+          "r": 21,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Abdullah Syed",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Ali Tinwala",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 9,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Abdul Rahman K",
+          "r": 5,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 4,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 6,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ranjith Gangipamula",
+          "balls": 18,
+          "r": 18,
+          "w": 2,
+          "dots": 6,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Raj Pasi",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Gattamaneni",
+          "balls": 24,
+          "r": 29,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 12,
+          "w": 0,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 18,
+          "r": 24,
+          "w": 1,
+          "dots": 7,
+          "wd": 5,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Siva Kumar Reddy",
+          "r",
+          1
+        ],
+        [
+          "Ashok Gattamaneni",
+          "c",
+          1
+        ],
+        [
+          "Siva Kumar Reddy",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4022",
+      "date": "2026-06-20",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Friendz United",
+      "ground": "GRMS",
+      "result": "Friendz United won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 87,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Friendz United",
+          "runs": 88,
+          "wkts": 7,
+          "overs": "17.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Abdul Malik",
+          "r": 0,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Shah Maqdoom",
+          "r": 14,
+          "b": 13,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Abdullah Syed",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Ali Tinwala",
+          "r": 4,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 0,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 14,
+          "b": 25,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Pawan Kalyan",
+          "r": 10,
+          "b": 13,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Amit Bajpai",
+          "r": 4,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "RANA SINGH",
+          "r": 2,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Amer Mohammed",
+          "r": 28,
+          "b": 13,
+          "f": 0,
+          "s": 4,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "RANA SINGH",
+          "balls": 20,
+          "r": 23,
+          "w": 0,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Amit Bajpai",
+          "balls": 24,
+          "r": 16,
+          "w": 3,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 18,
+          "r": 14,
+          "w": 0,
+          "dots": 10,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Amer Mohammed",
+          "balls": 18,
+          "r": 16,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 3,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "balls": 18,
+          "r": 12,
+          "w": 0,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "RANA SINGH",
+          "r",
+          1
+        ],
+        [
+          "Abdul Malik",
+          "k",
+          1
+        ],
+        [
+          "Ali Tinwala",
+          "r",
+          1
+        ],
+        [
+          "Abdullah Syed",
+          "c",
+          1
+        ],
+        [
+          "Pawan Kalyan",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4018",
+      "date": "2026-06-14",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Pine Valley Cricket Club",
+      "ground": "Central Park1",
+      "result": "Pine Valley Cricket Club won by 24 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Pine Valley Cricket Club",
+          "runs": 92,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Fairfield Falcons",
+          "runs": 68,
+          "wkts": 10,
+          "overs": "16"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Hasnain Lakhani",
+          "r": 11,
+          "b": 18,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Sridhar Verose",
+          "r": 29,
+          "b": 36,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Abdullah Syed",
+          "r": 5,
+          "b": 2,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ro"
+        },
+        {
+          "name": "Faisal K",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Satya SR",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Sharath Sr",
+          "r": 0,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Manpreet Manna",
+          "r": 6,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Pawan Kalyan",
+          "r": 10,
+          "b": 7,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "RANA SINGH",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "RANA SINGH",
+          "balls": 24,
+          "r": 14,
+          "w": 3,
+          "dots": 17,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Manpreet Manna",
+          "balls": 24,
+          "r": 18,
+          "w": 1,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 12,
+          "r": 12,
+          "w": 0,
+          "dots": 5,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sharath Sr",
+          "balls": 18,
+          "r": 14,
+          "w": 2,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Pawan Kalyan",
+          "balls": 18,
+          "r": 21,
+          "w": 1,
+          "dots": 8,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "balls": 12,
+          "r": 7,
+          "w": 1,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Faisal K",
+          "k",
+          3
+        ],
+        [
+          "Manpreet Manna",
+          "c",
+          3
+        ],
+        [
+          "Ranjith Gangipamula",
+          "c",
+          1
+        ],
+        [
+          "Pawan Kalyan",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3934",
+      "date": "2026-05-09",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Mt Diablo Eagles",
+      "ground": "Central Park1",
+      "result": "Fairfield Falcons won by 104 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 160,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "Mt Diablo Eagles",
+          "runs": 56,
+          "wkts": 10,
+          "overs": "18.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raj Pasi",
+          "r": 38,
+          "b": 45,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Shah Maqdoom",
+          "r": 12,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "r": 22,
+          "b": 17,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Joseph Yeruva",
+          "r": 4,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "st"
+        },
+        {
+          "name": "Abdullah Syed",
+          "r": 39,
+          "b": 13,
+          "f": 2,
+          "s": 4,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Sridhar Verose Dagger",
+          "r": 6,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 10,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Kirpal Singh",
+          "r": 19,
+          "b": 7,
+          "f": 0,
+          "s": 3,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Amer Mohammed",
+          "balls": 24,
+          "r": 16,
+          "w": 3,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Raj Pasi",
+          "balls": 20,
+          "r": 7,
+          "w": 2,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 17,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 10,
+          "w": 3,
+          "dots": 20,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Kirpal Singh",
+          "balls": 6,
+          "r": 5,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Joseph Yeruva",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Amer Mohammed",
+          "c",
+          1
+        ],
+        [
+          "Abdullah Syed",
+          "c",
+          3
+        ],
+        [
+          "Sangameshgouda Horapeti",
+          "c",
+          1
+        ],
+        [
+          "Raj Pasi",
+          "c",
+          2
+        ],
+        [
+          "Shah Maqdoom",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3913",
+      "date": "2026-05-02",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Pullaingo",
+      "ground": "Rancho",
+      "result": "Fairfield Falcons won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Pullaingo",
+          "runs": 64,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Fairfield Falcons",
+          "runs": 67,
+          "wkts": 7,
+          "overs": "16"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Abdullah Syed",
+          "r": 7,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Abdul Rahman K",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "r": 4,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Raj Pasi",
+          "r": 18,
+          "b": 31,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 16,
+          "b": 21,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Bivak S",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Bikram Singh",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Faisal K",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 6,
+          "b": 6,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Amit Bajpai",
+          "balls": 30,
+          "r": 16,
+          "w": 1,
+          "dots": 22,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raj Pasi",
+          "balls": 24,
+          "r": 8,
+          "w": 2,
+          "dots": 17,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 12,
+          "r": 6,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bikram Singh",
+          "balls": 12,
+          "r": 7,
+          "w": 0,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 18,
+          "r": 12,
+          "w": 1,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "balls": 24,
+          "r": 15,
+          "w": 4,
+          "dots": 16,
+          "wd": 4,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Abdullah Syed",
+          "c",
+          2
+        ],
+        [
+          "Siva Kumar Reddy",
+          "c",
+          1
+        ],
+        [
+          "Amit Bajpai",
+          "c",
+          1
+        ],
+        [
+          "Abdul Rahman K",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3904",
+      "date": "2026-04-26",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Challengers",
+      "ground": "Rancho",
+      "result": "Challengers won by 4 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 70,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Challengers",
+          "runs": 71,
+          "wkts": 6,
+          "overs": "17.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Abdullah Syed",
+          "r": 7,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Adel Mahmood Sayeed",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Keyur Sr M",
+          "r": 3,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhinesh Mishra",
+          "r": 15,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Srikanth Banda",
+          "r": 11,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Anas Esmati",
+          "r": 11,
+          "b": 13,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "st"
+        },
+        {
+          "name": "Bikram Singh",
+          "r": 5,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "RANA SINGH",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Sreeni Y",
+          "r": 4,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 2,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "RANA SINGH",
+          "balls": 24,
+          "r": 13,
+          "w": 1,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 16,
+          "w": 0,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Anas Esmati",
+          "balls": 12,
+          "r": 15,
+          "w": 0,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 21,
+          "r": 14,
+          "w": 3,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bikram Singh",
+          "balls": 24,
+          "r": 13,
+          "w": 2,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Siva Kumar Reddy",
+          "c",
+          2
+        ],
+        [
+          "Adel Mahmood Sayeed",
+          "r",
+          1
+        ],
+        [
+          "Abdullah Syed",
+          "r",
+          1
+        ],
+        [
+          "Srikanth Banda",
+          "k",
+          1
+        ],
+        [
+          "Bikram Singh",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3884",
+      "date": "2026-04-19",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Friendz United",
+      "ground": "GRMS",
+      "result": "Friendz United won by 4 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 75,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Friendz United",
+          "runs": 81,
+          "wkts": 6,
+          "overs": "18.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Abdullah Syed",
+          "r": 7,
+          "b": 6,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Abdul Malik",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Asif Khan",
+          "r": 8,
+          "b": 15,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "r": 19,
+          "b": 30,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 19,
+          "b": 29,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Bikram Singh",
+          "r": 8,
+          "b": 23,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Anas Esmati",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 3,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Sreeni Y",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anas Esmati",
+          "balls": 24,
+          "r": 15,
+          "w": 0,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 24,
+          "r": 19,
+          "w": 3,
+          "dots": 12,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 10,
+          "w": 3,
+          "dots": 18,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "balls": 24,
+          "r": 21,
+          "w": 0,
+          "dots": 12,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Asif Khan",
+          "balls": 2,
+          "r": 6,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Ranjith Gangipamula",
+          "c",
+          1
+        ],
+        [
+          "Abdul Malik",
+          "k",
+          2
+        ],
+        [
+          "Srinivasu Veeraiahgari",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3865",
+      "date": "2026-04-05",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Mavericks",
+      "ground": "GRMS",
+      "result": "Mavericks won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 127,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Mavericks",
+          "runs": 128,
+          "wkts": 5,
+          "overs": "19.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Abdullah Syed",
+          "r": 34,
+          "b": 23,
+          "f": 5,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Kingshuk Paul",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Shah Maqdoom",
+          "r": 19,
+          "b": 24,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "r": 36,
+          "b": 25,
+          "f": 2,
+          "s": 3,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "r": 5,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Guru Pratap Singh",
+          "r": 0,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 12,
+          "b": 19,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Amer Mohammed",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "RANA SINGH",
+          "r": 6,
+          "b": 6,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "RANA SINGH",
+          "balls": 24,
+          "r": 20,
+          "w": 0,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "balls": 18,
+          "r": 19,
+          "w": 2,
+          "dots": 11,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Amer Mohammed",
+          "balls": 21,
+          "r": 25,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "balls": 18,
+          "r": 19,
+          "w": 1,
+          "dots": 7,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abdullah Syed",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Kingshuk Paul",
+          "balls": 6,
+          "r": 18,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 20,
+          "w": 0,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "RANA SINGH",
+          "c",
+          1
+        ],
+        [
+          "Siva Kumar Reddy",
+          "c",
+          1
+        ],
+        [
+          "Kingshuk Paul",
+          "c",
+          1
+        ],
+        [
+          "Abdullah Syed",
+          "c",
+          1
+        ],
+        [
+          "Ranjith Gangipamula",
+          "r",
+          1
+        ],
+        [
+          "Guru Pratap Singh",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3841",
+      "date": "2026-03-28",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Pine Valley Cricket Club",
+      "ground": "WRMS",
+      "result": "Fairfield Falcons won by 12 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 102,
+          "wkts": 10,
+          "overs": "18"
+        },
+        {
+          "team": "Pine Valley Cricket Club",
+          "runs": 90,
+          "wkts": 10,
+          "overs": "19.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Abdullah Syed",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Joseph Yeruva",
+          "r": 5,
+          "b": 10,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "r": 80,
+          "b": 42,
+          "f": 3,
+          "s": 8,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Guru Pratap Singh",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "r": 1,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Ali Tinwala",
+          "r": 7,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 1,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Iqbal Sandhu",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Amer Mohammed",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Srinivasu Veeraiahgari",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "RANA SINGH",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "RANA SINGH",
+          "balls": 24,
+          "r": 17,
+          "w": 1,
+          "dots": 17,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ranjith Gangipamula",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 24,
+          "r": 11,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Amer Mohammed",
+          "balls": 24,
+          "r": 14,
+          "w": 3,
+          "dots": 16,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Ali Tinwala",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 2,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sangameshgouda Horapeti",
+          "balls": 24,
+          "r": 26,
+          "w": 2,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Joseph Yeruva",
+          "balls": 7,
+          "r": 8,
+          "w": 2,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "RANA SINGH",
+          "c",
+          1
+        ],
+        [
+          "Guru Pratap Singh",
+          "k",
+          3
+        ],
+        [
+          "Sangameshgouda Horapeti",
+          "c",
+          3
+        ],
+        [
+          "Ali Tinwala",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3823",
+      "date": "2026-03-21",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Pleasanton Mercers",
+      "ground": "Central Park1",
+      "result": "Pleasanton Mercers won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Fairfield Falcons",
+          "runs": 46,
+          "wkts": 10,
+          "overs": "14.3"
+        },
+        {
+          "team": "Pleasanton Mercers",
+          "runs": 47,
+          "wkts": 5,
+          "overs": "13.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Kiran Vanam",
+          "r": 2,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Joseph Yeruva",
+          "r": 22,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "r": 3,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Guru Pratap Singh",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Iqbal Sandhu",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Bikram Singh",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "r": 13,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Mani Singh",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Sreeni Y",
+          "r": 1,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Davinder Singh",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "RANA SINGH",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "RANA SINGH",
+          "balls": 24,
+          "r": 6,
+          "w": 3,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Siva Kumar Reddy",
+          "balls": 18,
+          "r": 10,
+          "w": 1,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Bikram Singh",
+          "balls": 18,
+          "r": 14,
+          "w": 0,
+          "dots": 11,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Sreeni Y",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Joseph Yeruva",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Hasnain Lakhani",
+          "balls": 6,
+          "r": 2,
+          "w": 1,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Iqbal Sandhu",
+          "balls": 3,
+          "r": 5,
+          "w": 0,
+          "dots": 1,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Bikram Singh",
+          "c",
+          1
+        ],
+        [
+          "Kiran Vanam",
+          "k",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 6
+}

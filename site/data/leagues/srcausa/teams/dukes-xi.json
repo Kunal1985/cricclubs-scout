@@ -1,0 +1,3675 @@
+{
+  "team": "Dukes XI",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/20625c9e-4b6f-45a2-a2ed-e18b9755e473.jpg",
+  "logos": {
+    "Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/superkings.jpg",
+    "CSK Jaguars": "https://media.cricclubs.com/documentsRep/teamLogos/cfc2250d-3186-4f2c-8d48-c2739706f44d.jpg",
+    "Bay Area Paltan": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/7e39bc8f-197c-465a-966f-a472d12347e4.jpg",
+    "White Lightning": "https://media.cricclubs.com/documentsRep/teamLogos/c52ac345-0288-40b0-9e24-7cc4b9f30bbf.jpg",
+    "Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/9976f4b9-f7eb-4da4-b723-30221da86858.jpg",
+    "Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d95d4387-973f-457a-aa1a-8284505734bb.jpg",
+    "Titans": "https://media.cricclubs.com/documentsRep/teamLogos/titans.jpg",
+    "Dukes XI": "https://media.cricclubs.com/documentsRep/teamLogos/20625c9e-4b6f-45a2-a2ed-e18b9755e473.jpg",
+    "Skippers": "https://media.cricclubs.com/documentsRep/teamLogos/98d9d9d1-f0e8-47cb-8086-141dc0df600d.jpg",
+    "Gully Cricketers": "https://media.cricclubs.com/documentsRep/teamLogos/5bc67916-4509-47e5-bb4c-4ecd65398d12.jpg",
+    "Challengers": "https://media.cricclubs.com/documentsRep/teamLogos/challengers.jpg",
+    "United CC": "https://media.cricclubs.com/documentsRep/teamLogos/9b19eda5-e3cc-4f6f-aa5d-e45311d79f6c.jpg",
+    "Fire Friends": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/6e7e01fe-3bcf-4bf6-8b5f-8e6c5a2e1e1c.jpg",
+    "Pleasanton Mercers": "https://media.cricclubs.com/documentsRep/teamLogos/9149bc1c-6f1f-4e10-834a-4249cfbfc604.jpg",
+    "Punjab Battalion": "https://media.cricclubs.com/documentsRep/teamLogos/762faa14-bc64-41c2-a51e-d6373295a5e6.jpg",
+    "Black Caps": "https://media.cricclubs.com/documentsRep/teamLogos/dcdbdf97-a8ee-448a-93b0-69abdf80cb18.jpg",
+    "Friendz United": "https://media.cricclubs.com/documentsRep/teamLogos/d0f59da6-cd5e-4f0b-936b-35908223c609.jpg",
+    "Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/81d7179e-d627-4b1b-ac81-7bf35409872f.jpg",
+    "Fairfield Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/e77c18ec-06eb-4575-b9d2-26c7ffefbd66.jpg",
+    "Pine Valley Cricket Club": "https://media.cricclubs.com/documentsRep/teamLogos/de49dcc8-0a6c-4731-a156-7166acb5d2ec.jpg",
+    "007": "https://media.cricclubs.com/documentsRep/teamLogos/18c99f03-1ba0-4df2-8ea0-482508564ffc.jpg",
+    "Pullaingo": "https://media.cricclubs.com/documentsRep/teamLogos/abb3a261-9073-4355-84d3-18db1658b97a.jpg",
+    "Gale Ranch Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/f1fa21b0-9998-4134-a43c-3c93b6058309.jpg",
+    "Emerald Titans": "https://media.cricclubs.com/documentsRep/teamLogos/9c4c0bc2-d2ac-447a-b3e5-fc6f53b575f8.jpg",
+    "Kingfishers": "https://media.cricclubs.com/documentsRep/teamLogos/14163cda-0e4f-4b53-bbfa-026645d57cae.jpg",
+    "Fallon Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/4e98ec5b-ef96-4257-b0bd-fac7dffc8105.jpg",
+    "Mt Diablo Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/f3069d7a-8a7a-460a-be5b-7317271c52a5.jpg",
+    "GRCC": "https://media.cricclubs.com/documentsRep/teamLogos/e0d5d230-6712-412f-9d5a-10b1315d75df.jpg",
+    "Emerald Kings": "https://media.cricclubs.com/documentsRep/teamLogos/b7852a3a-7fe5-4f50-b44a-8e90dfcccf37.jpg",
+    "Champions": "https://media.cricclubs.com/documentsRep/teamLogos/51ccc4cc-16a6-42eb-8b5d-e3922373bf94.jpg",
+    "Fundoos": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Bravehearts": "https://media.cricclubs.com/documentsRep/teamLogos/96a438f6-cd65-49c2-8cfe-2fd1f8eeb8fc.jpg",
+    "Dabangg": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Preserve": "https://media.cricclubs.com/documentsRep/teamLogos/256d0d01-b22e-4d98-817c-b389b953af56.jpeg",
+    "Livermore Lions": "https://media.cricclubs.com/documentsRep/teamLogos/167c5a95-6a22-49a1-8df8-40150301f3ed.jpg",
+    "Dublin Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Shockwave": "https://media.cricclubs.com/documentsRep/teamLogos/waves.jpg",
+    "Rebels": "https://media.cricclubs.com/documentsRep/teamLogos/d24ad128-903e-4573-8996-cec81c7aa220.jpg",
+    "Dominators": "https://media.cricclubs.com/documentsRep/teamLogos/5c96eb11-b7f6-42e0-8e20-4950cef022c2.jpg",
+    "CaliLegends": "https://media.cricclubs.com/documentsRep/teamLogos/b2f485e8-466e-48c0-a8e0-d50b484f7fbd.jpg",
+    "Phoenix": "https://media.cricclubs.com/documentsRep/teamLogos/432093c3-f50d-4809-b84f-19f2fc28a6b7.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/b267fb78-2cb7-46c7-b739-86ba847fa2ee.jpg",
+    "MCC": "https://media.cricclubs.com/documentsRep/teamLogos/d8449c81-45b7-4fe9-9771-b6e93d1ae886.jpg",
+    "Buddies": "https://media.cricclubs.com/documentsRep/teamLogos/21f0fb91-ef52-4b3b-86e3-5823c71231d0.jpg",
+    "Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/b473d1ce-8394-44ec-a7fe-9a7514abbd82.jpg",
+    "Iron Horse Riders": "https://media.cricclubs.com/documentsRep/teamLogos/16ec0648-dec2-427e-b6c8-5ea2f9009d60.jpg",
+    "Elite XI": "https://media.cricclubs.com/documentsRep/teamLogos/37ee9d33-523e-40f8-bb5c-b039c0b7bb6f.jpg",
+    "Emerald Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/39a3d678-295b-438f-9ac6-2b4b6b5391f7.jpg",
+    "OG": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Bay Cc Elites": "https://media.cricclubs.com/documentsRep/teamLogos/elites.jpg",
+    "Tigers": "https://media.cricclubs.com/documentsRep/teamLogos/2a79d41a-93b8-4c83-88ca-82dc5628a69d.jpg",
+    "Dublin Green Caps": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Trailblazers": "https://media.cricclubs.com/documentsRep/teamLogos/efcb826d-735b-4f9f-a1aa-a6f2c7eafcbf.jpg",
+    "Dublin Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/2f596dc4-51ba-4243-af5f-df9981b074b0.jpg",
+    "AFG XI": "https://media.cricclubs.com/documentsRep/teamLogos/57db8fd6-1ecf-40c0-8593-eeefc2396c7e.jpg",
+    "Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/935b8be6-2a53-4a16-9bbe-4d476dcddeb8.jpg",
+    "Dublin Emeralds": "https://media.cricclubs.com/documentsRep/teamLogos/a16d2e01-7a08-4883-93d7-094b18a778a3.jpg"
+  },
+  "league": {
+    "code": "SrcaUsa",
+    "name": "SRCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-110",
+      "name": "SRCA Summer 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-10-31T23:08:28.239Z"
+    },
+    "last": {
+      "id": "legacy-99",
+      "name": "SRCA Spring 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-10-31T23:08:53.752Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-4299",
+      "date": "2026-10-31",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Skippers",
+      "ground": "GRMS",
+      "result": "Skippers won by 2 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 69,
+          "wkts": 10,
+          "overs": "17.1"
+        },
+        {
+          "team": "Skippers",
+          "runs": 70,
+          "wkts": 8,
+          "overs": "17.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Saikrishna Pandala",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Satya Naldiga",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 4,
+          "b": 5,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Bharath Appala",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 11,
+          "b": 23,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "r": 20,
+          "b": 29,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Rajesh Mukiri",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Likhith Golakoti",
+          "r": 14,
+          "b": 19,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Veera Naga",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Anudeep Kamani",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bharath Appala",
+          "balls": 24,
+          "r": 10,
+          "w": 1,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Likhith Golakoti",
+          "balls": 24,
+          "r": 23,
+          "w": 2,
+          "dots": 17,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Anudeep Kamani",
+          "balls": 23,
+          "r": 14,
+          "w": 2,
+          "dots": 18,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 18,
+          "r": 12,
+          "w": 0,
+          "dots": 14,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 18,
+          "r": 11,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Rajesh Mukiri",
+          "c",
+          1
+        ],
+        [
+          "Bharath Appala",
+          "r",
+          1
+        ],
+        [
+          "Satish Rambhatla",
+          "r",
+          1
+        ],
+        [
+          "Satish Rambhatla",
+          "k",
+          3
+        ],
+        [
+          "Ashok Raju Datla",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4270",
+      "date": "2026-10-11",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Fire Friends",
+      "ground": "Rancho",
+      "result": "Dukes XI won by 29 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 106,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "Fire Friends",
+          "runs": 77,
+          "wkts": 8,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Bharath Raj Puli",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Rajesh Mukiri",
+          "r": 2,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Satya Naldiga",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Sharath Yadagiri",
+          "r": 28,
+          "b": 32,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Dhruva Indavarapu",
+          "r": 3,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 15,
+          "b": 23,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Sahil Mohammed",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 25,
+          "b": 16,
+          "f": 4,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Veera Naga",
+          "r": 17,
+          "b": 13,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Seetharam Kakarla",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Narendra Chalamala",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Seetharam Kakarla",
+          "balls": 24,
+          "r": 15,
+          "w": 3,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Narendra Chalamala",
+          "balls": 18,
+          "r": 8,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 18,
+          "r": 17,
+          "w": 0,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sharath Yadagiri",
+          "balls": 12,
+          "r": 5,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sahil Mohammed",
+          "balls": 12,
+          "r": 9,
+          "w": 1,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Raj Puli",
+          "balls": 12,
+          "r": 7,
+          "w": 1,
+          "dots": 7,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Veera Naga",
+          "balls": 12,
+          "r": 5,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rajesh Mukiri",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Satish Rambhatla",
+          "k",
+          2
+        ],
+        [
+          "Satya Naldiga",
+          "c",
+          2
+        ],
+        [
+          "Veera Naga",
+          "c",
+          1
+        ],
+        [
+          "Ashok Raju Datla",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4257",
+      "date": "2026-10-04",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Gully Cricketers",
+      "ground": "GRMS",
+      "result": "Gully Cricketers won by 31 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Gully Cricketers",
+          "runs": 124,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 93,
+          "wkts": 10,
+          "overs": "18.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Bharath SriRangaraju",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Ilyas UdDin",
+          "r": 15,
+          "b": 11,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Appala",
+          "r": 34,
+          "b": 46,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ajai Krishna Velayutham",
+          "r": 3,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Vishwa Ramesh",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Satya Naldiga",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "r": 13,
+          "b": 12,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Veera Naga",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Bhushan Shet",
+          "r": 18,
+          "b": 12,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Sandeep Gandiga",
+          "r": 5,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "Umakanth Bobba",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bharath Appala",
+          "balls": 24,
+          "r": 25,
+          "w": 3,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vishwa Ramesh",
+          "balls": 24,
+          "r": 19,
+          "w": 0,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ilyas UdDin",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "balls": 24,
+          "r": 22,
+          "w": 2,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sandeep Gandiga",
+          "balls": 12,
+          "r": 14,
+          "w": 1,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Satya Naldiga",
+          "balls": 12,
+          "r": 25,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Ajai Krishna Velayutham",
+          "c",
+          2
+        ],
+        [
+          "Ajai Krishna Velayutham",
+          "k",
+          1
+        ],
+        [
+          "Bharath Appala",
+          "c",
+          1
+        ],
+        [
+          "Veera Naga",
+          "c",
+          1
+        ],
+        [
+          "Vamsi Guntaka",
+          "c",
+          1
+        ],
+        [
+          "Bharath Appala",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4220",
+      "date": "2026-09-19",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Pleasanton Mercers",
+      "ground": "Central Park1",
+      "result": "Dukes XI won by 25 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 104,
+          "wkts": 9,
+          "overs": "20.1"
+        },
+        {
+          "team": "Pleasanton Mercers",
+          "runs": 79,
+          "wkts": 10,
+          "overs": "17.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Satish Rambhatla",
+          "r": 11,
+          "b": 22,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Sharath Yadagiri",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Umakanth Bobba",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Rajesh Mukiri",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Avish Shah",
+          "r": 11,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 29,
+          "b": 31,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "r": 18,
+          "b": 15,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Mokshith Bachala Raja",
+          "r": 16,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "rt"
+        },
+        {
+          "name": "Veera Naga",
+          "r": 4,
+          "b": 1,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Ajay Kumar Katkuri",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Satya Naldiga",
+          "r": 3,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Rambhatla",
+          "balls": 18,
+          "r": 12,
+          "w": 0,
+          "dots": 12,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 24,
+          "r": 11,
+          "w": 4,
+          "dots": 20,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 0,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Veera Naga",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 2,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Satya Naldiga",
+          "balls": 12,
+          "r": 10,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Mokshith Bachala Raja",
+          "balls": 18,
+          "r": 13,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Avish Shah",
+          "balls": 11,
+          "r": 8,
+          "w": 3,
+          "dots": 7,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Ajay Kumar Katkuri",
+          "balls": 12,
+          "r": 8,
+          "w": 1,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Satish Rambhatla",
+          "c",
+          1
+        ],
+        [
+          "Ajay Kumar Katkuri",
+          "c",
+          2
+        ],
+        [
+          "Mokshith Bachala Raja",
+          "c",
+          2
+        ],
+        [
+          "Vamsi Guntaka",
+          "c",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4180",
+      "date": "2026-08-29",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Fire Friends",
+      "ground": "GRMS",
+      "result": "Dukes XI won by 9 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Fire Friends",
+          "runs": 53,
+          "wkts": 10,
+          "overs": "17.2"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 55,
+          "wkts": 1,
+          "overs": "9"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Bhushan Shet",
+          "r": 19,
+          "b": 30,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 1
+        },
+        {
+          "name": "GOPI JAJULA",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Saikrishna Pandala",
+          "r": 31,
+          "b": 21,
+          "f": 2,
+          "s": 2,
+          "out": false,
+          "pos": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "balls": 24,
+          "r": 6,
+          "w": 4,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Likhith Golakoti",
+          "balls": 24,
+          "r": 13,
+          "w": 2,
+          "dots": 20,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "SAI GANESH Repaka",
+          "balls": 24,
+          "r": 8,
+          "w": 0,
+          "dots": 19,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 18,
+          "r": 13,
+          "w": 2,
+          "dots": 16,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Sahil Mohammed",
+          "balls": 14,
+          "r": 11,
+          "w": 2,
+          "dots": 11,
+          "wd": 0,
+          "nb": 2
+        }
+      ],
+      "fielding": [
+        [
+          "Satish Rambhatla",
+          "k",
+          1
+        ],
+        [
+          "Likhith Golakoti",
+          "c",
+          1
+        ],
+        [
+          "Sahil Mohammed",
+          "c",
+          3
+        ],
+        [
+          "SAI GANESH Repaka",
+          "c",
+          1
+        ],
+        [
+          "Saravan Kumar Parepely",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4157",
+      "date": "2026-08-15",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Skippers",
+      "ground": "WRMS",
+      "result": "Dukes XI won by 15 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 95,
+          "wkts": 10,
+          "overs": "17.3"
+        },
+        {
+          "team": "Skippers",
+          "runs": 80,
+          "wkts": 10,
+          "overs": "17.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Satish Rambhatla",
+          "r": 18,
+          "b": 24,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Sharath Yadagiri",
+          "r": 20,
+          "b": 23,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Dhruva Indavarapu",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Saikrishna Pandala",
+          "r": 7,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Ravi Teja Reddy SR",
+          "r": 12,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "r": 6,
+          "b": 5,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Pardhu Varma",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Veera Naga",
+          "r": 15,
+          "b": 8,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Sahil Mohammed",
+          "r": 6,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Anudeep Kamani",
+          "r": 0,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "balls": 24,
+          "r": 12,
+          "w": 3,
+          "dots": 16,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 18,
+          "r": 16,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Satish Rambhatla",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 4,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sahil Mohammed",
+          "balls": 22,
+          "r": 12,
+          "w": 3,
+          "dots": 16,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Anudeep Kamani",
+          "balls": 12,
+          "r": 14,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Pardhu Varma",
+          "balls": 24,
+          "r": 17,
+          "w": 3,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Anudeep Kamani",
+          "c",
+          1
+        ],
+        [
+          "Pardhu Varma",
+          "c",
+          1
+        ],
+        [
+          "Dhruva Indavarapu",
+          "c",
+          1
+        ],
+        [
+          "Shravan Kumar Gunuganti",
+          "c",
+          1
+        ],
+        [
+          "Veera Naga",
+          "c",
+          2
+        ],
+        [
+          "Saikrishna Pandala",
+          "c",
+          2
+        ],
+        [
+          "Satish Rambhatla",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4129",
+      "date": "2026-08-02",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Warriors",
+      "ground": "Rancho",
+      "result": "Dukes XI won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Warriors",
+          "runs": 78,
+          "wkts": 10,
+          "overs": "19.3"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 82,
+          "wkts": 4,
+          "overs": "13.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Bhushan Shet",
+          "r": 12,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 25,
+          "b": 21,
+          "f": 4,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Satya Naldiga",
+          "r": 20,
+          "b": 31,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 3
+        },
+        {
+          "name": "Veera Naga",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Mokshith Bachala Raja",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 15,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mokshith Bachala Raja",
+          "balls": 12,
+          "r": 12,
+          "w": 1,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 24,
+          "r": 15,
+          "w": 2,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Harshavardhana Reddy Namburu",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 4,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "GOPI JAJULA",
+          "balls": 21,
+          "r": 12,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sahil Mohammed",
+          "balls": 18,
+          "r": 7,
+          "w": 2,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ravi Teja Reddy SR",
+          "balls": 12,
+          "r": 8,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 24,
+          "r": 20,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 2
+        }
+      ],
+      "fielding": [
+        [
+          "Ashok Raju Datla",
+          "c",
+          1
+        ],
+        [
+          "Bhushan Shet",
+          "c",
+          2
+        ],
+        [
+          "Saravan Kumar Parepely",
+          "c",
+          1
+        ],
+        [
+          "Ashok Raju Datla",
+          "r",
+          1
+        ],
+        [
+          "Mokshith Bachala Raja",
+          "c",
+          1
+        ],
+        [
+          "Satish Rambhatla",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4083",
+      "date": "2026-07-18",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Gully Cricketers",
+      "ground": "GRMS",
+      "result": "Dukes XI won by 9 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Gully Cricketers",
+          "runs": 28,
+          "wkts": 10,
+          "overs": "13.3"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 32,
+          "wkts": 1,
+          "overs": "6.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Bhushan Shet",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Venkateswarlu Matta",
+          "r": 15,
+          "b": 17,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 2
+        },
+        {
+          "name": "Harshavardhana Reddy Namburu",
+          "r": 8,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "balls": 24,
+          "r": 2,
+          "w": 4,
+          "dots": 22,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Harshavardhana Reddy Namburu",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 12,
+          "r": 4,
+          "w": 0,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "SAI GANESH Repaka",
+          "balls": 15,
+          "r": 4,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Anudeep Kamani",
+          "balls": 12,
+          "r": 4,
+          "w": 1,
+          "dots": 12,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Venkateswarlu Matta",
+          "balls": 6,
+          "r": 3,
+          "w": 0,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Saravan Kumar Parepely",
+          "k",
+          3
+        ],
+        [
+          "Harshavardhana Reddy Namburu",
+          "c",
+          1
+        ],
+        [
+          "Ashok Raju Datla",
+          "c",
+          1
+        ],
+        [
+          "Satya Naldiga",
+          "r",
+          1
+        ],
+        [
+          "Veera Naga",
+          "c",
+          1
+        ],
+        [
+          "Anudeep Kamani",
+          "r",
+          1
+        ],
+        [
+          "Sharath Yadagiri",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4074",
+      "date": "2026-07-12",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "United CC",
+      "ground": "Central Park1",
+      "result": "United CC won by 22 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "United CC",
+          "runs": 117,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 95,
+          "wkts": 10,
+          "overs": "17.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rajesh Mukiri",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Naarayan Mohan",
+          "r": 13,
+          "b": 20,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Kumar Katkuri",
+          "r": 24,
+          "b": 22,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "NITHIN AGARAM",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Sharath Yadagiri",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 15,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Mokshith Bachala Raja",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Satya Naldiga",
+          "r": 14,
+          "b": 13,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "r": 9,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Harshavardhana Reddy Namburu",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Anudeep Kamani",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "balls": 24,
+          "r": 25,
+          "w": 2,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Harshavardhana Reddy Namburu",
+          "balls": 12,
+          "r": 10,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Mokshith Bachala Raja",
+          "balls": 18,
+          "r": 24,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "NITHIN AGARAM",
+          "balls": 24,
+          "r": 26,
+          "w": 0,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Anudeep Kamani",
+          "balls": 24,
+          "r": 14,
+          "w": 2,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ajay Kumar Katkuri",
+          "balls": 12,
+          "r": 14,
+          "w": 0,
+          "dots": 5,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Satish Rambhatla",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "NITHIN AGARAM",
+          "c",
+          1
+        ],
+        [
+          "Shravan Kumar Gunuganti",
+          "r",
+          1
+        ],
+        [
+          "Satish Rambhatla",
+          "k",
+          3
+        ],
+        [
+          "Mokshith Bachala Raja",
+          "c",
+          1
+        ],
+        [
+          "Harshavardhana Reddy Namburu",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4051",
+      "date": "2026-06-27",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Challengers",
+      "ground": "Rancho",
+      "result": "Dukes XI won by 21 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 72,
+          "wkts": 10,
+          "overs": "18.2"
+        },
+        {
+          "team": "Challengers",
+          "runs": 51,
+          "wkts": 10,
+          "overs": "17.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rajesh Mukiri",
+          "r": 7,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "GOPI JAJULA",
+          "r": 14,
+          "b": 15,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "NITHIN AGARAM",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 6,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 17,
+          "b": 34,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "SAI GANESH Repaka",
+          "r": 7,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Sharath Yadagiri",
+          "r": 3,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Likhith Golakoti",
+          "r": 6,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Ilyas UdDin",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Harshavardhana Reddy Namburu",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ilyas UdDin",
+          "balls": 24,
+          "r": 3,
+          "w": 1,
+          "dots": 22,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Likhith Golakoti",
+          "balls": 23,
+          "r": 8,
+          "w": 2,
+          "dots": 18,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "SAI GANESH Repaka",
+          "balls": 18,
+          "r": 8,
+          "w": 3,
+          "dots": 14,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "NITHIN AGARAM",
+          "balls": 18,
+          "r": 11,
+          "w": 1,
+          "dots": 13,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 18,
+          "r": 11,
+          "w": 1,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Satish Rambhatla",
+          "r",
+          1
+        ],
+        [
+          "Harshavardhana Reddy Namburu",
+          "c",
+          1
+        ],
+        [
+          "Rajesh Mukiri",
+          "c",
+          1
+        ],
+        [
+          "Saravan Kumar Parepely",
+          "c",
+          2
+        ],
+        [
+          "SAI GANESH Repaka",
+          "c",
+          1
+        ],
+        [
+          "NITHIN AGARAM",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4019",
+      "date": "2026-06-14",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Pleasanton Mercers",
+      "ground": "Rancho",
+      "result": "Dukes XI won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Pleasanton Mercers",
+          "runs": 102,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 104,
+          "wkts": 4,
+          "overs": "18.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rajesh Mukiri",
+          "r": 20,
+          "b": 28,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Bhushan Shet",
+          "r": 22,
+          "b": 23,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Surya Nanduri",
+          "r": 13,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Ravi Teja Reddy SR",
+          "r": 10,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 12,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 17,
+          "b": 21,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bharath Appala",
+          "balls": 18,
+          "r": 12,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Praveen Parvataneni",
+          "balls": 18,
+          "r": 7,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "balls": 24,
+          "r": 24,
+          "w": 1,
+          "dots": 12,
+          "wd": 8,
+          "nb": 0
+        },
+        {
+          "name": "Satish Rambhatla",
+          "balls": 6,
+          "r": 14,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Anudeep Kamani",
+          "balls": 24,
+          "r": 24,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 12,
+          "r": 3,
+          "w": 1,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rajesh Mukiri",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 0,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 12,
+          "r": 9,
+          "w": 1,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Surya Nanduri",
+          "r",
+          2
+        ],
+        [
+          "Bharath Appala",
+          "r",
+          1
+        ],
+        [
+          "Ashok Raju Datla",
+          "r",
+          1
+        ],
+        [
+          "Vamsi Guntaka",
+          "c",
+          1
+        ],
+        [
+          "Bhushan Shet",
+          "c",
+          1
+        ],
+        [
+          "Anudeep Kamani",
+          "c",
+          3
+        ],
+        [
+          "Surya Nanduri",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3955",
+      "date": "2026-05-16",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "CSK Jaguars",
+      "ground": "Rancho",
+      "result": "Dukes XI won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 92,
+          "wkts": 10,
+          "overs": "19.4"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 93,
+          "wkts": 7,
+          "overs": "12.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "NITHIN AGARAM",
+          "r": 57,
+          "b": 34,
+          "f": 5,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "r": 11,
+          "b": 15,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Prapul Kumar Lakkavathri",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Shet",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "GOPI JAJULA",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "r": 4,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 18,
+          "r": 18,
+          "w": 2,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ilyas UdDin",
+          "balls": 18,
+          "r": 13,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Anudeep Kamani",
+          "balls": 18,
+          "r": 22,
+          "w": 2,
+          "dots": 8,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "balls": 6,
+          "r": 5,
+          "w": 0,
+          "dots": 3,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 22,
+          "r": 14,
+          "w": 2,
+          "dots": 11,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "NITHIN AGARAM",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "balls": 6,
+          "r": 2,
+          "w": 2,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 6,
+          "r": 5,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Bharath Mohan Chandra Kodhati",
+          "c",
+          1
+        ],
+        [
+          "GOPI JAJULA",
+          "c",
+          1
+        ],
+        [
+          "Ashok Raju Datla",
+          "c",
+          1
+        ],
+        [
+          "Anudeep Kamani",
+          "c",
+          1
+        ],
+        [
+          "Satish Rambhatla",
+          "k",
+          2
+        ],
+        [
+          "Vamsi Guntaka",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3927",
+      "date": "2026-05-10",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Tigers",
+      "ground": "Rancho",
+      "result": "Forfeited. Winner: Dukes XI",
+      "forfeit": true,
+      "outcome": "W",
+      "tossWonByUs": null,
+      "tossDecision": null,
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        },
+        {
+          "team": "Tigers",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        }
+      ],
+      "batting": [],
+      "bowling": [],
+      "fielding": []
+    },
+    {
+      "id": "legacy-3915",
+      "date": "2026-05-02",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Titans",
+      "ground": "GRMS",
+      "result": "Dukes XI won by 10 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 137,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Titans",
+          "runs": 127,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "SAIKRISHNA DIRISALA",
+          "r": 23,
+          "b": 14,
+          "f": 1,
+          "s": 3,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Rajesh Mukiri",
+          "r": 6,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 42,
+          "b": 39,
+          "f": 2,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Kumar Katkuri",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Dhruva Indavarapu",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "r": 20,
+          "b": 27,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "r": 14,
+          "b": 12,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Veera Naga",
+          "r": 17,
+          "b": 8,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 3,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Avish Shah",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "SAIKRISHNA DIRISALA",
+          "balls": 24,
+          "r": 19,
+          "w": 0,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Avish Shah",
+          "balls": 12,
+          "r": 22,
+          "w": 1,
+          "dots": 5,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Satish Rambhatla",
+          "balls": 24,
+          "r": 23,
+          "w": 2,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 18,
+          "r": 12,
+          "w": 3,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 24,
+          "r": 30,
+          "w": 1,
+          "dots": 10,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "balls": 6,
+          "r": 1,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "balls": 12,
+          "r": 20,
+          "w": 2,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Ashok Raju Datla",
+          "c",
+          2
+        ],
+        [
+          "Ajay Kumar Katkuri",
+          "c",
+          1
+        ],
+        [
+          "Avish Shah",
+          "c",
+          2
+        ],
+        [
+          "Saravan Kumar Parepely",
+          "c",
+          2
+        ],
+        [
+          "Satish Rambhatla",
+          "k",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3895",
+      "date": "2026-04-25",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Bay Area Paltan",
+      "ground": "WRMS",
+      "result": "Bay Area Paltan won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 69,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "Bay Area Paltan",
+          "runs": 70,
+          "wkts": 5,
+          "overs": "16.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Satish Rambhatla",
+          "r": 9,
+          "b": 14,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Rajesh Mukiri",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Bharath Shet",
+          "r": 8,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "r": 13,
+          "b": 33,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "r": 9,
+          "b": 23,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Bhushan Shet",
+          "r": 9,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Umakanth Bobba",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Vivek Vennam",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ro"
+        },
+        {
+          "name": "Veera Naga",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 24,
+          "r": 16,
+          "w": 0,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ashok Raju Datla",
+          "balls": 18,
+          "r": 19,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Satish Rambhatla",
+          "balls": 24,
+          "r": 11,
+          "w": 3,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "balls": 12,
+          "r": 5,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "balls": 6,
+          "r": 7,
+          "w": 1,
+          "dots": 4,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Bhushan Shet",
+          "balls": 1,
+          "r": 1,
+          "w": 0,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Shravan Kumar Gunuganti",
+          "c",
+          1
+        ],
+        [
+          "Bhushan Shet",
+          "c",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3862",
+      "date": "2026-04-04",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Super Kings",
+      "ground": "GRMS",
+      "result": "Super Kings won by 63 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Super Kings",
+          "runs": 181,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 118,
+          "wkts": 6,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rajesh Mukiri",
+          "r": 36,
+          "b": 49,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 8,
+          "b": 10,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Bharath Shet",
+          "r": 25,
+          "b": 26,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ro"
+        },
+        {
+          "name": "Umakanth Bobba",
+          "r": 15,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Bhushan Shet",
+          "r": 21,
+          "b": 15,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Sharath Yadagiri",
+          "r": 3,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shravan Kumar Gunuganti",
+          "balls": 24,
+          "r": 35,
+          "w": 4,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 18,
+          "r": 37,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 24,
+          "r": 28,
+          "w": 0,
+          "dots": 12,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Vivek Vennam",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar",
+          "balls": 12,
+          "r": 20,
+          "w": 1,
+          "dots": 6,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Satish Rambhatla",
+          "balls": 24,
+          "r": 36,
+          "w": 3,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "balls": 12,
+          "r": 15,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Vinay Kumar",
+          "c",
+          1
+        ],
+        [
+          "Shravan Kumar Gunuganti",
+          "c",
+          3
+        ],
+        [
+          "Rajesh Mukiri",
+          "c",
+          1
+        ],
+        [
+          "Bhushan Shet",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3828",
+      "date": "2026-03-21",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Spartans",
+      "ground": "WRMS",
+      "result": "Spartans won by 59 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Spartans",
+          "runs": 166,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 107,
+          "wkts": 10,
+          "overs": "17.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rajesh Mukiri",
+          "r": 14,
+          "b": 11,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Bhushan Shet",
+          "r": 9,
+          "b": 7,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Surya Prakash Jonnada",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "NITHIN AGARAM",
+          "r": 24,
+          "b": 26,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 20,
+          "b": 16,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "r": 10,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Veera Naga",
+          "r": 10,
+          "b": 14,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Ilyas UdDin",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "Bharath Shet",
+          "r": 4,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Surya Prakash Jonnada",
+          "balls": 24,
+          "r": 25,
+          "w": 0,
+          "dots": 13,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "balls": 12,
+          "r": 15,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 18,
+          "r": 31,
+          "w": 2,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ilyas UdDin",
+          "balls": 12,
+          "r": 25,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 24,
+          "r": 24,
+          "w": 1,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "NITHIN AGARAM",
+          "balls": 24,
+          "r": 44,
+          "w": 2,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vamsi Guntaka",
+          "balls": 6,
+          "r": 2,
+          "w": 2,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Veera Naga",
+          "c",
+          1
+        ],
+        [
+          "Satish Rambhatla",
+          "k",
+          2
+        ],
+        [
+          "Bharath Mohan Chandra Kodhati",
+          "c",
+          1
+        ],
+        [
+          "NITHIN AGARAM",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3793",
+      "date": "2026-03-07",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "White Lightning",
+      "ground": "Rancho",
+      "result": "White Lightning won by 2 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Dukes XI",
+          "runs": 103,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "White Lightning",
+          "runs": 104,
+          "wkts": 8,
+          "overs": "18.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sharath Yadagiri",
+          "r": 5,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Mohan Chandra Kodhati",
+          "r": 28,
+          "b": 40,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Bharath Shet",
+          "r": 11,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Surya Prakash Jonnada",
+          "r": 28,
+          "b": 31,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Partha Choudary",
+          "r": 10,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Bhushan Shet",
+          "r": 5,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Praveen Parvataneni",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Satish Rambhatla",
+          "r": 7,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "st"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bharath Appala",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Surya Prakash Jonnada",
+          "balls": 24,
+          "r": 16,
+          "w": 2,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bhushan Shet",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Saravan Kumar Parepely",
+          "balls": 18,
+          "r": 13,
+          "w": 2,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Partha Choudary",
+          "balls": 14,
+          "r": 15,
+          "w": 2,
+          "dots": 9,
+          "wd": 7,
+          "nb": 0
+        },
+        {
+          "name": "Praveen Parvataneni",
+          "balls": 12,
+          "r": 19,
+          "w": 1,
+          "dots": 5,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 18,
+          "r": 22,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Sharath Yadagiri",
+          "c",
+          1
+        ],
+        [
+          "Bhushan Shet",
+          "c",
+          1
+        ],
+        [
+          "Saravan Kumar Parepely",
+          "c",
+          2
+        ],
+        [
+          "Satish Rambhatla",
+          "c",
+          1
+        ],
+        [
+          "Bharath Mohan Chandra Kodhati",
+          "c",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 7
+}

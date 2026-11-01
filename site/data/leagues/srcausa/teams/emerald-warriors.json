@@ -1,0 +1,1989 @@
+{
+  "team": "Emerald Warriors",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/39a3d678-295b-438f-9ac6-2b4b6b5391f7.jpg",
+  "logos": {
+    "Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/superkings.jpg",
+    "CSK Jaguars": "https://media.cricclubs.com/documentsRep/teamLogos/cfc2250d-3186-4f2c-8d48-c2739706f44d.jpg",
+    "Bay Area Paltan": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/7e39bc8f-197c-465a-966f-a472d12347e4.jpg",
+    "White Lightning": "https://media.cricclubs.com/documentsRep/teamLogos/c52ac345-0288-40b0-9e24-7cc4b9f30bbf.jpg",
+    "Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/9976f4b9-f7eb-4da4-b723-30221da86858.jpg",
+    "Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d95d4387-973f-457a-aa1a-8284505734bb.jpg",
+    "Titans": "https://media.cricclubs.com/documentsRep/teamLogos/titans.jpg",
+    "Dukes XI": "https://media.cricclubs.com/documentsRep/teamLogos/20625c9e-4b6f-45a2-a2ed-e18b9755e473.jpg",
+    "Skippers": "https://media.cricclubs.com/documentsRep/teamLogos/98d9d9d1-f0e8-47cb-8086-141dc0df600d.jpg",
+    "Gully Cricketers": "https://media.cricclubs.com/documentsRep/teamLogos/5bc67916-4509-47e5-bb4c-4ecd65398d12.jpg",
+    "Challengers": "https://media.cricclubs.com/documentsRep/teamLogos/challengers.jpg",
+    "United CC": "https://media.cricclubs.com/documentsRep/teamLogos/9b19eda5-e3cc-4f6f-aa5d-e45311d79f6c.jpg",
+    "Fire Friends": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/6e7e01fe-3bcf-4bf6-8b5f-8e6c5a2e1e1c.jpg",
+    "Pleasanton Mercers": "https://media.cricclubs.com/documentsRep/teamLogos/9149bc1c-6f1f-4e10-834a-4249cfbfc604.jpg",
+    "Punjab Battalion": "https://media.cricclubs.com/documentsRep/teamLogos/762faa14-bc64-41c2-a51e-d6373295a5e6.jpg",
+    "Black Caps": "https://media.cricclubs.com/documentsRep/teamLogos/dcdbdf97-a8ee-448a-93b0-69abdf80cb18.jpg",
+    "Friendz United": "https://media.cricclubs.com/documentsRep/teamLogos/d0f59da6-cd5e-4f0b-936b-35908223c609.jpg",
+    "Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/81d7179e-d627-4b1b-ac81-7bf35409872f.jpg",
+    "Fairfield Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/e77c18ec-06eb-4575-b9d2-26c7ffefbd66.jpg",
+    "Pine Valley Cricket Club": "https://media.cricclubs.com/documentsRep/teamLogos/de49dcc8-0a6c-4731-a156-7166acb5d2ec.jpg",
+    "007": "https://media.cricclubs.com/documentsRep/teamLogos/18c99f03-1ba0-4df2-8ea0-482508564ffc.jpg",
+    "Pullaingo": "https://media.cricclubs.com/documentsRep/teamLogos/abb3a261-9073-4355-84d3-18db1658b97a.jpg",
+    "Gale Ranch Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/f1fa21b0-9998-4134-a43c-3c93b6058309.jpg",
+    "Emerald Titans": "https://media.cricclubs.com/documentsRep/teamLogos/9c4c0bc2-d2ac-447a-b3e5-fc6f53b575f8.jpg",
+    "Kingfishers": "https://media.cricclubs.com/documentsRep/teamLogos/14163cda-0e4f-4b53-bbfa-026645d57cae.jpg",
+    "Fallon Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/4e98ec5b-ef96-4257-b0bd-fac7dffc8105.jpg",
+    "Mt Diablo Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/f3069d7a-8a7a-460a-be5b-7317271c52a5.jpg",
+    "GRCC": "https://media.cricclubs.com/documentsRep/teamLogos/e0d5d230-6712-412f-9d5a-10b1315d75df.jpg",
+    "Emerald Kings": "https://media.cricclubs.com/documentsRep/teamLogos/b7852a3a-7fe5-4f50-b44a-8e90dfcccf37.jpg",
+    "Champions": "https://media.cricclubs.com/documentsRep/teamLogos/51ccc4cc-16a6-42eb-8b5d-e3922373bf94.jpg",
+    "Fundoos": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Bravehearts": "https://media.cricclubs.com/documentsRep/teamLogos/96a438f6-cd65-49c2-8cfe-2fd1f8eeb8fc.jpg",
+    "Dabangg": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Preserve": "https://media.cricclubs.com/documentsRep/teamLogos/256d0d01-b22e-4d98-817c-b389b953af56.jpeg",
+    "Livermore Lions": "https://media.cricclubs.com/documentsRep/teamLogos/167c5a95-6a22-49a1-8df8-40150301f3ed.jpg",
+    "Dublin Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Shockwave": "https://media.cricclubs.com/documentsRep/teamLogos/waves.jpg",
+    "Rebels": "https://media.cricclubs.com/documentsRep/teamLogos/d24ad128-903e-4573-8996-cec81c7aa220.jpg",
+    "Dominators": "https://media.cricclubs.com/documentsRep/teamLogos/5c96eb11-b7f6-42e0-8e20-4950cef022c2.jpg",
+    "CaliLegends": "https://media.cricclubs.com/documentsRep/teamLogos/b2f485e8-466e-48c0-a8e0-d50b484f7fbd.jpg",
+    "Phoenix": "https://media.cricclubs.com/documentsRep/teamLogos/432093c3-f50d-4809-b84f-19f2fc28a6b7.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/b267fb78-2cb7-46c7-b739-86ba847fa2ee.jpg",
+    "MCC": "https://media.cricclubs.com/documentsRep/teamLogos/d8449c81-45b7-4fe9-9771-b6e93d1ae886.jpg",
+    "Buddies": "https://media.cricclubs.com/documentsRep/teamLogos/21f0fb91-ef52-4b3b-86e3-5823c71231d0.jpg",
+    "Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/b473d1ce-8394-44ec-a7fe-9a7514abbd82.jpg",
+    "Iron Horse Riders": "https://media.cricclubs.com/documentsRep/teamLogos/16ec0648-dec2-427e-b6c8-5ea2f9009d60.jpg",
+    "Elite XI": "https://media.cricclubs.com/documentsRep/teamLogos/37ee9d33-523e-40f8-bb5c-b039c0b7bb6f.jpg",
+    "Emerald Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/39a3d678-295b-438f-9ac6-2b4b6b5391f7.jpg",
+    "OG": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Bay Cc Elites": "https://media.cricclubs.com/documentsRep/teamLogos/elites.jpg",
+    "Tigers": "https://media.cricclubs.com/documentsRep/teamLogos/2a79d41a-93b8-4c83-88ca-82dc5628a69d.jpg",
+    "Dublin Green Caps": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Trailblazers": "https://media.cricclubs.com/documentsRep/teamLogos/efcb826d-735b-4f9f-a1aa-a6f2c7eafcbf.jpg",
+    "Dublin Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/2f596dc4-51ba-4243-af5f-df9981b074b0.jpg",
+    "AFG XI": "https://media.cricclubs.com/documentsRep/teamLogos/57db8fd6-1ecf-40c0-8593-eeefc2396c7e.jpg",
+    "Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/935b8be6-2a53-4a16-9bbe-4d476dcddeb8.jpg",
+    "Dublin Emeralds": "https://media.cricclubs.com/documentsRep/teamLogos/a16d2e01-7a08-4883-93d7-094b18a778a3.jpg"
+  },
+  "league": {
+    "code": "SrcaUsa",
+    "name": "SRCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-110",
+      "name": "SRCA Summer 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T01:11:15.540Z"
+    },
+    "last": {
+      "id": "legacy-99",
+      "name": "SRCA Spring 2026",
+      "inSeason": false,
+      "scrapedAt": null
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-4278",
+      "date": "2026-10-17",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "OG",
+      "ground": "WRMS",
+      "result": "Emerald Warriors won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "OG",
+          "runs": 75,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "Emerald Warriors",
+          "runs": 77,
+          "wkts": 4,
+          "overs": "14.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Saranveer Khakh",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 15,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 2
+        },
+        {
+          "name": "Abhishek Mendhekar",
+          "r": 21,
+          "b": 24,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ashu Vishwa",
+          "r": 19,
+          "b": 25,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Ajay Kumar",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashish Pandya",
+          "r": 14,
+          "b": 13,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Ritik Grower",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Krishna Sr A",
+          "balls": 24,
+          "r": 20,
+          "w": 2,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ashu Vishwa",
+          "balls": 18,
+          "r": 7,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Shareef SR Shaik",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhishek Mendhekar",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 6,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Maninder Singh",
+          "balls": 24,
+          "r": 8,
+          "w": 3,
+          "dots": 19,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Saranveer Khakh",
+          "balls": 6,
+          "r": 3,
+          "w": 0,
+          "dots": 4,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Pritpal Singh",
+          "balls": 12,
+          "r": 9,
+          "w": 0,
+          "dots": 9,
+          "wd": 0,
+          "nb": 2
+        }
+      ],
+      "fielding": [
+        [
+          "Ashish Pandya",
+          "k",
+          3
+        ],
+        [
+          "Krishna Sr A",
+          "c",
+          1
+        ],
+        [
+          "Pritpal Singh",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4273",
+      "date": "2026-09-27",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Bay Cc Elites",
+      "ground": "Rancho",
+      "result": "Forfeited. Winner: Emerald Warriors",
+      "forfeit": true,
+      "outcome": "W",
+      "tossWonByUs": null,
+      "tossDecision": null,
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Emerald Warriors",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        },
+        {
+          "team": "Bay Cc Elites",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        }
+      ],
+      "batting": [],
+      "bowling": [],
+      "fielding": []
+    },
+    {
+      "id": "legacy-4205",
+      "date": "2026-09-13",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Iron Horse Riders",
+      "ground": "Rancho",
+      "result": "Iron Horse Riders won by 30 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Iron Horse Riders",
+          "runs": 101,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Emerald Warriors",
+          "runs": 71,
+          "wkts": 10,
+          "overs": "17.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Saranveer Khakh",
+          "r": 7,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Keyur Sr M",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Jatinder Pal",
+          "r": 15,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Ashish Pandya",
+          "r": 1,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Shareef SR Shaik",
+          "r": 10,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Nagpritam Naik",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Ritik Grower",
+          "r": 7,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Hari Shankar Kalavala",
+          "r": 9,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Happy Hanzra",
+          "r": 8,
+          "b": 4,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Pritpal Singh",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ctw"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Nagpritam Naik",
+          "balls": 24,
+          "r": 13,
+          "w": 3,
+          "dots": 16,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Jatinder Pal",
+          "balls": 24,
+          "r": 23,
+          "w": 1,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Shareef SR Shaik",
+          "balls": 24,
+          "r": 22,
+          "w": 0,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Maninder Singh",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Pritpal Singh",
+          "balls": 24,
+          "r": 23,
+          "w": 4,
+          "dots": 11,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Ashish Pandya",
+          "k",
+          3
+        ],
+        [
+          "Pritpal Singh",
+          "c",
+          1
+        ],
+        [
+          "Happy Hanzra",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4187",
+      "date": "2026-08-30",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Dhurandhars",
+      "ground": "Rancho",
+      "result": "Dhurandhars won by 3 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Dhurandhars",
+          "runs": 99,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "Emerald Warriors",
+          "runs": 96,
+          "wkts": 10,
+          "overs": "19.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Saranveer Khakh",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 31,
+          "b": 30,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Avinaash Hari",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Ashu Vishwa",
+          "r": 30,
+          "b": 44,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Nagpritam Naik",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Shareef SR Shaik",
+          "r": 7,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Rohith Kolan",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Ashish Pandya",
+          "r": 15,
+          "b": 8,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Ajay Kumar",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Rishab Sharma",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Pritpal Singh",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Nagpritam Naik",
+          "balls": 18,
+          "r": 9,
+          "w": 1,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Shareef SR Shaik",
+          "balls": 18,
+          "r": 7,
+          "w": 0,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ashu Vishwa",
+          "balls": 24,
+          "r": 35,
+          "w": 1,
+          "dots": 12,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Maninder Singh",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 17,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Pritpal Singh",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rishab Sharma",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 3,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Rohith Kolan",
+          "balls": 18,
+          "r": 15,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Avinaash Hari",
+          "c",
+          1
+        ],
+        [
+          "Ashish Pandya",
+          "r",
+          1
+        ],
+        [
+          "Maninder Singh",
+          "c",
+          1
+        ],
+        [
+          "Ashish Pandya",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4164",
+      "date": "2026-08-16",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Elite XI",
+      "ground": "GRMS",
+      "result": "Elite XI won by 1 Wicket",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Emerald Warriors",
+          "runs": 42,
+          "wkts": 10,
+          "overs": "17.1"
+        },
+        {
+          "team": "Elite XI",
+          "runs": 44,
+          "wkts": 9,
+          "overs": "14.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Abhilash Boggavarapu",
+          "r": 4,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Saranveer Khakh",
+          "r": 4,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Jatinder Pal",
+          "r": 5,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Avinaash Hari",
+          "r": 8,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Shareef SR Shaik",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Ashu Vishwa",
+          "r": 2,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashish Pandya",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Pritpal Singh",
+          "r": 1,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Rishab Sharma",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Ajay Kumar",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jatinder Pal",
+          "balls": 24,
+          "r": 7,
+          "w": 3,
+          "dots": 18,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Pritpal Singh",
+          "balls": 24,
+          "r": 24,
+          "w": 3,
+          "dots": 14,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Maninder Singh",
+          "balls": 24,
+          "r": 7,
+          "w": 1,
+          "dots": 18,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ashu Vishwa",
+          "balls": 17,
+          "r": 6,
+          "w": 2,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Ashish Pandya",
+          "k",
+          2
+        ],
+        [
+          "Pritpal Singh",
+          "c",
+          1
+        ],
+        [
+          "Ashu Vishwa",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4141",
+      "date": "2026-08-08",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Bay Cc Elites",
+      "ground": "Central Park1",
+      "result": "Abandoned. Winner: Emerald Warriors",
+      "forfeit": true,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Emerald Warriors",
+          "runs": 70,
+          "wkts": 10,
+          "overs": "17.2"
+        },
+        {
+          "team": "Bay Cc Elites",
+          "runs": 33,
+          "wkts": 5,
+          "overs": "12.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Saranveer Khakh",
+          "r": 7,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashu Vishwa",
+          "r": 4,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Jatinder Pal",
+          "r": 16,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Rohith Kolan",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Nagpritam Naik",
+          "r": 3,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Ashish Pandya",
+          "r": 9,
+          "b": 29,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 3,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Pritpal Singh",
+          "r": 3,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Rishab Sharma",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Kiran Nimmathota",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jatinder Pal",
+          "balls": 24,
+          "r": 12,
+          "w": 4,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "balls": 18,
+          "r": 7,
+          "w": 0,
+          "dots": 15,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Maninder Singh",
+          "balls": 12,
+          "r": 3,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ashu Vishwa",
+          "balls": 11,
+          "r": 8,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Pritpal Singh",
+          "balls": 6,
+          "r": 0,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rohith Kolan",
+          "balls": 6,
+          "r": 3,
+          "w": 0,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Ashu Vishwa",
+          "c",
+          1
+        ],
+        [
+          "Rishab Sharma",
+          "c",
+          1
+        ],
+        [
+          "Abhilash Boggavarapu",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4111",
+      "date": "2026-07-25",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Iron Horse Riders",
+      "ground": "Rancho",
+      "result": "Iron Horse Riders won by 19 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Iron Horse Riders",
+          "runs": 121,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "Emerald Warriors",
+          "runs": 102,
+          "wkts": 10,
+          "overs": "19.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Avinaash Hari",
+          "r": 9,
+          "b": 23,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Saranveer Khakh",
+          "r": 10,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Jatinder Pal",
+          "r": 15,
+          "b": 13,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Kumar",
+          "r": 9,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Ashu Vishwa",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 33,
+          "b": 19,
+          "f": 1,
+          "s": 3,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Hari Shankar Kalavala",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Rishab Sharma",
+          "r": 6,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Kiran Nimmathota",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Vikas Puri",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Vikas Puri",
+          "balls": 24,
+          "r": 30,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Jatinder Pal",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 15,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "balls": 12,
+          "r": 10,
+          "w": 1,
+          "dots": 8,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Maninder Singh",
+          "balls": 24,
+          "r": 26,
+          "w": 0,
+          "dots": 9,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Ashu Vishwa",
+          "balls": 12,
+          "r": 9,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rishab Sharma",
+          "balls": 18,
+          "r": 16,
+          "w": 1,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Hari Shankar Kalavala",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 2
+        }
+      ],
+      "fielding": [
+        [
+          "Hari Shankar Kalavala",
+          "c",
+          1
+        ],
+        [
+          "Avinaash Hari",
+          "c",
+          1
+        ],
+        [
+          "Maninder Singh",
+          "c",
+          1
+        ],
+        [
+          "Avinaash Hari",
+          "r",
+          1
+        ],
+        [
+          "Jatinder Pal",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4061",
+      "date": "2026-07-11",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Dhurandhars",
+      "ground": "Rancho",
+      "result": "Dhurandhars won by 12 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Dhurandhars",
+          "runs": 93,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "Emerald Warriors",
+          "runs": 81,
+          "wkts": 5,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Saranveer Khakh",
+          "r": 9,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ro"
+        },
+        {
+          "name": "Ashu Vishwa",
+          "r": 28,
+          "b": 41,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 3
+        },
+        {
+          "name": "Krishna Sr A",
+          "r": 11,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Ashish Pandya",
+          "r": 21,
+          "b": 30,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Jatinder Pal",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jatinder Pal",
+          "balls": 24,
+          "r": 29,
+          "w": 1,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Krishna Sr A",
+          "balls": 24,
+          "r": 17,
+          "w": 3,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ashu Vishwa",
+          "balls": 18,
+          "r": 11,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vikas Puri",
+          "balls": 24,
+          "r": 15,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rishab Sharma",
+          "balls": 12,
+          "r": 9,
+          "w": 0,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "balls": 12,
+          "r": 6,
+          "w": 2,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ashish Pandya",
+          "balls": 6,
+          "r": 5,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Ashu Vishwa",
+          "c",
+          1
+        ],
+        [
+          "Ashish Pandya",
+          "k",
+          2
+        ],
+        [
+          "Abhilash Boggavarapu",
+          "c",
+          1
+        ],
+        [
+          "Vikas Puri",
+          "c",
+          1
+        ],
+        [
+          "Rishab Sharma",
+          "r",
+          1
+        ],
+        [
+          "Jatinder Pal",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4032",
+      "date": "2026-06-21",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "OG",
+      "ground": "GRMS",
+      "result": "OG won by 29 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "OG",
+          "runs": 89,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Emerald Warriors",
+          "runs": 60,
+          "wkts": 10,
+          "overs": "15.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Saranveer Khakh",
+          "r": 6,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "r": 6,
+          "b": 10,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Ashu Vishwa",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ro"
+        },
+        {
+          "name": "Vinay Pullepu",
+          "r": 8,
+          "b": 23,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Ashish Pandya",
+          "r": 11,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Ajay Kumar",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Jatinder Pal",
+          "r": 7,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Vikas Puri",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Kiran Nimmathota",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Hari Shankar Kalavala",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "rt"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jatinder Pal",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 17,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vikas Puri",
+          "balls": 24,
+          "r": 22,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "balls": 18,
+          "r": 15,
+          "w": 0,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Hari Shankar Kalavala",
+          "balls": 18,
+          "r": 24,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Ashu Vishwa",
+          "balls": 24,
+          "r": 7,
+          "w": 4,
+          "dots": 19,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Maninder Singh",
+          "balls": 12,
+          "r": 9,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Saranveer Khakh",
+          "k",
+          1
+        ],
+        [
+          "Vikas Puri",
+          "r",
+          1
+        ],
+        [
+          "Abhilash Boggavarapu",
+          "c",
+          2
+        ],
+        [
+          "Jatinder Pal",
+          "c",
+          1
+        ],
+        [
+          "Ashish Pandya",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4010",
+      "date": "2026-06-13",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Elite XI",
+      "ground": "Central Park1",
+      "result": "Elite XI won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Emerald Warriors",
+          "runs": 118,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "Elite XI",
+          "runs": 120,
+          "wkts": 5,
+          "overs": "19.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Saranveer Khakh",
+          "r": 23,
+          "b": 48,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Kiran Nimmathota",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "r": 10,
+          "b": 13,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Maninder Singh",
+          "r": 53,
+          "b": 35,
+          "f": 5,
+          "s": 2,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Jatinder Pal",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Ajay Kumar",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Shrinath Jadhav SR",
+          "r": 4,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Shareef SR Shaik",
+          "r": 3,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Vikas Puri",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jatinder Pal",
+          "balls": 24,
+          "r": 22,
+          "w": 1,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abhilash Boggavarapu",
+          "balls": 20,
+          "r": 13,
+          "w": 0,
+          "dots": 12,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Vikas Puri",
+          "balls": 24,
+          "r": 21,
+          "w": 3,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Vishwak Yerrapragada",
+          "balls": 12,
+          "r": 14,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Maninder Singh",
+          "balls": 12,
+          "r": 14,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Shareef SR Shaik",
+          "balls": 12,
+          "r": 14,
+          "w": 0,
+          "dots": 5,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Ashish Pandya",
+          "balls": 12,
+          "r": 21,
+          "w": 0,
+          "dots": 4,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Abhilash Boggavarapu",
+          "c",
+          1
+        ],
+        [
+          "Shrinath Jadhav SR",
+          "c",
+          1
+        ],
+        [
+          "Ashish Pandya",
+          "c",
+          1
+        ],
+        [
+          "Abhilash Boggavarapu",
+          "r",
+          1
+        ],
+        [
+          "Saranveer Khakh",
+          "r",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 2
+}

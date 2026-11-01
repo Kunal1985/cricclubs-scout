@@ -1,0 +1,3635 @@
+{
+  "team": "Champions",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/51ccc4cc-16a6-42eb-8b5d-e3922373bf94.jpg",
+  "logos": {
+    "Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/superkings.jpg",
+    "CSK Jaguars": "https://media.cricclubs.com/documentsRep/teamLogos/cfc2250d-3186-4f2c-8d48-c2739706f44d.jpg",
+    "Bay Area Paltan": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/7e39bc8f-197c-465a-966f-a472d12347e4.jpg",
+    "White Lightning": "https://media.cricclubs.com/documentsRep/teamLogos/c52ac345-0288-40b0-9e24-7cc4b9f30bbf.jpg",
+    "Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/9976f4b9-f7eb-4da4-b723-30221da86858.jpg",
+    "Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d95d4387-973f-457a-aa1a-8284505734bb.jpg",
+    "Titans": "https://media.cricclubs.com/documentsRep/teamLogos/titans.jpg",
+    "Dukes XI": "https://media.cricclubs.com/documentsRep/teamLogos/20625c9e-4b6f-45a2-a2ed-e18b9755e473.jpg",
+    "Skippers": "https://media.cricclubs.com/documentsRep/teamLogos/98d9d9d1-f0e8-47cb-8086-141dc0df600d.jpg",
+    "Gully Cricketers": "https://media.cricclubs.com/documentsRep/teamLogos/5bc67916-4509-47e5-bb4c-4ecd65398d12.jpg",
+    "Challengers": "https://media.cricclubs.com/documentsRep/teamLogos/challengers.jpg",
+    "United CC": "https://media.cricclubs.com/documentsRep/teamLogos/9b19eda5-e3cc-4f6f-aa5d-e45311d79f6c.jpg",
+    "Fire Friends": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/6e7e01fe-3bcf-4bf6-8b5f-8e6c5a2e1e1c.jpg",
+    "Pleasanton Mercers": "https://media.cricclubs.com/documentsRep/teamLogos/9149bc1c-6f1f-4e10-834a-4249cfbfc604.jpg",
+    "Punjab Battalion": "https://media.cricclubs.com/documentsRep/teamLogos/762faa14-bc64-41c2-a51e-d6373295a5e6.jpg",
+    "Black Caps": "https://media.cricclubs.com/documentsRep/teamLogos/dcdbdf97-a8ee-448a-93b0-69abdf80cb18.jpg",
+    "Friendz United": "https://media.cricclubs.com/documentsRep/teamLogos/d0f59da6-cd5e-4f0b-936b-35908223c609.jpg",
+    "Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/81d7179e-d627-4b1b-ac81-7bf35409872f.jpg",
+    "Fairfield Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/e77c18ec-06eb-4575-b9d2-26c7ffefbd66.jpg",
+    "Pine Valley Cricket Club": "https://media.cricclubs.com/documentsRep/teamLogos/de49dcc8-0a6c-4731-a156-7166acb5d2ec.jpg",
+    "007": "https://media.cricclubs.com/documentsRep/teamLogos/18c99f03-1ba0-4df2-8ea0-482508564ffc.jpg",
+    "Pullaingo": "https://media.cricclubs.com/documentsRep/teamLogos/abb3a261-9073-4355-84d3-18db1658b97a.jpg",
+    "Gale Ranch Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/f1fa21b0-9998-4134-a43c-3c93b6058309.jpg",
+    "Emerald Titans": "https://media.cricclubs.com/documentsRep/teamLogos/9c4c0bc2-d2ac-447a-b3e5-fc6f53b575f8.jpg",
+    "Kingfishers": "https://media.cricclubs.com/documentsRep/teamLogos/14163cda-0e4f-4b53-bbfa-026645d57cae.jpg",
+    "Fallon Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/4e98ec5b-ef96-4257-b0bd-fac7dffc8105.jpg",
+    "Mt Diablo Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/f3069d7a-8a7a-460a-be5b-7317271c52a5.jpg",
+    "GRCC": "https://media.cricclubs.com/documentsRep/teamLogos/e0d5d230-6712-412f-9d5a-10b1315d75df.jpg",
+    "Emerald Kings": "https://media.cricclubs.com/documentsRep/teamLogos/b7852a3a-7fe5-4f50-b44a-8e90dfcccf37.jpg",
+    "Champions": "https://media.cricclubs.com/documentsRep/teamLogos/51ccc4cc-16a6-42eb-8b5d-e3922373bf94.jpg",
+    "Fundoos": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Bravehearts": "https://media.cricclubs.com/documentsRep/teamLogos/96a438f6-cd65-49c2-8cfe-2fd1f8eeb8fc.jpg",
+    "Dabangg": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Preserve": "https://media.cricclubs.com/documentsRep/teamLogos/256d0d01-b22e-4d98-817c-b389b953af56.jpeg",
+    "Livermore Lions": "https://media.cricclubs.com/documentsRep/teamLogos/167c5a95-6a22-49a1-8df8-40150301f3ed.jpg",
+    "Dublin Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Shockwave": "https://media.cricclubs.com/documentsRep/teamLogos/waves.jpg",
+    "Rebels": "https://media.cricclubs.com/documentsRep/teamLogos/d24ad128-903e-4573-8996-cec81c7aa220.jpg",
+    "Dominators": "https://media.cricclubs.com/documentsRep/teamLogos/5c96eb11-b7f6-42e0-8e20-4950cef022c2.jpg",
+    "CaliLegends": "https://media.cricclubs.com/documentsRep/teamLogos/b2f485e8-466e-48c0-a8e0-d50b484f7fbd.jpg",
+    "Phoenix": "https://media.cricclubs.com/documentsRep/teamLogos/432093c3-f50d-4809-b84f-19f2fc28a6b7.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/b267fb78-2cb7-46c7-b739-86ba847fa2ee.jpg",
+    "MCC": "https://media.cricclubs.com/documentsRep/teamLogos/d8449c81-45b7-4fe9-9771-b6e93d1ae886.jpg",
+    "Buddies": "https://media.cricclubs.com/documentsRep/teamLogos/21f0fb91-ef52-4b3b-86e3-5823c71231d0.jpg",
+    "Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/b473d1ce-8394-44ec-a7fe-9a7514abbd82.jpg",
+    "Iron Horse Riders": "https://media.cricclubs.com/documentsRep/teamLogos/16ec0648-dec2-427e-b6c8-5ea2f9009d60.jpg",
+    "Elite XI": "https://media.cricclubs.com/documentsRep/teamLogos/37ee9d33-523e-40f8-bb5c-b039c0b7bb6f.jpg",
+    "Emerald Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/39a3d678-295b-438f-9ac6-2b4b6b5391f7.jpg",
+    "OG": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Bay Cc Elites": "https://media.cricclubs.com/documentsRep/teamLogos/elites.jpg",
+    "Tigers": "https://media.cricclubs.com/documentsRep/teamLogos/2a79d41a-93b8-4c83-88ca-82dc5628a69d.jpg",
+    "Dublin Green Caps": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Trailblazers": "https://media.cricclubs.com/documentsRep/teamLogos/efcb826d-735b-4f9f-a1aa-a6f2c7eafcbf.jpg",
+    "Dublin Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/2f596dc4-51ba-4243-af5f-df9981b074b0.jpg",
+    "AFG XI": "https://media.cricclubs.com/documentsRep/teamLogos/57db8fd6-1ecf-40c0-8593-eeefc2396c7e.jpg",
+    "Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/935b8be6-2a53-4a16-9bbe-4d476dcddeb8.jpg",
+    "Dublin Emeralds": "https://media.cricclubs.com/documentsRep/teamLogos/a16d2e01-7a08-4883-93d7-094b18a778a3.jpg"
+  },
+  "league": {
+    "code": "SrcaUsa",
+    "name": "SRCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-110",
+      "name": "SRCA Summer 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-10-31T22:01:26.832Z"
+    },
+    "last": {
+      "id": "legacy-99",
+      "name": "SRCA Spring 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-10-31T22:01:55.226Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-4284",
+      "date": "2026-10-17",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Emerald Kings",
+      "ground": "WRMS",
+      "result": "Champions won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Emerald Kings",
+          "runs": 75,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Champions",
+          "runs": 76,
+          "wkts": 4,
+          "overs": "12.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Amit Peer",
+          "r": 18,
+          "b": 17,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 17,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Vidya S",
+          "r": 6,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 13,
+          "b": 13,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Vivek S",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 8,
+          "b": 5,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Omkar Nelluri",
+          "balls": 24,
+          "r": 16,
+          "w": 3,
+          "dots": 17,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vivek S",
+          "balls": 24,
+          "r": 11,
+          "w": 2,
+          "dots": 18,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 18,
+          "r": 5,
+          "w": 1,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Amit Peer",
+          "balls": 18,
+          "r": 17,
+          "w": 0,
+          "dots": 3,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 10,
+          "w": 2,
+          "dots": 19,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 12,
+          "r": 16,
+          "w": 0,
+          "dots": 5,
+          "wd": 4,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Amit Peer",
+          "k",
+          1
+        ],
+        [
+          "Pulla Manchala",
+          "c",
+          3
+        ],
+        [
+          "Rushikesh Kale",
+          "r",
+          1
+        ],
+        [
+          "Raj A",
+          "c",
+          1
+        ],
+        [
+          "Manish SR",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4258",
+      "date": "2026-10-10",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Gale Ranch Warriors",
+      "ground": "Rancho",
+      "result": "Gale Ranch Warriors won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Champions",
+          "runs": 79,
+          "wkts": 10,
+          "overs": "19.3"
+        },
+        {
+          "team": "Gale Ranch Warriors",
+          "runs": 83,
+          "wkts": 5,
+          "overs": "16.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rushikesh Kale",
+          "r": 16,
+          "b": 24,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Pulla Manchala",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "hw"
+        },
+        {
+          "name": "Vijay-SR Shanbhag",
+          "r": 16,
+          "b": 28,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Vivek Sarathy",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 15,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 6,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Raj A",
+          "r": 7,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Kushagra Saxena",
+          "r": 6,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Pratap J",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Kausahal Sharma",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Kiran Kalapatapu",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 12,
+          "r": 5,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vijay-SR Shanbhag",
+          "balls": 21,
+          "r": 19,
+          "w": 1,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Kushagra Saxena",
+          "balls": 12,
+          "r": 14,
+          "w": 0,
+          "dots": 8,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Vivek Sarathy",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 15,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Vempati",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Vijay-SR Shanbhag",
+          "c",
+          1
+        ],
+        [
+          "Madhu Vempati",
+          "k",
+          2
+        ],
+        [
+          "Rushikesh Kale",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4229",
+      "date": "2026-09-26",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Emerald Titans",
+      "ground": "WRMS",
+      "result": "Emerald Titans won by 8 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Champions",
+          "runs": 68,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Emerald Titans",
+          "runs": 70,
+          "wkts": 2,
+          "overs": "9.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pratap J",
+          "r": 11,
+          "b": 19,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Vijay-SR Shanbhag",
+          "r": 18,
+          "b": 41,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Pulla Manchala",
+          "r": 10,
+          "b": 23,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Sr",
+          "r": 5,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Raj A",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Sekhar M",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Kiran Kalapatapu",
+          "r": 8,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 12,
+          "r": 12,
+          "w": 0,
+          "dots": 5,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 18,
+          "r": 20,
+          "w": 1,
+          "dots": 11,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "balls": 12,
+          "r": 17,
+          "w": 1,
+          "dots": 4,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Vijay-SR Shanbhag",
+          "balls": 6,
+          "r": 13,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 6,
+          "r": 2,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Kiran Kalapatapu",
+          "balls": 1,
+          "r": 6,
+          "w": 0,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Bharath Sr",
+          "k",
+          1
+        ],
+        [
+          "Vijay-SR Shanbhag",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4201",
+      "date": "2026-09-12",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Gale Ranch Warriors",
+      "ground": "GRMS",
+      "result": "Gale Ranch Warriors won by 3 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Gale Ranch Warriors",
+          "runs": 77,
+          "wkts": 10,
+          "overs": "17"
+        },
+        {
+          "team": "Champions",
+          "runs": 74,
+          "wkts": 7,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rushikesh Kale",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Amarnath Rayudu A",
+          "r": 13,
+          "b": 26,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Raj A",
+          "r": 3,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Kiran Kalapatapu",
+          "r": 3,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Vighnesh Royal",
+          "r": 6,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Kushagra Saxena",
+          "r": 13,
+          "b": 19,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Pulla Manchala",
+          "r": 2,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Pratap J",
+          "r": 15,
+          "b": 23,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Kausahal Sharma",
+          "r": 4,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 18,
+          "r": 21,
+          "w": 2,
+          "dots": 10,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vighnesh Royal",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 12,
+          "r": 6,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 17,
+          "w": 0,
+          "dots": 17,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Kushagra Saxena",
+          "balls": 24,
+          "r": 11,
+          "w": 6,
+          "dots": 18,
+          "wd": 5,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Pulla Manchala",
+          "c",
+          2
+        ],
+        [
+          "Amarnath Rayudu A",
+          "c",
+          1
+        ],
+        [
+          "Amarnath Rayudu A",
+          "k",
+          4
+        ],
+        [
+          "Pratap J",
+          "c",
+          1
+        ],
+        [
+          "Raj A",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4179",
+      "date": "2026-08-29",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Kingfishers",
+      "ground": "GRMS",
+      "result": "Kingfishers won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Champions",
+          "runs": 43,
+          "wkts": 10,
+          "overs": "17.3"
+        },
+        {
+          "team": "Kingfishers",
+          "runs": 44,
+          "wkts": 4,
+          "overs": "8.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 4,
+          "b": 4,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Vighnesh Royal",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Pratap J",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 9,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Naresh Adiraju",
+          "r": 5,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Raj A",
+          "r": 9,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Kiran Kalapatapu",
+          "r": 5,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Amarnath Rayudu A",
+          "r": 1,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Amit Peer",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 18,
+          "r": 13,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 12,
+          "r": 9,
+          "w": 1,
+          "dots": 10,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 6,
+          "r": 12,
+          "w": 0,
+          "dots": 2,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 12,
+          "r": 7,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Adiraju",
+          "balls": 4,
+          "r": 3,
+          "w": 1,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Pratap J",
+          "r",
+          1
+        ],
+        [
+          "Pulla Manchala",
+          "c",
+          2
+        ],
+        [
+          "Amarnath Rayudu A",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4156",
+      "date": "2026-08-15",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Emerald Titans",
+      "ground": "Central Park1",
+      "result": "Emerald Titans won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Champions",
+          "runs": 51,
+          "wkts": 10,
+          "overs": "18.3"
+        },
+        {
+          "team": "Emerald Titans",
+          "runs": 52,
+          "wkts": 4,
+          "overs": "12"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pratap J",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Pulla Manchala",
+          "r": 7,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ro"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 4,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Ajay Sr",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 12,
+          "b": 38,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Kiran Kalapatapu",
+          "r": 7,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Chetan Bansal",
+          "r": 3,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Raj A",
+          "r": 7,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 12,
+          "r": 4,
+          "w": 1,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 12,
+          "r": 8,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Chetan Bansal",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 4,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 18,
+          "r": 18,
+          "w": 1,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Madhu Vempati",
+          "k",
+          1
+        ],
+        [
+          "Ajay Sr",
+          "c",
+          1
+        ],
+        [
+          "Rajat Mohan",
+          "c",
+          1
+        ],
+        [
+          "Pratap J",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4117",
+      "date": "2026-07-26",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Fallon Falcons",
+      "ground": "Rancho",
+      "result": "Fallon Falcons won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Champions",
+          "runs": 56,
+          "wkts": 10,
+          "overs": "18.4"
+        },
+        {
+          "team": "Fallon Falcons",
+          "runs": 57,
+          "wkts": 4,
+          "overs": "12.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 10,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 14,
+          "b": 21,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 5,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 3,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Pratap J",
+          "r": 3,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Raj A",
+          "r": 14,
+          "b": 22,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Kiran Kalapatapu",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Balakrishna Sudabathula SR",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "b"
+        },
+        {
+          "name": "Kausahal Sharma",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 18,
+          "r": 7,
+          "w": 3,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 2,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 7,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishna Sudabathula SR",
+          "balls": 18,
+          "r": 13,
+          "w": 0,
+          "dots": 12,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 6,
+          "r": 5,
+          "w": 0,
+          "dots": 4,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Vempati",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 5,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 2,
+          "r": 2,
+          "w": 0,
+          "dots": 1,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Pulla Manchala",
+          "c",
+          1
+        ],
+        [
+          "Rajat Mohan",
+          "c",
+          2
+        ],
+        [
+          "Madhu Vempati",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4092",
+      "date": "2026-07-19",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Emerald Kings",
+      "ground": "Central Park1",
+      "result": "Emerald Kings won by 23 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Emerald Kings",
+          "runs": 109,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Champions",
+          "runs": 86,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 6,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Amit Peer",
+          "r": 15,
+          "b": 18,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 5,
+          "b": 9,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Pratap J",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 25,
+          "b": 34,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 2,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Kiran Kalapatapu",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Kausahal Sharma",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 7,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Raj A",
+          "r": 11,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "r": 8,
+          "b": 6,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 12,
+          "wd": 7,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 18,
+          "r": 17,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "balls": 24,
+          "r": 24,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 23,
+          "w": 3,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Amit Peer",
+          "balls": 18,
+          "r": 15,
+          "w": 0,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 1,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Amit Peer",
+          "r",
+          1
+        ],
+        [
+          "Amit Peer",
+          "k",
+          2
+        ],
+        [
+          "Raj A",
+          "c",
+          1
+        ],
+        [
+          "Amit Peer",
+          "c",
+          1
+        ],
+        [
+          "Rushikesh Kale",
+          "r",
+          1
+        ],
+        [
+          "Kiran Kalapatapu",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4053",
+      "date": "2026-06-28",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Mt Diablo Eagles",
+      "ground": "Rancho",
+      "result": "Mt Diablo Eagles won by 8 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Mt Diablo Eagles",
+          "runs": 105,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "Champions",
+          "runs": 97,
+          "wkts": 8,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 25,
+          "b": 42,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 8,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Amit Peer",
+          "r": 31,
+          "b": 35,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 8,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Raj A",
+          "r": 3,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Naresh Adiraju",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Pratap J",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Kausahal Sharma",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 27,
+          "w": 0,
+          "dots": 14,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 18,
+          "r": 12,
+          "w": 1,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 24,
+          "r": 25,
+          "w": 2,
+          "dots": 17,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Amit Peer",
+          "balls": 24,
+          "r": 16,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 6,
+          "r": 14,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 11,
+          "w": 1,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Amit Peer",
+          "c",
+          1
+        ],
+        [
+          "Naresh Adiraju",
+          "k",
+          1
+        ],
+        [
+          "Raj A",
+          "r",
+          1
+        ],
+        [
+          "Raj A",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4026",
+      "date": "2026-06-20",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "GRCC",
+      "ground": "Rancho",
+      "result": "GRCC won by 21 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "GRCC",
+          "runs": 94,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Champions",
+          "runs": 73,
+          "wkts": 7,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Amarnath Rayudu A",
+          "r": 7,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Raj A",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 8,
+          "b": 19,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Naresh Adiraju",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 16,
+          "b": 32,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 18,
+          "b": 32,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Chetan Bansal",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Vighnesh Royal",
+          "r": 6,
+          "b": 3,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Kausahal Sharma",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Chetan Bansal",
+          "balls": 18,
+          "r": 22,
+          "w": 1,
+          "dots": 7,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 14,
+          "w": 3,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 24,
+          "r": 23,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Vighnesh Royal",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 6,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 8,
+          "w": 1,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 6,
+          "r": 5,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Amarnath Rayudu A",
+          "k",
+          2
+        ],
+        [
+          "Raj A",
+          "c",
+          1
+        ],
+        [
+          "Pratap J",
+          "r",
+          1
+        ],
+        [
+          "Naresh Adiraju",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3975",
+      "date": "2026-05-30",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Bravehearts",
+      "ground": "GRMS",
+      "result": "Bravehearts won by 29 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Bravehearts",
+          "runs": 83,
+          "wkts": 10,
+          "overs": "19"
+        },
+        {
+          "team": "Champions",
+          "runs": 54,
+          "wkts": 10,
+          "overs": "14.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 15,
+          "b": 20,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Raj A",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Naresh Adiraju",
+          "r": 3,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Pratap J",
+          "r": 8,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Amit Peer",
+          "r": 4,
+          "b": 2,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 8,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Chetan Bansal",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Kausahal Sharma",
+          "r": 7,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "b"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 19,
+          "w": 2,
+          "dots": 17,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 12,
+          "r": 8,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Chetan Bansal",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 17,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Amit Peer",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 7,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 12,
+          "r": 15,
+          "w": 0,
+          "dots": 7,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 12,
+          "w": 4,
+          "dots": 18,
+          "wd": 4,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Pulla Manchala",
+          "c",
+          4
+        ],
+        [
+          "Pratap J",
+          "r",
+          1
+        ],
+        [
+          "Madhu Vempati",
+          "c",
+          2
+        ],
+        [
+          "Amit Peer",
+          "c",
+          1
+        ],
+        [
+          "Chetan Bansal",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3966",
+      "date": "2026-05-17",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Rebels",
+      "ground": "Rancho",
+      "result": "Champions won by 4 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Rebels",
+          "runs": 86,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "Champions",
+          "runs": 87,
+          "wkts": 6,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Raj A",
+          "r": 25,
+          "b": 37,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Amarnath Rayudu A",
+          "r": 4,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Naresh Adiraju",
+          "r": 17,
+          "b": 33,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Vijay-SR Shanbhag",
+          "r": 6,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 7,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Pratap J",
+          "r": 5,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 5,
+          "b": 2,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 5,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 8,
+          "w": 2,
+          "dots": 20,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 24,
+          "r": 20,
+          "w": 0,
+          "dots": 14,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Vijay-SR Shanbhag",
+          "balls": 18,
+          "r": 13,
+          "w": 1,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 18,
+          "r": 16,
+          "w": 0,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 12,
+          "r": 13,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Pulla Manchala",
+          "c",
+          1
+        ],
+        [
+          "Madhu Vempati",
+          "c",
+          1
+        ],
+        [
+          "Madhu Vempati",
+          "r",
+          1
+        ],
+        [
+          "Vijay-SR Shanbhag",
+          "c",
+          1
+        ],
+        [
+          "Naresh Adiraju",
+          "k",
+          1
+        ],
+        [
+          "Rushikesh Kale",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3942",
+      "date": "2026-05-09",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "GRCC",
+      "ground": "Rancho",
+      "result": "GRCC won by 7 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "GRCC",
+          "runs": 109,
+          "wkts": 5,
+          "overs": "20"
+        },
+        {
+          "team": "Champions",
+          "runs": 102,
+          "wkts": 10,
+          "overs": "18.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 11,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Raj A",
+          "r": 3,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "hw"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 23,
+          "b": 42,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Sravan Kumar Nittala",
+          "r": 28,
+          "b": 25,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 7,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Pratap J",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Amarnath Rayudu A",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Manish SR",
+          "r": 4,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ro"
+        },
+        {
+          "name": "Vighnesh Royal",
+          "r": 0,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 14,
+          "w": 2,
+          "dots": 16,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 24,
+          "r": 10,
+          "w": 2,
+          "dots": 17,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Sravan Kumar Nittala",
+          "balls": 24,
+          "r": 28,
+          "w": 0,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 31,
+          "w": 1,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Vighnesh Royal",
+          "balls": 18,
+          "r": 16,
+          "w": 0,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Manish SR",
+          "c",
+          1
+        ],
+        [
+          "Amarnath Rayudu A",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3871",
+      "date": "2026-04-05",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Livermore Lions",
+      "ground": "Central Park1",
+      "result": "Champions won by 8 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Champions",
+          "runs": 109,
+          "wkts": 4,
+          "overs": "20"
+        },
+        {
+          "team": "Livermore Lions",
+          "runs": 101,
+          "wkts": 7,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raj A",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Pratap J",
+          "r": 22,
+          "b": 30,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ro"
+        },
+        {
+          "name": "Sai Vardhan Thota",
+          "r": 4,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 47,
+          "b": 46,
+          "f": 0,
+          "s": 2,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 17,
+          "b": 24,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "rt"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 5,
+          "b": 4,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 28,
+          "w": 1,
+          "dots": 9,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Amit Peer",
+          "balls": 18,
+          "r": 15,
+          "w": 2,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Satwik Deshpande",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 9,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Saurabh D_SR",
+          "balls": 24,
+          "r": 19,
+          "w": 0,
+          "dots": 14,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 18,
+          "r": 11,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Madhu Vempati",
+          "k",
+          2
+        ],
+        [
+          "Ajith Mahil",
+          "c",
+          1
+        ],
+        [
+          "Omkar Nelluri",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3851",
+      "date": "2026-03-29",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Shockwave",
+      "ground": "GRMS",
+      "result": "No Result",
+      "forfeit": false,
+      "outcome": "NR",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Shockwave",
+          "runs": 125,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "Champions",
+          "runs": 88,
+          "wkts": 4,
+          "overs": "15"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 16,
+          "b": 12,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Raj A",
+          "r": 13,
+          "b": 27,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 19,
+          "b": 15,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Naresh Adiraju",
+          "r": 12,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 12,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Vijay-SR Shanbhag",
+          "r": 4,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 25,
+          "w": 0,
+          "dots": 12,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 18,
+          "r": 16,
+          "w": 0,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sravan Kumar Nittala",
+          "balls": 24,
+          "r": 20,
+          "w": 4,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 18,
+          "r": 26,
+          "w": 0,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vijay-SR Shanbhag",
+          "balls": 24,
+          "r": 26,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Naresh Adiraju",
+          "balls": 12,
+          "r": 12,
+          "w": 1,
+          "dots": 7,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Raj A",
+          "c",
+          1
+        ],
+        [
+          "Naresh Adiraju",
+          "k",
+          1
+        ],
+        [
+          "Pulla Manchala",
+          "c",
+          1
+        ],
+        [
+          "Vijay-SR Shanbhag",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3824",
+      "date": "2026-03-21",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Bravehearts",
+      "ground": "GRMS",
+      "result": "Champions won by 9 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Bravehearts",
+          "runs": 59,
+          "wkts": 10,
+          "overs": "16.2"
+        },
+        {
+          "team": "Champions",
+          "runs": 61,
+          "wkts": 1,
+          "overs": "6.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 27,
+          "b": 15,
+          "f": 2,
+          "s": 2,
+          "out": false,
+          "pos": 1
+        },
+        {
+          "name": "Raj A",
+          "r": 19,
+          "b": 15,
+          "f": 4,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sai Vardhan Thota",
+          "r": 11,
+          "b": 10,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 18,
+          "r": 6,
+          "w": 3,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 24,
+          "r": 15,
+          "w": 3,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Balakrishna Sudabathula SR",
+          "balls": 18,
+          "r": 8,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "balls": 18,
+          "r": 18,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Chetan Bansal",
+          "balls": 20,
+          "r": 12,
+          "w": 1,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Rajat Mohan",
+          "c",
+          2
+        ],
+        [
+          "Madhu Vempati",
+          "k",
+          2
+        ],
+        [
+          "Sai Vardhan Thota",
+          "r",
+          1
+        ],
+        [
+          "Balakrishna Sudabathula SR",
+          "c",
+          1
+        ],
+        [
+          "Pratap J",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3800",
+      "date": "2026-03-08",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Trailblazers",
+      "ground": "Central Park1",
+      "result": "Champions won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Trailblazers",
+          "runs": 73,
+          "wkts": 10,
+          "overs": "19.5"
+        },
+        {
+          "team": "Champions",
+          "runs": 74,
+          "wkts": 7,
+          "overs": "15.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 23,
+          "b": 31,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ro"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 1,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Naresh Adiraju",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Rajat Mohan",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Pratap J",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Roopesh Perisetla",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "r": 9,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Rushikesh Kale",
+          "r": 21,
+          "b": 20,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rushikesh Kale",
+          "balls": 18,
+          "r": 10,
+          "w": 2,
+          "dots": 13,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 18,
+          "r": 8,
+          "w": 2,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Pradeep Kumar Thirunagari",
+          "balls": 17,
+          "r": 6,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Roopesh Perisetla",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 11,
+          "w": 3,
+          "dots": 17,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Kausahal Sharma",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Rushikesh Kale",
+          "c",
+          2
+        ],
+        [
+          "Naresh Adiraju",
+          "k",
+          4
+        ],
+        [
+          "Roopesh Perisetla",
+          "c",
+          1
+        ],
+        [
+          "Kausahal Sharma",
+          "c",
+          1
+        ],
+        [
+          "Pradeep Kumar Thirunagari",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3787",
+      "date": "2026-03-01",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Dublin Green Caps",
+      "ground": "Rancho",
+      "result": "Champions won by 8 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Dublin Green Caps",
+          "runs": 76,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Champions",
+          "runs": 78,
+          "wkts": 2,
+          "overs": "14.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pulla Manchala",
+          "r": 46,
+          "b": 50,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Ajith Mahil",
+          "r": 3,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "st"
+        },
+        {
+          "name": "Omkar Nelluri",
+          "r": 22,
+          "b": 21,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 3
+        },
+        {
+          "name": "Madhu Vempati",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 4
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Rushikesh Kale",
+          "balls": 12,
+          "r": 2,
+          "w": 1,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Omkar Nelluri",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Pratap J",
+          "balls": 24,
+          "r": 12,
+          "w": 0,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Chetan Bansal",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 11,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Amit Peer",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Raj A",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 17,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Amit Peer",
+          "r",
+          1
+        ],
+        [
+          "Naresh Adiraju",
+          "k",
+          2
+        ],
+        [
+          "Madhu Vempati",
+          "c",
+          1
+        ],
+        [
+          "Amit Peer",
+          "c",
+          1
+        ],
+        [
+          "Naresh Adiraju",
+          "r",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 3
+}
