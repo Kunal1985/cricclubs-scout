@@ -1,0 +1,1989 @@
+{
+  "team": "Skippers",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/1693b000-7103-4f34-bff3-01bd15d041ec.jpg",
+  "logos": {
+    "Seamers": "https://media.cricclubs.com/documentsRep/teamLogos/03d70f0d-3fd0-4ff2-ac9f-0ff1d83cd9d7.jpg",
+    "El Kamino": "https://media.cricclubs.com/documentsRep/teamLogos/1d3615da-413f-4cdd-89d9-bca342dde93a.jpg",
+    "Astros+": "https://media.cricclubs.com/documentsRep/teamLogos/3edd9d9b-92e7-4a3a-b32f-14d3deb85a12.jpg",
+    "Escuela Boys": "https://media.cricclubs.com/documentsRep/teamLogos/9abfb72d-8bc7-4fd6-8879-a942272de7c1.jpg",
+    "Lords": "https://media.cricclubs.com/documentsRep/teamLogos/156da642-b607-4347-b726-2dea9610618d.jpg",
+    "Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/f3a9ee66-ff89-4c61-b905-2cc039ba3d84.jpg",
+    "Innovation Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/78bf3d98-bc9f-4580-b23e-785525182e35.jpg",
+    "Vikings": "https://media.cricclubs.com/documentsRep/teamLogos/dd77ce6b-0346-4054-b580-faa377da8a83.jpg",
+    "Orange Army": "https://media.cricclubs.com/documentsRep/teamLogos/5f95a970-9b50-46c3-86b3-d350fe2af6f8.jpg",
+    "Skippers": "https://media.cricclubs.com/documentsRep/teamLogos/1693b000-7103-4f34-bff3-01bd15d041ec.jpg",
+    "Revenants": "https://media.cricclubs.com/documentsRep/teamLogos/75dad8fe-57ae-4528-84b6-bdf3f5c1067e.jpg",
+    "Royal Singhs": "https://media.cricclubs.com/documentsRep/teamLogos/13429b8c-bbb8-4e2d-a2b5-12af4fe95ac5.jpg",
+    "Sabertooths": "https://media.cricclubs.com/documentsRep/teamLogos/164cfe69-625e-4295-9fd9-0d58b54a2d49.jpg",
+    "CSK Yorkers": "https://media.cricclubs.com/documentsRep/teamLogos/092d89b2-93ea-468f-9bc2-d1f38bb73400.jpg",
+    "Money Heist": "https://media.cricclubs.com/documentsRep/teamLogos/5a831fc5-8ef9-455a-975b-1a91ff8e1cae.jpg",
+    "Unstoppable": "https://media.cricclubs.com/documentsRep/teamLogos/1263fc68-57af-44bb-8757-179b52b87770.jpg",
+    "Bleed Blue Hawks": "https://media.cricclubs.com/documentsRep/teamLogos/da13567b-2c06-4835-874d-41df4a1aa9b9.jpg",
+    "Knight Walkers (CA)": "https://media.cricclubs.com/documentsRep/teamLogos/1983535a-8f51-45d0-9368-58c32ae445c4.jpg",
+    "Gladiators": "https://media.cricclubs.com/documentsRep/teamLogos/f1451571-0295-4313-b425-14bcff95a7d8.jpg",
+    "Champions": "https://media.cricclubs.com/documentsRep/teamLogos/3eaf94ff-c808-48fb-b746-33de4d0c89b7.jpg",
+    "Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/ac84c5c3-0c86-4820-802b-108d0d38ed37.jpg",
+    "Smoking Sadhoos": "https://media.cricclubs.com/documentsRep/teamLogos/0224cb6d-bea1-4b83-88a1-f0cfd7ff5ff5.jpg",
+    "Super Saiyans": "https://media.cricclubs.com/documentsRep/teamLogos/e8d12383-c244-4f62-a64e-4c49172d999a.jpg",
+    "VK 18": "https://media.cricclubs.com/documentsRep/teamLogos/78718b39-318a-42b5-a763-440d4790b1cd.jpg",
+    "Fire Friends": "https://media.cricclubs.com/documentsRep/teamLogos/58b92f43-8991-4e29-a2aa-a321d1708b15.jpg",
+    "Stunners": "https://media.cricclubs.com/documentsRep/teamLogos/60e15bc7-4f2d-4f7b-bed0-bd475a9188b6.jpg",
+    "Ghadeer Lions": "https://media.cricclubs.com/documentsRep/teamLogos/865044c3-41e3-4c8a-be25-541a9809ef6c.jpg",
+    "BAY TIGERS": "https://media.cricclubs.com/documentsRep/teamLogos/f0564ef5-dd21-4cfa-a956-8a55a2300db1.jpg",
+    "Blue Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/fe52518d-9104-4888-bb2e-5336f551da33.jpg",
+    "Breaking Bats": "https://media.cricclubs.com/documentsRep/teamLogos/ba30d586-0fc8-4c72-8702-c009b2c3b8bc.jpg",
+    "Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/7a95f3ab-14be-4503-a011-c293693b60d0.jpg",
+    "UC11": "https://media.cricclubs.com/documentsRep/teamLogos/e7297f13-6e18-4faf-a96c-a251fb8c0ab9.jpg",
+    "Elite Eleven": "https://media.cricclubs.com/documentsRep/teamLogos/95682c08-b855-4b94-8d24-678ab9831a38.jpg",
+    "Dragons": "https://media.cricclubs.com/documentsRep/teamLogos/6affc039-be58-4cf4-95b3-125fb851f68c.jpg",
+    "Baazigar of Bay": "https://media.cricclubs.com/documentsRep/teamLogos/c760e52b-cb99-4460-855f-6eed25b2b390.jpg",
+    "Kings X1": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Absolute XI": "https://media.cricclubs.com/documentsRep/teamLogos/5a142515-7290-4076-9429-eb4ebe70067f.jpg",
+    "IndianChamps": "https://media.cricclubs.com/documentsRep/teamLogos/ae7fa4a9-b951-43c8-a795-0787df07c647.jpg",
+    "Sunny Devils": "https://media.cricclubs.com/documentsRep/teamLogos/2e528fbf-6ea0-474a-90bd-467a3125bfc3.jpg",
+    "Titans": "https://media.cricclubs.com/documentsRep/teamLogos/4cb7ed6d-4d55-4b2b-9945-0600b6dcee90.jpg",
+    "Invincibles California": "https://media.cricclubs.com/documentsRep/teamLogos/08c35cff-70d5-4822-a7d2-eb3a0f95b09d.jpg",
+    "CricKings": "https://media.cricclubs.com/documentsRep/teamLogos/42edf0b4-6b56-4bc7-a083-5468bef44a40.jpg",
+    "Rising Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/83fe1cf6-5102-41c9-82ce-6a3b65441dd3.jpg",
+    "Super Giants": "https://media.cricclubs.com/documentsRep/teamLogos/d964114f-8e2d-490a-8106-03f798e5fc98.jpg",
+    "Bay Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/576c3a72-f503-4067-9e00-65202e3d5b48.jpg",
+    "FC SPARTANS": "https://media.cricclubs.com/documentsRep/teamLogos/5d99a752-4441-47ed-bf11-3552717f6210.jpg",
+    "Singh Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/732dee22-a255-4693-a58b-2017a2486821.jpg",
+    "Sunrisers": "https://media.cricclubs.com/documentsRep/teamLogos/d34eef92-4072-45f0-aa08-62a5a40cd8a7.jpg",
+    "Box Office XI": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Raptors": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Cali Lions": "https://media.cricclubs.com/documentsRep/teamLogos/688334c5-ddef-48cf-b79e-64d48781d25e.jpg",
+    "INCREDIBLES": "https://media.cricclubs.com/documentsRep/teamLogos/c7b65e88-1a57-4753-8c68-aaa2fb4aa1d4.jpg",
+    "Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/b9f11b3f-3b87-41e8-9bcd-c72c5d09588c.jpg",
+    "Slytherin": "https://media.cricclubs.com/documentsRep/teamLogos/ddd7dbe0-985c-4c3d-8668-be61f6b97323.jpg",
+    "Storm Raiders": "https://media.cricclubs.com/documentsRep/teamLogos/53008f57-2d74-46eb-aa73-c6ff406e5013.jpg",
+    "Wolves": "https://media.cricclubs.com/documentsRep/teamLogos/7e7ba787-6fe4-4eea-872b-0aed8599469b.jpg",
+    "Yodhas": "https://media.cricclubs.com/documentsRep/teamLogos/0c5066c8-294a-4775-893c-25e5eb38d3f1.jpg",
+    "GullyBoyz": "https://media.cricclubs.com/documentsRep/teamLogos/92cd7f00-3f95-4afd-bc74-e0a03b403795.jpg",
+    "Avengers": "https://media.cricclubs.com/documentsRep/teamLogos/6a163bd8-ece6-465c-9eb5-5ecc711b2e81.jpg",
+    "Blue Havoc": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Centurions": "https://media.cricclubs.com/documentsRep/teamLogos/640d4cdd-f75b-4232-9027-ad04664785a1.jpg",
+    "Deccan Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/fe602722-ede6-429b-8c29-1711642dec7c.jpg",
+    "Pacific CC": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "Smash Blasters": "https://media.cricclubs.com/documentsRep/teamLogos/7ea288ac-c476-4bbb-aa06-68ae305bce8b.jpg",
+    "Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/03d8137f-4e7f-4d9a-914a-888d4d2dd2ff.jpg",
+    "UP Warriors": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Bleed Blue": "https://media.cricclubs.com/documentsRep/teamLogos/da13567b-2c06-4835-874d-41df4a1aa9b9.jpg",
+    "Royal Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/a69f36a2-3be8-4df8-8c08-66e9a7d8f3d9.jpg",
+    "Vulcans": "https://media.cricclubs.com/documentsRep/teamLogos/07c73e0c-3d32-480a-a1b1-98836d08b373.jpg",
+    "Alviso Warriors": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/64c80560-f34f-445d-9ca9-e6a79caabde7.jpg",
+    "Rayalaseema Royals": "https://media.cricclubs.com/documentsRep/teamLogos/0645cf89-8e76-401b-8d5c-8009d8d5dbbe.jpg",
+    "Hawks": "https://media.cricclubs.com/documentsRep/teamLogos/a03de19a-be65-4bd8-b351-b0cf2af59ff7.jpg",
+    "Rudras": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg"
+  },
+  "league": {
+    "code": "nacltennisballcricket",
+    "name": "NACL Tennis Ball Cricket"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-73",
+      "name": "Winter 2026-27",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T18:56:10.424Z"
+    },
+    "last": {
+      "id": "legacy-67",
+      "name": "Summer 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T18:56:38.030Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-4647",
+      "date": "2026-11-01",
+      "series": "Winter 2026-27",
+      "seriesId": "legacy-73",
+      "opponent": "Escuela Boys",
+      "ground": "MLK",
+      "result": "Skippers won by 7 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Escuela Boys",
+          "runs": 94,
+          "wkts": 9,
+          "overs": "15"
+        },
+        {
+          "team": "Skippers",
+          "runs": 98,
+          "wkts": 3,
+          "overs": "13"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Mohan Krishna Bonthu",
+          "r": 43,
+          "b": 29,
+          "f": 4,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Dhruv Kumar",
+          "r": 8,
+          "b": 10,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 14,
+          "b": 25,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Anand Kumar Ganesan",
+          "r": 26,
+          "b": 12,
+          "f": 1,
+          "s": 3,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Dev Reddy",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 18,
+          "r": 22,
+          "w": 3,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vinod Reddy Kuthuru",
+          "balls": 18,
+          "r": 22,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abin Paul",
+          "balls": 18,
+          "r": 15,
+          "w": 1,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Manu Nair",
+          "balls": 18,
+          "r": 22,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rakesh Yadav",
+          "balls": 18,
+          "r": 13,
+          "w": 3,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Vinod Reddy Kuthuru",
+          "c",
+          1
+        ],
+        [
+          "Praveen Kumar Devarajan",
+          "c",
+          1
+        ],
+        [
+          "Malaya Kanungo",
+          "c",
+          1
+        ],
+        [
+          "Shakeel Mohammed",
+          "c",
+          1
+        ],
+        [
+          "Rakesh Yadav",
+          "r",
+          1
+        ],
+        [
+          "Rakesh Yadav",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4570",
+      "date": "2026-09-26",
+      "series": "Summer 2026",
+      "seriesId": "legacy-67",
+      "opponent": "Knight Walkers (CA)",
+      "ground": "Lorin Eden",
+      "result": "Skippers won by 46 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Skippers",
+          "runs": 98,
+          "wkts": 10,
+          "overs": "19"
+        },
+        {
+          "team": "Knight Walkers (CA)",
+          "runs": 52,
+          "wkts": 10,
+          "overs": "17.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rahul Kozhikkalkandi",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Mohan Krishna Bonthu",
+          "r": 8,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Vinod Reddy Kuthuru",
+          "r": 10,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 10,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Amit Panda",
+          "r": 7,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Shakeel Mohammed",
+          "r": 29,
+          "b": 33,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Dev Reddy",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Malaya Kanungo",
+          "r": 20,
+          "b": 25,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Yadav",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Yugandhar Devarapalli",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "NITISH NEELAGIRI",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Yugandhar Devarapalli",
+          "balls": 24,
+          "r": 8,
+          "w": 0,
+          "dots": 17,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 24,
+          "r": 6,
+          "w": 4,
+          "dots": 19,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Amit Panda",
+          "balls": 24,
+          "r": 15,
+          "w": 2,
+          "dots": 18,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "NITISH NEELAGIRI",
+          "balls": 18,
+          "r": 15,
+          "w": 0,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vinod Reddy Kuthuru",
+          "balls": 12,
+          "r": 6,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rahul Kozhikkalkandi",
+          "balls": 2,
+          "r": 2,
+          "w": 1,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Dev Reddy",
+          "c",
+          4
+        ],
+        [
+          "Amit Panda",
+          "r",
+          1
+        ],
+        [
+          "Yugandhar Devarapalli",
+          "c",
+          1
+        ],
+        [
+          "Rakesh Yadav",
+          "k",
+          2
+        ],
+        [
+          "Rahul Kozhikkalkandi",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4560",
+      "date": "2026-09-20",
+      "series": "Summer 2026",
+      "seriesId": "legacy-67",
+      "opponent": "Orange Army",
+      "ground": "Lorin Eden",
+      "result": "Skippers won by 66 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Skippers",
+          "runs": 139,
+          "wkts": 10,
+          "overs": "18.5"
+        },
+        {
+          "team": "Orange Army",
+          "runs": 73,
+          "wkts": 10,
+          "overs": "16.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Naveen Sangana",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Rahul Kozhikkalkandi",
+          "r": 59,
+          "b": 34,
+          "f": 3,
+          "s": 5,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 9,
+          "b": 8,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Yadav",
+          "r": 4,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Venkatesh Kottapalli",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Anand Kumar Ganesan",
+          "r": 31,
+          "b": 21,
+          "f": 3,
+          "s": 2,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Dev Reddy",
+          "r": 22,
+          "b": 16,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Malaya Kanungo",
+          "r": 4,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Amit Panda",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Shakeel Mohammed",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Yugandhar Devarapalli",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 18,
+          "r": 14,
+          "w": 0,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Yugandhar Devarapalli",
+          "balls": 24,
+          "r": 16,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Amit Panda",
+          "balls": 18,
+          "r": 19,
+          "w": 1,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Rakesh Yadav",
+          "balls": 18,
+          "r": 17,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Venkatesh Kottapalli",
+          "balls": 23,
+          "r": 7,
+          "w": 4,
+          "dots": 20,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Dev Reddy",
+          "c",
+          1
+        ],
+        [
+          "Rahul Kozhikkalkandi",
+          "c",
+          1
+        ],
+        [
+          "Rakesh Yadav",
+          "c",
+          2
+        ],
+        [
+          "Praveen Kumar Devarajan",
+          "k",
+          1
+        ],
+        [
+          "Yugandhar Devarapalli",
+          "r",
+          1
+        ],
+        [
+          "Yugandhar Devarapalli",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4521",
+      "date": "2026-09-12",
+      "series": "Summer 2026",
+      "seriesId": "legacy-67",
+      "opponent": "Innovation Strikers",
+      "ground": "Sylvia",
+      "result": "Innovation Strikers won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Skippers",
+          "runs": 101,
+          "wkts": 10,
+          "overs": "18.3"
+        },
+        {
+          "team": "Innovation Strikers",
+          "runs": 104,
+          "wkts": 7,
+          "overs": "16.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rahul Kozhikkalkandi",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Praveen Musunuru",
+          "r": 14,
+          "b": 20,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 4,
+          "b": 3,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Abin Paul",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Amit Panda",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Yadav",
+          "r": 3,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Dev Reddy",
+          "r": 15,
+          "b": 9,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Malaya Kanungo",
+          "r": 12,
+          "b": 15,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Shakeel Mohammed",
+          "r": 32,
+          "b": 38,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "NITISH NEELAGIRI",
+          "r": 10,
+          "b": 10,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Manu Nair",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 24,
+          "r": 20,
+          "w": 5,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abin Paul",
+          "balls": 12,
+          "r": 17,
+          "w": 1,
+          "dots": 3,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "NITISH NEELAGIRI",
+          "balls": 12,
+          "r": 19,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Amit Panda",
+          "balls": 24,
+          "r": 14,
+          "w": 0,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Manu Nair",
+          "balls": 24,
+          "r": 26,
+          "w": 0,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Rakesh Yadav",
+          "balls": 5,
+          "r": 8,
+          "w": 1,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Rahul Kozhikkalkandi",
+          "c",
+          1
+        ],
+        [
+          "Praveen Musunuru",
+          "k",
+          3
+        ],
+        [
+          "Praveen Kumar Devarajan",
+          "c",
+          1
+        ],
+        [
+          "Manu Nair",
+          "c",
+          1
+        ],
+        [
+          "Rakesh Yadav",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4504",
+      "date": "2026-08-30",
+      "series": "Summer 2026",
+      "seriesId": "legacy-67",
+      "opponent": "BAY TIGERS",
+      "ground": "Kathryn Hughes",
+      "result": "BAY TIGERS won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Skippers",
+          "runs": 166,
+          "wkts": 4,
+          "overs": "20"
+        },
+        {
+          "team": "BAY TIGERS",
+          "runs": 167,
+          "wkts": 5,
+          "overs": "18.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rahul Kozhikkalkandi",
+          "r": 33,
+          "b": 27,
+          "f": 0,
+          "s": 3,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Yadav",
+          "r": 2,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 13,
+          "b": 17,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Mohan Krishna Bonthu",
+          "r": 13,
+          "b": 8,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Anand Kumar Ganesan",
+          "r": 55,
+          "b": 32,
+          "f": 1,
+          "s": 6,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Malaya Kanungo",
+          "r": 46,
+          "b": 27,
+          "f": 2,
+          "s": 3,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 24,
+          "r": 22,
+          "w": 2,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Dipen Patel",
+          "balls": 24,
+          "r": 41,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Amit Panda",
+          "balls": 24,
+          "r": 40,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Lohith Surisetti",
+          "balls": 6,
+          "r": 10,
+          "w": 1,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rakesh Yadav",
+          "balls": 20,
+          "r": 31,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Mohan Krishna Bonthu",
+          "balls": 6,
+          "r": 10,
+          "w": 0,
+          "dots": 1,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Anand Kumar Ganesan",
+          "balls": 6,
+          "r": 13,
+          "w": 0,
+          "dots": 1,
+          "wd": 3,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Dev Reddy",
+          "c",
+          1
+        ],
+        [
+          "Praveen Kumar Devarajan",
+          "c",
+          1
+        ],
+        [
+          "Malaya Kanungo",
+          "c",
+          1
+        ],
+        [
+          "Anand Kumar Ganesan",
+          "k",
+          1
+        ],
+        [
+          "Dipen Patel",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4454",
+      "date": "2026-08-16",
+      "series": "Summer 2026",
+      "seriesId": "legacy-67",
+      "opponent": "CSK Yorkers",
+      "ground": "Lorin Eden",
+      "result": "Skippers won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "CSK Yorkers",
+          "runs": 90,
+          "wkts": 10,
+          "overs": "17.4"
+        },
+        {
+          "team": "Skippers",
+          "runs": 95,
+          "wkts": 4,
+          "overs": "14"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Naveen Sangana",
+          "r": 35,
+          "b": 25,
+          "f": 5,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Yadav",
+          "r": 7,
+          "b": 10,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 3,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Anand Kumar Ganesan",
+          "r": 29,
+          "b": 23,
+          "f": 0,
+          "s": 4,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Amit Panda",
+          "r": 7,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Malaya Kanungo",
+          "r": 6,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 16,
+          "r": 31,
+          "w": 2,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Dipen Patel",
+          "balls": 24,
+          "r": 19,
+          "w": 3,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Amit Panda",
+          "balls": 24,
+          "r": 16,
+          "w": 1,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "NITISH NEELAGIRI",
+          "balls": 24,
+          "r": 9,
+          "w": 2,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Mohan Krishna Bonthu",
+          "balls": 6,
+          "r": 4,
+          "w": 1,
+          "dots": 4,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rakesh Yadav",
+          "balls": 6,
+          "r": 2,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Anand Kumar Ganesan",
+          "balls": 6,
+          "r": 9,
+          "w": 1,
+          "dots": 1,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Naveen Sangana",
+          "c",
+          2
+        ],
+        [
+          "Dev Reddy",
+          "c",
+          1
+        ],
+        [
+          "Praveen Kumar Devarajan",
+          "c",
+          1
+        ],
+        [
+          "Rakesh Yadav",
+          "k",
+          1
+        ],
+        [
+          "Anand Kumar Ganesan",
+          "k",
+          2
+        ],
+        [
+          "Rakesh Yadav",
+          "c",
+          1
+        ],
+        [
+          "NITISH NEELAGIRI",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4419",
+      "date": "2026-08-02",
+      "series": "Summer 2026",
+      "seriesId": "legacy-67",
+      "opponent": "Revenants",
+      "ground": "Bowman",
+      "result": "Revenants won by 29 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Revenants",
+          "runs": 186,
+          "wkts": 10,
+          "overs": "19"
+        },
+        {
+          "team": "Skippers",
+          "runs": 157,
+          "wkts": 10,
+          "overs": "19.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Naveen Sangana",
+          "r": 14,
+          "b": 6,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Rakesh Yadav",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Anand Kumar Ganesan",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Dev Reddy",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 13,
+          "b": 16,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Amit Panda",
+          "r": 23,
+          "b": 18,
+          "f": 4,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Praveen Musunuru",
+          "r": 35,
+          "b": 28,
+          "f": 4,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Mohan Krishna Bonthu",
+          "r": 11,
+          "b": 9,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Malaya Kanungo",
+          "r": 39,
+          "b": 19,
+          "f": 4,
+          "s": 3,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Shakeel Mohammed",
+          "r": 9,
+          "b": 13,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Naren G",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 24,
+          "r": 33,
+          "w": 1,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Naren G",
+          "balls": 12,
+          "r": 25,
+          "w": 1,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Amit Panda",
+          "balls": 24,
+          "r": 41,
+          "w": 2,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mohan Krishna Bonthu",
+          "balls": 12,
+          "r": 27,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rakesh Yadav",
+          "balls": 18,
+          "r": 38,
+          "w": 2,
+          "dots": 4,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Anand Kumar Ganesan",
+          "balls": 24,
+          "r": 21,
+          "w": 3,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Malaya Kanungo",
+          "c",
+          2
+        ],
+        [
+          "Anand Kumar Ganesan",
+          "k",
+          2
+        ],
+        [
+          "Praveen Kumar Devarajan",
+          "c",
+          1
+        ],
+        [
+          "Mohan Krishna Bonthu",
+          "c",
+          2
+        ],
+        [
+          "Amit Panda",
+          "c",
+          1
+        ],
+        [
+          "Malaya Kanungo",
+          "r",
+          1
+        ],
+        [
+          "Praveen Musunuru",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4382",
+      "date": "2026-07-25",
+      "series": "Summer 2026",
+      "seriesId": "legacy-67",
+      "opponent": "Seamers",
+      "ground": "MLK",
+      "result": "Seamers won by 7 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Seamers",
+          "runs": 179,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "Skippers",
+          "runs": 172,
+          "wkts": 10,
+          "overs": "19"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rakesh Yadav",
+          "r": 25,
+          "b": 12,
+          "f": 6,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Raghuveera M",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 5,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Mohan Krishna Bonthu",
+          "r": 58,
+          "b": 40,
+          "f": 6,
+          "s": 3,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Malaya Kanungo",
+          "r": 10,
+          "b": 7,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Shakeel Mohammed",
+          "r": 6,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Dev Reddy",
+          "r": 38,
+          "b": 15,
+          "f": 1,
+          "s": 5,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Rohan Phatak",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Yugandhar Devarapalli",
+          "r": 2,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Dipen Patel",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Naren G",
+          "r": 6,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ctw"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 18,
+          "r": 36,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Naren G",
+          "balls": 12,
+          "r": 22,
+          "w": 0,
+          "dots": 4,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Yugandhar Devarapalli",
+          "balls": 24,
+          "r": 37,
+          "w": 1,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Dipen Patel",
+          "balls": 12,
+          "r": 16,
+          "w": 1,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rakesh Yadav",
+          "balls": 12,
+          "r": 9,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Mohan Krishna Bonthu",
+          "balls": 24,
+          "r": 31,
+          "w": 4,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera M",
+          "balls": 18,
+          "r": 28,
+          "w": 2,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Shakeel Mohammed",
+          "c",
+          2
+        ],
+        [
+          "Malaya Kanungo",
+          "c",
+          2
+        ],
+        [
+          "Praveen Kumar Devarajan",
+          "c",
+          1
+        ],
+        [
+          "Yugandhar Devarapalli",
+          "r",
+          2
+        ],
+        [
+          "Yugandhar Devarapalli",
+          "c",
+          2
+        ],
+        [
+          "Raghuveera M",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4332",
+      "date": "2026-07-11",
+      "series": "Summer 2026",
+      "seriesId": "legacy-67",
+      "opponent": "Vikings",
+      "ground": "Kathryn Hughes",
+      "result": "Vikings won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Skippers",
+          "runs": 99,
+          "wkts": 10,
+          "overs": "19.5"
+        },
+        {
+          "team": "Vikings",
+          "runs": 105,
+          "wkts": 7,
+          "overs": "17.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Raghuveera M",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Musunuru",
+          "r": 10,
+          "b": 11,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Shakeel Mohammed",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Amit Panda",
+          "r": 18,
+          "b": 41,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Praveen Kumar Devarajan",
+          "r": 29,
+          "b": 30,
+          "f": 0,
+          "s": 3,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Dev Reddy",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Malaya Kanungo",
+          "r": 23,
+          "b": 10,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Rakesh Yadav",
+          "r": 8,
+          "b": 15,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Abin Paul",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Lohith Surisetti",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Sujith Kazipeta",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Shakeel Mohammed",
+          "balls": 24,
+          "r": 15,
+          "w": 0,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abin Paul",
+          "balls": 23,
+          "r": 22,
+          "w": 1,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Lohith Surisetti",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Amit Panda",
+          "balls": 18,
+          "r": 28,
+          "w": 2,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sujith Kazipeta",
+          "balls": 12,
+          "r": 8,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rakesh Yadav",
+          "balls": 18,
+          "r": 12,
+          "w": 3,
+          "dots": 11,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Raghuveera M",
+          "balls": 6,
+          "r": 11,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Amit Panda",
+          "c",
+          1
+        ],
+        [
+          "Praveen Musunuru",
+          "k",
+          2
+        ],
+        [
+          "Lohith Surisetti",
+          "c",
+          2
+        ],
+        [
+          "Malaya Kanungo",
+          "c",
+          1
+        ],
+        [
+          "Raghuveera M",
+          "c",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 2
+}
