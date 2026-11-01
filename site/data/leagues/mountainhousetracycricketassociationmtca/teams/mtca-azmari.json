@@ -1,0 +1,3718 @@
+{
+  "team": "MTCA Azmari",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/f9517260-8b82-480d-b12a-bf8582469783.jpg",
+  "logos": {
+    "MTCA Azmari": "https://media.cricclubs.com/documentsRep/teamLogos/f9517260-8b82-480d-b12a-bf8582469783.jpg",
+    "MTCA SNIPERS": "https://media.cricclubs.com/documentsRep/teamLogos/e218535c-be05-4422-a033-14965ca3c2ed.jpg",
+    "MTCA Blasters": "https://media.cricclubs.com/documentsRep/teamLogos/b29f2fdc-fb29-4e1c-b5fa-e32895746e49.jpg",
+    "MTCA Khalsa Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/768d4d96-1476-4703-a175-28c3b331e121.jpg",
+    "MTCA Game Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/7d5c7d6d-0c82-4047-a5f3-67bfcef9dfdf.jpg",
+    "MTCA Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/7bbfe602-f45b-45f8-b8f8-d07da7613246.jpeg",
+    "MTCA Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/ea9efbed-1c79-4a4b-ae39-9366c4c7ec8f.jpg",
+    "MTCA Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/26b84237-6348-45d5-ba36-9c1b1313c7c3.jpg",
+    "MTCA Hurricanes": "https://media.cricclubs.com/documentsRep/teamLogos/923e13da-3de0-4a4c-b4c3-6bbe3b3a2a30.jpg",
+    "MTCA Risers": "https://media.cricclubs.com/documentsRep/teamLogos/dcda0544-5c47-470c-81e4-5db09efaa4d4.jpg",
+    "MTCA Badgers": "https://media.cricclubs.com/documentsRep/teamLogos/97fe019d-0c36-4b60-afea-038bdd369230.jpg",
+    "MTCA Vintage Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/efb0951f-b9ab-43e7-86aa-eeddaafe2051.jpg",
+    "MTCA RDX": "https://media.cricclubs.com/documentsRep/teamLogos/f61bd45c-8554-44e0-a716-99d64d3268ec.jpg",
+    "MTCA Dark Knights": "https://media.cricclubs.com/documentsRep/teamLogos/74a3e251-505c-4752-95af-38e61630c314.jpg",
+    "MTCA Sundance Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/ee2bde70-2436-4d71-84b7-648eda8d7ce9.jpg",
+    "MTCA Mumbai Indians": "https://media.cricclubs.com/documentsRep/teamLogos/dbd04d47-f111-4f3f-928e-5c67e1964f72.jpg",
+    "MTCA Tri-Valley Titans": "https://media.cricclubs.com/documentsRep/teamLogos/a3ad8d13-c01a-451a-8c4a-6d31c8124bce.jpg",
+    "MTCA Legends": "https://media.cricclubs.com/documentsRep/teamLogos/ee1e598a-3459-4571-869e-2d180a80f519.jpg",
+    "MTCA Oakwood Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/f9f79711-1f39-4ab0-8a83-b5ed091c91c5.jpg",
+    "MTCA Legacy Lions": "https://media.cricclubs.com/documentsRep/teamLogos/05ca2286-3065-449f-b6cb-483765b4761f.jpg",
+    "MTCA Ellis Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/f23b7d26-276f-4023-a6ef-1a29376a57da.jpg",
+    "MTCA Raging Bulls": "https://media.cricclubs.com/documentsRep/teamLogos/f23053f1-697f-4a4d-a9df-0dc3346c7880.jpg",
+    "MTCA All-Rounders": "https://media.cricclubs.com/documentsRep/teamLogos/25825f86-da6d-4fd1-ad94-e1bd565b2f3a.jpg",
+    "MTCA Phantoms": "https://media.cricclubs.com/documentsRep/teamLogos/f58550a4-b430-4872-8656-19916e2ef835.jpg",
+    "MTCA Smashers XI": "https://media.cricclubs.com/documentsRep/teamLogos/43c2a957-4f4d-49d7-9301-ae372cf24372.jpg",
+    "MTCA Hillview Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/95bc83fa-551e-4cb3-81d9-14ba1ae018b0.jpg",
+    "MTCA Centurions": "https://media.cricclubs.com/documentsRep/teamLogos/a26a2c7b-3d2a-498a-8794-a735cb75ea6b.jpg",
+    "MTCA Sunrisers Manteca": "https://media.cricclubs.com/documentsRep/teamLogos/e609a03e-3f6d-4f50-93fe-43e59de1f8e7.jpg",
+    "MTCA Avatars": "https://media.cricclubs.com/documentsRep/teamLogos/cd82cf0c-8afa-4b59-a6d8-a2cbd87673af.jpeg",
+    "MTCA Power Stars": "https://media.cricclubs.com/documentsRep/teamLogos/25fb2f67-5f9b-4455-98d3-1411f43e9467.jpg",
+    "MTCA Asuras": "https://media.cricclubs.com/documentsRep/teamLogos/06657bd0-899c-49e8-b048-1abffdb39940.jpg",
+    "MTCA California Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/119e8434-4687-43bc-97fe-83345e540454.jpg",
+    "MTCA Mountaineers": "https://media.cricclubs.com/documentsRep/teamLogos/68f9fcc5-67e8-462d-9199-20e9fc901ceb.jpg",
+    "MTCA Jolly-lo-Gymkhana": "https://media.cricclubs.com/documentsRep/teamLogos/63772208-c3ca-4281-a908-6e6a9c554d39.jpg",
+    "MTCA ICT": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "MTCA Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/457009a4-15de-4b7d-9138-aa1a62b169ca.jpg",
+    "MTCA Sky Risers": "https://media.cricclubs.com/documentsRep/teamLogos/4375726c-a0bf-4382-96d4-adf8cd6f4b29.jpg",
+    "MTCA Stanford Islanders": "https://media.cricclubs.com/documentsRep/teamLogos/08dcbe49-210f-4bf0-af03-517850ee2241.jpg",
+    "MTCA Sunheaven Leopards": "https://media.cricclubs.com/documentsRep/teamLogos/b9633797-ec72-4a0b-8e9c-98edac7a0d8b.jpg",
+    "MTCA Hawks": "https://media.cricclubs.com/documentsRep/teamLogos/5403f663-6bc9-40f0-a400-9d88a3489509.jpg",
+    "MTCA Golden Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/45bf856d-80ca-4cbc-b519-9c70388a56c5.jpg",
+    "MTCA StanTerra Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d24f29a1-b2bf-4e09-95f2-29eb1dc06aaa.jpg",
+    "MTCA DevAsuras": "https://media.cricclubs.com/documentsRep/teamLogos/c87567e1-76e0-4527-8fa1-260c311d7188.jpg",
+    "MTCA Sapphires": "https://media.cricclubs.com/documentsRep/teamLogos/f99417ec-61fe-4aed-8734-368e68598b87.jpg",
+    "MTCA Manteca Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/6cb01ac3-3fc9-42fa-87df-fecc3628fd90.jpg",
+    "MTCA Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/92e14033-e281-4635-a3b3-967c7c7b8ebe.jpg",
+    "MTCA Brentwood Bulls": "https://media.cricclubs.com/documentsRep/teamLogos/36b3b9bd-33f1-4447-8e5e-82bbf29fd640.jpg",
+    "MTCA Elite XI": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "MTCA Singhz": "https://media.cricclubs.com/documentsRep/teamLogos/0b8af999-7bff-4d29-b592-85d81dd0f40f.jpg",
+    "MTCA RICC": "https://media.cricclubs.com/documentsRep/teamLogos/58341203-2511-44d0-ad32-bb5c84b19877.jpg",
+    "MTCA River Hawks": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "MTCA California Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/ba1e97a6-f18c-42da-9440-b79cd0bc00f2.jpg",
+    "MTCA Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/bf07340b-37cb-4377-863f-8690d0c7a0cd.jpg",
+    "MTCA Valley Risers": "https://media.cricclubs.com/documentsRep/teamLogos/854ef9f3-24d7-411f-b3f5-4ce16b88f0bc.jpg",
+    "MTCA RICM": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg"
+  },
+  "league": {
+    "code": "MountainHouseTracyCricketAssociationMTCA",
+    "name": "MTCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-93",
+      "name": "2026 MTCA Fall League",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T04:41:37.092Z"
+    },
+    "last": {
+      "id": "legacy-87",
+      "name": "2026 MTCA Spring League",
+      "inSeason": true,
+      "scrapedAt": "2026-11-01T04:42:17.820Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-3489",
+      "date": "2026-10-31",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA SNIPERS",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Azmari won by 30 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 82,
+          "wkts": 10,
+          "overs": "19.5"
+        },
+        {
+          "team": "MTCA SNIPERS",
+          "runs": 52,
+          "wkts": 10,
+          "overs": "18.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 4,
+          "b": 4,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Sheryar Ahmed",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Muhammad Musa",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 27,
+          "b": 37,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 28,
+          "b": 34,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 8,
+          "b": 10,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Hayat Dilawar",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Shamshad Aryoubi",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Muhammad Musa",
+          "balls": 24,
+          "r": 3,
+          "w": 3,
+          "dots": 22,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Shamshad Aryoubi",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 18,
+          "r": 6,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 9,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Hayat Dilawar",
+          "balls": 21,
+          "r": 11,
+          "w": 2,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 12,
+          "r": 12,
+          "w": 1,
+          "dots": 5,
+          "wd": 4,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Asad Amini",
+          "k",
+          3
+        ],
+        [
+          "Zia A",
+          "c",
+          1
+        ],
+        [
+          "Shamshad Aryoubi",
+          "c",
+          1
+        ],
+        [
+          "Muhammad Musa",
+          "r",
+          1
+        ],
+        [
+          "Hayat Dilawar",
+          "r",
+          1
+        ],
+        [
+          "Muhammad Musa",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3480",
+      "date": "2026-10-25",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Spartans",
+      "ground": "Altamont School ground",
+      "result": "MTCA Azmari won by 14 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 73,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Spartans",
+          "runs": 59,
+          "wkts": 10,
+          "overs": "18.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 10,
+          "b": 29,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Sakhi Kakar",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 3,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 16,
+          "b": 32,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Muhammad Musa",
+          "r": 25,
+          "b": 23,
+          "f": 0,
+          "s": 3,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Zabi Z",
+          "r": 2,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Muhammad Musa",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 20,
+          "r": 11,
+          "w": 3,
+          "dots": 15,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Zabi Z",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 4,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 6,
+          "r": 2,
+          "w": 1,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sakhi Kakar",
+          "balls": 6,
+          "r": 2,
+          "w": 2,
+          "dots": 6,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Rahmanullah Safi",
+          "c",
+          2
+        ],
+        [
+          "Zabi Z",
+          "c",
+          1
+        ],
+        [
+          "Asad Amini",
+          "k",
+          2
+        ],
+        [
+          "Abid Ali Khan",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3432",
+      "date": "2026-10-17",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Risers",
+      "ground": "Altamont Park - BaseBall",
+      "result": "MTCA Risers won by 15 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Risers",
+          "runs": 99,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Azmari",
+          "runs": 84,
+          "wkts": 10,
+          "overs": "15.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sultan Zeb",
+          "r": 5,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Zabi Z",
+          "r": 34,
+          "b": 21,
+          "f": 1,
+          "s": 4,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 10,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 8,
+          "b": 6,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Zamari Zazai",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 0,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Sakhi Kakar",
+          "r": 18,
+          "b": 13,
+          "f": 0,
+          "s": 3,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 0,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "Shamshad Aryoubi",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 18,
+          "r": 13,
+          "w": 2,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Shamshad Aryoubi",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 18,
+          "r": 17,
+          "w": 0,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Zabi Z",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sakhi Kakar",
+          "balls": 24,
+          "r": 20,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 18,
+          "r": 21,
+          "w": 0,
+          "dots": 4,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Abid Ali Khan",
+          "c",
+          2
+        ],
+        [
+          "Sakhi Kakar",
+          "c",
+          1
+        ],
+        [
+          "Asad Amini",
+          "k",
+          1
+        ],
+        [
+          "Farid Ahmad",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3423",
+      "date": "2026-10-11",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Vintage Warriors",
+      "ground": "Cordes Park",
+      "result": "MTCA Azmari won by 31 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 108,
+          "wkts": 10,
+          "overs": "18.3"
+        },
+        {
+          "team": "MTCA Vintage Warriors",
+          "runs": 77,
+          "wkts": 10,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 1,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 7,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ro"
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "r": 21,
+          "b": 18,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 10,
+          "b": 12,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Zamari Zazai",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Muhammad Musa",
+          "r": 7,
+          "b": 5,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "r": 18,
+          "b": 16,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Zabi Z",
+          "r": 12,
+          "b": 12,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 5,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Muhammad Musa",
+          "balls": 24,
+          "r": 14,
+          "w": 2,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "balls": 18,
+          "r": 6,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Zabi Z",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 6,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 12,
+          "r": 15,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 18,
+          "r": 9,
+          "w": 3,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 18,
+          "r": 13,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 12,
+          "r": 6,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ajmal Khan",
+          "balls": 6,
+          "r": 3,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Rahmanullah Safi",
+          "c",
+          1
+        ],
+        [
+          "Asad Amini",
+          "k",
+          1
+        ],
+        [
+          "Ajmal Khan",
+          "c",
+          1
+        ],
+        [
+          "Zabi Z",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3371",
+      "date": "2026-10-03",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Hurricanes",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Azmari won by 19 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 85,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Hurricanes",
+          "runs": 66,
+          "wkts": 10,
+          "overs": "17.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zabiullah Wardak",
+          "r": 22,
+          "b": 29,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Zia A",
+          "r": 2,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 21,
+          "b": 33,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 13,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 3,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Waheed Mir",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 14,
+          "b": 13,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Zabiullah Wardak",
+          "balls": 24,
+          "r": 13,
+          "w": 1,
+          "dots": 16,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Shamshad Aryoubi",
+          "balls": 6,
+          "r": 17,
+          "w": 1,
+          "dots": 2,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "balls": 20,
+          "r": 8,
+          "w": 3,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 18,
+          "r": 12,
+          "w": 1,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Waheed Mir",
+          "balls": 18,
+          "r": 9,
+          "w": 2,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 18,
+          "r": 7,
+          "w": 2,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Asad Amini",
+          "c",
+          1
+        ],
+        [
+          "Rahmanullah Safi",
+          "c",
+          2
+        ],
+        [
+          "Asad Amini",
+          "k",
+          1
+        ],
+        [
+          "Waheed Mir",
+          "c",
+          1
+        ],
+        [
+          "Ajmal Khan",
+          "c",
+          1
+        ],
+        [
+          "Ajmal Khan",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3355",
+      "date": "2026-09-26",
+      "series": "2026 MTCA Fall League",
+      "seriesId": "legacy-93",
+      "opponent": "MTCA Game Strikers",
+      "ground": "Hansen Park",
+      "result": "MTCA Azmari won by 52 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 99,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Game Strikers",
+          "runs": 47,
+          "wkts": 10,
+          "overs": "12.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 22,
+          "b": 42,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "st"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 1,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 5,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Sakhi Kakar",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 31,
+          "b": 27,
+          "f": 0,
+          "s": 3,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Zamari Zazai",
+          "r": 8,
+          "b": 9,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Waheed Mir",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 12,
+          "r": 3,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 12,
+          "r": 9,
+          "w": 1,
+          "dots": 8,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Sakhi Kakar",
+          "balls": 12,
+          "r": 11,
+          "w": 2,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 12,
+          "r": 6,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Waheed Mir",
+          "balls": 12,
+          "r": 5,
+          "w": 2,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Zamari Zazai",
+          "balls": 3,
+          "r": 2,
+          "w": 1,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Asad Amini",
+          "k",
+          2
+        ],
+        [
+          "Zamari Zazai",
+          "c",
+          1
+        ],
+        [
+          "Jafar Khan Ahmadzai",
+          "c",
+          1
+        ],
+        [
+          "Abid Ali Khan",
+          "c",
+          1
+        ],
+        [
+          "Zia A",
+          "c",
+          1
+        ],
+        [
+          "Farid Ahmad",
+          "c",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3299",
+      "date": "2026-08-22",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Elite XI",
+      "ground": "Hansen Park",
+      "result": "MTCA Azmari won by 23 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 81,
+          "wkts": 10,
+          "overs": "18.3"
+        },
+        {
+          "team": "MTCA Elite XI",
+          "runs": 58,
+          "wkts": 9,
+          "overs": "15.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 12,
+          "b": 17,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "r": 10,
+          "b": 17,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Asif Dilawar",
+          "r": 20,
+          "b": 14,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 12,
+          "b": 26,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 6,
+          "b": 4,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Hayat Dilawar",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 8,
+          "b": 16,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Rahmanullah Safi",
+          "balls": 24,
+          "r": 7,
+          "w": 1,
+          "dots": 19,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 7,
+          "r": 12,
+          "w": 1,
+          "dots": 2,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "balls": 18,
+          "r": 7,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 18,
+          "r": 11,
+          "w": 3,
+          "dots": 13,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Hayat Dilawar",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 12,
+          "r": 10,
+          "w": 2,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Elias Yasini",
+          "c",
+          2
+        ],
+        [
+          "Sultan Zeb",
+          "c",
+          1
+        ],
+        [
+          "Asad Amini",
+          "k",
+          5
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3290",
+      "date": "2026-08-16",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Spartans",
+      "ground": "Cordes Park",
+      "result": "MTCA Spartans won by 6 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Spartans",
+          "runs": 66,
+          "wkts": 10,
+          "overs": "19.2"
+        },
+        {
+          "team": "MTCA Azmari",
+          "runs": 60,
+          "wkts": 10,
+          "overs": "19.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Mansoor Ali Amair",
+          "r": 5,
+          "b": 8,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Zia A",
+          "r": 12,
+          "b": 37,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Asif Dilawar",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Sarnawaz Khan",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "r": 4,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Muhammad Musa",
+          "r": 13,
+          "b": 11,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 7,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 6,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Rahmanullah Safi",
+          "balls": 24,
+          "r": 11,
+          "w": 1,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "balls": 18,
+          "r": 4,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Muhammad Musa",
+          "balls": 20,
+          "r": 19,
+          "w": 3,
+          "dots": 14,
+          "wd": 0,
+          "nb": 3
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 18,
+          "r": 9,
+          "w": 2,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 18,
+          "r": 14,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 18,
+          "r": 9,
+          "w": 3,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Sarnawaz Khan",
+          "k",
+          2
+        ],
+        [
+          "Elias Yasini",
+          "c",
+          1
+        ],
+        [
+          "Muhammad Musa",
+          "c",
+          1
+        ],
+        [
+          "Sultan Zeb",
+          "c",
+          1
+        ],
+        [
+          "Salahuddin Sahebzada",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3250",
+      "date": "2026-08-08",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Blasters",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Azmari won by 28 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 106,
+          "wkts": 4,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Blasters",
+          "runs": 78,
+          "wkts": 10,
+          "overs": "18.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zabiullah Wardak",
+          "r": 48,
+          "b": 43,
+          "f": 2,
+          "s": 4,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Mansoor Ali Amair",
+          "r": 12,
+          "b": 24,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Sheraz Jafar",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 26,
+          "b": 31,
+          "f": 1,
+          "s": 3,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Majid Syed",
+          "r": 9,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Salahuddin Sahebzada",
+          "balls": 18,
+          "r": 17,
+          "w": 1,
+          "dots": 9,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Hayat Dilawar",
+          "balls": 12,
+          "r": 17,
+          "w": 1,
+          "dots": 6,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Zabiullah Wardak",
+          "balls": 21,
+          "r": 7,
+          "w": 2,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 18,
+          "r": 14,
+          "w": 3,
+          "dots": 12,
+          "wd": 8,
+          "nb": 0
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 18,
+          "r": 7,
+          "w": 1,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 12,
+          "r": 8,
+          "w": 0,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Mukarram Baig",
+          "balls": 12,
+          "r": 8,
+          "w": 1,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Jafar Khan Ahmadzai",
+          "c",
+          1
+        ],
+        [
+          "Mansoor Ali Amair",
+          "c",
+          2
+        ],
+        [
+          "Jafar Khan Ahmadzai",
+          "r",
+          1
+        ],
+        [
+          "Sheraz Jafar",
+          "r",
+          1
+        ],
+        [
+          "Elias Yasini",
+          "c",
+          1
+        ],
+        [
+          "Mukarram Baig",
+          "c",
+          1
+        ],
+        [
+          "Sheraz Jafar",
+          "k",
+          1
+        ],
+        [
+          "Abid Ali Khan",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3212",
+      "date": "2026-07-25",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Royal Kings",
+      "ground": "Altamont Park - BaseBall",
+      "result": "MTCA Royal Kings won by 79 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Royal Kings",
+          "runs": 164,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Azmari",
+          "runs": 85,
+          "wkts": 10,
+          "overs": "17.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zabiullah Wardak",
+          "r": 28,
+          "b": 26,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Zia A",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sefath Yasini",
+          "r": 2,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 8,
+          "b": 9,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Imran Hanifi",
+          "r": 13,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 2,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 9,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Hayat Dilawar",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Imran Hanifi",
+          "balls": 24,
+          "r": 24,
+          "w": 0,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 6,
+          "r": 13,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "balls": 24,
+          "r": 41,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Zabiullah Wardak",
+          "balls": 18,
+          "r": 21,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 18,
+          "r": 26,
+          "w": 1,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Hayat Dilawar",
+          "balls": 24,
+          "r": 27,
+          "w": 4,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Zia A",
+          "balls": 6,
+          "r": 12,
+          "w": 0,
+          "dots": 3,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Sefath Yasini",
+          "c",
+          1
+        ],
+        [
+          "Salahuddin Sahebzada",
+          "c",
+          1
+        ],
+        [
+          "Imran Hanifi",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3192",
+      "date": "2026-07-11",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Blazers",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Azmari won by 36 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 110,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Blazers",
+          "runs": 74,
+          "wkts": 10,
+          "overs": "18.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 7,
+          "b": 9,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "r": 35,
+          "b": 25,
+          "f": 1,
+          "s": 4,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "r": 18,
+          "b": 24,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 7,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Zamari Zazai",
+          "r": 7,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 13,
+          "b": 17,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 6,
+          "b": 7,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "st"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Rahmanullah Safi",
+          "balls": 17,
+          "r": 10,
+          "w": 2,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Hayat Dilawar",
+          "balls": 24,
+          "r": 25,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 3
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Ajmal Khan",
+          "balls": 18,
+          "r": 5,
+          "w": 1,
+          "dots": 16,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 24,
+          "r": 11,
+          "w": 1,
+          "dots": 17,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "balls": 6,
+          "r": 1,
+          "w": 1,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Zia A",
+          "balls": 12,
+          "r": 12,
+          "w": 2,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Salahuddin Sahebzada",
+          "c",
+          1
+        ],
+        [
+          "Asad Amini",
+          "r",
+          1
+        ],
+        [
+          "Rahmanullah Safi",
+          "r",
+          1
+        ],
+        [
+          "Jafar Khan Ahmadzai",
+          "c",
+          1
+        ],
+        [
+          "Zamari Zazai",
+          "c",
+          1
+        ],
+        [
+          "Rahmanullah Safi",
+          "c",
+          1
+        ],
+        [
+          "Zia A",
+          "c",
+          1
+        ],
+        [
+          "Salahuddin Sahebzada",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3173",
+      "date": "2026-06-28",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Legends",
+      "ground": "E-Costa School Ground",
+      "result": "",
+      "forfeit": true,
+      "outcome": "NR",
+      "tossWonByUs": null,
+      "tossDecision": null,
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 80,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Legends",
+          "runs": 70,
+          "wkts": 10,
+          "overs": "20"
+        }
+      ],
+      "batting": [],
+      "bowling": [],
+      "fielding": []
+    },
+    {
+      "id": "legacy-3156",
+      "date": "2026-06-20",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Risers",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Azmari won by 14 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 99,
+          "wkts": 7,
+          "overs": "21.3"
+        },
+        {
+          "team": "MTCA Risers",
+          "runs": 85,
+          "wkts": 10,
+          "overs": "19.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 18,
+          "b": 30,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Sheraz Jafar",
+          "r": 22,
+          "b": 28,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Wahaj Mustafa",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 8,
+          "b": 20,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 7,
+          "b": 13,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 13,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 12,
+          "b": 9,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 2,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Farid Ahmad",
+          "balls": 24,
+          "r": 16,
+          "w": 1,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mustafa Safi",
+          "balls": 12,
+          "r": 14,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Zia A",
+          "balls": 24,
+          "r": 27,
+          "w": 1,
+          "dots": 12,
+          "wd": 7,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 15,
+          "r": 7,
+          "w": 2,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "balls": 24,
+          "r": 11,
+          "w": 4,
+          "dots": 17,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ajmal Khan",
+          "balls": 12,
+          "r": 7,
+          "w": 0,
+          "dots": 8,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Waheed Mir",
+          "balls": 6,
+          "r": 3,
+          "w": 1,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Elias Yasini",
+          "c",
+          5
+        ],
+        [
+          "Mustafa Safi",
+          "c",
+          1
+        ],
+        [
+          "Asad Amini",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3151",
+      "date": "2026-06-14",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Game Strikers",
+      "ground": "E-Costa School Ground",
+      "result": "MTCA Game Strikers won by 1 Wicket",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 104,
+          "wkts": 4,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Game Strikers",
+          "runs": 107,
+          "wkts": 9,
+          "overs": "19"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zeeshan Syed",
+          "r": 4,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Zia A",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 53,
+          "b": 60,
+          "f": 1,
+          "s": 5,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "r": 2,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Muhammad Musa",
+          "r": 30,
+          "b": 33,
+          "f": 0,
+          "s": 2,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Sheraz Jafar",
+          "r": 3,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Salahuddin Sahebzada",
+          "balls": 24,
+          "r": 13,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 18,
+          "r": 20,
+          "w": 2,
+          "dots": 11,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Muhammad Musa",
+          "balls": 24,
+          "r": 24,
+          "w": 0,
+          "dots": 16,
+          "wd": 0,
+          "nb": 5
+        },
+        {
+          "name": "Zia A",
+          "balls": 12,
+          "r": 18,
+          "w": 1,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Mukarram Baig",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 24,
+          "r": 21,
+          "w": 5,
+          "dots": 17,
+          "wd": 6,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Farid Ahmad",
+          "c",
+          1
+        ],
+        [
+          "Sheraz Jafar",
+          "c",
+          1
+        ],
+        [
+          "Jafar Khan Ahmadzai",
+          "c",
+          1
+        ],
+        [
+          "Asad Amini",
+          "k",
+          5
+        ],
+        [
+          "Muhammad Musa",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3130",
+      "date": "2026-06-06",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Khalsa Warriors",
+      "ground": "Hansen School - BaseBall 1",
+      "result": "MTCA Khalsa Warriors won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 83,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "MTCA Khalsa Warriors",
+          "runs": 86,
+          "wkts": 7,
+          "overs": "16.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 11,
+          "b": 18,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Idris Hashimi",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Wahaj Mustafa",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 5,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 32,
+          "b": 36,
+          "f": 2,
+          "s": 2,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Zeeshan Syed",
+          "r": 6,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 12,
+          "b": 10,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 3,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Ehsan Momand",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Jafar Khan Ahmadzai",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ro"
+        },
+        {
+          "name": "Waheed Mir",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Farid Ahmad",
+          "balls": 24,
+          "r": 19,
+          "w": 3,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Ajmal Khan",
+          "balls": 12,
+          "r": 10,
+          "w": 1,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ehsan Momand",
+          "balls": 24,
+          "r": 11,
+          "w": 1,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 13,
+          "r": 30,
+          "w": 0,
+          "dots": 4,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Zia A",
+          "balls": 24,
+          "r": 16,
+          "w": 2,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Ehsan Momand",
+          "c",
+          1
+        ],
+        [
+          "Asad Amini",
+          "c",
+          2
+        ],
+        [
+          "Wahaj Mustafa",
+          "k",
+          2
+        ],
+        [
+          "Zia A",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3120",
+      "date": "2026-05-31",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Dark Knights",
+      "ground": "Cordes Park",
+      "result": "MTCA Dark Knights won by 6 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "MTCA Dark Knights",
+          "runs": 87,
+          "wkts": 10,
+          "overs": "16.2"
+        },
+        {
+          "team": "MTCA Azmari",
+          "runs": 81,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Zia A",
+          "r": 19,
+          "b": 29,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 26,
+          "b": 21,
+          "f": 0,
+          "s": 3,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Sheraz Jafar",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Abid Ali Khan",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Mukarram Baig",
+          "r": 1,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 7,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 15,
+          "b": 15,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 4,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Suliman Stanizai",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Waheed Mir",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Suliman Stanizai",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 24,
+          "r": 23,
+          "w": 3,
+          "dots": 14,
+          "wd": 6,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 18,
+          "r": 20,
+          "w": 2,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Ajmal Khan",
+          "balls": 12,
+          "r": 13,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Mukarram Baig",
+          "balls": 12,
+          "r": 8,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Waheed Mir",
+          "balls": 6,
+          "r": 11,
+          "w": 1,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "balls": 2,
+          "r": 0,
+          "w": 2,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Sheraz Jafar",
+          "c",
+          5
+        ],
+        [
+          "Sheraz Jafar",
+          "k",
+          2
+        ],
+        [
+          "Ajmal Khan",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3075",
+      "date": "2026-05-10",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA RDX",
+      "ground": "E-Costa School Ground",
+      "result": "MTCA Azmari won by 44 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 121,
+          "wkts": 4,
+          "overs": "19"
+        },
+        {
+          "team": "MTCA RDX",
+          "runs": 77,
+          "wkts": 10,
+          "overs": "15.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Imran Hanifi",
+          "r": 7,
+          "b": 6,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Zia A",
+          "r": 30,
+          "b": 43,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 2
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 5,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "r": 40,
+          "b": 42,
+          "f": 2,
+          "s": 4,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Elias Yasini",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Sheraz Jafar",
+          "r": 9,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 5,
+          "b": 4,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Farid Ahmad",
+          "balls": 22,
+          "r": 14,
+          "w": 2,
+          "dots": 17,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Ajmal Khan",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Imran Hanifi",
+          "balls": 18,
+          "r": 17,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sultan Zeb",
+          "balls": 18,
+          "r": 12,
+          "w": 2,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Salahuddin Sahebzada",
+          "balls": 12,
+          "r": 4,
+          "w": 1,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Elias Yasini",
+          "balls": 6,
+          "r": 11,
+          "w": 0,
+          "dots": 3,
+          "wd": 8,
+          "nb": 0
+        },
+        {
+          "name": "Waheed Mir",
+          "balls": 6,
+          "r": 8,
+          "w": 0,
+          "dots": 2,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Elias Yasini",
+          "c",
+          1
+        ],
+        [
+          "Ajmal Khan",
+          "r",
+          1
+        ],
+        [
+          "Sheraz Jafar",
+          "k",
+          2
+        ],
+        [
+          "Asad Amini",
+          "k",
+          2
+        ],
+        [
+          "Asad Amini",
+          "r",
+          1
+        ],
+        [
+          "Sheraz Jafar",
+          "r",
+          1
+        ],
+        [
+          "Zia A",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3030",
+      "date": "2026-04-26",
+      "series": "2026 MTCA Spring League",
+      "seriesId": "legacy-87",
+      "opponent": "MTCA Singhz",
+      "ground": "Cordes Park",
+      "result": "MTCA Azmari won by 8 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "MTCA Azmari",
+          "runs": 98,
+          "wkts": 10,
+          "overs": "18"
+        },
+        {
+          "team": "MTCA Singhz",
+          "runs": 90,
+          "wkts": 10,
+          "overs": "19.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Misbah Yasini",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Imran Hanifi",
+          "r": 49,
+          "b": 42,
+          "f": 2,
+          "s": 5,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Idris Hashimi",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Ehsan Momand",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Zia A",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Asad Amini",
+          "r": 7,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "r": 8,
+          "b": 7,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Farid Ahmad",
+          "r": 14,
+          "b": 15,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Ajmal Khan",
+          "r": 6,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Sultan Zeb",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Imran Hanifi",
+          "balls": 24,
+          "r": 8,
+          "w": 4,
+          "dots": 20,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Rahmanullah Safi",
+          "balls": 24,
+          "r": 23,
+          "w": 0,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Farid Ahmad",
+          "balls": 18,
+          "r": 24,
+          "w": 2,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Asad Amini",
+          "balls": 6,
+          "r": 12,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abid Ali Khan",
+          "balls": 19,
+          "r": 15,
+          "w": 2,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ajmal Khan",
+          "balls": 18,
+          "r": 7,
+          "w": 1,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Ehsan Momand",
+          "balls": 6,
+          "r": 1,
+          "w": 1,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Abid Ali Khan",
+          "c",
+          3
+        ],
+        [
+          "Imran Hanifi",
+          "c",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 0
+}
