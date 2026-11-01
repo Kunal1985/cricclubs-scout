@@ -272,6 +272,7 @@ async function showReport(data, gen = ++reportGen) {
   if (!DATA.logo && teamLogo(DATA.team)) DATA.logo = teamLogo(DATA.team);
   $('#scraped').textContent = asOf(DATA);
   restoreTeamText();
+  seasonMenu(DATA.seasons);
   await prepareBeatScale();
   if (gen !== reportGen) return;
   render();
@@ -297,6 +298,7 @@ async function loadTeam() {
   if (gen !== reportGen || $('#team').value !== team) return;
   DATA = { team, logo: teamLogo(team), seasons: LEAGUE && LEAGUE.seasons, matches: [], standings, unscanned: true };
   restoreTeamText();
+  seasonMenu(DATA.seasons);
   render();
 }
 function selectCached(code, team) {
@@ -386,6 +388,10 @@ function seasonMeta(key) {
     name: s.name,
     inSeason: teamS && Object.prototype.hasOwnProperty.call(teamS, 'inSeason') ? !!teamS.inSeason : true
   };
+}
+function seasonMenu(seasons) {
+  const named = SEASON_KEYS.some(k => seasons && seasons[k] && seasons[k].name);
+  fillPeriod(named ? seasons : (LEAGUE && LEAGUE.seasons));
 }
 function fillPeriod(seasons) {
   const sel = $('#period');

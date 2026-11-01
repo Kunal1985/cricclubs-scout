@@ -51,8 +51,8 @@ async function season(firstId) {
   const cfg = (require('./legacy-config.json')[code.toLowerCase()]) || {};
   const excl = cfg.excludeSeries ? new RegExp(cfg.excludeSeries, 'i') : null;
   const main = series.filter(s => !skip.test(s.name) && !(excl && excl.test(s.name)));
-  // current and last only. prev2 (store.SEASON_KEYS) is not fetched; a league file can add it later.
-  const picks = { current: main[0], last: main[1] };
+  // Three newest non-excluded series: current, last, prev2 (store.SEASON_KEYS).
+  const picks = { current: main[0], last: main[1], prev2: main[2] };
   console.error('series', JSON.stringify(picks));
   const league = { code, name: dispName || code, checkedAt: new Date().toISOString(), legacy: true, excludeSeries: cfg.excludeSeries || null, seasons: {}, teams: [], logos: {} };
   const names = new Set();
@@ -69,6 +69,6 @@ async function season(firstId) {
   league.teams = [...names].sort((a, b) => a.localeCompare(b));
   store.writeLeague(league);
   store.publish();
-  console.log(JSON.stringify({ code, current: league.seasons.current && league.seasons.current.name, groups: league.seasons.current && league.seasons.current.groups.length, teams: league.teams.length, last: league.seasons.last && league.seasons.last.name }));
+  console.log(JSON.stringify({ code, current: league.seasons.current && league.seasons.current.name, groups: league.seasons.current && league.seasons.current.groups.length, teams: league.teams.length, last: league.seasons.last && league.seasons.last.name, prev2: league.seasons.prev2 && league.seasons.prev2.name }));
   await b.close();
 })().catch(e => { console.error(e); process.exit(1); });

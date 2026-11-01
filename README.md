@@ -24,9 +24,9 @@ Each published team file includes a logo URL when the points table has one (`htt
 
 The browser ranks players from the published team JSON. Ranking rules are the same as the previous app: batters need 3 innings and 30 balls (2 and 15 for the last 5) and sort by runs × strike rate ÷ 100; bowlers need 6 overs (2 for the last 5) and sort by wickets, then economy. Fielding is parsed from opponent dismissal text when the JSON is published.
 
-The indexer stores the two series that have already started, ordered by start date (`MM/DD/YYYY`), using today's date in `America/Los_Angeles`. The newer one is `current`. The older one is `last`. `prev2` is the season before those and is not fetched; publish and scans copy it when a league file already has it.
+The indexer stores the three newest series that have already started, ordered by start date (`MM/DD/YYYY`), using today's date in `America/Los_Angeles`. The newest is `current`, then `last`, then `prev2`. DDCL looks back two calendar years. A legacy club takes the three newest series after the usual skips and any per-league Cup exclusion.
 
-A team scan fetches the current-season match list and downloads scorecards only for match ids that are not already stored. The last season is scanned once and then left alone. The Monday job refreshes each cached league, then repeats that current-season incremental scan for every team that already has a file under `data/store/.../teams/`.
+A team scan fetches match lists for each cached season and downloads scorecards only for match ids that are not already stored. `last` and `prev2` are scanned once and then left alone. The Monday job refreshes each cached league, then repeats the current-season incremental scan for every team that already has a file under `data/store/.../teams/`.
 
 ## Using the site
 
