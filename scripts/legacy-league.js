@@ -48,10 +48,12 @@ async function season(firstId) {
   const h = await get(`https://cricclubs.com/${code}/viewPointsTable.do`);
   const series = dropdowns(h)[0].filter((s, i, a) => a.findIndex(t => t.id === s.id) === i);
   const skip = /corporate|playoff|charity|practice|tournament|knock/i;
-  const main = series.filter(s => !skip.test(s.name));
+  const cfg = (require('./legacy-config.json')[code.toLowerCase()]) || {};
+  const excl = cfg.excludeSeries ? new RegExp(cfg.excludeSeries, 'i') : null;
+  const main = series.filter(s => !skip.test(s.name) && !(excl && excl.test(s.name)));
   const picks = { current: main[0], last: main[1] };
   console.error('series', JSON.stringify(picks));
-  const league = { code, name: dispName || code, checkedAt: new Date().toISOString(), legacy: true, seasons: {}, teams: [], logos: {} };
+  const league = { code, name: dispName || code, checkedAt: new Date().toISOString(), legacy: true, excludeSeries: cfg.excludeSeries || null, seasons: {}, teams: [], logos: {} };
   const names = new Set();
   for (const [k, s] of Object.entries(picks)) {
     if (!s) continue;
