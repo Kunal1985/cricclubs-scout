@@ -1,3 +1,6 @@
 {
-  "nacltennisballcricket": { "excludeSeries": "cup" }
+  "dublinanddanvillecricketleague": { "code": "DublinandDanvilleCricketLeague", "reader": "ddcl", "timeLimitSec": 300 },
+  "srcausa": { "code": "SrcaUsa", "reader": "legacy", "timeLimitSec": 300 },
+  "mountainhousetracycricketassociationmtca": { "code": "MountainHouseTracyCricketAssociationMTCA", "reader": "legacy", "timeLimitSec": 300 },
+  "nacltennisballcricket": { "code": "nacltennisballcricket", "reader": "legacy", "excludeSeries": "cup", "timeLimitSec": 300 }
 }
