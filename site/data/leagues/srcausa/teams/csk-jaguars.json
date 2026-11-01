@@ -1,0 +1,3556 @@
+{
+  "team": "CSK Jaguars",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/cfc2250d-3186-4f2c-8d48-c2739706f44d.jpg",
+  "logos": {
+    "Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/superkings.jpg",
+    "CSK Jaguars": "https://media.cricclubs.com/documentsRep/teamLogos/cfc2250d-3186-4f2c-8d48-c2739706f44d.jpg",
+    "Bay Area Paltan": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/7e39bc8f-197c-465a-966f-a472d12347e4.jpg",
+    "White Lightning": "https://media.cricclubs.com/documentsRep/teamLogos/c52ac345-0288-40b0-9e24-7cc4b9f30bbf.jpg",
+    "Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/9976f4b9-f7eb-4da4-b723-30221da86858.jpg",
+    "Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d95d4387-973f-457a-aa1a-8284505734bb.jpg",
+    "Titans": "https://media.cricclubs.com/documentsRep/teamLogos/titans.jpg",
+    "Dukes XI": "https://media.cricclubs.com/documentsRep/teamLogos/20625c9e-4b6f-45a2-a2ed-e18b9755e473.jpg",
+    "Skippers": "https://media.cricclubs.com/documentsRep/teamLogos/98d9d9d1-f0e8-47cb-8086-141dc0df600d.jpg",
+    "Gully Cricketers": "https://media.cricclubs.com/documentsRep/teamLogos/5bc67916-4509-47e5-bb4c-4ecd65398d12.jpg",
+    "Challengers": "https://media.cricclubs.com/documentsRep/teamLogos/challengers.jpg",
+    "United CC": "https://media.cricclubs.com/documentsRep/teamLogos/9b19eda5-e3cc-4f6f-aa5d-e45311d79f6c.jpg",
+    "Fire Friends": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/6e7e01fe-3bcf-4bf6-8b5f-8e6c5a2e1e1c.jpg",
+    "Pleasanton Mercers": "https://media.cricclubs.com/documentsRep/teamLogos/9149bc1c-6f1f-4e10-834a-4249cfbfc604.jpg",
+    "Punjab Battalion": "https://media.cricclubs.com/documentsRep/teamLogos/762faa14-bc64-41c2-a51e-d6373295a5e6.jpg",
+    "Black Caps": "https://media.cricclubs.com/documentsRep/teamLogos/dcdbdf97-a8ee-448a-93b0-69abdf80cb18.jpg",
+    "Friendz United": "https://media.cricclubs.com/documentsRep/teamLogos/d0f59da6-cd5e-4f0b-936b-35908223c609.jpg",
+    "Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/81d7179e-d627-4b1b-ac81-7bf35409872f.jpg",
+    "Fairfield Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/e77c18ec-06eb-4575-b9d2-26c7ffefbd66.jpg",
+    "Pine Valley Cricket Club": "https://media.cricclubs.com/documentsRep/teamLogos/de49dcc8-0a6c-4731-a156-7166acb5d2ec.jpg",
+    "007": "https://media.cricclubs.com/documentsRep/teamLogos/18c99f03-1ba0-4df2-8ea0-482508564ffc.jpg",
+    "Pullaingo": "https://media.cricclubs.com/documentsRep/teamLogos/abb3a261-9073-4355-84d3-18db1658b97a.jpg",
+    "Gale Ranch Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/f1fa21b0-9998-4134-a43c-3c93b6058309.jpg",
+    "Emerald Titans": "https://media.cricclubs.com/documentsRep/teamLogos/9c4c0bc2-d2ac-447a-b3e5-fc6f53b575f8.jpg",
+    "Kingfishers": "https://media.cricclubs.com/documentsRep/teamLogos/14163cda-0e4f-4b53-bbfa-026645d57cae.jpg",
+    "Fallon Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/4e98ec5b-ef96-4257-b0bd-fac7dffc8105.jpg",
+    "Mt Diablo Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/f3069d7a-8a7a-460a-be5b-7317271c52a5.jpg",
+    "GRCC": "https://media.cricclubs.com/documentsRep/teamLogos/e0d5d230-6712-412f-9d5a-10b1315d75df.jpg",
+    "Emerald Kings": "https://media.cricclubs.com/documentsRep/teamLogos/b7852a3a-7fe5-4f50-b44a-8e90dfcccf37.jpg",
+    "Champions": "https://media.cricclubs.com/documentsRep/teamLogos/51ccc4cc-16a6-42eb-8b5d-e3922373bf94.jpg",
+    "Fundoos": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Bravehearts": "https://media.cricclubs.com/documentsRep/teamLogos/96a438f6-cd65-49c2-8cfe-2fd1f8eeb8fc.jpg",
+    "Dabangg": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Preserve": "https://media.cricclubs.com/documentsRep/teamLogos/256d0d01-b22e-4d98-817c-b389b953af56.jpeg",
+    "Livermore Lions": "https://media.cricclubs.com/documentsRep/teamLogos/167c5a95-6a22-49a1-8df8-40150301f3ed.jpg",
+    "Dublin Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Shockwave": "https://media.cricclubs.com/documentsRep/teamLogos/waves.jpg",
+    "Rebels": "https://media.cricclubs.com/documentsRep/teamLogos/d24ad128-903e-4573-8996-cec81c7aa220.jpg",
+    "Dominators": "https://media.cricclubs.com/documentsRep/teamLogos/5c96eb11-b7f6-42e0-8e20-4950cef022c2.jpg",
+    "CaliLegends": "https://media.cricclubs.com/documentsRep/teamLogos/b2f485e8-466e-48c0-a8e0-d50b484f7fbd.jpg",
+    "Phoenix": "https://media.cricclubs.com/documentsRep/teamLogos/432093c3-f50d-4809-b84f-19f2fc28a6b7.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/b267fb78-2cb7-46c7-b739-86ba847fa2ee.jpg",
+    "MCC": "https://media.cricclubs.com/documentsRep/teamLogos/d8449c81-45b7-4fe9-9771-b6e93d1ae886.jpg",
+    "Buddies": "https://media.cricclubs.com/documentsRep/teamLogos/21f0fb91-ef52-4b3b-86e3-5823c71231d0.jpg",
+    "Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/b473d1ce-8394-44ec-a7fe-9a7514abbd82.jpg",
+    "Iron Horse Riders": "https://media.cricclubs.com/documentsRep/teamLogos/16ec0648-dec2-427e-b6c8-5ea2f9009d60.jpg",
+    "Elite XI": "https://media.cricclubs.com/documentsRep/teamLogos/37ee9d33-523e-40f8-bb5c-b039c0b7bb6f.jpg",
+    "Emerald Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/39a3d678-295b-438f-9ac6-2b4b6b5391f7.jpg",
+    "OG": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Bay Cc Elites": "https://media.cricclubs.com/documentsRep/teamLogos/elites.jpg",
+    "Tigers": "https://media.cricclubs.com/documentsRep/teamLogos/2a79d41a-93b8-4c83-88ca-82dc5628a69d.jpg",
+    "Dublin Green Caps": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Trailblazers": "https://media.cricclubs.com/documentsRep/teamLogos/efcb826d-735b-4f9f-a1aa-a6f2c7eafcbf.jpg",
+    "Dublin Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/2f596dc4-51ba-4243-af5f-df9981b074b0.jpg",
+    "AFG XI": "https://media.cricclubs.com/documentsRep/teamLogos/57db8fd6-1ecf-40c0-8593-eeefc2396c7e.jpg",
+    "Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/935b8be6-2a53-4a16-9bbe-4d476dcddeb8.jpg",
+    "Dublin Emeralds": "https://media.cricclubs.com/documentsRep/teamLogos/a16d2e01-7a08-4883-93d7-094b18a778a3.jpg"
+  },
+  "league": {
+    "code": "SrcaUsa",
+    "name": "SRCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-110",
+      "name": "SRCA Summer 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-10-31T22:03:58.324Z"
+    },
+    "last": {
+      "id": "legacy-99",
+      "name": "SRCA Spring 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-10-31T22:04:23.781Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-4296",
+      "date": "2026-10-25",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Super Kings",
+      "ground": "GRMS",
+      "result": "Super Kings won by 45 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Super Kings",
+          "runs": 106,
+          "wkts": 5,
+          "overs": "20"
+        },
+        {
+          "team": "CSK Jaguars",
+          "runs": 61,
+          "wkts": 10,
+          "overs": "17.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 15,
+          "b": 38,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Christopher Joseph",
+          "r": 11,
+          "b": 8,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Akhil Menon",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Reno Raj",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath C",
+          "r": 13,
+          "b": 17,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Sarath Sukumaran",
+          "r": 10,
+          "b": 6,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 2,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Gireesh Melath",
+          "r": 4,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Michael Bharath",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Satish Niradi",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 3,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 12,
+          "r": 7,
+          "w": 0,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Gireesh Melath",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sarath Sukumaran",
+          "balls": 18,
+          "r": 10,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 24,
+          "r": 26,
+          "w": 3,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 24,
+          "r": 26,
+          "w": 0,
+          "dots": 10,
+          "wd": 7,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Karthikeyan Boobalan",
+          "c",
+          1
+        ],
+        [
+          "Reno Raj",
+          "c",
+          1
+        ],
+        [
+          "Gireesh Melath",
+          "c",
+          1
+        ],
+        [
+          "Bharath C",
+          "c",
+          1
+        ],
+        [
+          "Christopher Joseph",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4268",
+      "date": "2026-10-10",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Royal Kings",
+      "ground": "Rancho",
+      "result": "CSK Jaguars won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Royal Kings",
+          "runs": 68,
+          "wkts": 10,
+          "overs": "19.4"
+        },
+        {
+          "team": "CSK Jaguars",
+          "runs": 69,
+          "wkts": 4,
+          "overs": "14"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 32,
+          "b": 25,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Mani Janakiraman",
+          "r": 7,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Karthick Rp",
+          "r": 1,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Reno Raj",
+          "r": 3,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Akhil Menon",
+          "r": 14,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 18,
+          "r": 17,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 24,
+          "r": 7,
+          "w": 1,
+          "dots": 18,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Mehta",
+          "balls": 18,
+          "r": 12,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 12,
+          "w": 3,
+          "dots": 17,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "balls": 16,
+          "r": 5,
+          "w": 2,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Reno Raj",
+          "balls": 12,
+          "r": 3,
+          "w": 1,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 6,
+          "r": 12,
+          "w": 0,
+          "dots": 2,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Karthick Rp",
+          "c",
+          1
+        ],
+        [
+          "Karthikeyan Boobalan",
+          "k",
+          3
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "k",
+          1
+        ],
+        [
+          "Karthick Rp",
+          "r",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "r",
+          1
+        ],
+        [
+          "Abhinay Machavarapu",
+          "c",
+          2
+        ],
+        [
+          "Satish Niradi",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4252",
+      "date": "2026-10-04",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "White Lightning",
+      "ground": "GRMS",
+      "result": "CSK Jaguars won by 37 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 107,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "White Lightning",
+          "runs": 70,
+          "wkts": 10,
+          "overs": "18.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 11,
+          "b": 16,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Christopher Joseph",
+          "r": 15,
+          "b": 14,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Akhil Menon",
+          "r": 12,
+          "b": 15,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Dhruv Joshi",
+          "r": 12,
+          "b": 12,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Bharath C",
+          "r": 22,
+          "b": 25,
+          "f": 3,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 7,
+          "b": 7,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 1,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Naseer Thurkintavida",
+          "r": 4,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Michael Bharath",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Kannan Rajan",
+          "r": 10,
+          "b": 10,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 10,
+          "how": "ro"
+        },
+        {
+          "name": "Satish Niradi",
+          "r": 8,
+          "b": 4,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 18,
+          "r": 10,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Dhruv Joshi",
+          "balls": 24,
+          "r": 12,
+          "w": 2,
+          "dots": 18,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 12,
+          "r": 12,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 23,
+          "w": 1,
+          "dots": 15,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 12,
+          "r": 3,
+          "w": 2,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 18,
+          "r": 7,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Christopher Joseph",
+          "balls": 3,
+          "r": 2,
+          "w": 1,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Christopher Joseph",
+          "c",
+          3
+        ],
+        [
+          "Michael Bharath",
+          "c",
+          1
+        ],
+        [
+          "Bharath C",
+          "c",
+          2
+        ],
+        [
+          "Satish Niradi",
+          "c",
+          2
+        ],
+        [
+          "Karthikeyan Boobalan",
+          "k",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4212",
+      "date": "2026-09-26",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Titans",
+      "ground": "Central Park1",
+      "result": "Forfeited. Winner: CSK Jaguars",
+      "forfeit": true,
+      "outcome": "W",
+      "tossWonByUs": null,
+      "tossDecision": null,
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Titans",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        },
+        {
+          "team": "CSK Jaguars",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        }
+      ],
+      "batting": [],
+      "bowling": [],
+      "fielding": []
+    },
+    {
+      "id": "legacy-4221",
+      "date": "2026-09-19",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "White Lightning",
+      "ground": "Rancho",
+      "result": "White Lightning won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 106,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "White Lightning",
+          "runs": 107,
+          "wkts": 7,
+          "overs": "19.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Akhil Menon",
+          "r": 20,
+          "b": 26,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Mani Janakiraman",
+          "r": 22,
+          "b": 30,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Suresh Seenichamy",
+          "r": 18,
+          "b": 27,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Michael Bharath",
+          "r": 6,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath C",
+          "r": 22,
+          "b": 15,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 7,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 18,
+          "r": 8,
+          "w": 2,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sivasamy SR",
+          "balls": 12,
+          "r": 15,
+          "w": 1,
+          "dots": 4,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "balls": 18,
+          "r": 15,
+          "w": 0,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 21,
+          "w": 2,
+          "dots": 15,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 24,
+          "r": 20,
+          "w": 1,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 20,
+          "r": 28,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Satish Niradi",
+          "c",
+          1
+        ],
+        [
+          "Bharath C",
+          "c",
+          1
+        ],
+        [
+          "Abhinay Machavarapu",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4186",
+      "date": "2026-08-29",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Bay Area Paltan",
+      "ground": "WRMS",
+      "result": "Bay Area Paltan won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 63,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Bay Area Paltan",
+          "runs": 64,
+          "wkts": 7,
+          "overs": "18.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Sarath Sukumaran",
+          "r": 9,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Akhil Menon",
+          "r": 6,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath C",
+          "r": 7,
+          "b": 6,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 23,
+          "b": 39,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Mani Janakiraman",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Gireesh Melath",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Rajeev Mohan SR",
+          "r": 2,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "r": 4,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Satish Niradi",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 6,
+          "r": 9,
+          "w": 1,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Gireesh Melath",
+          "balls": 18,
+          "r": 3,
+          "w": 2,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 12,
+          "r": 8,
+          "w": 0,
+          "dots": 7,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sarath Sukumaran",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 24,
+          "r": 18,
+          "w": 1,
+          "dots": 14,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 18,
+          "r": 8,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 13,
+          "w": 2,
+          "dots": 16,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "balls": 2,
+          "r": 1,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Prasanna JayaPrakash",
+          "k",
+          2
+        ],
+        [
+          "Satish Niradi",
+          "c",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "c",
+          2
+        ],
+        [
+          "Bharath C",
+          "c",
+          1
+        ],
+        [
+          "Mani Janakiraman",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4153",
+      "date": "2026-08-15",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Titans",
+      "ground": "WRMS",
+      "result": "CSK Jaguars won by 5 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Titans",
+          "runs": 105,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "CSK Jaguars",
+          "runs": 111,
+          "wkts": 5,
+          "overs": "16.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Hassan Teja",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Christopher Joseph",
+          "r": 29,
+          "b": 18,
+          "f": 3,
+          "s": 2,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 23,
+          "b": 19,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Akhil Menon",
+          "r": 20,
+          "b": 32,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Bharath C",
+          "r": 18,
+          "b": 24,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Sarath Sukumaran",
+          "r": 10,
+          "b": 6,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 18,
+          "r": 16,
+          "w": 1,
+          "dots": 6,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sarath Sukumaran",
+          "balls": 24,
+          "r": 21,
+          "w": 0,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 24,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 24,
+          "r": 11,
+          "w": 3,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 6,
+          "r": 2,
+          "w": 1,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Naseer Thurkintavida",
+          "balls": 12,
+          "r": 21,
+          "w": 0,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Sarath Sukumaran",
+          "c",
+          2
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "r",
+          1
+        ],
+        [
+          "Akhil Menon",
+          "c",
+          1
+        ],
+        [
+          "Naseer Thurkintavida",
+          "c",
+          1
+        ],
+        [
+          "Christopher Joseph",
+          "c",
+          2
+        ],
+        [
+          "Sarath Sukumaran",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4137",
+      "date": "2026-08-08",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Thunders",
+      "ground": "GRMS",
+      "result": "CSK Jaguars won by 60 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 121,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Thunders",
+          "runs": 61,
+          "wkts": 10,
+          "overs": "17.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 51,
+          "b": 36,
+          "f": 5,
+          "s": 3,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "r": 4,
+          "b": 5,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Mani Janakiraman",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Akhil Menon",
+          "r": 7,
+          "b": 10,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 12,
+          "b": 31,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath C",
+          "r": 21,
+          "b": 15,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Gireesh Melath",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Hassan Teja",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 12,
+          "b": 7,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Rajeev Mohan SR",
+          "r": 3,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 24,
+          "r": 18,
+          "w": 3,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 18,
+          "r": 10,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Gireesh Melath",
+          "balls": 18,
+          "r": 7,
+          "w": 3,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "balls": 24,
+          "r": 16,
+          "w": 1,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 23,
+          "r": 10,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Deepak Vidyadharan",
+          "c",
+          2
+        ],
+        [
+          "Hassan Teja",
+          "c",
+          1
+        ],
+        [
+          "Deepak Vidyadharan",
+          "r",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "c",
+          2
+        ],
+        [
+          "Karthikeyan Boobalan",
+          "k",
+          1
+        ],
+        [
+          "Bharath C",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4121",
+      "date": "2026-08-01",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Spartans",
+      "ground": "Central Park1",
+      "result": "CSK Jaguars won by 10 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 96,
+          "wkts": 10,
+          "overs": "18.4"
+        },
+        {
+          "team": "Spartans",
+          "runs": 86,
+          "wkts": 10,
+          "overs": "19"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 11,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Christopher Joseph",
+          "r": 19,
+          "b": 19,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Akhil Menon",
+          "r": 4,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath C",
+          "r": 17,
+          "b": 23,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 15,
+          "b": 20,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Sarath Sukumaran",
+          "r": 14,
+          "b": 10,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Bhoopathy Velusamy",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "b"
+        },
+        {
+          "name": "Pratheesh Nair",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "b"
+        },
+        {
+          "name": "Satish Niradi",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 12,
+          "r": 14,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 18,
+          "r": 15,
+          "w": 4,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Pratheesh Nair",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sarath Sukumaran",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 9,
+          "w": 2,
+          "dots": 18,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 24,
+          "r": 10,
+          "w": 2,
+          "dots": 17,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 12,
+          "r": 17,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Bharath C",
+          "c",
+          1
+        ],
+        [
+          "Christopher Joseph",
+          "c",
+          1
+        ],
+        [
+          "Abhinay Machavarapu",
+          "c",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "c",
+          2
+        ],
+        [
+          "Bhoopathy Velusamy",
+          "c",
+          1
+        ],
+        [
+          "Sarath Sukumaran",
+          "c",
+          1
+        ],
+        [
+          "Satish Niradi",
+          "c",
+          1
+        ],
+        [
+          "Karthikeyan Boobalan",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4095",
+      "date": "2026-07-19",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Royal Kings",
+      "ground": "GRMS",
+      "result": "CSK Jaguars won by 39 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 105,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Royal Kings",
+          "runs": 66,
+          "wkts": 9,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Christopher Joseph",
+          "r": 20,
+          "b": 19,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Anup Kumar K P",
+          "r": 4,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Akhil Menon",
+          "r": 46,
+          "b": 42,
+          "f": 1,
+          "s": 5,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath C",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 10,
+          "b": 20,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 7,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Kannan Rajan",
+          "r": 3,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Vasudevan R",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Sivasamy S",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Satish Niradi",
+          "r": 2,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 12,
+          "r": 11,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 12,
+          "r": 12,
+          "w": 0,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sivasamy S",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 4,
+          "w": 5,
+          "dots": 21,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 12,
+          "r": 7,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 12,
+          "r": 3,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Kannan Rajan",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Christopher Joseph",
+          "balls": 12,
+          "r": 1,
+          "w": 0,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Bharath C",
+          "c",
+          2
+        ],
+        [
+          "Kannan Rajan",
+          "c",
+          2
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "k",
+          1
+        ],
+        [
+          "Christopher Joseph",
+          "c",
+          1
+        ],
+        [
+          "Karthikeyan Boobalan",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4043",
+      "date": "2026-06-27",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Super Kings",
+      "ground": "WRMS",
+      "result": "Super Kings won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 45,
+          "wkts": 10,
+          "overs": "16.5"
+        },
+        {
+          "team": "Super Kings",
+          "runs": 46,
+          "wkts": 7,
+          "overs": "15.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 13,
+          "b": 17,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Christopher Joseph",
+          "r": 8,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Mani Janakiraman",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Bharath C",
+          "r": 9,
+          "b": 9,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Rajeev Mohan SR",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ro"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 1,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Hassan Teja",
+          "r": 2,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Kannan Rajan",
+          "r": 1,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "r": 1,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Abhishek Mishra",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ro"
+        },
+        {
+          "name": "Vinodh Rajagopalan",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 24,
+          "r": 9,
+          "w": 3,
+          "dots": 19,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "balls": 24,
+          "r": 8,
+          "w": 3,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Christopher Joseph",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 24,
+          "r": 9,
+          "w": 0,
+          "dots": 20,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 17,
+          "r": 11,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Vinodh Rajagopalan",
+          "c",
+          1
+        ],
+        [
+          "Hassan Teja",
+          "c",
+          2
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "k",
+          1
+        ],
+        [
+          "Mani Janakiraman",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3955",
+      "date": "2026-05-16",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Dukes XI",
+      "ground": "Rancho",
+      "result": "Dukes XI won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 92,
+          "wkts": 10,
+          "overs": "19.4"
+        },
+        {
+          "team": "Dukes XI",
+          "runs": 93,
+          "wkts": 7,
+          "overs": "12.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "r": 24,
+          "b": 26,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Bharath C",
+          "r": 6,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Bhoopathy Velusamy",
+          "r": 10,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 10,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Reno Raj",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Naseer Thurkintavida",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 4,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Vatsal Pancholi",
+          "r": 13,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "r": 6,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "st"
+        },
+        {
+          "name": "Sivasamy S",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "b"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "balls": 12,
+          "r": 18,
+          "w": 0,
+          "dots": 4,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sivasamy S",
+          "balls": 12,
+          "r": 16,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "balls": 18,
+          "r": 24,
+          "w": 2,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 18,
+          "r": 17,
+          "w": 1,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 16,
+          "r": 18,
+          "w": 3,
+          "dots": 9,
+          "wd": 7,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Reno Raj",
+          "c",
+          2
+        ],
+        [
+          "Deepak Vidyadharan",
+          "c",
+          1
+        ],
+        [
+          "Deepak Vidyadharan",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3932",
+      "date": "2026-05-09",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Bay Area Paltan",
+      "ground": "Rancho",
+      "result": "Bay Area Paltan won by 22 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Bay Area Paltan",
+          "runs": 107,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "CSK Jaguars",
+          "runs": 85,
+          "wkts": 10,
+          "overs": "19.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 16,
+          "b": 23,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Reno Raj",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Siva Shankar Balashanmugham",
+          "r": 4,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Bharath C",
+          "r": 27,
+          "b": 31,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 16,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Hassan Teja",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Kannan Rajan",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "R B Reddy",
+          "r": 6,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Satish Niradi",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Sivasamy S",
+          "r": 6,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "balls": 24,
+          "r": 7,
+          "w": 2,
+          "dots": 20,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Satish Niradi",
+          "balls": 18,
+          "r": 16,
+          "w": 0,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sivasamy S",
+          "balls": 24,
+          "r": 18,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 42,
+          "w": 1,
+          "dots": 5,
+          "wd": 4,
+          "nb": 0
+        },
+        {
+          "name": "Reno Raj",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 24,
+          "r": 14,
+          "w": 1,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Prasanna JayaPrakash",
+          "k",
+          2
+        ],
+        [
+          "Sivasamy S",
+          "c",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "r",
+          1
+        ],
+        [
+          "Karthikeyan Boobalan",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3901",
+      "date": "2026-04-25",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "White Lightning",
+      "ground": "Rancho",
+      "result": "CSK Jaguars won by 9 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "White Lightning",
+          "runs": 68,
+          "wkts": 10,
+          "overs": "17.5"
+        },
+        {
+          "team": "CSK Jaguars",
+          "runs": 72,
+          "wkts": 1,
+          "overs": "15.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Reno Raj",
+          "r": 22,
+          "b": 31,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 39,
+          "b": 39,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 2
+        },
+        {
+          "name": "Hassan Teja",
+          "r": 8,
+          "b": 23,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "balls": 18,
+          "r": 10,
+          "w": 0,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Satish Niradi",
+          "balls": 18,
+          "r": 11,
+          "w": 0,
+          "dots": 8,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 23,
+          "r": 18,
+          "w": 4,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 12,
+          "r": 5,
+          "w": 1,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Reno Raj",
+          "balls": 6,
+          "r": 3,
+          "w": 1,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Kannan Rajan",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 18,
+          "r": 7,
+          "w": 3,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Dhruv Joshi",
+          "balls": 6,
+          "r": 6,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Deepak Vidyadharan",
+          "c",
+          1
+        ],
+        [
+          "Madaswamy Manohar Chandana Muthu",
+          "r",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "r",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "k",
+          3
+        ],
+        [
+          "Reno Raj",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3873",
+      "date": "2026-04-18",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Titans",
+      "ground": "WRMS",
+      "result": "Titans won by 7 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 37,
+          "wkts": 10,
+          "overs": "12.4"
+        },
+        {
+          "team": "Titans",
+          "runs": 39,
+          "wkts": 3,
+          "overs": "7.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Hassan Teja",
+          "r": 5,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Dhruv Joshi",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath C",
+          "r": 9,
+          "b": 22,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Reno Raj",
+          "r": 15,
+          "b": 17,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Pranit Jaiswal",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Satish Niradi",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "b"
+        },
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "balls": 18,
+          "r": 14,
+          "w": 2,
+          "dots": 10,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Satish Niradi",
+          "balls": 6,
+          "r": 13,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 12,
+          "r": 5,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "balls": 6,
+          "r": 2,
+          "w": 0,
+          "dots": 5,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 5,
+          "r": 5,
+          "w": 0,
+          "dots": 3,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Hassan Teja",
+          "c",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "c",
+          1
+        ],
+        [
+          "Reno Raj",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3928",
+      "date": "2026-04-11",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Tigers",
+      "ground": "WRMS",
+      "result": "Forfeited. Winner: CSK Jaguars",
+      "forfeit": true,
+      "outcome": "W",
+      "tossWonByUs": null,
+      "tossDecision": null,
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Tigers",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        },
+        {
+          "team": "CSK Jaguars",
+          "runs": 0,
+          "wkts": 0,
+          "overs": "0"
+        }
+      ],
+      "batting": [],
+      "bowling": [],
+      "fielding": []
+    },
+    {
+      "id": "legacy-3832",
+      "date": "2026-03-22",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Super Kings",
+      "ground": "GRMS",
+      "result": "CSK Jaguars won by 2 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Super Kings",
+          "runs": 91,
+          "wkts": 10,
+          "overs": "17.3"
+        },
+        {
+          "team": "CSK Jaguars",
+          "runs": 95,
+          "wkts": 8,
+          "overs": "19.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 0,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Hassan Teja",
+          "r": 12,
+          "b": 19,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Anup Kumar K P",
+          "r": 27,
+          "b": 21,
+          "f": 2,
+          "s": 2,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Naseer Thurkintavida",
+          "r": 10,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath C",
+          "r": 8,
+          "b": 12,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 23,
+          "b": 27,
+          "f": 2,
+          "s": 1,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Gokhul K",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Kannan Rajan",
+          "r": 5,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Satish Niradi",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Satish Niradi",
+          "balls": 18,
+          "r": 5,
+          "w": 1,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Gokhul K",
+          "balls": 18,
+          "r": 25,
+          "w": 1,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Anup Kumar K P",
+          "balls": 12,
+          "r": 11,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 24,
+          "r": 16,
+          "w": 3,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 18,
+          "r": 22,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharath C",
+          "balls": 15,
+          "r": 12,
+          "w": 3,
+          "dots": 9,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Deepak Vidyadharan",
+          "c",
+          4
+        ],
+        [
+          "Vinodh Rajagopalan",
+          "c",
+          1
+        ],
+        [
+          "Bharath C",
+          "c",
+          1
+        ],
+        [
+          "Prasanna JayaPrakash",
+          "k",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3788",
+      "date": "2026-03-07",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Spartans",
+      "ground": "GRMS",
+      "result": "CSK Jaguars won by 26 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "CSK Jaguars",
+          "runs": 153,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Spartans",
+          "runs": 127,
+          "wkts": 10,
+          "overs": "18.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Anup Kumar K P",
+          "r": 27,
+          "b": 12,
+          "f": 0,
+          "s": 4,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Prasanna JayaPrakash",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Bharath C",
+          "r": 2,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Dhruv Joshi",
+          "r": 57,
+          "b": 48,
+          "f": 1,
+          "s": 6,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "r": 10,
+          "b": 13,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Reno Raj",
+          "r": 38,
+          "b": 26,
+          "f": 2,
+          "s": 3,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Gokhul K",
+          "r": 12,
+          "b": 10,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Kannan Rajan",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Madaswamy Manohar Chandana Muthu",
+          "balls": 12,
+          "r": 7,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Gokhul K",
+          "balls": 18,
+          "r": 12,
+          "w": 2,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Anup Kumar K P",
+          "balls": 12,
+          "r": 21,
+          "w": 2,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 22,
+          "r": 19,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Dhruv Joshi",
+          "balls": 12,
+          "r": 17,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Karthikeyan Boobalan",
+          "balls": 6,
+          "r": 8,
+          "w": 1,
+          "dots": 3,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Abhinay Machavarapu",
+          "balls": 6,
+          "r": 9,
+          "w": 0,
+          "dots": 4,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Kannan Rajan",
+          "balls": 6,
+          "r": 16,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Bharath C",
+          "balls": 18,
+          "r": 18,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Deepak Vidyadharan",
+          "c",
+          1
+        ],
+        [
+          "Madaswamy Manohar Chandana Muthu",
+          "c",
+          1
+        ],
+        [
+          "Gokhul K",
+          "c",
+          1
+        ],
+        [
+          "Dhruv Joshi",
+          "c",
+          1
+        ],
+        [
+          "Reno Raj",
+          "c",
+          1
+        ],
+        [
+          "Karthikeyan Boobalan",
+          "k",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 1
+}

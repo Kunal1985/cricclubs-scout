@@ -1,0 +1,3731 @@
+{
+  "team": "Black Caps",
+  "logo": "https://media.cricclubs.com/documentsRep/teamLogos/dcdbdf97-a8ee-448a-93b0-69abdf80cb18.jpg",
+  "logos": {
+    "Super Kings": "https://media.cricclubs.com/documentsRep/teamLogos/superkings.jpg",
+    "CSK Jaguars": "https://media.cricclubs.com/documentsRep/teamLogos/cfc2250d-3186-4f2c-8d48-c2739706f44d.jpg",
+    "Bay Area Paltan": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Spartans": "https://media.cricclubs.com/documentsRep/teamLogos/7e39bc8f-197c-465a-966f-a472d12347e4.jpg",
+    "White Lightning": "https://media.cricclubs.com/documentsRep/teamLogos/c52ac345-0288-40b0-9e24-7cc4b9f30bbf.jpg",
+    "Royal Kings": "https://media.cricclubs.com/documentsRep/teamLogos/9976f4b9-f7eb-4da4-b723-30221da86858.jpg",
+    "Thunders": "https://media.cricclubs.com/documentsRep/teamLogos/d95d4387-973f-457a-aa1a-8284505734bb.jpg",
+    "Titans": "https://media.cricclubs.com/documentsRep/teamLogos/titans.jpg",
+    "Dukes XI": "https://media.cricclubs.com/documentsRep/teamLogos/20625c9e-4b6f-45a2-a2ed-e18b9755e473.jpg",
+    "Skippers": "https://media.cricclubs.com/documentsRep/teamLogos/98d9d9d1-f0e8-47cb-8086-141dc0df600d.jpg",
+    "Gully Cricketers": "https://media.cricclubs.com/documentsRep/teamLogos/5bc67916-4509-47e5-bb4c-4ecd65398d12.jpg",
+    "Challengers": "https://media.cricclubs.com/documentsRep/teamLogos/challengers.jpg",
+    "United CC": "https://media.cricclubs.com/documentsRep/teamLogos/9b19eda5-e3cc-4f6f-aa5d-e45311d79f6c.jpg",
+    "Fire Friends": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team3.jpg",
+    "Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/6e7e01fe-3bcf-4bf6-8b5f-8e6c5a2e1e1c.jpg",
+    "Pleasanton Mercers": "https://media.cricclubs.com/documentsRep/teamLogos/9149bc1c-6f1f-4e10-834a-4249cfbfc604.jpg",
+    "Punjab Battalion": "https://media.cricclubs.com/documentsRep/teamLogos/762faa14-bc64-41c2-a51e-d6373295a5e6.jpg",
+    "Black Caps": "https://media.cricclubs.com/documentsRep/teamLogos/dcdbdf97-a8ee-448a-93b0-69abdf80cb18.jpg",
+    "Friendz United": "https://media.cricclubs.com/documentsRep/teamLogos/d0f59da6-cd5e-4f0b-936b-35908223c609.jpg",
+    "Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/81d7179e-d627-4b1b-ac81-7bf35409872f.jpg",
+    "Fairfield Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/e77c18ec-06eb-4575-b9d2-26c7ffefbd66.jpg",
+    "Pine Valley Cricket Club": "https://media.cricclubs.com/documentsRep/teamLogos/de49dcc8-0a6c-4731-a156-7166acb5d2ec.jpg",
+    "007": "https://media.cricclubs.com/documentsRep/teamLogos/18c99f03-1ba0-4df2-8ea0-482508564ffc.jpg",
+    "Pullaingo": "https://media.cricclubs.com/documentsRep/teamLogos/abb3a261-9073-4355-84d3-18db1658b97a.jpg",
+    "Gale Ranch Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/f1fa21b0-9998-4134-a43c-3c93b6058309.jpg",
+    "Emerald Titans": "https://media.cricclubs.com/documentsRep/teamLogos/9c4c0bc2-d2ac-447a-b3e5-fc6f53b575f8.jpg",
+    "Kingfishers": "https://media.cricclubs.com/documentsRep/teamLogos/14163cda-0e4f-4b53-bbfa-026645d57cae.jpg",
+    "Fallon Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/4e98ec5b-ef96-4257-b0bd-fac7dffc8105.jpg",
+    "Mt Diablo Eagles": "https://media.cricclubs.com/documentsRep/teamLogos/f3069d7a-8a7a-460a-be5b-7317271c52a5.jpg",
+    "GRCC": "https://media.cricclubs.com/documentsRep/teamLogos/e0d5d230-6712-412f-9d5a-10b1315d75df.jpg",
+    "Emerald Kings": "https://media.cricclubs.com/documentsRep/teamLogos/b7852a3a-7fe5-4f50-b44a-8e90dfcccf37.jpg",
+    "Champions": "https://media.cricclubs.com/documentsRep/teamLogos/51ccc4cc-16a6-42eb-8b5d-e3922373bf94.jpg",
+    "Fundoos": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Bravehearts": "https://media.cricclubs.com/documentsRep/teamLogos/96a438f6-cd65-49c2-8cfe-2fd1f8eeb8fc.jpg",
+    "Dabangg": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Preserve": "https://media.cricclubs.com/documentsRep/teamLogos/256d0d01-b22e-4d98-817c-b389b953af56.jpeg",
+    "Livermore Lions": "https://media.cricclubs.com/documentsRep/teamLogos/167c5a95-6a22-49a1-8df8-40150301f3ed.jpg",
+    "Dublin Blazers": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Shockwave": "https://media.cricclubs.com/documentsRep/teamLogos/waves.jpg",
+    "Rebels": "https://media.cricclubs.com/documentsRep/teamLogos/d24ad128-903e-4573-8996-cec81c7aa220.jpg",
+    "Dominators": "https://media.cricclubs.com/documentsRep/teamLogos/5c96eb11-b7f6-42e0-8e20-4950cef022c2.jpg",
+    "CaliLegends": "https://media.cricclubs.com/documentsRep/teamLogos/b2f485e8-466e-48c0-a8e0-d50b484f7fbd.jpg",
+    "Phoenix": "https://media.cricclubs.com/documentsRep/teamLogos/432093c3-f50d-4809-b84f-19f2fc28a6b7.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/b267fb78-2cb7-46c7-b739-86ba847fa2ee.jpg",
+    "MCC": "https://media.cricclubs.com/documentsRep/teamLogos/d8449c81-45b7-4fe9-9771-b6e93d1ae886.jpg",
+    "Buddies": "https://media.cricclubs.com/documentsRep/teamLogos/21f0fb91-ef52-4b3b-86e3-5823c71231d0.jpg",
+    "Dhurandhars": "https://media.cricclubs.com/documentsRep/teamLogos/b473d1ce-8394-44ec-a7fe-9a7514abbd82.jpg",
+    "Iron Horse Riders": "https://media.cricclubs.com/documentsRep/teamLogos/16ec0648-dec2-427e-b6c8-5ea2f9009d60.jpg",
+    "Elite XI": "https://media.cricclubs.com/documentsRep/teamLogos/37ee9d33-523e-40f8-bb5c-b039c0b7bb6f.jpg",
+    "Emerald Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/39a3d678-295b-438f-9ac6-2b4b6b5391f7.jpg",
+    "OG": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Bay Cc Elites": "https://media.cricclubs.com/documentsRep/teamLogos/elites.jpg",
+    "Tigers": "https://media.cricclubs.com/documentsRep/teamLogos/2a79d41a-93b8-4c83-88ca-82dc5628a69d.jpg",
+    "Dublin Green Caps": "https://media.cricclubs.com/documentsRep/teamLogos/026648f9-02b2-4a86-b329-79ddf0ff158e.jpg",
+    "Trailblazers": "https://media.cricclubs.com/documentsRep/teamLogos/efcb826d-735b-4f9f-a1aa-a6f2c7eafcbf.jpg",
+    "Dublin Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/2f596dc4-51ba-4243-af5f-df9981b074b0.jpg",
+    "AFG XI": "https://media.cricclubs.com/documentsRep/teamLogos/57db8fd6-1ecf-40c0-8593-eeefc2396c7e.jpg",
+    "Rising Stars": "https://media.cricclubs.com/documentsRep/teamLogos/935b8be6-2a53-4a16-9bbe-4d476dcddeb8.jpg",
+    "Dublin Emeralds": "https://media.cricclubs.com/documentsRep/teamLogos/a16d2e01-7a08-4883-93d7-094b18a778a3.jpg"
+  },
+  "league": {
+    "code": "SrcaUsa",
+    "name": "SRCA"
+  },
+  "seasons": {
+    "current": {
+      "id": "legacy-110",
+      "name": "SRCA Summer 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-10-31T21:10:23.085Z"
+    },
+    "last": {
+      "id": "legacy-99",
+      "name": "SRCA Spring 2026",
+      "inSeason": true,
+      "scrapedAt": "2026-10-31T21:10:48.704Z"
+    }
+  },
+  "matches": [
+    {
+      "id": "legacy-4291",
+      "date": "2026-10-24",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Punjab Battalion",
+      "ground": "WRMS",
+      "result": "Punjab Battalion won by 12 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Punjab Battalion",
+          "runs": 152,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 140,
+          "wkts": 10,
+          "overs": "19.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pankaj Jain",
+          "r": 4,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 32,
+          "b": 22,
+          "f": 3,
+          "s": 2,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 39,
+          "b": 31,
+          "f": 4,
+          "s": 1,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Ankush Mattoo",
+          "r": 26,
+          "b": 18,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Shet",
+          "r": 9,
+          "b": 12,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 5,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Karthik Rayala",
+          "r": 1,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ro"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 10,
+          "b": 7,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 9
+        },
+        {
+          "name": "Anant Shah",
+          "r": 3,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 3,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ro"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 34,
+          "w": 2,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 24,
+          "w": 2,
+          "dots": 14,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Karthik Rayala",
+          "balls": 24,
+          "r": 29,
+          "w": 3,
+          "dots": 14,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 24,
+          "r": 24,
+          "w": 1,
+          "dots": 12,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 6,
+          "r": 11,
+          "w": 0,
+          "dots": 4,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ankush Mattoo",
+          "balls": 18,
+          "r": 30,
+          "w": 2,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Ankush Mattoo",
+          "c",
+          2
+        ],
+        [
+          "Pankaj Jain",
+          "c",
+          1
+        ],
+        [
+          "Sriram Jaikrishnan",
+          "c",
+          1
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4277",
+      "date": "2026-10-17",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Pullaingo",
+      "ground": "Rancho",
+      "result": "Black Caps won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Pullaingo",
+          "runs": 71,
+          "wkts": 10,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 72,
+          "wkts": 7,
+          "overs": "19.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pankaj Jain",
+          "r": 9,
+          "b": 15,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Bharath Shet",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Ankush Mattoo",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 17,
+          "b": 33,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 9,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 19,
+          "b": 25,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Anant Shah",
+          "r": 2,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Tajinder Pal",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 20,
+          "w": 1,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Anant Shah",
+          "balls": 18,
+          "r": 10,
+          "w": 3,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 24,
+          "r": 5,
+          "w": 3,
+          "dots": 20,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Ankush Mattoo",
+          "balls": 18,
+          "r": 16,
+          "w": 1,
+          "dots": 9,
+          "wd": 5,
+          "nb": 0
+        },
+        {
+          "name": "Tajinder Pal",
+          "balls": 18,
+          "r": 8,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 18,
+          "r": 11,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Bharath Shet",
+          "c",
+          1
+        ],
+        [
+          "Sriram Jaikrishnan",
+          "c",
+          2
+        ],
+        [
+          "Pankaj Jain",
+          "c",
+          2
+        ],
+        [
+          "Rahul Dasoar",
+          "c",
+          1
+        ],
+        [
+          "Ashwant Singh",
+          "c",
+          1
+        ],
+        [
+          "Tajinder Pal",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4267",
+      "date": "2026-10-10",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Pine Valley Cricket Club",
+      "ground": "WRMS",
+      "result": "Pine Valley Cricket Club won by 89 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Pine Valley Cricket Club",
+          "runs": 133,
+          "wkts": 6,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 44,
+          "wkts": 10,
+          "overs": "13.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Bharath Shet",
+          "r": 4,
+          "b": 4,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Karthik Rayala",
+          "r": 4,
+          "b": 5,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Nandeesh Veerappa",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 8,
+          "b": 8,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 2,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 12,
+          "b": 21,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Paras Desai Sr",
+          "r": 11,
+          "b": 18,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ctw"
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "r": 0,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Anant Shah",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "SattiSR Singh",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "rt"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 30,
+          "w": 1,
+          "dots": 16,
+          "wd": 0,
+          "nb": 3
+        },
+        {
+          "name": "Paras Desai Sr",
+          "balls": 12,
+          "r": 20,
+          "w": 0,
+          "dots": 3,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 24,
+          "r": 21,
+          "w": 1,
+          "dots": 13,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Karthik Rayala",
+          "balls": 24,
+          "r": 20,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 12,
+          "r": 22,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 24,
+          "r": 20,
+          "w": 2,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "Paras Desai Sr",
+          "c",
+          1
+        ],
+        [
+          "Bharath Shet",
+          "c",
+          1
+        ],
+        [
+          "Karthik Rayala",
+          "c",
+          1
+        ],
+        [
+          "SattiSR Singh",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4236",
+      "date": "2026-09-26",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Punjab Battalion",
+      "ground": "Central Park1",
+      "result": "Punjab Battalion won by 53 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Punjab Battalion",
+          "runs": 122,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 69,
+          "wkts": 10,
+          "overs": "16.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "SattiSR Singh",
+          "r": 30,
+          "b": 30,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Andy SR T",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 5,
+          "b": 6,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 3,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 1,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Ankush Mattoo",
+          "r": 10,
+          "b": 11,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 4,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Nandeesh Veerappa",
+          "r": 7,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Anant Shah",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "b"
+        },
+        {
+          "name": "Vikram Narendra",
+          "r": 3,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Ankush Mattoo",
+          "balls": 24,
+          "r": 24,
+          "w": 2,
+          "dots": 14,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 27,
+          "w": 2,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 24,
+          "r": 26,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Vikram Narendra",
+          "balls": 18,
+          "r": 15,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Nandeesh Veerappa",
+          "balls": 6,
+          "r": 10,
+          "w": 1,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Andy SR T",
+          "k",
+          1
+        ],
+        [
+          "Neeraj Nathani",
+          "c",
+          4
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "Anant Shah",
+          "r",
+          2
+        ],
+        [
+          "Nandeesh Veerappa",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4214",
+      "date": "2026-09-19",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Pine Valley Cricket Club",
+      "ground": "GRMS",
+      "result": "Black Caps won by 8 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Pine Valley Cricket Club",
+          "runs": 58,
+          "wkts": 10,
+          "overs": "18.3"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 59,
+          "wkts": 2,
+          "overs": "9"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Ashwant Singh",
+          "r": 37,
+          "b": 30,
+          "f": 1,
+          "s": 3,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Andy SR T",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ro"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 10,
+          "b": 16,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 3
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 7,
+          "b": 7,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 4
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 10,
+          "w": 2,
+          "dots": 16,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Satish Niradi",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 20,
+          "r": 12,
+          "w": 1,
+          "dots": 12,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Pankaj Jain",
+          "balls": 24,
+          "r": 9,
+          "w": 2,
+          "dots": 18,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 24,
+          "r": 15,
+          "w": 3,
+          "dots": 16,
+          "wd": 4,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Anant Shah",
+          "k",
+          1
+        ],
+        [
+          "Pankaj Jain",
+          "c",
+          2
+        ],
+        [
+          "Vinay Kumar Gaddam",
+          "c",
+          1
+        ],
+        [
+          "Mohit Hans",
+          "c",
+          1
+        ],
+        [
+          "Sriram Jaikrishnan",
+          "c",
+          1
+        ],
+        [
+          "Satish Niradi",
+          "r",
+          1
+        ],
+        [
+          "Andy SR T",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4172",
+      "date": "2026-08-23",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Mavericks",
+      "ground": "Central Park1",
+      "result": "Black Caps won by 18 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Black Caps",
+          "runs": 105,
+          "wkts": 5,
+          "overs": "20"
+        },
+        {
+          "team": "Mavericks",
+          "runs": 87,
+          "wkts": 10,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "SattiSR Singh",
+          "r": 36,
+          "b": 43,
+          "f": 0,
+          "s": 2,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Bharath Shet",
+          "r": 23,
+          "b": 27,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 14,
+          "b": 24,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 19,
+          "b": 18,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 9,
+          "w": 1,
+          "dots": 17,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Satishniradi Sr",
+          "balls": 24,
+          "r": 13,
+          "w": 3,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 24,
+          "r": 20,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Anant Shah",
+          "balls": 18,
+          "r": 20,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 18,
+          "r": 17,
+          "w": 1,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 12,
+          "r": 8,
+          "w": 2,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "Bharath Shet",
+          "c",
+          1
+        ],
+        [
+          "Anant Shah",
+          "c",
+          2
+        ],
+        [
+          "Vinay Kumar Gaddam",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4140",
+      "date": "2026-08-08",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "007",
+      "ground": "WRMS",
+      "result": "Black Caps won by 45 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Black Caps",
+          "runs": 115,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "007",
+          "runs": 70,
+          "wkts": 10,
+          "overs": "19.2"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Bharath Shet",
+          "r": 24,
+          "b": 24,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 16,
+          "b": 39,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "st"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Karthik Rayala",
+          "r": 4,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ro"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 6,
+          "b": 5,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 18,
+          "b": 11,
+          "f": 1,
+          "s": 2,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 27,
+          "b": 12,
+          "f": 2,
+          "s": 3,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Krishnam Raju K",
+          "r": 5,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Ajay Sr",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 7,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 10,
+          "w": 2,
+          "dots": 16,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Mahesh Baratam",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Karthik Rayala",
+          "balls": 24,
+          "r": 15,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 20,
+          "r": 19,
+          "w": 2,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 24,
+          "r": 11,
+          "w": 3,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Karthik Rayala",
+          "c",
+          2
+        ],
+        [
+          "Ashwant Singh",
+          "c",
+          1
+        ],
+        [
+          "Ajay Sr",
+          "c",
+          1
+        ],
+        [
+          "Krishnam Raju K",
+          "k",
+          2
+        ],
+        [
+          "Mahesh Baratam",
+          "c",
+          1
+        ],
+        [
+          "Anurag Gahlot",
+          "c",
+          1
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4127",
+      "date": "2026-08-02",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Punjab Battalion",
+      "ground": "Central Park1",
+      "result": "Black Caps won by 7 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Punjab Battalion",
+          "runs": 86,
+          "wkts": 10,
+          "overs": "18.2"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 87,
+          "wkts": 3,
+          "overs": "13.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "SattiSR Singh",
+          "r": 6,
+          "b": 11,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Arpit Malhotra",
+          "r": 10,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 36,
+          "b": 32,
+          "f": 4,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 21,
+          "b": 22,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 4
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 3,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anant Shah",
+          "balls": 18,
+          "r": 19,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Ashwant Singh",
+          "balls": 20,
+          "r": 18,
+          "w": 3,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Paras Desai Sr",
+          "balls": 18,
+          "r": 5,
+          "w": 2,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rahul Dasoar",
+          "balls": 24,
+          "r": 12,
+          "w": 1,
+          "dots": 19,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 6,
+          "r": 11,
+          "w": 0,
+          "dots": 2,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Bharath Shet",
+          "balls": 24,
+          "r": 19,
+          "w": 3,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "SattiSR Singh",
+          "c",
+          1
+        ],
+        [
+          "Neeraj Nathani",
+          "c",
+          2
+        ],
+        [
+          "Arpit Malhotra",
+          "c",
+          1
+        ],
+        [
+          "Ashwant Singh",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4075",
+      "date": "2026-07-12",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Fairfield Falcons",
+      "ground": "Rancho",
+      "result": "Black Caps won by 17 Runs",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Black Caps",
+          "runs": 102,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "Fairfield Falcons",
+          "runs": 85,
+          "wkts": 10,
+          "overs": "18.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Madhu Reddy",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Satheesh Sekar",
+          "r": 8,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 20,
+          "b": 26,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 8,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "b"
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 19,
+          "b": 23,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 2,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ro"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 7,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 27,
+          "b": 20,
+          "f": 0,
+          "s": 3,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Anant Shah",
+          "r": 1,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 15,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Madhu Reddy",
+          "balls": 18,
+          "r": 9,
+          "w": 2,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 21,
+          "r": 19,
+          "w": 2,
+          "dots": 12,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Rahul Dasoar",
+          "balls": 24,
+          "r": 18,
+          "w": 2,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 22,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 2
+        }
+      ],
+      "fielding": [
+        [
+          "Anurag Gahlot",
+          "c",
+          1
+        ],
+        [
+          "Vinay Kumar Gaddam",
+          "c",
+          1
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "Anurag Gahlot",
+          "k",
+          1
+        ],
+        [
+          "Ashwant Singh",
+          "c",
+          1
+        ],
+        [
+          "Mohit Hans",
+          "c",
+          2
+        ],
+        [
+          "Neeraj Nathani",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4024",
+      "date": "2026-06-20",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Pullaingo",
+      "ground": "GRMS",
+      "result": "Pullaingo won by 44 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Pullaingo",
+          "runs": 120,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 76,
+          "wkts": 10,
+          "overs": "19.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 4,
+          "b": 4,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Rahul Kumar",
+          "r": 8,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 7,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 16,
+          "b": 27,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 3,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Krishnam Raju K",
+          "r": 8,
+          "b": 15,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Sumeet Hundal",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Rakesh Reddy",
+          "r": 4,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 9,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "r": 3,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 24,
+          "r": 26,
+          "w": 0,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sumeet Hundal",
+          "balls": 18,
+          "r": 18,
+          "w": 0,
+          "dots": 10,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Neeraj Nathani",
+          "balls": 24,
+          "r": 38,
+          "w": 2,
+          "dots": 6,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Krishnam Raju K",
+          "k",
+          1
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "Neeraj Nathani",
+          "c",
+          1
+        ],
+        [
+          "Krishnam Raju K",
+          "c",
+          1
+        ],
+        [
+          "Rahul Kumar",
+          "c",
+          1
+        ],
+        [
+          "Ashwant Singh",
+          "r",
+          2
+        ],
+        [
+          "Krishnam Raju K",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-4017",
+      "date": "2026-06-14",
+      "series": "SRCA Summer 2026",
+      "seriesId": "legacy-110",
+      "opponent": "Friendz United",
+      "ground": "Rancho",
+      "result": "Friendz United won by 1 Run",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Friendz United",
+          "runs": 85,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 84,
+          "wkts": 8,
+          "overs": "20"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Rakesh Reddy",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 6,
+          "b": 22,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 9,
+          "b": 19,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 12,
+          "b": 19,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Krishnam Raju K",
+          "r": 21,
+          "b": 30,
+          "f": 1,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Devanath SR Srinivasa",
+          "r": 14,
+          "b": 17,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "st"
+        },
+        {
+          "name": "Madhu Reddy",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "st"
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "r": 2,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Madhu Reddy",
+          "balls": 24,
+          "r": 18,
+          "w": 0,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Mahesh Baratam",
+          "balls": 24,
+          "r": 13,
+          "w": 3,
+          "dots": 17,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 24,
+          "r": 20,
+          "w": 1,
+          "dots": 9,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Rahul Dasoar",
+          "balls": 18,
+          "r": 13,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Devanath SR Srinivasa",
+          "balls": 18,
+          "r": 11,
+          "w": 2,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 12,
+          "r": 10,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Krishnam Raju K",
+          "k",
+          2
+        ],
+        [
+          "Neeraj Nathani",
+          "r",
+          2
+        ],
+        [
+          "Sriram Jaikrishnan",
+          "r",
+          1
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3952",
+      "date": "2026-05-16",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Skippers",
+      "ground": "Rancho",
+      "result": "Skippers won by 6 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Skippers",
+          "runs": 88,
+          "wkts": 10,
+          "overs": "19.5"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 82,
+          "wkts": 10,
+          "overs": "19.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Krishnam Raju K",
+          "r": 4,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ctw"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 9,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 6,
+          "b": 22,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 33,
+          "b": 31,
+          "f": 0,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Navi Gadhiok",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Mahesh Baratam",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Tajinder Pal",
+          "r": 3,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Anant Shah",
+          "r": 8,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ro"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "b"
+        },
+        {
+          "name": "Ashish Sharma Sr",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anant Shah",
+          "balls": 17,
+          "r": 17,
+          "w": 1,
+          "dots": 6,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 14,
+          "w": 4,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Mahesh Baratam",
+          "balls": 18,
+          "r": 15,
+          "w": 0,
+          "dots": 8,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Ashish Sharma Sr",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Tajinder Pal",
+          "balls": 24,
+          "r": 18,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 12,
+          "r": 8,
+          "w": 1,
+          "dots": 7,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Krishnam Raju K",
+          "k",
+          1
+        ],
+        [
+          "Neeraj Nathani",
+          "c",
+          2
+        ],
+        [
+          "Ashwant Singh",
+          "r",
+          1
+        ],
+        [
+          "Ashish Sharma Sr",
+          "r",
+          1
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "Ashish Sharma Sr",
+          "c",
+          1
+        ],
+        [
+          "Anant Shah",
+          "c",
+          1
+        ],
+        [
+          "Neeraj Nathani",
+          "r",
+          1
+        ],
+        [
+          "Anant Shah",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3947",
+      "date": "2026-05-10",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Fire Friends",
+      "ground": "Central Park1",
+      "result": "Fire Friends won by 4 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Black Caps",
+          "runs": 97,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Fire Friends",
+          "runs": 99,
+          "wkts": 6,
+          "overs": "19.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "SattiSR Singh",
+          "r": 19,
+          "b": 20,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Ashwant Singh",
+          "r": 4,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 16,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ctw"
+        },
+        {
+          "name": "Mohan Murthy",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "st"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 5,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 18,
+          "b": 21,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ct"
+        },
+        {
+          "name": "Varun Vora",
+          "r": 10,
+          "b": 13,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 15,
+          "b": 10,
+          "f": 2,
+          "s": 0,
+          "out": false,
+          "pos": 8
+        },
+        {
+          "name": "Anant Shah",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 2,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "st"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 17,
+          "w": 3,
+          "dots": 14,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 20,
+          "w": 0,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 24,
+          "r": 24,
+          "w": 0,
+          "dots": 9,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Varun Vora",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Rahul Dasoar",
+          "balls": 19,
+          "r": 20,
+          "w": 0,
+          "dots": 6,
+          "wd": 2,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "SattiSR Singh",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3921",
+      "date": "2026-05-03",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "United CC",
+      "ground": "Rancho",
+      "result": "United CC won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bat",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Black Caps",
+          "runs": 116,
+          "wkts": 7,
+          "overs": "20"
+        },
+        {
+          "team": "United CC",
+          "runs": 122,
+          "wkts": 4,
+          "overs": "19.1"
+        }
+      ],
+      "batting": [
+        {
+          "name": "SattiSR Singh",
+          "r": 15,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Varun Vellanki",
+          "r": 2,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "b"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 20,
+          "b": 21,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 23,
+          "b": 22,
+          "f": 2,
+          "s": 1,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Mohan Murthy",
+          "r": 0,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ctw"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 5,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Varun Vora",
+          "r": 24,
+          "b": 17,
+          "f": 1,
+          "s": 1,
+          "out": false,
+          "pos": 7
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 11,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Anant Shah",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Praveen Kumar",
+          "balls": 24,
+          "r": 18,
+          "w": 0,
+          "dots": 14,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 35,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 3
+        },
+        {
+          "name": "Varun Vora",
+          "balls": 24,
+          "r": 25,
+          "w": 1,
+          "dots": 13,
+          "wd": 3,
+          "nb": 0
+        },
+        {
+          "name": "Venkat Narayan",
+          "balls": 18,
+          "r": 21,
+          "w": 1,
+          "dots": 7,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rahul Dasoar",
+          "balls": 24,
+          "r": 16,
+          "w": 1,
+          "dots": 18,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Neeraj Nathani",
+          "balls": 1,
+          "r": 6,
+          "w": 0,
+          "dots": 0,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": []
+    },
+    {
+      "id": "legacy-3900",
+      "date": "2026-04-25",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Thunders",
+      "ground": "GRMS",
+      "result": "Thunders won by 3 Wickets",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": false,
+      "tossDecision": "bowl",
+      "battedFirst": true,
+      "innings": [
+        {
+          "team": "Black Caps",
+          "runs": 66,
+          "wkts": 10,
+          "overs": "19.5"
+        },
+        {
+          "team": "Thunders",
+          "runs": 67,
+          "wkts": 7,
+          "overs": "15.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Tajinder Pal",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ct"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 3,
+          "b": 13,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Dinesh Nadipalli",
+          "r": 9,
+          "b": 18,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Varun Vora",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 5,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 3,
+          "b": 14,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 6,
+          "b": 20,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ro"
+        },
+        {
+          "name": "Anant Shah",
+          "r": 21,
+          "b": 15,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "r": 2,
+          "b": 9,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Mahesh Baratam",
+          "r": 4,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 10
+        },
+        {
+          "name": "Vamsee Krishna",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ro"
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 10,
+          "w": 3,
+          "dots": 17,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 19,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Varun Vora",
+          "balls": 8,
+          "r": 8,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Mahesh Baratam",
+          "balls": 24,
+          "r": 18,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Vamsee Krishna",
+          "balls": 15,
+          "r": 14,
+          "w": 0,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Sriram Jaikrishnan",
+          "c",
+          1
+        ],
+        [
+          "Anurag Gahlot",
+          "k",
+          2
+        ],
+        [
+          "Anant Shah",
+          "c",
+          1
+        ],
+        [
+          "Mahesh Baratam",
+          "c",
+          2
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3881",
+      "date": "2026-04-18",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Gully Cricketers",
+      "ground": "WRMS",
+      "result": "Gully Cricketers won by 100 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Gully Cricketers",
+          "runs": 154,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 54,
+          "wkts": 11,
+          "overs": "17.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Ram M",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ro"
+        },
+        {
+          "name": "Michael Bharath",
+          "r": 5,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Varun Vellanki",
+          "r": 7,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "b"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 4,
+          "b": 6,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 4,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 5,
+          "how": "b"
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 6,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "ctw"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 5,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "b"
+        },
+        {
+          "name": "Anant Shah",
+          "r": 4,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "b"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 10,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 9,
+          "b": 16,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ct"
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 11,
+          "how": "ct"
+        },
+        {
+          "name": "Krishnam Raju K",
+          "r": 0,
+          "b": 0,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 12
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ram M",
+          "balls": 24,
+          "r": 31,
+          "w": 2,
+          "dots": 9,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 15,
+          "w": 3,
+          "dots": 15,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 24,
+          "r": 28,
+          "w": 2,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Rahul Dasoar",
+          "balls": 24,
+          "r": 35,
+          "w": 2,
+          "dots": 6,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Neeraj Nathani",
+          "balls": 18,
+          "r": 26,
+          "w": 0,
+          "dots": 6,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Mohit Hans",
+          "balls": 6,
+          "r": 19,
+          "w": 0,
+          "dots": 1,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fielding": [
+        [
+          "Anant Shah",
+          "c",
+          1
+        ],
+        [
+          "Neeraj Nathani",
+          "c",
+          1
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "Rahul Dasoar",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3859",
+      "date": "2026-04-04",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Royal Kings",
+      "ground": "Central Park1",
+      "result": "Black Caps won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Royal Kings",
+          "runs": 83,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 84,
+          "wkts": 4,
+          "overs": "15.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Krishnam Raju K",
+          "r": 0,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "ctw"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 11,
+          "b": 21,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 12,
+          "b": 17,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ro"
+        },
+        {
+          "name": "Varun Vora",
+          "r": 24,
+          "b": 27,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 18,
+          "b": 21,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 8,
+          "b": 5,
+          "f": 0,
+          "s": 1,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Ashwant Singh",
+          "balls": 24,
+          "r": 17,
+          "w": 3,
+          "dots": 15,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 26,
+          "w": 1,
+          "dots": 10,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 24,
+          "r": 19,
+          "w": 1,
+          "dots": 12,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Varun Vora",
+          "balls": 18,
+          "r": 10,
+          "w": 1,
+          "dots": 8,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Tajinder Pal",
+          "balls": 24,
+          "r": 4,
+          "w": 3,
+          "dots": 20,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rahul Dasoar",
+          "balls": 6,
+          "r": 7,
+          "w": 0,
+          "dots": 2,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Tajinder Pal",
+          "c",
+          2
+        ],
+        [
+          "Anant Shah",
+          "c",
+          1
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          2
+        ],
+        [
+          "Neeraj Nathani",
+          "c",
+          1
+        ],
+        [
+          "Krishnam Raju K",
+          "k",
+          1
+        ]
+      ]
+    },
+    {
+      "id": "legacy-3805",
+      "date": "2026-03-14",
+      "series": "SRCA Spring 2026",
+      "seriesId": "legacy-99",
+      "opponent": "Warriors",
+      "ground": "WRMS",
+      "result": "Warriors won by 31 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Warriors",
+          "runs": 104,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Black Caps",
+          "runs": 73,
+          "wkts": 10,
+          "overs": "19.3"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Sriram Jaikrishnan",
+          "r": 10,
+          "b": 22,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 1,
+          "how": "b"
+        },
+        {
+          "name": "Varun Vellanki",
+          "r": 12,
+          "b": 16,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "pos": 2,
+          "how": "ct"
+        },
+        {
+          "name": "Mohit Hans",
+          "r": 10,
+          "b": 15,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 3,
+          "how": "ct"
+        },
+        {
+          "name": "Neeraj Nathani",
+          "r": 10,
+          "b": 25,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 4,
+          "how": "ctw"
+        },
+        {
+          "name": "Chaitanya Vegesna",
+          "r": 24,
+          "b": 25,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "pos": 5,
+          "how": "ct"
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 6,
+          "how": "b"
+        },
+        {
+          "name": "Rahul Dasoar",
+          "r": 0,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 7,
+          "how": "ctw"
+        },
+        {
+          "name": "Anurag Gahlot",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 8,
+          "how": "ct"
+        },
+        {
+          "name": "Anant Shah",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 9,
+          "how": "ctw"
+        },
+        {
+          "name": "Naveen Vemsani",
+          "r": 0,
+          "b": 1,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "pos": 10,
+          "how": "ctw"
+        },
+        {
+          "name": "Vamsee Krishna",
+          "r": 1,
+          "b": 3,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anant Shah",
+          "balls": 24,
+          "r": 20,
+          "w": 1,
+          "dots": 13,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vamsee Krishna",
+          "balls": 18,
+          "r": 18,
+          "w": 0,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Vinay Kumar Gaddam",
+          "balls": 24,
+          "r": 11,
+          "w": 1,
+          "dots": 15,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Rahul Dasoar",
+          "balls": 24,
+          "r": 24,
+          "w": 2,
+          "dots": 11,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Mohit Hans",
+          "balls": 6,
+          "r": 11,
+          "w": 1,
+          "dots": 1,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sriram Jaikrishnan",
+          "balls": 18,
+          "r": 18,
+          "w": 2,
+          "dots": 9,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Naveen Vemsani",
+          "balls": 6,
+          "r": 1,
+          "w": 0,
+          "dots": 5,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fielding": [
+        [
+          "Vinay Kumar Gaddam",
+          "c",
+          2
+        ],
+        [
+          "Anurag Gahlot",
+          "k",
+          2
+        ],
+        [
+          "Chaitanya Vegesna",
+          "c",
+          1
+        ],
+        [
+          "Neeraj Nathani",
+          "r",
+          1
+        ],
+        [
+          "Mohit Hans",
+          "c",
+          1
+        ]
+      ]
+    }
+  ],
+  "unresolvedFielders": 13
+}
