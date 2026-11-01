@@ -19,6 +19,69 @@ function parseLeague(s) {
   return /^[A-Za-z0-9_-]{2,80}$/.test(code) ? code : null;
 }
 function stopPoll() { pollGen++; if (pollTimer) { clearInterval(pollTimer); pollTimer = null; } }
+/* scan-window:start */
+// Next scan opens Monday 12:00 PM PT after the first match weekend strictly after the scan.
+// matchDays defaults to Saturday and Sunday. A league can override with league.matchDays.
+const SCAN_TZ = 'America/Los_Angeles';
+const SCAN_WD = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const SCAN_MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+function zonedParts(date, timeZone = SCAN_TZ) {
+  const map = {};
+  for (const p of new Intl.DateTimeFormat('en-US', { timeZone, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23', weekday: 'short' }).formatToParts(date)) map[p.type] = p.value;
+  return { year: +map.year, month: +map.month, day: +map.day, hour: +map.hour, minute: +map.minute, second: +map.second };
+}
+function calendarWeekday(y, m, d) { return new Date(Date.UTC(y, m - 1, d)).getUTCDay(); }
+function addCalendarDays(y, m, d, n) {
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  dt.setUTCDate(dt.getUTCDate() + n);
+  return { year: dt.getUTCFullYear(), month: dt.getUTCMonth() + 1, day: dt.getUTCDate() };
+}
+function zonedWallToUtc(y, m, d, hour, minute, timeZone = SCAN_TZ) {
+  let utc = Date.UTC(y, m - 1, d, hour, minute, 0);
+  for (let i = 0; i < 3; i++) {
+    const p = zonedParts(new Date(utc), timeZone);
+    utc += Date.UTC(y, m - 1, d, hour, minute, 0) - Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
+  }
+  return new Date(utc);
+}
+function weekendOpen(matchDays) {
+  const days = (matchDays && matchDays.length) ? matchDays : [6, 0];
+  const set = new Set(days);
+  let start = days[0];
+  for (let d = 0; d < 7; d++) if (set.has(d) && !set.has((d + 6) % 7)) { start = d; break; }
+  let end = start;
+  for (let i = 1; i < 7 && set.has((start + i) % 7); i++) end = (start + i) % 7;
+  let grace = 0;
+  for (let d = start; d !== end; d = (d + 1) % 7) grace++;
+  return { start, grace: grace + 1 };
+}
+function nextScanAfter(scannedAt, opts = {}) {
+  const timeZone = opts.timeZone || SCAN_TZ;
+  const { start, grace } = weekendOpen(opts.matchDays);
+  const scanned = scannedAt instanceof Date ? scannedAt : new Date(scannedAt);
+  const p = zonedParts(scanned, timeZone);
+  let delta = (start - calendarWeekday(p.year, p.month, p.day) + 7) % 7;
+  if (delta === 0) delta = 7;
+  const open = addCalendarDays(p.year, p.month, p.day, delta + grace);
+  return zonedWallToUtc(open.year, open.month, open.day, 12, 0, timeZone);
+}
+function formatPt(date, timeZone = SCAN_TZ) {
+  const p = zonedParts(date, timeZone);
+  const wd = SCAN_WD[calendarWeekday(p.year, p.month, p.day)];
+  const h12 = p.hour % 12 || 12;
+  const min = String(p.minute).padStart(2, '0');
+  return `${wd} ${SCAN_MON[p.month - 1]} ${p.day}, ${h12}:${min} ${p.hour >= 12 ? 'PM' : 'AM'} PT`;
+}
+function scanStatusLine(data, league, now = new Date()) {
+  if (!data || data.unscanned) return 'Not scanned yet';
+  const times = Object.values(data.seasons || {}).map(s => s && s.scrapedAt).filter(Boolean).sort();
+  if (!times.length) return 'Not scanned yet';
+  const last = new Date(times[times.length - 1]);
+  const next = nextScanAfter(last, { matchDays: league && league.matchDays });
+  const tail = next.getTime() <= now.getTime() ? 'New matches may be available' : 'Next scan after: ' + formatPt(next);
+  return `Last scanned: ${formatPt(last)} · ${tail}`;
+}
+/* scan-window:end */
 function asOf(data) {
   const times = Object.values(data.seasons || {}).map(s => s.scrapedAt).filter(Boolean).sort();
   if (!times.length) return '';
@@ -439,7 +502,7 @@ function paintDock(label, n) {
   wrap.remove();
   const tabs = PAGE_TABS.map(([id, lab]) => `<button type="button" role="tab" id="tab-${id}" data-page-tab="${id}" aria-selected="${pageTab === id}" aria-controls="panel" class="${pageTab === id ? 'on' : ''}">${lab}</button>`).join('');
   dock.hidden = false;
-  dock.innerHTML = `<div class="dock-in"><div class="dock-team"><div class="dock-face">${badgeHTML(DATA.team, DATA.logo || teamLogo(DATA.team))}</div><div class="dock-id"><div class="dock-name" title="${esc(DATA.team)}">${esc(DATA.team)}</div><div class="dock-sub">${esc(label)} · ${n} match${n === 1 ? '' : 'es'}</div></div><div class="dock-period"></div></div><div class="page-tabs" role="tablist" aria-label="Team sections">${tabs}</div></div>`;
+  dock.innerHTML = `<div class="dock-in"><div class="dock-team"><div class="dock-face">${badgeHTML(DATA.team, DATA.logo || teamLogo(DATA.team))}</div><div class="dock-id"><div class="dock-name" title="${esc(DATA.team)}">${esc(DATA.team)}</div><div class="dock-sub">${esc(label)} · ${n} match${n === 1 ? '' : 'es'}</div><div class="scan-when">${esc(scanStatusLine(DATA, LEAGUE))}</div></div><div class="dock-period"></div></div><div class="page-tabs" role="tablist" aria-label="Team sections">${tabs}</div></div>`;
   dock.querySelector('.dock-period').appendChild(wrap);
   const next = '#tab=' + pageTab;
   if (location.hash !== next) history.replaceState(null, '', location.pathname + location.search + next);
