@@ -2,6 +2,9 @@
   "code": "DublinandDanvilleCricketLeague",
   "name": "DDCL",
   "checkedAt": "2026-11-01T19:13:48.144Z",
+  "ingest": {
+    "refreshedAt": "2026-11-02T00:17:39.183Z"
+  },
   "seasons": {
     "current": {
       "id": "xD6Qicr7gkrAMq0_MoX4Dw",
@@ -62,7 +65,7 @@
     "Tipsy Bulls": "https://media.cricclubs.com/documentsRep/teamLogos/24150af4-32b9-47de-b632-f0edb3d6622c.jpg",
     "Trivalley Titans": "https://media.cricclubs.com/documentsRep/teamLogos/97cd7420-3911-45e3-92ea-47392bacf01c.png",
     "Deccan Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/30358e13-46be-45ca-b7c0-cb1693a1d3e8.jpg",
-    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/fe633c2c-f14c-4bf1-827e-86e39a386811.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/b58e53fa-5031-4279-870b-af5a75971dcb.png",
     "Namma Boys": "https://media.cricclubs.com/documentsRep/teamLogos/a9b4665c-b906-4a05-a9c9-f06a91ce36a7.jpeg",
     "Bay Area Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/3c575945-947f-4b39-a26a-9a0f938127a4.png",
     "Storm Chasers": "https://media.cricclubs.com/documentsRep/teamLogos/551e9b3e-9130-4c65-9ca5-79866ae4df67.jpeg",

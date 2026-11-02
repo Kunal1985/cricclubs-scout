@@ -15,7 +15,7 @@
     "Tipsy Bulls": "https://media.cricclubs.com/documentsRep/teamLogos/24150af4-32b9-47de-b632-f0edb3d6622c.jpg",
     "Trivalley Titans": "https://media.cricclubs.com/documentsRep/teamLogos/97cd7420-3911-45e3-92ea-47392bacf01c.png",
     "Deccan Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/30358e13-46be-45ca-b7c0-cb1693a1d3e8.jpg",
-    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/fe633c2c-f14c-4bf1-827e-86e39a386811.jpg",
+    "Chhavas": "https://media.cricclubs.com/documentsRep/teamLogos/b58e53fa-5031-4279-870b-af5a75971dcb.png",
     "Namma Boys": "https://media.cricclubs.com/documentsRep/teamLogos/a9b4665c-b906-4a05-a9c9-f06a91ce36a7.jpeg",
     "Bay Area Falcons": "https://media.cricclubs.com/documentsRep/teamLogos/3c575945-947f-4b39-a26a-9a0f938127a4.png",
     "Storm Chasers": "https://media.cricclubs.com/documentsRep/teamLogos/551e9b3e-9130-4c65-9ca5-79866ae4df67.jpeg",
@@ -31,19 +31,577 @@
       "id": "xD6Qicr7gkrAMq0_MoX4Dw",
       "name": "DDCL Fall 2026",
       "inSeason": true,
-      "scrapedAt": "2026-11-01T20:02:24.388Z"
+      "scrapedAt": "2026-11-02T00:16:53.233Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:16:53.233Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=xD6Qicr7gkrAMq0_MoX4Dw",
+        "players": {
+          "devender singh": {
+            "name": "Devender Singh",
+            "matches": 10,
+            "batting": 202,
+            "bowling": 340,
+            "fielding": 100,
+            "other": 50,
+            "mom": 1,
+            "total": 692
+          },
+          "karthick ganesan": {
+            "name": "Karthick Ganesan",
+            "matches": 9,
+            "batting": 11,
+            "bowling": 590,
+            "fielding": 50,
+            "other": 0,
+            "mom": 0,
+            "total": 651
+          },
+          "sriram jaikrishnan": {
+            "name": "Sriram Jaikrishnan",
+            "matches": 6,
+            "batting": 20,
+            "bowling": 430,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 480
+          },
+          "janardhanan babu": {
+            "name": "Janardhanan Babu",
+            "matches": 9,
+            "batting": 206,
+            "bowling": 0,
+            "fielding": 200,
+            "other": 50,
+            "mom": 1,
+            "total": 456
+          },
+          "amit pinge": {
+            "name": "Amit Pinge",
+            "matches": 7,
+            "batting": 80,
+            "bowling": 250,
+            "fielding": 0,
+            "other": 50,
+            "mom": 1,
+            "total": 380
+          },
+          "sid mahadevan": {
+            "name": "Sid Mahadevan",
+            "matches": 6,
+            "batting": 269,
+            "bowling": 10,
+            "fielding": 40,
+            "other": 50,
+            "mom": 1,
+            "total": 369
+          },
+          "vigneshwaran kannan": {
+            "name": "Vigneshwaran Kannan",
+            "matches": 9,
+            "batting": 61,
+            "bowling": 270,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 351
+          },
+          "shriraj iyer": {
+            "name": "Shriraj Iyer",
+            "matches": 7,
+            "batting": 2,
+            "bowling": 280,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 312
+          },
+          "shriram kumar": {
+            "name": "Shriram Kumar",
+            "matches": 5,
+            "batting": -3,
+            "bowling": 240,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 237
+          },
+          "vishok amar kumar": {
+            "name": "Vishok Amar Kumar",
+            "matches": 2,
+            "batting": 67,
+            "bowling": 50,
+            "fielding": 10,
+            "other": 50,
+            "mom": 1,
+            "total": 177
+          },
+          "vignesh mahadevan": {
+            "name": "Vignesh Mahadevan",
+            "matches": 9,
+            "batting": 66,
+            "bowling": 20,
+            "fielding": 60,
+            "other": 0,
+            "mom": 0,
+            "total": 146
+          },
+          "srujan emani": {
+            "name": "Srujan Emani",
+            "matches": 5,
+            "batting": 8,
+            "bowling": 110,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 138
+          },
+          "chait a": {
+            "name": "Chait A",
+            "matches": 8,
+            "batting": 23,
+            "bowling": 0,
+            "fielding": 80,
+            "other": 0,
+            "mom": 0,
+            "total": 103
+          },
+          "navroop singh": {
+            "name": "Navroop Singh",
+            "matches": 7,
+            "batting": 55,
+            "bowling": 10,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 95
+          },
+          "himanshu rana": {
+            "name": "Himanshu Rana",
+            "matches": 1,
+            "batting": 26,
+            "bowling": 10,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 56
+          },
+          "sandeep appaji": {
+            "name": "Sandeep Appaji",
+            "matches": 4,
+            "batting": 44,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 44
+          },
+          "kunal ugale": {
+            "name": "Kunal Ugale",
+            "matches": 5,
+            "batting": 2,
+            "bowling": 20,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 42
+          },
+          "vishal rana": {
+            "name": "Vishal Rana",
+            "matches": 1,
+            "batting": 1,
+            "bowling": 10,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 11
+          }
+        }
+      }
     },
     "last": {
       "id": "u2KnAWQG_l9DZ_jsRAByWA",
       "name": "DDCL Summer 26",
       "inSeason": true,
-      "scrapedAt": "2026-11-01T19:59:53.287Z"
+      "scrapedAt": "2026-11-02T00:17:16.877Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:16.877Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=u2KnAWQG_l9DZ_jsRAByWA",
+        "players": {
+          "amit pinge": {
+            "name": "Amit Pinge",
+            "matches": 8,
+            "batting": 74,
+            "bowling": 330,
+            "fielding": 80,
+            "other": 0,
+            "mom": 0,
+            "total": 484
+          },
+          "sid mahadevan": {
+            "name": "Sid Mahadevan",
+            "matches": 6,
+            "batting": 203,
+            "bowling": 190,
+            "fielding": 20,
+            "other": 50,
+            "mom": 1,
+            "total": 463
+          },
+          "vigneshwaran kannan": {
+            "name": "Vigneshwaran Kannan",
+            "matches": 4,
+            "batting": 116,
+            "bowling": 240,
+            "fielding": 10,
+            "other": 50,
+            "mom": 1,
+            "total": 416
+          },
+          "vignesh mahadevan": {
+            "name": "Vignesh Mahadevan",
+            "matches": 6,
+            "batting": 11,
+            "bowling": 250,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 291
+          },
+          "chait a": {
+            "name": "Chait A",
+            "matches": 8,
+            "batting": 154,
+            "bowling": 0,
+            "fielding": 80,
+            "other": 50,
+            "mom": 1,
+            "total": 284
+          },
+          "srujan emani": {
+            "name": "Srujan Emani",
+            "matches": 7,
+            "batting": 2,
+            "bowling": 280,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 282
+          },
+          "karthick ganesan": {
+            "name": "Karthick Ganesan",
+            "matches": 8,
+            "batting": -13,
+            "bowling": 250,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 257
+          },
+          "santosh bande": {
+            "name": "Santosh Bande",
+            "matches": 6,
+            "batting": -11,
+            "bowling": 230,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 229
+          },
+          "kunal ugale": {
+            "name": "Kunal Ugale",
+            "matches": 7,
+            "batting": -26,
+            "bowling": 110,
+            "fielding": 120,
+            "other": 0,
+            "mom": 0,
+            "total": 204
+          },
+          "shriram kumar": {
+            "name": "Shriram Kumar",
+            "matches": 5,
+            "batting": 2,
+            "bowling": 190,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 202
+          },
+          "anand vasudevan": {
+            "name": "Anand Vasudevan",
+            "matches": 6,
+            "batting": -6,
+            "bowling": 110,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 114
+          },
+          "vishok amar kumar": {
+            "name": "Vishok Amar Kumar",
+            "matches": 3,
+            "batting": 53,
+            "bowling": 40,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 113
+          },
+          "navroop singh": {
+            "name": "Navroop Singh",
+            "matches": 6,
+            "batting": 57,
+            "bowling": 30,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 87
+          },
+          "akshay mungrey": {
+            "name": "Akshay Mungrey",
+            "matches": 8,
+            "batting": 39,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 59
+          },
+          "shrinath jadhav": {
+            "name": "Shrinath Jadhav",
+            "matches": 3,
+            "batting": 21,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 41
+          },
+          "chaitanya s": {
+            "name": "Chaitanya S",
+            "matches": 1,
+            "batting": 38,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 38
+          },
+          "pranay sai dadi": {
+            "name": "Pranay Sai Dadi",
+            "matches": 3,
+            "batting": -9,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 11
+          },
+          "sandeep appaji": {
+            "name": "Sandeep Appaji",
+            "matches": 4,
+            "batting": -8,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 2
+          }
+        }
+      }
     },
     "prev2": {
       "id": "RrVi9ccTsSYpRdWpiBT7sg",
       "name": "DDCL Spring 2026",
       "inSeason": true,
-      "scrapedAt": "2026-11-01T20:00:07.012Z"
+      "scrapedAt": "2026-11-02T00:17:39.179Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:39.179Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=RrVi9ccTsSYpRdWpiBT7sg",
+        "players": {
+          "srujan emani": {
+            "name": "Srujan Emani",
+            "matches": 8,
+            "batting": 18,
+            "bowling": 430,
+            "fielding": 48,
+            "other": 25,
+            "mom": 1,
+            "total": 521
+          },
+          "santosh bande": {
+            "name": "Santosh Bande",
+            "matches": 8,
+            "batting": -4,
+            "bowling": 329,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 341
+          },
+          "vigneshwaran kannan": {
+            "name": "Vigneshwaran Kannan",
+            "matches": 8,
+            "batting": 41,
+            "bowling": 248,
+            "fielding": 8,
+            "other": 25,
+            "mom": 1,
+            "total": 322
+          },
+          "karthick ganesan": {
+            "name": "Karthick Ganesan",
+            "matches": 6,
+            "batting": 0,
+            "bowling": 206,
+            "fielding": 24,
+            "other": 0,
+            "mom": 0,
+            "total": 230
+          },
+          "navroop singh": {
+            "name": "Navroop Singh",
+            "matches": 8,
+            "batting": 110,
+            "bowling": 32,
+            "fielding": 32,
+            "other": 25,
+            "mom": 1,
+            "total": 199
+          },
+          "chait a": {
+            "name": "Chait A",
+            "matches": 9,
+            "batting": 66,
+            "bowling": 0,
+            "fielding": 118,
+            "other": 0,
+            "mom": 0,
+            "total": 184
+          },
+          "shriram kumar": {
+            "name": "Shriram Kumar",
+            "matches": 4,
+            "batting": 4,
+            "bowling": 147,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 151
+          },
+          "vignesh mahadevan": {
+            "name": "Vignesh Mahadevan",
+            "matches": 6,
+            "batting": 18,
+            "bowling": 80,
+            "fielding": 24,
+            "other": 0,
+            "mom": 0,
+            "total": 122
+          },
+          "akhilesh patel": {
+            "name": "Akhilesh Patel",
+            "matches": 2,
+            "batting": 11,
+            "bowling": 89,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 116
+          },
+          "sid mahadevan": {
+            "name": "Sid Mahadevan",
+            "matches": 4,
+            "batting": 86,
+            "bowling": 0,
+            "fielding": 24,
+            "other": 0,
+            "mom": 0,
+            "total": 110
+          },
+          "akshay mungrey": {
+            "name": "Akshay Mungrey",
+            "matches": 8,
+            "batting": 59,
+            "bowling": 0,
+            "fielding": 44,
+            "other": 0,
+            "mom": 0,
+            "total": 103
+          },
+          "kunal ugale": {
+            "name": "Kunal Ugale",
+            "matches": 7,
+            "batting": 9,
+            "bowling": 27,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 66
+          },
+          "anand vasudevan": {
+            "name": "Anand Vasudevan",
+            "matches": 4,
+            "batting": -2,
+            "bowling": 6,
+            "fielding": 32,
+            "other": 0,
+            "mom": 0,
+            "total": 36
+          },
+          "pranay sai dadi": {
+            "name": "Pranay Sai Dadi",
+            "matches": 4,
+            "batting": 15,
+            "bowling": 0,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 31
+          },
+          "amit pinge": {
+            "name": "Amit Pinge",
+            "matches": 7,
+            "batting": 13,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 13
+          },
+          "chaitanya s": {
+            "name": "Chaitanya S",
+            "matches": 1,
+            "batting": 2,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 10
+          },
+          "sandeep appaji": {
+            "name": "Sandeep Appaji",
+            "matches": 4,
+            "batting": 2,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 2
+          },
+          "pradeep dathri": {
+            "name": "Pradeep Dathri",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 0
+          }
+        }
+      }
     }
   },
   "matches": [

@@ -31,13 +31,446 @@
       "id": "xD6Qicr7gkrAMq0_MoX4Dw",
       "name": "DDCL Fall 2026",
       "inSeason": false,
-      "scrapedAt": null
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:16:53.233Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=xD6Qicr7gkrAMq0_MoX4Dw",
+        "players": {}
+      }
     },
     "last": {
       "id": "u2KnAWQG_l9DZ_jsRAByWA",
       "name": "DDCL Summer 26",
       "inSeason": true,
-      "scrapedAt": "2026-10-31T10:56:15.110Z"
+      "scrapedAt": "2026-10-31T10:56:15.110Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:16.877Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=u2KnAWQG_l9DZ_jsRAByWA",
+        "players": {
+          "karthik puttegowda": {
+            "name": "Karthik Puttegowda",
+            "matches": 9,
+            "batting": 260,
+            "bowling": 460,
+            "fielding": 30,
+            "other": 150,
+            "mom": 3,
+            "total": 900
+          },
+          "sameer desai": {
+            "name": "Sameer Desai",
+            "matches": 5,
+            "batting": 22,
+            "bowling": 500,
+            "fielding": 50,
+            "other": 50,
+            "mom": 1,
+            "total": 622
+          },
+          "harsh shah": {
+            "name": "Harsh Shah",
+            "matches": 9,
+            "batting": 53,
+            "bowling": 430,
+            "fielding": 80,
+            "other": 0,
+            "mom": 0,
+            "total": 563
+          },
+          "yash patel": {
+            "name": "Yash Patel",
+            "matches": 8,
+            "batting": 11,
+            "bowling": 370,
+            "fielding": 70,
+            "other": 0,
+            "mom": 0,
+            "total": 451
+          },
+          "rajat sharma": {
+            "name": "Rajat Sharma",
+            "matches": 8,
+            "batting": 25,
+            "bowling": 380,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 435
+          },
+          "ramesh yarlagadda": {
+            "name": "Ramesh YARLAGADDA",
+            "matches": 3,
+            "batting": 81,
+            "bowling": 320,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 401
+          },
+          "harshad parab": {
+            "name": "Harshad Parab",
+            "matches": 7,
+            "batting": 148,
+            "bowling": 0,
+            "fielding": 110,
+            "other": 50,
+            "mom": 1,
+            "total": 308
+          },
+          "kanav dosajh": {
+            "name": "Kanav Dosajh",
+            "matches": 3,
+            "batting": 267,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 277
+          },
+          "gajanan sane": {
+            "name": "Gajanan Sane",
+            "matches": 5,
+            "batting": -18,
+            "bowling": 120,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 142
+          },
+          "dhruv patel": {
+            "name": "Dhruv Patel",
+            "matches": 7,
+            "batting": 1,
+            "bowling": 60,
+            "fielding": 80,
+            "other": 0,
+            "mom": 0,
+            "total": 141
+          },
+          "mandish shah": {
+            "name": "Mandish Shah",
+            "matches": 3,
+            "batting": 92,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 112
+          },
+          "sunny singh": {
+            "name": "Sunny Singh",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 100,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 100
+          },
+          "pratap halder": {
+            "name": "Pratap Halder",
+            "matches": 3,
+            "batting": -7,
+            "bowling": 70,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 73
+          },
+          "amit pratap singh": {
+            "name": "Amit Pratap Singh",
+            "matches": 4,
+            "batting": 41,
+            "bowling": 20,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 71
+          },
+          "swapnil trivedi": {
+            "name": "Swapnil Trivedi",
+            "matches": 9,
+            "batting": 38,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 58
+          },
+          "teerth patel": {
+            "name": "Teerth Patel",
+            "matches": 3,
+            "batting": 17,
+            "bowling": 0,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 57
+          },
+          "robin moses kolakaluri": {
+            "name": "Robin Moses Kolakaluri",
+            "matches": 3,
+            "batting": 2,
+            "bowling": 20,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 42
+          },
+          "dhiraj ramnani": {
+            "name": "Dhiraj Ramnani",
+            "matches": 3,
+            "batting": 18,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 18
+          },
+          "deepak mehta": {
+            "name": "Deepak Mehta",
+            "matches": 1,
+            "batting": 2,
+            "bowling": 10,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 12
+          },
+          "sharath chandra": {
+            "name": "Sharath Chandra",
+            "matches": 1,
+            "batting": 8,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 8
+          },
+          "dhruvil darji": {
+            "name": "Dhruvil Darji",
+            "matches": 2,
+            "batting": 1,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 1
+          },
+          "meet bhatt": {
+            "name": "Meet Bhatt",
+            "matches": 2,
+            "batting": 0,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 0
+          },
+          "venish patel": {
+            "name": "Venish Patel",
+            "matches": 2,
+            "batting": -10,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 0
+          },
+          "vivek sunkari": {
+            "name": "Vivek Sunkari",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 0
+          },
+          "neel talati": {
+            "name": "Neel Talati",
+            "matches": 8,
+            "batting": -22,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": -12
+          }
+        }
+      }
+    },
+    "prev2": {
+      "id": "RrVi9ccTsSYpRdWpiBT7sg",
+      "name": "DDCL Spring 2026",
+      "inSeason": true,
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:39.179Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=RrVi9ccTsSYpRdWpiBT7sg",
+        "players": {
+          "meet bhatt": {
+            "name": "Meet Bhatt",
+            "matches": 8,
+            "batting": 128,
+            "bowling": 288,
+            "fielding": 32,
+            "other": 25,
+            "mom": 1,
+            "total": 473
+          },
+          "harsh shah": {
+            "name": "Harsh Shah",
+            "matches": 10,
+            "batting": 17,
+            "bowling": 343,
+            "fielding": 62,
+            "other": 25,
+            "mom": 1,
+            "total": 447
+          },
+          "gajanan sane": {
+            "name": "Gajanan Sane",
+            "matches": 9,
+            "batting": 0,
+            "bowling": 339,
+            "fielding": 22,
+            "other": 0,
+            "mom": 0,
+            "total": 361
+          },
+          "ramesh yarlagadda": {
+            "name": "Ramesh YARLAGADDA",
+            "matches": 6,
+            "batting": 3,
+            "bowling": 189,
+            "fielding": 38,
+            "other": 25,
+            "mom": 1,
+            "total": 255
+          },
+          "mandish shah": {
+            "name": "Mandish Shah",
+            "matches": 9,
+            "batting": 165,
+            "bowling": 0,
+            "fielding": 54,
+            "other": 25,
+            "mom": 1,
+            "total": 244
+          },
+          "karthik puttegowda": {
+            "name": "Karthik Puttegowda",
+            "matches": 8,
+            "batting": -4,
+            "bowling": 187,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 199
+          },
+          "harshad parab": {
+            "name": "Harshad Parab",
+            "matches": 9,
+            "batting": 87,
+            "bowling": 0,
+            "fielding": 86,
+            "other": 0,
+            "mom": 0,
+            "total": 173
+          },
+          "gurjeet singh": {
+            "name": "Gurjeet Singh",
+            "matches": 3,
+            "batting": 64,
+            "bowling": 25,
+            "fielding": 26,
+            "other": 25,
+            "mom": 1,
+            "total": 140
+          },
+          "rajat sharma": {
+            "name": "Rajat Sharma",
+            "matches": 9,
+            "batting": 11,
+            "bowling": 94,
+            "fielding": 28,
+            "other": 0,
+            "mom": 0,
+            "total": 133
+          },
+          "teerth patel": {
+            "name": "Teerth Patel",
+            "matches": 6,
+            "batting": 48,
+            "bowling": 0,
+            "fielding": 64,
+            "other": 0,
+            "mom": 0,
+            "total": 112
+          },
+          "yash patel": {
+            "name": "Yash Patel",
+            "matches": 9,
+            "batting": 6,
+            "bowling": 58,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 84
+          },
+          "kanav dosajh": {
+            "name": "Kanav Dosajh",
+            "matches": 9,
+            "batting": 66,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 66
+          },
+          "swapnil trivedi": {
+            "name": "Swapnil Trivedi",
+            "matches": 7,
+            "batting": 7,
+            "bowling": 47,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 54
+          },
+          "robin moses kolakaluri": {
+            "name": "Robin Moses Kolakaluri",
+            "matches": 5,
+            "batting": 41,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 49
+          },
+          "jay pandya": {
+            "name": "Jay Pandya",
+            "matches": 1,
+            "batting": 2,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 2
+          },
+          "neel talati": {
+            "name": "Neel Talati",
+            "matches": 2,
+            "batting": -1,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -1
+          }
+        }
+      }
     }
   },
   "matches": [

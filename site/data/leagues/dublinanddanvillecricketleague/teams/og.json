@@ -31,13 +31,315 @@
       "id": "xD6Qicr7gkrAMq0_MoX4Dw",
       "name": "DDCL Fall 2026",
       "inSeason": true,
-      "scrapedAt": "2026-10-31T20:59:52.980Z"
+      "scrapedAt": "2026-10-31T20:59:52.980Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:16:53.233Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=xD6Qicr7gkrAMq0_MoX4Dw",
+        "players": {
+          "raj d ganav": {
+            "name": "Raj D Ganav",
+            "matches": 8,
+            "batting": 1,
+            "bowling": 450,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 481
+          },
+          "ravi meka": {
+            "name": "Ravi Meka",
+            "matches": 8,
+            "batting": -13,
+            "bowling": 320,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 317
+          },
+          "john padyala": {
+            "name": "John Padyala",
+            "matches": 10,
+            "batting": 1,
+            "bowling": 250,
+            "fielding": 60,
+            "other": 0,
+            "mom": 0,
+            "total": 311
+          },
+          "simran singh": {
+            "name": "Simran Singh",
+            "matches": 6,
+            "batting": 113,
+            "bowling": 130,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 283
+          },
+          "kiran b": {
+            "name": "Kiran B",
+            "matches": 4,
+            "batting": -14,
+            "bowling": 230,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 226
+          },
+          "naveenkumar doddapaneni": {
+            "name": "Naveenkumar Doddapaneni",
+            "matches": 4,
+            "batting": -11,
+            "bowling": 140,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 159
+          },
+          "vinod krishnan": {
+            "name": "Vinod Krishnan",
+            "matches": 3,
+            "batting": 32,
+            "bowling": 80,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 112
+          },
+          "harpreet singh": {
+            "name": "Harpreet Singh",
+            "matches": 3,
+            "batting": -7,
+            "bowling": 110,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 103
+          },
+          "nikhil reddy": {
+            "name": "Nikhil Reddy",
+            "matches": 2,
+            "batting": -8,
+            "bowling": 60,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 82
+          },
+          "pradeep narra": {
+            "name": "Pradeep Narra",
+            "matches": 3,
+            "batting": -1,
+            "bowling": 70,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 79
+          },
+          "uday t": {
+            "name": "Uday T",
+            "matches": 7,
+            "batting": -11,
+            "bowling": 0,
+            "fielding": 60,
+            "other": 0,
+            "mom": 0,
+            "total": 49
+          },
+          "pavan chavali": {
+            "name": "Pavan Chavali",
+            "matches": 2,
+            "batting": 13,
+            "bowling": 10,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 33
+          },
+          "kiran sagiraju": {
+            "name": "Kiran Sagiraju",
+            "matches": 5,
+            "batting": -18,
+            "bowling": 0,
+            "fielding": 50,
+            "other": 0,
+            "mom": 0,
+            "total": 32
+          },
+          "vijay dy": {
+            "name": "Vijay Dy",
+            "matches": 4,
+            "batting": 17,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 27
+          },
+          "yogesh bhadane": {
+            "name": "Yogesh Bhadane",
+            "matches": 2,
+            "batting": 15,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 25
+          },
+          "deepak pillai": {
+            "name": "Deepak Pillai",
+            "matches": 6,
+            "batting": 10,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 20
+          },
+          "anuj laata": {
+            "name": "Anuj Laata",
+            "matches": 6,
+            "batting": -21,
+            "bowling": 0,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 19
+          },
+          "rick saha": {
+            "name": "Rick Saha",
+            "matches": 1,
+            "batting": 4,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 14
+          },
+          "manjunatha kudlur nanjappa": {
+            "name": "Manjunatha Kudlur Nanjappa",
+            "matches": 3,
+            "batting": -2,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 8
+          },
+          "uppi ch": {
+            "name": "Uppi Ch",
+            "matches": 8,
+            "batting": -14,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 6
+          },
+          "dipankar roy": {
+            "name": "Dipankar Roy",
+            "matches": 1,
+            "batting": -5,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 5
+          },
+          "sandeep ponnur": {
+            "name": "Sandeep Ponnur",
+            "matches": 4,
+            "batting": -16,
+            "bowling": 10,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 4
+          },
+          "nishanth sampath kumar": {
+            "name": "Nishanth Sampath Kumar",
+            "matches": 1,
+            "batting": 3,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 3
+          },
+          "vinay parava": {
+            "name": "Vinay Parava",
+            "matches": 1,
+            "batting": -6,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -6
+          },
+          "balraj valgiri": {
+            "name": "Balraj Valgiri",
+            "matches": 1,
+            "batting": -7,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -7
+          },
+          "avanth reddy musuku": {
+            "name": "Avanth Reddy Musuku",
+            "matches": 1,
+            "batting": -10,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -10
+          },
+          "sandesh jayaram": {
+            "name": "Sandesh Jayaram",
+            "matches": 4,
+            "batting": -11,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -11
+          },
+          "amit ranjan": {
+            "name": "Amit Ranjan",
+            "matches": 3,
+            "batting": -16,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -16
+          }
+        }
+      }
     },
     "last": {
       "id": "u2KnAWQG_l9DZ_jsRAByWA",
       "name": "DDCL Summer 26",
       "inSeason": false,
-      "scrapedAt": null
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:16.877Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=u2KnAWQG_l9DZ_jsRAByWA",
+        "players": {}
+      }
+    },
+    "prev2": {
+      "id": "RrVi9ccTsSYpRdWpiBT7sg",
+      "name": "DDCL Spring 2026",
+      "inSeason": false,
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:39.179Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=RrVi9ccTsSYpRdWpiBT7sg",
+        "players": {}
+      }
     }
   },
   "matches": [

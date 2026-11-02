@@ -37,7 +37,7 @@
     "Elite Eleven": "https://media.cricclubs.com/documentsRep/teamLogos/95682c08-b855-4b94-8d24-678ab9831a38.jpg",
     "Dragons": "https://media.cricclubs.com/documentsRep/teamLogos/6affc039-be58-4cf4-95b3-125fb851f68c.jpg",
     "Baazigar of Bay": "https://media.cricclubs.com/documentsRep/teamLogos/c760e52b-cb99-4460-855f-6eed25b2b390.jpg",
-    "Kings X1": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Kings X1": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
     "Absolute XI": "https://media.cricclubs.com/documentsRep/teamLogos/5a142515-7290-4076-9429-eb4ebe70067f.jpg",
     "IndianChamps": "https://media.cricclubs.com/documentsRep/teamLogos/ae7fa4a9-b951-43c8-a795-0787df07c647.jpg",
     "Sunny Devils": "https://media.cricclubs.com/documentsRep/teamLogos/2e528fbf-6ea0-474a-90bd-467a3125bfc3.jpg",
@@ -50,8 +50,8 @@
     "FC SPARTANS": "https://media.cricclubs.com/documentsRep/teamLogos/5d99a752-4441-47ed-bf11-3552717f6210.jpg",
     "Singh Warriors": "https://media.cricclubs.com/documentsRep/teamLogos/732dee22-a255-4693-a58b-2017a2486821.jpg",
     "Sunrisers": "https://media.cricclubs.com/documentsRep/teamLogos/d34eef92-4072-45f0-aa08-62a5a40cd8a7.jpg",
-    "Box Office XI": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
-    "Raptors": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Box Office XI": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
+    "Raptors": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
     "Cali Lions": "https://media.cricclubs.com/documentsRep/teamLogos/688334c5-ddef-48cf-b79e-64d48781d25e.jpg",
     "INCREDIBLES": "https://media.cricclubs.com/documentsRep/teamLogos/c7b65e88-1a57-4753-8c68-aaa2fb4aa1d4.jpg",
     "Mavericks": "https://media.cricclubs.com/documentsRep/teamLogos/b9f11b3f-3b87-41e8-9bcd-c72c5d09588c.jpg",
@@ -61,13 +61,13 @@
     "Yodhas": "https://media.cricclubs.com/documentsRep/teamLogos/0c5066c8-294a-4775-893c-25e5eb38d3f1.jpg",
     "GullyBoyz": "https://media.cricclubs.com/documentsRep/teamLogos/92cd7f00-3f95-4afd-bc74-e0a03b403795.jpg",
     "Avengers": "https://media.cricclubs.com/documentsRep/teamLogos/6a163bd8-ece6-465c-9eb5-5ecc711b2e81.jpg",
-    "Blue Havoc": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
+    "Blue Havoc": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
     "Centurions": "https://media.cricclubs.com/documentsRep/teamLogos/640d4cdd-f75b-4232-9027-ad04664785a1.jpg",
     "Deccan Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/fe602722-ede6-429b-8c29-1711642dec7c.jpg",
-    "Pacific CC": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "Pacific CC": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team1.jpg",
     "Smash Blasters": "https://media.cricclubs.com/documentsRep/teamLogos/7ea288ac-c476-4bbb-aa06-68ae305bce8b.jpg",
     "Strikers": "https://media.cricclubs.com/documentsRep/teamLogos/03d8137f-4e7f-4d9a-914a-888d4d2dd2ff.jpg",
-    "UP Warriors": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team2.jpg",
+    "UP Warriors": "https://static.cricclubs.com/utilsv2/img/icons/no-image-team4.jpg",
     "Bleed Blue": "https://media.cricclubs.com/documentsRep/teamLogos/da13567b-2c06-4835-874d-41df4a1aa9b9.jpg",
     "Royal Chargers": "https://media.cricclubs.com/documentsRep/teamLogos/a69f36a2-3be8-4df8-8c08-66e9a7d8f3d9.jpg",
     "Vulcans": "https://media.cricclubs.com/documentsRep/teamLogos/07c73e0c-3d32-480a-a1b1-98836d08b373.jpg",
@@ -92,19 +92,607 @@
       "id": "legacy-73",
       "name": "Winter 2026-27",
       "inSeason": true,
-      "scrapedAt": "2026-11-01T19:15:11.622Z"
+      "scrapedAt": "2026-11-02T00:05:27.524Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:05:27.524Z",
+        "source": "https://cricclubs.com/nacltennisballcricket/playerRankings.do?divisions=all&league=73&clubId=27594",
+        "players": {
+          "rakesh yadav": {
+            "name": "Rakesh Yadav",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 70,
+            "fielding": 20,
+            "other": 25,
+            "mom": 1,
+            "total": 115
+          },
+          "shakeel mohammed": {
+            "name": "Shakeel Mohammed",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 67,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 75
+          },
+          "mohan krishna bonthu": {
+            "name": "Mohan Krishna Bonthu",
+            "matches": 1,
+            "batting": 60,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 60
+          },
+          "anand kumar ganesan": {
+            "name": "Anand Kumar Ganesan",
+            "matches": 1,
+            "batting": 44,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 44
+          },
+          "vinod reddy kuthuru": {
+            "name": "Vinod reddy Kuthuru",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 22,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 30
+          },
+          "abin paul": {
+            "name": "Abin Paul",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 25,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 25
+          },
+          "praveen kumar devarajan": {
+            "name": "Praveen Kumar Devarajan",
+            "matches": 1,
+            "batting": 13,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 21
+          },
+          "malaya kanungo": {
+            "name": "Malaya Kanungo",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 8
+          },
+          "dhruv kumar": {
+            "name": "Dhruv Kumar",
+            "matches": 1,
+            "batting": 7,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 7
+          },
+          "manu nair": {
+            "name": "Manu Nair",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 2,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 2
+          },
+          "dev reddy": {
+            "name": "Dev Reddy",
+            "matches": 1,
+            "batting": 1,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 1
+          }
+        }
+      }
     },
     "last": {
       "id": "legacy-67",
       "name": "Summer 2026",
       "inSeason": true,
-      "scrapedAt": "2026-11-01T19:15:39.318Z"
+      "scrapedAt": "2026-11-02T00:08:43.749Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:08:43.749Z",
+        "source": "https://cricclubs.com/nacltennisballcricket/playerRankings.do?divisions=all&league=67&clubId=27594",
+        "players": {
+          "shakeel mohammed": {
+            "name": "Shakeel Mohammed",
+            "matches": 8,
+            "batting": 85,
+            "bowling": 344,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 445
+          },
+          "anand kumar ganesan": {
+            "name": "Anand Kumar Ganesan",
+            "matches": 4,
+            "batting": 177,
+            "bowling": 90,
+            "fielding": 40,
+            "other": 25,
+            "mom": 1,
+            "total": 332
+          },
+          "rakesh yadav": {
+            "name": "Rakesh Yadav",
+            "matches": 8,
+            "batting": 55,
+            "bowling": 200,
+            "fielding": 56,
+            "other": 0,
+            "mom": 0,
+            "total": 311
+          },
+          "malaya kanungo": {
+            "name": "Malaya Kanungo",
+            "matches": 8,
+            "batting": 229,
+            "bowling": 0,
+            "fielding": 60,
+            "other": 0,
+            "mom": 0,
+            "total": 289
+          },
+          "amit panda": {
+            "name": "Amit Panda",
+            "matches": 7,
+            "batting": 62,
+            "bowling": 183,
+            "fielding": 28,
+            "other": 0,
+            "mom": 0,
+            "total": 273
+          },
+          "mohan krishna bonthu": {
+            "name": "Mohan Krishna Bonthu",
+            "matches": 5,
+            "batting": 132,
+            "bowling": 105,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 253
+          },
+          "rahul kozhikkalkandi": {
+            "name": "Rahul Kozhikkalkandi",
+            "matches": 4,
+            "batting": 133,
+            "bowling": 20,
+            "fielding": 24,
+            "other": 0,
+            "mom": 0,
+            "total": 177
+          },
+          "dev reddy": {
+            "name": "Dev Reddy",
+            "matches": 8,
+            "batting": 114,
+            "bowling": 0,
+            "fielding": 60,
+            "other": 0,
+            "mom": 0,
+            "total": 174
+          },
+          "yugandhar devarapalli": {
+            "name": "Yugandhar Devarapalli",
+            "matches": 3,
+            "batting": 1,
+            "bowling": 74,
+            "fielding": 62,
+            "other": 0,
+            "mom": 0,
+            "total": 137
+          },
+          "praveen kumar devarajan": {
+            "name": "Praveen Kumar Devarajan",
+            "matches": 8,
+            "batting": 87,
+            "bowling": 0,
+            "fielding": 48,
+            "other": 0,
+            "mom": 0,
+            "total": 135
+          },
+          "venkatesh kottapalli": {
+            "name": "Venkatesh Kottapalli",
+            "matches": 1,
+            "batting": 4,
+            "bowling": 98,
+            "fielding": 0,
+            "other": 25,
+            "mom": 1,
+            "total": 127
+          },
+          "praveen musunuru": {
+            "name": "Praveen Musunuru",
+            "matches": 3,
+            "batting": 69,
+            "bowling": 0,
+            "fielding": 52,
+            "other": 0,
+            "mom": 0,
+            "total": 121
+          },
+          "dipen patel": {
+            "name": "Dipen Patel",
+            "matches": 3,
+            "batting": 3,
+            "bowling": 106,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 117
+          },
+          "naveen sangana": {
+            "name": "Naveen Sangana",
+            "matches": 3,
+            "batting": 75,
+            "bowling": 0,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 91
+          },
+          "vinod reddy kuthuru": {
+            "name": "Vinod reddy Kuthuru",
+            "matches": 1,
+            "batting": 11,
+            "bowling": 65,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 76
+          },
+          "nitish neelagiri": {
+            "name": "NITISH NEELAGIRI",
+            "matches": 3,
+            "batting": 14,
+            "bowling": 54,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 76
+          },
+          "raghuveera m": {
+            "name": "Raghuveera M",
+            "matches": 2,
+            "batting": 0,
+            "bowling": 42,
+            "fielding": 14,
+            "other": 0,
+            "mom": 0,
+            "total": 56
+          },
+          "abin paul": {
+            "name": "Abin Paul",
+            "matches": 2,
+            "batting": -1,
+            "bowling": 44,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 43
+          },
+          "lohith surisetti": {
+            "name": "Lohith Surisetti",
+            "matches": 2,
+            "batting": 0,
+            "bowling": 20,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 36
+          },
+          "sujith kazipeta": {
+            "name": "Sujith Kazipeta",
+            "matches": 1,
+            "batting": -2,
+            "bowling": 25,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 23
+          },
+          "naren g": {
+            "name": "Naren G",
+            "matches": 2,
+            "batting": 8,
+            "bowling": 12,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 20
+          },
+          "manu nair": {
+            "name": "Manu Nair",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 2,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 10
+          },
+          "rohan phatak": {
+            "name": "Rohan Phatak",
+            "matches": 1,
+            "batting": -2,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -2
+          }
+        }
+      }
     },
     "prev2": {
       "id": "legacy-59",
       "name": "Spring 2026",
       "inSeason": true,
-      "scrapedAt": "2026-11-01T19:16:09.097Z"
+      "scrapedAt": "2026-11-02T00:12:06.852Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:12:06.852Z",
+        "source": "https://cricclubs.com/nacltennisballcricket/playerRankings.do?divisions=all&league=59&clubId=27594",
+        "players": {
+          "shakeel mohammed": {
+            "name": "Shakeel Mohammed",
+            "matches": 7,
+            "batting": 4,
+            "bowling": 295,
+            "fielding": 38,
+            "other": 0,
+            "mom": 0,
+            "total": 337
+          },
+          "rakesh yadav": {
+            "name": "Rakesh Yadav",
+            "matches": 8,
+            "batting": 55,
+            "bowling": 135,
+            "fielding": 54,
+            "other": 25,
+            "mom": 1,
+            "total": 269
+          },
+          "venkatesh kottapalli": {
+            "name": "Venkatesh Kottapalli",
+            "matches": 3,
+            "batting": 129,
+            "bowling": 47,
+            "fielding": 24,
+            "other": 25,
+            "mom": 1,
+            "total": 225
+          },
+          "dev reddy": {
+            "name": "Dev Reddy",
+            "matches": 8,
+            "batting": 133,
+            "bowling": 0,
+            "fielding": 42,
+            "other": 25,
+            "mom": 1,
+            "total": 200
+          },
+          "manu nair": {
+            "name": "Manu Nair",
+            "matches": 3,
+            "batting": 11,
+            "bowling": 159,
+            "fielding": 28,
+            "other": 0,
+            "mom": 0,
+            "total": 198
+          },
+          "amit panda": {
+            "name": "Amit Panda",
+            "matches": 4,
+            "batting": 20,
+            "bowling": 143,
+            "fielding": 34,
+            "other": 0,
+            "mom": 0,
+            "total": 197
+          },
+          "ravi kumar chunchu": {
+            "name": "Ravi kumar Chunchu",
+            "matches": 3,
+            "batting": 11,
+            "bowling": 173,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 184
+          },
+          "vinod reddy kuthuru": {
+            "name": "Vinod reddy Kuthuru",
+            "matches": 5,
+            "batting": 12,
+            "bowling": 155,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 183
+          },
+          "mohan krishna bonthu": {
+            "name": "Mohan Krishna Bonthu",
+            "matches": 8,
+            "batting": 90,
+            "bowling": 51,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 157
+          },
+          "praveen kumar devarajan": {
+            "name": "Praveen Kumar Devarajan",
+            "matches": 4,
+            "batting": 96,
+            "bowling": 0,
+            "fielding": 36,
+            "other": 25,
+            "mom": 1,
+            "total": 157
+          },
+          "naveen sangana": {
+            "name": "Naveen Sangana",
+            "matches": 4,
+            "batting": 65,
+            "bowling": 0,
+            "fielding": 68,
+            "other": 0,
+            "mom": 0,
+            "total": 133
+          },
+          "yugandhar devarapalli": {
+            "name": "Yugandhar Devarapalli",
+            "matches": 2,
+            "batting": 20,
+            "bowling": 87,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 115
+          },
+          "malaya kanungo": {
+            "name": "Malaya Kanungo",
+            "matches": 7,
+            "batting": 86,
+            "bowling": 0,
+            "fielding": 12,
+            "other": 0,
+            "mom": 0,
+            "total": 98
+          },
+          "sachin tyagi": {
+            "name": "Sachin Tyagi",
+            "matches": 2,
+            "batting": 29,
+            "bowling": 41,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 90
+          },
+          "dipen patel": {
+            "name": "Dipen Patel",
+            "matches": 2,
+            "batting": 4,
+            "bowling": 49,
+            "fielding": 34,
+            "other": 0,
+            "mom": 0,
+            "total": 87
+          },
+          "abin paul": {
+            "name": "Abin Paul",
+            "matches": 1,
+            "batting": 8,
+            "bowling": 70,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 78
+          },
+          "rahul kozhikkalkandi": {
+            "name": "Rahul Kozhikkalkandi",
+            "matches": 3,
+            "batting": 50,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 50
+          },
+          "naren g": {
+            "name": "Naren G",
+            "matches": 2,
+            "batting": 6,
+            "bowling": 27,
+            "fielding": 14,
+            "other": 0,
+            "mom": 0,
+            "total": 47
+          },
+          "raghuveera m": {
+            "name": "Raghuveera M",
+            "matches": 3,
+            "batting": 4,
+            "bowling": 20,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 32
+          },
+          "anand kumar ganesan": {
+            "name": "Anand Kumar Ganesan",
+            "matches": 3,
+            "batting": 32,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 32
+          },
+          "sai dev kasaraneni": {
+            "name": "Sai Dev Kasaraneni",
+            "matches": 2,
+            "batting": 0,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 8
+          },
+          "dhruv kumar": {
+            "name": "Dhruv Kumar",
+            "matches": 2,
+            "batting": 7,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 7
+          },
+          "sreenag kuna": {
+            "name": "Sreenag Kuna",
+            "matches": 2,
+            "batting": 3,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 3
+          }
+        }
+      }
     }
   },
   "matches": [

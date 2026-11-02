@@ -31,13 +31,567 @@
       "id": "xD6Qicr7gkrAMq0_MoX4Dw",
       "name": "DDCL Fall 2026",
       "inSeason": true,
-      "scrapedAt": "2026-10-31T10:54:53.308Z"
+      "scrapedAt": "2026-10-31T10:54:53.308Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:16:53.233Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=xD6Qicr7gkrAMq0_MoX4Dw",
+        "players": {
+          "kamal indurugalla": {
+            "name": "Kamal Indurugalla",
+            "matches": 11,
+            "batting": 239,
+            "bowling": 500,
+            "fielding": 80,
+            "other": 50,
+            "mom": 1,
+            "total": 869
+          },
+          "dulanjan dharmasena": {
+            "name": "Dulanjan Dharmasena",
+            "matches": 6,
+            "batting": 27,
+            "bowling": 540,
+            "fielding": 40,
+            "other": 100,
+            "mom": 2,
+            "total": 707
+          },
+          "sohil mehta": {
+            "name": "Sohil Mehta",
+            "matches": 10,
+            "batting": 63,
+            "bowling": 500,
+            "fielding": 40,
+            "other": 50,
+            "mom": 1,
+            "total": 653
+          },
+          "ashish heda": {
+            "name": "Ashish Heda",
+            "matches": 9,
+            "batting": 55,
+            "bowling": 530,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 625
+          },
+          "prinse sivaraj": {
+            "name": "Prinse Sivaraj",
+            "matches": 7,
+            "batting": 275,
+            "bowling": 20,
+            "fielding": 90,
+            "other": 0,
+            "mom": 0,
+            "total": 385
+          },
+          "gajanan sane": {
+            "name": "Gajanan Sane",
+            "matches": 9,
+            "batting": -8,
+            "bowling": 370,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 372
+          },
+          "chamath pathirana": {
+            "name": "Chamath Pathirana",
+            "matches": 10,
+            "batting": 39,
+            "bowling": 200,
+            "fielding": 40,
+            "other": 50,
+            "mom": 1,
+            "total": 329
+          },
+          "george dunsford": {
+            "name": "George Dunsford",
+            "matches": 8,
+            "batting": 222,
+            "bowling": 30,
+            "fielding": 20,
+            "other": 50,
+            "mom": 1,
+            "total": 322
+          },
+          "nureshan dias": {
+            "name": "Nureshan Dias",
+            "matches": 7,
+            "batting": 115,
+            "bowling": 0,
+            "fielding": 120,
+            "other": 50,
+            "mom": 1,
+            "total": 285
+          },
+          "sulo wijetunga": {
+            "name": "Sulo Wijetunga",
+            "matches": 9,
+            "batting": 154,
+            "bowling": 0,
+            "fielding": 100,
+            "other": 0,
+            "mom": 0,
+            "total": 254
+          },
+          "daham sirimanne": {
+            "name": "Daham Sirimanne",
+            "matches": 6,
+            "batting": 184,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 194
+          },
+          "frank dunsford": {
+            "name": "Frank Dunsford",
+            "matches": 11,
+            "batting": 158,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 168
+          },
+          "jayanath marambe": {
+            "name": "Jayanath Marambe",
+            "matches": 1,
+            "batting": 46,
+            "bowling": 60,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 146
+          },
+          "dilshan meemanage": {
+            "name": "Dilshan Meemanage",
+            "matches": 9,
+            "batting": 52,
+            "bowling": 0,
+            "fielding": 90,
+            "other": 0,
+            "mom": 0,
+            "total": 142
+          },
+          "rukshan perera": {
+            "name": "Rukshan Perera",
+            "matches": 4,
+            "batting": -18,
+            "bowling": 90,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 72
+          },
+          "rushan kp": {
+            "name": "Rushan KP",
+            "matches": 2,
+            "batting": -3,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 17
+          },
+          "yasashri ranathunga": {
+            "name": "Yasashri Ranathunga",
+            "matches": 1,
+            "batting": 1,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 1
+          },
+          "lal senanayake": {
+            "name": "Lal Senanayake",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 0
+          }
+        }
+      }
     },
     "last": {
       "id": "u2KnAWQG_l9DZ_jsRAByWA",
       "name": "DDCL Summer 26",
       "inSeason": true,
-      "scrapedAt": "2026-10-31T10:55:07.041Z"
+      "scrapedAt": "2026-10-31T10:55:07.041Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:16.877Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=u2KnAWQG_l9DZ_jsRAByWA",
+        "players": {
+          "kamal indurugalla": {
+            "name": "Kamal Indurugalla",
+            "matches": 10,
+            "batting": 116,
+            "bowling": 460,
+            "fielding": 60,
+            "other": 100,
+            "mom": 2,
+            "total": 736
+          },
+          "ashish heda": {
+            "name": "Ashish Heda",
+            "matches": 10,
+            "batting": 146,
+            "bowling": 490,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 676
+          },
+          "jayanath marambe": {
+            "name": "Jayanath Marambe",
+            "matches": 5,
+            "batting": 193,
+            "bowling": 300,
+            "fielding": 60,
+            "other": 100,
+            "mom": 2,
+            "total": 653
+          },
+          "chamath pathirana": {
+            "name": "Chamath Pathirana",
+            "matches": 9,
+            "batting": 149,
+            "bowling": 260,
+            "fielding": 80,
+            "other": 0,
+            "mom": 0,
+            "total": 489
+          },
+          "dulanjan dharmasena": {
+            "name": "Dulanjan Dharmasena",
+            "matches": 8,
+            "batting": 10,
+            "bowling": 330,
+            "fielding": 50,
+            "other": 0,
+            "mom": 0,
+            "total": 390
+          },
+          "sohil mehta": {
+            "name": "Sohil Mehta",
+            "matches": 5,
+            "batting": -16,
+            "bowling": 240,
+            "fielding": 10,
+            "other": 50,
+            "mom": 1,
+            "total": 284
+          },
+          "george dunsford": {
+            "name": "George Dunsford",
+            "matches": 10,
+            "batting": 98,
+            "bowling": 120,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 258
+          },
+          "sulo wijetunga": {
+            "name": "Sulo Wijetunga",
+            "matches": 10,
+            "batting": 14,
+            "bowling": 0,
+            "fielding": 160,
+            "other": 0,
+            "mom": 0,
+            "total": 174
+          },
+          "daham sirimanne": {
+            "name": "Daham Sirimanne",
+            "matches": 8,
+            "batting": 117,
+            "bowling": 0,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 157
+          },
+          "lal senanayake": {
+            "name": "Lal Senanayake",
+            "matches": 3,
+            "batting": 16,
+            "bowling": 110,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 126
+          },
+          "frank dunsford": {
+            "name": "Frank Dunsford",
+            "matches": 9,
+            "batting": 85,
+            "bowling": 0,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 115
+          },
+          "daham walgama": {
+            "name": "Daham Walgama",
+            "matches": 3,
+            "batting": 4,
+            "bowling": 100,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 114
+          },
+          "rushan kp": {
+            "name": "Rushan KP",
+            "matches": 7,
+            "batting": -8,
+            "bowling": 0,
+            "fielding": 50,
+            "other": 0,
+            "mom": 0,
+            "total": 42
+          },
+          "prinse sivaraj": {
+            "name": "Prinse Sivaraj",
+            "matches": 1,
+            "batting": 25,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 35
+          },
+          "dilshan meemanage": {
+            "name": "Dilshan Meemanage",
+            "matches": 10,
+            "batting": -16,
+            "bowling": 0,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 24
+          },
+          "rukshan perera": {
+            "name": "Rukshan Perera",
+            "matches": 1,
+            "batting": -10,
+            "bowling": 30,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 20
+          },
+          "nureshan dias": {
+            "name": "Nureshan Dias",
+            "matches": 1,
+            "batting": 3,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 3
+          }
+        }
+      }
+    },
+    "prev2": {
+      "id": "RrVi9ccTsSYpRdWpiBT7sg",
+      "name": "DDCL Spring 2026",
+      "inSeason": true,
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:39.179Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=RrVi9ccTsSYpRdWpiBT7sg",
+        "players": {
+          "ashish heda": {
+            "name": "Ashish Heda",
+            "matches": 8,
+            "batting": 36,
+            "bowling": 421,
+            "fielding": 28,
+            "other": 25,
+            "mom": 1,
+            "total": 510
+          },
+          "kamal indurugalla": {
+            "name": "Kamal Indurugalla",
+            "matches": 10,
+            "batting": 58,
+            "bowling": 373,
+            "fielding": 38,
+            "other": 0,
+            "mom": 0,
+            "total": 469
+          },
+          "chamath pathirana": {
+            "name": "Chamath Pathirana",
+            "matches": 9,
+            "batting": 41,
+            "bowling": 358,
+            "fielding": 20,
+            "other": 25,
+            "mom": 1,
+            "total": 444
+          },
+          "jayanath marambe": {
+            "name": "Jayanath Marambe",
+            "matches": 5,
+            "batting": 65,
+            "bowling": 259,
+            "fielding": 16,
+            "other": 50,
+            "mom": 2,
+            "total": 390
+          },
+          "dulanjan dharmasena": {
+            "name": "Dulanjan Dharmasena",
+            "matches": 8,
+            "batting": 9,
+            "bowling": 202,
+            "fielding": 30,
+            "other": 25,
+            "mom": 1,
+            "total": 266
+          },
+          "george dunsford": {
+            "name": "George Dunsford",
+            "matches": 8,
+            "batting": 58,
+            "bowling": 170,
+            "fielding": 38,
+            "other": 0,
+            "mom": 0,
+            "total": 266
+          },
+          "sulo wijetunga": {
+            "name": "Sulo Wijetunga",
+            "matches": 10,
+            "batting": 61,
+            "bowling": 0,
+            "fielding": 190,
+            "other": 0,
+            "mom": 0,
+            "total": 251
+          },
+          "dilshan meemanage": {
+            "name": "Dilshan Meemanage",
+            "matches": 10,
+            "batting": 97,
+            "bowling": 0,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 137
+          },
+          "daham sirimanne": {
+            "name": "Daham Sirimanne",
+            "matches": 10,
+            "batting": 113,
+            "bowling": 0,
+            "fielding": 16,
+            "other": 0,
+            "mom": 0,
+            "total": 129
+          },
+          "frank dunsford": {
+            "name": "Frank Dunsford",
+            "matches": 9,
+            "batting": 57,
+            "bowling": 2,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 99
+          },
+          "prinse sivaraj": {
+            "name": "Prinse Sivaraj",
+            "matches": 4,
+            "batting": 62,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 70
+          },
+          "isuru ranawaka": {
+            "name": "Isuru Ranawaka",
+            "matches": 3,
+            "batting": 14,
+            "bowling": 29,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 43
+          },
+          "nureshan dias": {
+            "name": "Nureshan Dias",
+            "matches": 6,
+            "batting": 18,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 26
+          },
+          "oshada muthumala": {
+            "name": "Oshada Muthumala",
+            "matches": 4,
+            "batting": 2,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 10
+          },
+          "supun moho": {
+            "name": "Supun Moho",
+            "matches": 3,
+            "batting": 2,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 10
+          },
+          "rukshan perera": {
+            "name": "Rukshan Perera",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 0,
+            "fielding": 8,
+            "other": 0,
+            "mom": 0,
+            "total": 8
+          },
+          "lal senanayake": {
+            "name": "Lal Senanayake",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 0
+          },
+          "hemantha de silva": {
+            "name": "Hemantha De Silva",
+            "matches": 1,
+            "batting": -2,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -2
+          }
+        }
+      }
     }
   },
   "matches": [
