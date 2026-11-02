@@ -5,6 +5,7 @@ const path = require('path');
 const cc = require('./lib/cc');
 const { normMatch } = require('./lib/normalize');
 const store = require('./lib/store');
+const ingest = require('./lib/ingest');
 const { buildStandingsDoc } = require('./lib/standings');
 const { sanitizeLeague, sanitizeTeam, siteUrl, commentFor } = require('./lib/issue');
 
@@ -78,17 +79,18 @@ async function ensureLeague(input, { refresh = false } = {}) {
   if (!seasons.current) return { error: `League "${info.name}" has no seasons in ${y - 2}–${y}.` };
   const teams = [...new Set(Object.values(seasons).flatMap(s => Object.keys(s.teams)))].sort((a, b) => a.localeCompare(b));
   const league = { ...info, checkedAt: new Date().toISOString(), seasons, teams, logos: (cached && cached.logos) || {} };
+  if (cached && cached.ingest) league.ingest = cached.ingest; if (cached && cached.matchDays) league.matchDays = cached.matchDays;
   store.writeLeague(league);
   console.error(`league ${league.code} (${league.name}) current=${seasons.current.name} teams=${teams.length}`);
   await refreshStandings(league, store.SEASON_KEYS);
   return { league, cached: false };
 }
 
-async function refreshStandings(league, keys) {
+async function refreshStandings(league, keys, { missingOnly = false } = {}) {
   const seasons = [...new Set(keys)].map(k => league.seasons[k]).filter(s => s && s.id);
   const have = new Set(store.listStandings(league.code).map(d => d.series && d.series.id));
   const cur = league.seasons.current && league.seasons.current.id;
-  const pending = seasons.filter(s => !refreshedStandings.has(league.code + '|' + s.id) && (s.id === cur || !have.has(s.id)));
+  const pending = seasons.filter(s => !refreshedStandings.has(league.code + '|' + s.id) && ((!missingOnly && s.id === cur) || !have.has(s.id)));
   if (!pending.length) return;
   let all = null;
   const logos = { ...(league.logos || {}) };
@@ -145,12 +147,16 @@ async function scanTeam(league, team, { currentOnly = false } = {}) {
     if (!s || !s.teams || !s.teams[canonical]) continue;
     const st = t.series[s.id];
     if (!st) plan.push({ key: k, s, mode: 'full' });
-    else if (k === 'current') plan.push({ key: k, s, mode: 'incremental' });
+    else if (k === 'current' || ingest.readResults(league.code, s)) plan.push({ key: k, s, mode: 'incremental' });
   }
   let newMatches = 0;
   for (const p of plan) {
     const tid = p.s.teams[canonical];
-    const list = await cc.teamMatchList(league.code, league.id, p.s, tid);
+    // League ingest saved the season's completed matches: filter to this team, no list page.
+    const idx = ingest.readResults(league.code, p.s);
+    let list = idx && Array.isArray(idx.items) ? idx.items.filter(m => m.teamOne.id === tid || m.teamTwo.id === tid) : null;
+    if (list && list.length) console.error(`${p.s.name}: ${list.length} matches from results index`);
+    else { if (idx) console.error(`fallback: ${p.s.name} results index has no ${canonical} matches`); list = await cc.teamMatchList(league.code, league.id, p.s, tid); }
     writeRawList(league.code, p.s.id, tid, list);
     const fresh = list.filter(m => !t.matches[m.scoreSummary.matchId]);
     console.error(`${p.s.name}: ${list.length} matches, ${fresh.length} new (${p.mode})`);
@@ -164,10 +170,12 @@ async function scanTeam(league, team, { currentOnly = false } = {}) {
       t.matches[mid] = normMatch(m, raw, tid, canonical, p.s);
       newMatches++;
     }
-    t.series[p.s.id] = { name: p.s.name, scrapedAt: new Date().toISOString(), matchIds: list.map(m => m.scoreSummary.matchId) };
+    const idx2 = ingest.readResults(league.code, p.s);
+    t.series[p.s.id] = { name: p.s.name, scrapedAt: (idx2 && idx2.fetchedAt) || new Date().toISOString(), matchIds: list.map(m => m.scoreSummary.matchId) };
     store.writeTeam(league.code, canonical, t);
   }
-  await refreshStandings(league, plan.map(p => p.key));
+  // Standings for the current season refresh with the league ingest; a team scan only fills gaps.
+  await refreshStandings(league, plan.map(p => p.key), { missingOnly: true });
   return { ok: true, team: canonical, newMatches, seasons: plan.map(p => p.s.name) };
 }
 
@@ -229,6 +237,46 @@ async function scanOne(input, teamInput, { refreshLeague = false, currentOnly = 
   }, 0);
 }
 
+// League ingest (DDCL reader): per season, every completed match (results index) and the official
+// player points. Past seasons load once; the current season again only after the weekend rule.
+async function ingestLeague(input, { force = false } = {}) {
+  const res = await ensureLeague(input, { refresh: false });
+  if (res.error) return finish({ ok: false, error: res.error }, 2);
+  const out = await ingestCore(res.league, { force });
+  store.publish();
+  console.log(JSON.stringify(out));
+}
+async function ingestCore(league, { force = false } = {}) {
+  const t0 = Date.now(); const report = {};
+  const todo = ingest.plan(league, store.SEASON_KEYS, { force });
+  for (const { key, s } of todo) {
+    const ts = Date.now(), p0 = cc.stats.pages;
+    const ms = await cc.seriesMatchesAll(league.code, league.id, s);
+    const items = ms.completed.filter(m => m.scoreSummary && m.scoreSummary.matchId);
+    const matches = items.map(m => ({ matchId: m.scoreSummary.matchId, scorecard: `https://cricclubs.com/${league.code}/results/${m.scoreSummary.matchId}`, date: String(m.matchDateTime || '').slice(0, 10), type: m.matchType || null,
+      teams: [m.teamOne.name, m.teamTwo.name], teamIds: [m.teamOne.id, m.teamTwo.id], ground: (m.ground || {}).name || null, result: m.scoreSummary.result || null, summary: m.scoreSummary.scoreSummary || null }));
+    let players = await cc.playerRankings(league.code, league.id, s); let perTeam = false;
+    if (players.length >= 200) {
+      perTeam = true; const all = new Map();
+      for (const [team, tid] of Object.entries(s.teams || {})) {
+        try { for (const p of await cc.playerRankings(league.code, league.id, s, tid)) all.set(p.playerId + '|' + p.team, p); } catch (e) { console.error('rankings failed', team, e.message); }
+      }
+      players = [...all.values()].sort((a, b) => (b.total || 0) - (a.total || 0));
+    }
+    const fetchedAt = new Date().toISOString();
+    const base = `https://cricclubs.com/${league.code}`;
+    ingest.writeSeason(league.code, 'results', s, { season: { key, id: s.id, name: s.name }, fetchedAt, source: `${base}/results?leagueId=${league.id}&year=${s.year}&series=${s.id}`, total: ms.total, matches, items });
+    ingest.writeSeason(league.code, 'rankings', s, { season: { key, id: s.id, name: s.name }, fetchedAt, source: `${base}/statistics/rankings-records?leagueId=${league.id}&year=${s.year}&series=${s.id}`, perTeam, players });
+    if (key === 'current') await refreshStandings(league, ['current']);
+    const names = new Set(Object.keys(s.teams || {}));
+    report[key] = { season: s.name, pages: cc.stats.pages - p0, secs: +((Date.now() - ts) / 1000).toFixed(1), matches: matches.length, total: ms.total, noGround: matches.filter(m => !m.ground).length, players: players.length, perTeam,
+      unknownTeams: [...new Set([...matches.flatMap(m => m.teams), ...players.map(p => p.team)])].filter(n => !names.has(n)) };
+    console.error(key, JSON.stringify(report[key]));
+  }
+  if (todo.length) { ingest.markRefreshed(league, todo.map(t => t.key), cc.stats.pages, +((Date.now() - t0) / 1000).toFixed(1)); store.writeLeague(league); }
+  return { code: league.code, secs: +((Date.now() - t0) / 1000).toFixed(1), pages: cc.stats.pages, byKind: cc.stats.byKind, seasons: report };
+}
+
 async function weekly() {
   const leagues = store.listLeagues();
   const summary = [];
@@ -241,6 +289,7 @@ async function weekly() {
     } catch (e) {
       console.error('league refresh failed', cached.code, e.message);
     }
+    try { await ingestCore(league); } catch (e) { console.error('league ingest failed', league.code, e.message); }
     await refreshStandings(league, ['current']);
     const teams = store.listScannedTeams(league.code);
     for (const t of teams) {
@@ -291,6 +340,7 @@ async function run() {
   if (cmd === 'league') return addLeague(argLeague(), { refresh: process.env.REFRESH === '1' || process.argv.includes('--refresh') });
   if (cmd === 'scan') return scanOne(argLeague(), argTeam(), { refreshLeague: false });
   if (cmd === 'weekly') return weekly();
+  if (cmd === 'ingest') return ingestLeague(argLeague(), { force: process.env.FORCE === '1' || process.argv.includes('--force') });
   if (cmd === 'reparse') {
     const league = store.readLeague(sanitizeLeague(argLeague()));
     if (!league) throw new Error('league not cached');
@@ -303,7 +353,7 @@ async function run() {
     if (mode === 'scan') return scanOne(process.env.LEAGUE || '', process.env.TEAM || '', { refreshLeague: false });
     return finish({ ok: false, error: 'Unknown MODE. Expected weekly, league, or scan.' }, 1);
   }
-  console.error('Usage: node cli.js publish|league|scan|weekly|run');
+  console.error('Usage: node cli.js publish|league|ingest|scan|weekly|run');
   process.exitCode = 1;
 }
 

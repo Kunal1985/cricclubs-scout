@@ -31,13 +31,285 @@
       "id": "xD6Qicr7gkrAMq0_MoX4Dw",
       "name": "DDCL Fall 2026",
       "inSeason": true,
-      "scrapedAt": "2026-10-31T10:53:13.392Z"
+      "scrapedAt": "2026-10-31T10:53:13.392Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:16:53.233Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=xD6Qicr7gkrAMq0_MoX4Dw",
+        "players": {
+          "sahil choudhary": {
+            "name": "Sahil Choudhary",
+            "matches": 7,
+            "batting": 251,
+            "bowling": 510,
+            "fielding": 40,
+            "other": 100,
+            "mom": 2,
+            "total": 901
+          },
+          "rushi ns": {
+            "name": "Rushi NS",
+            "matches": 9,
+            "batting": 23,
+            "bowling": 450,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 493
+          },
+          "mayank kumar sr": {
+            "name": "Mayank Kumar SR",
+            "matches": 8,
+            "batting": 122,
+            "bowling": 160,
+            "fielding": 20,
+            "other": 50,
+            "mom": 1,
+            "total": 352
+          },
+          "gokul warrier": {
+            "name": "Gokul Warrier",
+            "matches": 7,
+            "batting": 159,
+            "bowling": 50,
+            "fielding": 80,
+            "other": 50,
+            "mom": 1,
+            "total": 339
+          },
+          "nitin rajkumar": {
+            "name": "Nitin Rajkumar",
+            "matches": 5,
+            "batting": -7,
+            "bowling": 290,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 303
+          },
+          "pramod kashid": {
+            "name": "Pramod Kashid",
+            "matches": 10,
+            "batting": 62,
+            "bowling": 100,
+            "fielding": 70,
+            "other": 0,
+            "mom": 0,
+            "total": 232
+          },
+          "rushikesh kale": {
+            "name": "Rushikesh Kale",
+            "matches": 4,
+            "batting": 122,
+            "bowling": 20,
+            "fielding": 0,
+            "other": 50,
+            "mom": 1,
+            "total": 192
+          },
+          "manish turan": {
+            "name": "Manish Turan",
+            "matches": 4,
+            "batting": 12,
+            "bowling": 70,
+            "fielding": 50,
+            "other": 0,
+            "mom": 0,
+            "total": 132
+          },
+          "mohan murthy": {
+            "name": "Mohan murthy",
+            "matches": 5,
+            "batting": 102,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 122
+          },
+          "sirish mohan": {
+            "name": "Sirish Mohan",
+            "matches": 4,
+            "batting": 66,
+            "bowling": 20,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 116
+          },
+          "jitu asija": {
+            "name": "Jitu Asija",
+            "matches": 5,
+            "batting": 41,
+            "bowling": 60,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 101
+          },
+          "gokul selvam sadasivam": {
+            "name": "Gokul Selvam Sadasivam",
+            "matches": 5,
+            "batting": 81,
+            "bowling": 10,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 101
+          },
+          "sashi k": {
+            "name": "Sashi K",
+            "matches": 1,
+            "batting": 56,
+            "bowling": 40,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 96
+          },
+          "abheek sinha": {
+            "name": "Abheek Sinha",
+            "matches": 5,
+            "batting": 26,
+            "bowling": 20,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 86
+          },
+          "tarun gupta": {
+            "name": "Tarun Gupta",
+            "matches": 3,
+            "batting": 44,
+            "bowling": 10,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 84
+          },
+          "rane r": {
+            "name": "Rane R",
+            "matches": 9,
+            "batting": 9,
+            "bowling": 50,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 79
+          },
+          "ramanan bangaru": {
+            "name": "Ramanan Bangaru",
+            "matches": 6,
+            "batting": 34,
+            "bowling": 0,
+            "fielding": 40,
+            "other": 0,
+            "mom": 0,
+            "total": 74
+          },
+          "krishna murakonda": {
+            "name": "Krishna Murakonda",
+            "matches": 1,
+            "batting": 3,
+            "bowling": 60,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 73
+          },
+          "ajay mutyala": {
+            "name": "Ajay Mutyala",
+            "matches": 2,
+            "batting": 59,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 59
+          },
+          "mahesh baratam": {
+            "name": "Mahesh Baratam",
+            "matches": 1,
+            "batting": 6,
+            "bowling": 30,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 36
+          },
+          "naga p": {
+            "name": "Naga P",
+            "matches": 2,
+            "batting": 11,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 31
+          },
+          "abhishek nayak": {
+            "name": "Abhishek Nayak",
+            "matches": 2,
+            "batting": 1,
+            "bowling": 20,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 21
+          },
+          "anurag gahlot": {
+            "name": "Anurag Gahlot",
+            "matches": 1,
+            "batting": -10,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 10
+          },
+          "charchit arora": {
+            "name": "Charchit Arora",
+            "matches": 3,
+            "batting": -6,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 4
+          },
+          "suresh nair": {
+            "name": "Suresh Nair",
+            "matches": 1,
+            "batting": -10,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -10
+          }
+        }
+      }
     },
     "last": {
       "id": "u2KnAWQG_l9DZ_jsRAByWA",
       "name": "DDCL Summer 26",
       "inSeason": false,
-      "scrapedAt": null
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:16.877Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=u2KnAWQG_l9DZ_jsRAByWA",
+        "players": {}
+      }
+    },
+    "prev2": {
+      "id": "RrVi9ccTsSYpRdWpiBT7sg",
+      "name": "DDCL Spring 2026",
+      "inSeason": false,
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:39.179Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=RrVi9ccTsSYpRdWpiBT7sg",
+        "players": {}
+      }
     }
   },
   "matches": [
