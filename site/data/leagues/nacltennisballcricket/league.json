@@ -2,6 +2,9 @@
   "code": "nacltennisballcricket",
   "name": "NACL",
   "checkedAt": "2026-11-01T20:36:54.164Z",
+  "ingest": {
+    "refreshedAt": "2026-11-02T00:12:06.857Z"
+  },
   "seasons": {
     "current": {
       "id": "legacy-73",

@@ -9,6 +9,7 @@ const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 const store = require('../lib/store');
+const ingest = require('../lib/ingest');
 const { Pager, pool, stats, state, concurrency } = require('../lib/pager');
 const argv = process.argv.slice(2);
 const REPARSE = process.env.REPARSE === '1' || argv.includes('--reparse');
@@ -165,7 +166,14 @@ async function scanTeam(league, team, clubId) {
     const old = prev.series[s.id];
     // Past seasons are fixed: reuse the saved list. Current season (or FULL) refetches the list only.
     let mids, scrapedAt;
-    if (REPARSE || (old && k !== 'current' && !FULL)) {
+    // League ingest (scripts/legacy-ingest.js) saved every match of the season: no list page needed.
+    const idx = REPARSE ? null : ingest.readResults(code, s);
+    const fromIdx = idx && ingest.teamMatchIds(idx, team, s.teams[team]);
+    if (fromIdx && fromIdx.length) {
+      mids = fromIdx; scrapedAt = idx.fetchedAt; Object.assign(grounds, ingest.groundsFrom(idx));
+      console.error(`  ${k} ${s.name}: ${mids.length} matches from results index`);
+      await download(mids, clubId);
+    } else if (REPARSE || (old && k !== 'current' && !FULL)) {
       if (!old) { console.error(`  ${k} ${s.name}: not scanned before, skipped in reparse`); continue; }
       mids = old.matchIds.map(id => id.replace(/^legacy-/, '')); scrapedAt = old.scrapedAt;
       if (!REPARSE) {
@@ -174,6 +182,7 @@ async function scanTeam(league, team, clubId) {
         for (const id of old.matchIds) if (prev.matches[id] && !readRaw(id.replace(/^legacy-/, ''))) doc.matches[id] = prev.matches[id];
       }
     } else {
+      if (idx) console.error(`  fallback: ${s.name} results index has no ${team} matches, loading fixtures`);
       mids = await matchList(s, team, standings, clubId, grounds); scrapedAt = new Date().toISOString();
       await download(mids, clubId);
     }

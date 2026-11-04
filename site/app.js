@@ -475,7 +475,7 @@ function pick() {
 }
 const wl = ms => ({ n: ms.length, w: ms.filter(m => m.outcome === 'W').length, l: ms.filter(m => m.outcome === 'L').length });
 let psTab = 'bat';
-const psSort = { bat: { k: 'r', d: -1 }, bowl: { k: 'w', d: -1 }, field: { k: 'tot', d: -1 }, total: { k: 'impact', d: -1 } };
+const psSort = { bat: { k: 'r', d: -1 }, bowl: { k: 'w', d: -1 }, field: { k: 'tot', d: -1 }, total: { k: 'pts', d: -1 } };
 const PAGE_TABS = [['overview', 'Overview'], ['gameplan', 'How to Beat Them'], ['results', 'Results'], ['players', 'Players'], ['stats', 'Player stats'], ['grounds', 'Grounds']];
 let pageTab = 'overview';
 function tabFromHash() {
@@ -542,7 +542,13 @@ function playerStatsHTML(ms, label) {
       else if (k === 's') x.st += c;
     }
   }
+  // Official CricClubs points (Rankings tab) for the season in the period menu; Last 5 shows the current season.
+  const pKey = ($('#period') && $('#period').value) || 'current';
+  const ptsSeason = DATA.seasons && DATA.seasons[pKey === 'last5' ? 'current' : pKey];
+  const ptsMap = (ptsSeason && ptsSeason.points && ptsSeason.points.players) || null;
+  const normP = s => String(s || '').toLowerCase().replace(/\(.*?\)/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim();
   const rows = Object.values(byName).map(x => {
+    const op = ptsMap ? ptsMap[normP(x.name)] : null;
     const bowls = x.balls >= 12 || x.w >= 1, bats = x.b >= 12 || x.r >= 15;
     const roleRank = (x.k ? 4 : 0) + (bowls && bats ? 3 : bowls ? 2 : (bats || x.inn) ? 1 : 0);
     const bits = [];
@@ -555,7 +561,7 @@ function playerStatsHTML(ms, label) {
       sr: x.b ? 100 * x.r / x.b : NaN, avg: x.outs ? x.r / x.outs : NaN, econ: x.balls ? 6 * x.br / x.balls : NaN,
       bavg: x.w ? x.br / x.w : NaN, bsr: x.w ? x.balls / x.w : NaN, dotp: x.balls ? 100 * x.dots / x.balls : NaN,
       bound: x.r ? 100 * (4 * x.fours + 6 * x.sixes) / x.r : NaN, bestKey: x.bw < 0 ? NaN : x.bw * 1000 - x.bbr,
-      impact: (x.b ? x.r * x.r / x.b : 0) + 25 * x.w, roleRank, role: `<span class="roles">${bits.join('')}</span>`
+      pts: op ? op.total : NaN, pBat: op ? op.batting : NaN, pBowl: op ? op.bowling : NaN, pField: op ? op.fielding : NaN, pOther: op ? op.other : NaN, roleRank, role: `<span class="roles">${bits.join('')}</span>`
     };
   });
   const show = {
@@ -568,7 +574,7 @@ function playerStatsHTML(ms, label) {
     bat: [['name', 'Player', 1], ['inn', 'Inns', -1], ['r', 'Runs', -1], ['b', 'Balls', -1], ['sr', 'SR', -1], ['avg', 'Avg', -1], ['hs', 'HS', -1], ['no', 'NO', -1], ['fours', '4s', -1], ['sixes', '6s', -1], ['miles', '30s/50s', -1], ['bound', 'Boundary%', -1]],
     bowl: [['name', 'Player', 1], ['balls', 'Ov', -1], ['br', 'Runs', -1], ['w', 'Wkts', -1], ['econ', 'Econ', 1], ['bavg', 'Avg', 1], ['bsr', 'SR', 1], ['bestKey', 'Best', -1], ['dotp', 'Dot%', -1], ['wd', 'Wd', -1], ['nb', 'Nb', -1]],
     field: [['name', 'Player', 1], ['c', 'Ct', -1], ['k', 'WK ct', -1], ['ro', 'Run outs', -1], ['st', 'Stumpings', -1], ['tot', 'Total', -1]],
-    total: [['name', 'Player', 1], ['mat', 'Mat', -1], ['r', 'Runs', -1], ['w', 'Wkts', -1], ['ctRo', 'Ct+RO', -1], ['impact', 'Impact', -1], ['roleRank', 'Role', -1]]
+    total: [['name', 'Player', 1], ['mat', 'Mat', -1], ['pBat', 'Bat pts', -1], ['pBowl', 'Bowl pts', -1], ['pField', 'Field pts', -1], ['pOther', 'Other', -1], ['pts', 'Points', -1], ['roleRank', 'Role', -1]]
   }[psTab];
   const sort = psSort[psTab];
   const num = v => typeof v === 'number' && isFinite(v);
@@ -595,7 +601,8 @@ function playerStatsHTML(ms, label) {
     if (k === 'bestKey') return x.bw < 0 ? '–' : `${x.bw}/${x.bbr}`;
     if (k === 'roleRank') return x.role;
     if (k === 'bound' || k === 'dotp') return num(x[k]) ? Math.round(x[k]) + '%' : '–';
-    if (['sr', 'avg', 'econ', 'bavg', 'bsr', 'impact'].includes(k)) return f1(x[k]);
+    if (['pts', 'pBat', 'pBowl', 'pField', 'pOther'].includes(k)) return num(x[k]) ? x[k] : '—';
+    if (['sr', 'avg', 'econ', 'bavg', 'bsr'].includes(k)) return f1(x[k]);
     return x[k];
   };
   const head = spec.map(([k, lab, first]) => {
@@ -607,7 +614,7 @@ function playerStatsHTML(ms, label) {
   const tabs = [['bat', 'Batting'], ['bowl', 'Bowling'], ['field', 'Fielding'], ['total', 'Total']].map(([id, lab]) => `<button type="button" class="${psTab === id ? 'on' : ''}" data-ps-tab="${id}" aria-pressed="${psTab === id}">${lab}</button>`).join('');
   const table = show.length ? `<div class="ps-scroll"><table><tr>${head}</tr>${body}</table></div>` : '<p class="note">Nobody in this period.</p>';
   const foot = psTab === 'total'
-    ? 'Impact is runs² ÷ balls, plus 25 per wicket. Role: WK from keeper catches; all-rounder when they both bat and bowl.'
+    ? (ptsMap ? `Points are CricClubs' official Rankings points for ${esc(ptsSeason.name)}${pKey === 'last5' ? ' (current season)' : ''}: batting, bowling, fielding and other (incl. player of the match). — means no Rankings row for that player. Role: WK from keeper catches; all-rounder when they both bat and bowl.` : 'Official CricClubs points are not loaded for this season yet (—). Role: WK from keeper catches; all-rounder when they both bat and bowl.')
     : 'Every player who appears in this period. Tap a column to sort. Swipe for the rest — the name stays put.';
   return card('📊', 'Player stats', `<div class="ps-tabs" role="tablist">${tabs}</div>${table}<div class="note">${foot}</div>`, label);
 }
