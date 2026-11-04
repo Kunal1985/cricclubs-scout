@@ -82,13 +82,6 @@ function scanStatusLine(data, league, now = new Date()) {
   return `Last scanned: ${formatPt(last)} · ${tail}`;
 }
 /* scan-window:end */
-function asOf(data) {
-  const times = Object.values(data.seasons || {}).map(s => s.scrapedAt).filter(Boolean).sort();
-  if (!times.length) return '';
-  const pretty = new Date(times[times.length - 1]).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
-  const names = Object.values(data.seasons || {}).filter(s => s && s.scrapedAt).map(s => s.name).join(' · ');
-  return 'data as of ' + pretty + (names ? ' · ' + names : '');
-}
 function welcomeHTML() {
   return `<section class="welcome" id="welcome"><div class="wball"></div><h1>Know your<br><span>opponent.</span></h1><p>Pick a cached league or add one, then scout a team: form, match-ups, key players, toss habits and grounds.</p><div class="eg">Try <button class="chip" type="button" data-lg="DublinandDanvilleCricketLeague">DublinandDanvilleCricketLeague</button></div></section>`;
 }
@@ -204,7 +197,6 @@ function clearTeamSearch() {
   stopPoll();
   DATA = null;
   hideDock();
-  $('#scraped').textContent = '';
   $('#main').innerHTML = welcomeHTML();
   if (input && !input.disabled) input.focus();
 }
@@ -333,7 +325,6 @@ async function showReport(data, gen = ++reportGen) {
   DATA = data;
   DATA.standings = standings;
   if (!DATA.logo && teamLogo(DATA.team)) DATA.logo = teamLogo(DATA.team);
-  $('#scraped').textContent = asOf(DATA);
   restoreTeamText();
   seasonMenu(DATA.seasons);
   await prepareBeatScale();
@@ -349,7 +340,6 @@ async function loadTeam() {
   msg('');
   DATA = null;
   hideDock();
-  $('#scraped').textContent = '';
   const code = LEAGUE.code;
   const url = `data/leagues/${code.toLowerCase()}/teams/${slug(team)}.json`;
   let res;
@@ -373,7 +363,7 @@ function selectCached(code, team) {
   const keep = team || recall('team_' + league.code);
   fillTeams(league, keep);
   if (keep && (league.teams || []).includes(keep)) loadTeam();
-  else { stopPoll(); DATA = null; hideDock(); $('#scraped').textContent = ''; $('#main').innerHTML = welcomeHTML(); }
+  else { stopPoll(); DATA = null; hideDock(); $('#main').innerHTML = welcomeHTML(); }
   return true;
 }
 async function addLeague(input) {
@@ -400,7 +390,6 @@ async function addLeague(input) {
   $('#leagueSel').value = '';
   resetTeamSearch();
   $('#league').textContent = 'Not cached';
-  $('#scraped').textContent = '';
   hideDock();
   $('#main').innerHTML = requestPanel('League not cached', 'Coming Soon!');
   watch(leagueUrl, async () => {
@@ -621,7 +610,6 @@ function donut(parts, center) {
 function render() {
   if (!DATA) { hideDock(); return; }
   const [ms, label] = pick(); const half = $('#period').value === 'last5';
-  $('#scraped').textContent = asOf(DATA);
   paintDock(label, ms.length);
   const stand = standingsHTML();
   if (DATA.unscanned) {
