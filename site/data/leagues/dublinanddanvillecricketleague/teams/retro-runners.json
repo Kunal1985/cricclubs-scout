@@ -42,6 +42,286 @@
   },
   "matches": [
     {
+      "id": "qtILNhRK44GJ2OiDT_HakA",
+      "date": "2026-10-31",
+      "series": "DDCL Fall 2026",
+      "seriesId": "xD6Qicr7gkrAMq0_MoX4Dw",
+      "opponent": "Legion Mavericks",
+      "ground": "East Branch Park",
+      "result": "Legion Mavericks won by 3 Runs",
+      "forfeit": false,
+      "outcome": "L",
+      "tossWonByUs": true,
+      "tossDecision": "bowl",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Legion Mavericks",
+          "runs": 83,
+          "wkts": 8,
+          "overs": "20"
+        },
+        {
+          "team": "Retro Runners",
+          "runs": 80,
+          "wkts": 10,
+          "overs": "19.4"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Pratheek Baliga",
+          "r": 17,
+          "b": 34,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "how": "ct",
+          "pos": 1
+        },
+        {
+          "name": "Pratap Rao",
+          "r": 1,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ro",
+          "pos": 2
+        },
+        {
+          "name": "Abhishek B",
+          "r": 4,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ro",
+          "pos": 3
+        },
+        {
+          "name": "Sunil Bhagwath",
+          "r": 5,
+          "b": 8,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ct",
+          "pos": 4
+        },
+        {
+          "name": "Gopi Shastry",
+          "r": 2,
+          "b": 4,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ctw",
+          "pos": 5
+        },
+        {
+          "name": "Nagpritam Naik",
+          "r": 13,
+          "b": 27,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 6
+        },
+        {
+          "name": "Sudheep Nair",
+          "r": 7,
+          "b": 12,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ro",
+          "pos": 7
+        },
+        {
+          "name": "Santosh Kikkeri",
+          "r": 5,
+          "b": 7,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ctw",
+          "pos": 8
+        },
+        {
+          "name": "Abhijeet Kadam",
+          "r": 0,
+          "b": 2,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ctw",
+          "pos": 9
+        },
+        {
+          "name": "Sumeet Kale",
+          "r": 12,
+          "b": 9,
+          "f": 1,
+          "s": 1,
+          "out": true,
+          "how": "b",
+          "pos": 10
+        },
+        {
+          "name": "Balaraman Rajan",
+          "r": 3,
+          "b": 5,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ct",
+          "pos": 11
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Abhijeet Kadam",
+          "balls": 24,
+          "r": 11,
+          "w": 1,
+          "dots": 16,
+          "wd": 2,
+          "nb": 0
+        },
+        {
+          "name": "Pratap Rao",
+          "balls": 6,
+          "r": 4,
+          "w": 0,
+          "dots": 4,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Sudheep Nair",
+          "balls": 24,
+          "r": 17,
+          "w": 2,
+          "dots": 10,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Santosh Kikkeri",
+          "balls": 24,
+          "r": 15,
+          "w": 1,
+          "dots": 12,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sunil Bhagwath",
+          "balls": 24,
+          "r": 20,
+          "w": 2,
+          "dots": 13,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Balaraman Rajan",
+          "balls": 6,
+          "r": 5,
+          "w": 0,
+          "dots": 3,
+          "wd": 1,
+          "nb": 0
+        },
+        {
+          "name": "Pratheek Baliga",
+          "balls": 12,
+          "r": 10,
+          "w": 1,
+          "dots": 7,
+          "wd": 0,
+          "nb": 1
+        }
+      ],
+      "fow": [
+        {
+          "w": 1,
+          "over": 1.6666666666666665
+        },
+        {
+          "w": 2,
+          "over": 5.166666666666667
+        },
+        {
+          "w": 3,
+          "over": 7.666666666666667
+        },
+        {
+          "w": 4,
+          "over": 9.833333333333334
+        },
+        {
+          "w": 5,
+          "over": 10.166666666666666
+        },
+        {
+          "w": 6,
+          "over": 16.166666666666668
+        },
+        {
+          "w": 7,
+          "over": 16.5
+        },
+        {
+          "w": 8,
+          "over": 18.333333333333332
+        },
+        {
+          "w": 9,
+          "over": 19.333333333333332
+        },
+        {
+          "w": 10,
+          "over": 19.666666666666668
+        }
+      ],
+      "extrasBowled": {
+        "b": 1,
+        "lb": 0,
+        "nb": 2,
+        "wd": 7
+      },
+      "oversBowled": 20,
+      "fielding": [
+        [
+          "Santosh Kikkeri",
+          "c",
+          2
+        ],
+        [
+          "Sudheep Nair",
+          "c",
+          1
+        ],
+        [
+          "Gopi Shastry",
+          "k",
+          2
+        ],
+        [
+          "Gopi Shastry",
+          "r",
+          1
+        ],
+        [
+          "Sudheep Nair",
+          "r",
+          1
+        ]
+      ]
+    },
+    {
       "id": "fXYwISd9Yq9bJlwznGVVwA",
       "date": "2026-10-24",
       "series": "DDCL Fall 2026",
