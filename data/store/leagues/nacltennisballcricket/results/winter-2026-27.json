@@ -1,0 +1,422 @@
+{
+ "season": {
+  "key": "current",
+  "id": "legacy-73",
+  "name": "Winter 2026-27"
+ },
+ "fetchedAt": "2026-11-02T00:05:27.524Z",
+ "source": [
+  "https://cricclubs.com/nacltennisballcricket/listMatches.do?league=73&clubId=27594",
+  "https://cricclubs.com/nacltennisballcricket/fixtures.do?league=73&clubId=27594"
+ ],
+ "matches": [
+  {
+   "matchId": "4650",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4650&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Astros+",
+    "Revenants"
+   ],
+   "teamIds": [
+    "1111",
+    "1118"
+   ],
+   "ground": "Lorin Eden",
+   "result": "Revenants won by 5 Wickets",
+   "summary": "Astros+: 94/6(15) Revenants: 98/5(13.3)"
+  },
+  {
+   "matchId": "4648",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4648&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Money Heist",
+    "Innovation Strikers"
+   ],
+   "teamIds": [
+    "1116",
+    "1114"
+   ],
+   "ground": "Anthony 2",
+   "result": "Money Heist won by 36 Runs",
+   "summary": "Money Heist: 155/6(15) Innovation Strikers: 119/7(15)"
+  },
+  {
+   "matchId": "4647",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4647&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Escuela Boys",
+    "Skippers"
+   ],
+   "teamIds": [
+    "1113",
+    "1120"
+   ],
+   "ground": "MLK",
+   "result": "Skippers won by 7 Wickets",
+   "summary": "Escuela Boys: 94/9(15) Skippers: 98/3(13)"
+  },
+  {
+   "matchId": "4658",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4658&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Champions",
+    "Blue Warriors"
+   ],
+   "teamIds": [
+    "1138",
+    "1136"
+   ],
+   "ground": "Bowman",
+   "result": "Champions: 134/7 (15/15 ov) Blue Warriors: 42/2 (8/15 ov)",
+   "summary": "Champions: 134/7(15) Blue Warriors: 42/2(8) Live"
+  },
+  {
+   "matchId": "4657",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4657&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Smoking Sadhoos",
+    "BAY TIGERS"
+   ],
+   "teamIds": [
+    "1139",
+    "1127"
+   ],
+   "ground": "Murphy",
+   "result": "Smoking Sadhoos won by 62 Runs",
+   "summary": "Smoking Sadhoos: 123/8(15) BAY TIGERS: 61/10(12.2)"
+  },
+  {
+   "matchId": "4651",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4651&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Breaking Bats",
+    "Super Saiyans"
+   ],
+   "teamIds": [
+    "1137",
+    "1133"
+   ],
+   "ground": "Lorin Eden",
+   "result": "Super Saiyans won by 5 Wickets",
+   "summary": "Breaking Bats: 105/6(15) Super Saiyans: 106/5(13.3)"
+  },
+  {
+   "matchId": "4649",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4649&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Fire Friends",
+    "Gladiators"
+   ],
+   "teamIds": [
+    "1171",
+    "1131"
+   ],
+   "ground": "Bowman",
+   "result": "Fire Friends won by 44 Runs",
+   "summary": "Fire Friends: 98/7(15) Gladiators: 54/10(12.5)"
+  },
+  {
+   "matchId": "4655",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4655&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Sunrisers",
+    "Sunny Devils"
+   ],
+   "teamIds": [
+    "1157",
+    "1150"
+   ],
+   "ground": "Kathryn Hughes",
+   "result": "Sunrisers won by 75 Runs",
+   "summary": "Sunrisers: 136/7(15) Sunny Devils: 61/10(14.3)"
+  },
+  {
+   "matchId": "4653",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4653&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Absolute XI",
+    "Bay Warriors"
+   ],
+   "teamIds": [
+    "1153",
+    "1155"
+   ],
+   "ground": "Anthony 2",
+   "result": "Absolute XI won by 60 Runs",
+   "summary": "Absolute XI: 127/9(15) Bay Warriors: 67/10(12.3)"
+  },
+  {
+   "matchId": "4646",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4646&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "CricKings",
+    "Baazigar of Bay"
+   ],
+   "teamIds": [
+    "1142",
+    "1154"
+   ],
+   "ground": "Kathryn Hughes",
+   "result": "Baazigar of Bay won by 5 Wickets",
+   "summary": "CricKings: 78/10(15) Baazigar of Bay: 82/5(13.2)"
+  },
+  {
+   "matchId": "4659",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4659&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Pacific CC",
+    "Smash Blasters"
+   ],
+   "teamIds": [
+    "1173",
+    "1170"
+   ],
+   "ground": "Kathryn Hughes",
+   "result": "Pacific CC: 123/7 (15/15 ov) Smash Blasters: 11/0 (2.4/15 ov)",
+   "summary": "Pacific CC: 123/7(15) Smash Blasters: 11/0(2.4) Live"
+  },
+  {
+   "matchId": "4656",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4656&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Wolves",
+    "Mavericks"
+   ],
+   "teamIds": [
+    "1166",
+    "1169"
+   ],
+   "ground": "Sylvia",
+   "result": "Mavericks won by 4 Wickets",
+   "summary": "Wolves: 97/3(15) Mavericks: 98/6(12.1)"
+  },
+  {
+   "matchId": "4654",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4654&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "Slytherin",
+    "Storm Raiders"
+   ],
+   "teamIds": [
+    "1175",
+    "1172"
+   ],
+   "ground": "Bowman",
+   "result": "Storm Raiders won by 6 Wickets",
+   "summary": "Slytherin: 84/10(14.4) Storm Raiders: 85/4(9.3)"
+  },
+  {
+   "matchId": "4652",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4652&clubId=27594",
+   "date": "2026-11-01",
+   "type": "League",
+   "teams": [
+    "UP Warriors",
+    "Centurions"
+   ],
+   "teamIds": [
+    "1177",
+    "1161"
+   ],
+   "ground": "MLK",
+   "result": "UP Warriors won by 35 Runs",
+   "summary": "UP Warriors: 93/10(13.5) Centurions: 58/10(12.2)"
+  },
+  {
+   "matchId": "4643",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4643&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Orange Army",
+    "Lords"
+   ],
+   "teamIds": [
+    "1117",
+    "1115"
+   ],
+   "ground": "Kathryn Hughes",
+   "result": "Orange Army won by 8 Wickets",
+   "summary": "Lords: 71/10(14.5) Orange Army: 76/2(8.4)"
+  },
+  {
+   "matchId": "4641",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4641&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Seamers",
+    "Sabertooths"
+   ],
+   "teamIds": [
+    "1119",
+    "1125"
+   ],
+   "ground": "Lorin Eden",
+   "result": "Sabertooths won by 6 Runs",
+   "summary": "Sabertooths: 102/9(15) Seamers: 96/7(15)"
+  },
+  {
+   "matchId": "4638",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4638&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "El Kamino",
+    "Royal Singhs"
+   ],
+   "teamIds": [
+    "1123",
+    "1124"
+   ],
+   "ground": "Anthony 2",
+   "result": "Royal Singhs won by 14 Runs",
+   "summary": "Royal Singhs: 115/9(15) El Kamino: 101/9(15)"
+  },
+  {
+   "matchId": "4642",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4642&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Knight Walkers (CA)",
+    "Stunners"
+   ],
+   "teamIds": [
+    "1130",
+    "1132"
+   ],
+   "ground": "Anthony 2",
+   "result": "Stunners won by 13 Runs",
+   "summary": "Stunners: 87/10(14.3) Knight Walkers (CA): 74/7(15)"
+  },
+  {
+   "matchId": "4637",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4637&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Bleed Blue Hawks",
+    "Ghadeer Lions"
+   ],
+   "teamIds": [
+    "1128",
+    "1129"
+   ],
+   "ground": "Lorin Eden",
+   "result": "Ghadeer Lions won by 5 Wickets",
+   "summary": "Bleed Blue Hawks: 79/9(15) Ghadeer Lions: 83/5(14.4)"
+  },
+  {
+   "matchId": "4645",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4645&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Dragons",
+    "Rising Spartans"
+   ],
+   "teamIds": [
+    "1143",
+    "1149"
+   ],
+   "ground": "Lorin Eden",
+   "result": "Dragons won by 21 Runs",
+   "summary": "Dragons: 120/4(15) Rising Spartans: 99/9(15)"
+  },
+  {
+   "matchId": "4644",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4644&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Super Giants",
+    "Elite Eleven"
+   ],
+   "teamIds": [
+    "1151",
+    "1145"
+   ],
+   "ground": "Anthony 2",
+   "result": "Elite Eleven won by 6 Wickets",
+   "summary": "Super Giants: 89/8(15) Elite Eleven: 93/4(11.2)"
+  },
+  {
+   "matchId": "4640",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4640&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Invincibles California",
+    "Kings X1"
+   ],
+   "teamIds": [
+    "1147",
+    "1148"
+   ],
+   "ground": "MLK",
+   "result": "Invincibles California won by 2 Wickets",
+   "summary": "Kings X1: 74/10(14.3) Invincibles California: 77/8(14.2)"
+  },
+  {
+   "matchId": "4639",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4639&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Box Office XI",
+    "Raptors"
+   ],
+   "teamIds": [
+    "1174",
+    "1164"
+   ],
+   "ground": "Kathryn Hughes",
+   "result": "Box Office XI won by 2 Runs",
+   "summary": "Box Office XI: 116/7(15) Raptors: 114/6(15)"
+  },
+  {
+   "matchId": "4636",
+   "scorecard": "https://cricclubs.com/nacltennisballcricket/viewScorecard.do?matchId=4636&clubId=27594",
+   "date": "2026-10-31",
+   "type": "League",
+   "teams": [
+    "Avengers",
+    "GullyBoyz"
+   ],
+   "teamIds": [
+    "1158",
+    "1162"
+   ],
+   "ground": "MLK",
+   "result": "GullyBoyz won by 67 Runs",
+   "summary": "GullyBoyz: 110/6(15) Avengers: 43/7(15)"
+  }
+ ]
+}

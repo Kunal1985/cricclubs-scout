@@ -31,13 +31,275 @@
       "id": "xD6Qicr7gkrAMq0_MoX4Dw",
       "name": "DDCL Fall 2026",
       "inSeason": true,
-      "scrapedAt": "2026-10-31T10:56:36.533Z"
+      "scrapedAt": "2026-10-31T10:56:36.533Z",
+      "points": {
+        "fetchedAt": "2026-11-02T00:16:53.233Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=xD6Qicr7gkrAMq0_MoX4Dw",
+        "players": {
+          "sunil r": {
+            "name": "Sunil R",
+            "matches": 9,
+            "batting": 19,
+            "bowling": 590,
+            "fielding": 60,
+            "other": 0,
+            "mom": 0,
+            "total": 669
+          },
+          "nisarg shah": {
+            "name": "Nisarg Shah",
+            "matches": 5,
+            "batting": 77,
+            "bowling": 400,
+            "fielding": 30,
+            "other": 100,
+            "mom": 2,
+            "total": 607
+          },
+          "yash patel": {
+            "name": "Yash Patel",
+            "matches": 8,
+            "batting": 25,
+            "bowling": 510,
+            "fielding": 20,
+            "other": 50,
+            "mom": 1,
+            "total": 605
+          },
+          "pavan hs": {
+            "name": "Pavan HS",
+            "matches": 9,
+            "batting": 201,
+            "bowling": 20,
+            "fielding": 120,
+            "other": 0,
+            "mom": 0,
+            "total": 341
+          },
+          "kanav dosajh": {
+            "name": "Kanav Dosajh",
+            "matches": 7,
+            "batting": 263,
+            "bowling": 0,
+            "fielding": 20,
+            "other": 50,
+            "mom": 1,
+            "total": 333
+          },
+          "navjeet oberai": {
+            "name": "Navjeet Oberai",
+            "matches": 8,
+            "batting": 151,
+            "bowling": 60,
+            "fielding": 90,
+            "other": 0,
+            "mom": 0,
+            "total": 301
+          },
+          "sundeep karanam": {
+            "name": "Sundeep Karanam",
+            "matches": 9,
+            "batting": 160,
+            "bowling": 30,
+            "fielding": 50,
+            "other": 0,
+            "mom": 0,
+            "total": 240
+          },
+          "kumar pandya": {
+            "name": "Kumar Pandya",
+            "matches": 4,
+            "batting": -4,
+            "bowling": 180,
+            "fielding": 30,
+            "other": 0,
+            "mom": 0,
+            "total": 206
+          },
+          "rijun chokshi": {
+            "name": "Rijun Chokshi",
+            "matches": 4,
+            "batting": 35,
+            "bowling": 160,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 205
+          },
+          "swapnil trivedi": {
+            "name": "Swapnil Trivedi",
+            "matches": 6,
+            "batting": -9,
+            "bowling": 150,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 161
+          },
+          "sameer desai": {
+            "name": "Sameer Desai",
+            "matches": 2,
+            "batting": 18,
+            "bowling": 120,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 158
+          },
+          "harsh shah": {
+            "name": "Harsh Shah",
+            "matches": 3,
+            "batting": 0,
+            "bowling": 130,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 130
+          },
+          "nizam k": {
+            "name": "Nizam K",
+            "matches": 1,
+            "batting": 0,
+            "bowling": 100,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 100
+          },
+          "zalak shah": {
+            "name": "Zalak Shah",
+            "matches": 6,
+            "batting": -20,
+            "bowling": 0,
+            "fielding": 110,
+            "other": 0,
+            "mom": 0,
+            "total": 90
+          },
+          "chirag d": {
+            "name": "Chirag D",
+            "matches": 5,
+            "batting": -3,
+            "bowling": -10,
+            "fielding": 90,
+            "other": 0,
+            "mom": 0,
+            "total": 77
+          },
+          "dhruv patel": {
+            "name": "Dhruv Patel",
+            "matches": 3,
+            "batting": 6,
+            "bowling": 50,
+            "fielding": 20,
+            "other": 0,
+            "mom": 0,
+            "total": 76
+          },
+          "rajesh purushothaman": {
+            "name": "Rajesh Purushothaman",
+            "matches": 4,
+            "batting": 35,
+            "bowling": 20,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 65
+          },
+          "karthik sk": {
+            "name": "Karthik SK",
+            "matches": 5,
+            "batting": -7,
+            "bowling": 70,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 63
+          },
+          "viraj pereira": {
+            "name": "Viraj Pereira",
+            "matches": 2,
+            "batting": 0,
+            "bowling": 40,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 50
+          },
+          "venish patel": {
+            "name": "Venish Patel",
+            "matches": 4,
+            "batting": 30,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 40
+          },
+          "shahaji gole": {
+            "name": "Shahaji Gole",
+            "matches": 1,
+            "batting": 3,
+            "bowling": 0,
+            "fielding": 10,
+            "other": 0,
+            "mom": 0,
+            "total": 13
+          },
+          "ankit malhotra": {
+            "name": "Ankit Malhotra",
+            "matches": 3,
+            "batting": -20,
+            "bowling": 30,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 10
+          },
+          "shravan palagoni": {
+            "name": "Shravan Palagoni",
+            "matches": 1,
+            "batting": 1,
+            "bowling": 0,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": 1
+          },
+          "aravind sethuraman": {
+            "name": "Aravind Sethuraman",
+            "matches": 2,
+            "batting": 9,
+            "bowling": -10,
+            "fielding": 0,
+            "other": 0,
+            "mom": 0,
+            "total": -1
+          }
+        }
+      }
     },
     "last": {
       "id": "u2KnAWQG_l9DZ_jsRAByWA",
       "name": "DDCL Summer 26",
       "inSeason": false,
-      "scrapedAt": null
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:16.877Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=u2KnAWQG_l9DZ_jsRAByWA",
+        "players": {}
+      }
+    },
+    "prev2": {
+      "id": "RrVi9ccTsSYpRdWpiBT7sg",
+      "name": "DDCL Spring 2026",
+      "inSeason": false,
+      "scrapedAt": null,
+      "points": {
+        "fetchedAt": "2026-11-02T00:17:39.179Z",
+        "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/statistics/rankings-records?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=RrVi9ccTsSYpRdWpiBT7sg",
+        "players": {}
+      }
     }
   },
   "matches": [
