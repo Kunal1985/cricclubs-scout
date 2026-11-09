@@ -625,6 +625,211 @@
   },
   "matches": [
     {
+      "id": "7MYm-QcvQFC8JM5_mu6pHA",
+      "date": "2026-11-07",
+      "series": "DDCL Fall 2026",
+      "seriesId": "xD6Qicr7gkrAMq0_MoX4Dw",
+      "opponent": "Legion Mavericks",
+      "ground": "Rancho Park",
+      "result": "Vodoo Rangers won by 6 Wickets",
+      "forfeit": false,
+      "outcome": "W",
+      "tossWonByUs": false,
+      "tossDecision": "bat",
+      "battedFirst": false,
+      "innings": [
+        {
+          "team": "Legion Mavericks",
+          "runs": 95,
+          "wkts": 9,
+          "overs": "20"
+        },
+        {
+          "team": "Vodoo Rangers",
+          "runs": 97,
+          "wkts": 4,
+          "overs": "16.5"
+        }
+      ],
+      "batting": [
+        {
+          "name": "Dinesh Anandasayanam",
+          "r": 11,
+          "b": 16,
+          "f": 1,
+          "s": 0,
+          "out": true,
+          "how": "ctw",
+          "pos": 1
+        },
+        {
+          "name": "Sumant S",
+          "r": 3,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ctw",
+          "pos": 2
+        },
+        {
+          "name": "Vipin Kumar Pallepati",
+          "r": 5,
+          "b": 10,
+          "f": 0,
+          "s": 0,
+          "out": true,
+          "how": "ct",
+          "pos": 3
+        },
+        {
+          "name": "Jithendra Motupalli",
+          "r": 16,
+          "b": 18,
+          "f": 2,
+          "s": 0,
+          "out": true,
+          "how": "ctw",
+          "pos": 4
+        },
+        {
+          "name": "Prem kumar Yeligati",
+          "r": 12,
+          "b": 26,
+          "f": 0,
+          "s": 0,
+          "out": false,
+          "pos": 5
+        },
+        {
+          "name": "Rajesh Movva",
+          "r": 43,
+          "b": 22,
+          "f": 0,
+          "s": 6,
+          "out": false,
+          "pos": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Durga Rajesh Choedary Bommireddy",
+          "balls": 12,
+          "r": 7,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Dinesh Anandasayanam",
+          "balls": 18,
+          "r": 22,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 2
+        },
+        {
+          "name": "Pradeep Rajagopal",
+          "balls": 12,
+          "r": 4,
+          "w": 1,
+          "dots": 9,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Vishnu Vardhan Reddy Puli",
+          "balls": 24,
+          "r": 18,
+          "w": 1,
+          "dots": 16,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Sumant S",
+          "balls": 18,
+          "r": 14,
+          "w": 1,
+          "dots": 11,
+          "wd": 0,
+          "nb": 1
+        },
+        {
+          "name": "Rajesh Movva",
+          "balls": 12,
+          "r": 13,
+          "w": 0,
+          "dots": 7,
+          "wd": 0,
+          "nb": 0
+        },
+        {
+          "name": "Deepak Vidyadharan",
+          "balls": 24,
+          "r": 17,
+          "w": 3,
+          "dots": 13,
+          "wd": 0,
+          "nb": 0
+        }
+      ],
+      "fow": [
+        {
+          "w": 1,
+          "over": 3
+        },
+        {
+          "w": 2,
+          "over": 5.5
+        },
+        {
+          "w": 3,
+          "over": 6.666666666666667
+        },
+        {
+          "w": 4,
+          "over": 10.5
+        }
+      ],
+      "extrasBowled": {
+        "b": 0,
+        "lb": 0,
+        "nb": 3,
+        "wd": 2
+      },
+      "oversBowled": 20,
+      "fielding": [
+        [
+          "Sumant S",
+          "r",
+          1
+        ],
+        [
+          "Durga Rajesh Choedary Bommireddy",
+          "r",
+          1
+        ],
+        [
+          "Jithendra Motupalli",
+          "k",
+          1
+        ],
+        [
+          "Rajesh Movva",
+          "c",
+          1
+        ],
+        [
+          "Sumant S",
+          "c",
+          1
+        ]
+      ]
+    },
+    {
       "id": "_78gNHwKIap5yuli5KftVg",
       "date": "2026-10-31",
       "series": "DDCL Fall 2026",
@@ -5760,5 +5965,5 @@
       ]
     }
   ],
-  "unresolvedFielders": 1
+  "unresolvedFielders": 3
 }
