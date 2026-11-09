@@ -279,14 +279,14 @@
      {
       "date": "2026-08-08",
       "round": "Final",
-      "cup": "secondary final",
+      "cup": "Silver Cup",
       "opponent": "Fundoos",
       "won": false,
       "result": "Fundoos won by 5 Wickets",
       "matchId": "iO5VUDI3avwuuReVCI7BzA"
      }
     ],
-    "result": "Runner-up – secondary final"
+    "result": "Runner-up – Silver Cup"
    },
    "Namma Boys": {
     "reached": "Semi Final",
@@ -318,14 +318,14 @@
      {
       "date": "2026-08-08",
       "round": "Final",
-      "cup": null,
+      "cup": "Gold Cup",
       "opponent": "Vodoo Rangers",
       "won": false,
       "result": "Vodoo Rangers won by 5 Wickets",
       "matchId": "FCRHioSSOvHCVgg2YbqtkQ"
      }
     ],
-    "result": "Runner-up"
+    "result": "Runner-up – Gold Cup"
    },
    "Dublin Super Kings": {
     "reached": "Semi Final",
@@ -372,14 +372,14 @@
      {
       "date": "2026-08-08",
       "round": "Final",
-      "cup": "secondary final",
+      "cup": "Silver Cup",
       "opponent": "Legion Mavericks",
       "won": true,
       "result": "Fundoos won by 5 Wickets",
       "matchId": "iO5VUDI3avwuuReVCI7BzA"
      }
     ],
-    "result": "Winner – secondary final"
+    "result": "Winner – Silver Cup"
    },
    "Vodoo Rangers": {
     "reached": "Final",
@@ -396,14 +396,14 @@
      {
       "date": "2026-08-08",
       "round": "Final",
-      "cup": null,
+      "cup": "Gold Cup",
       "opponent": "Deccan Chargers",
       "won": true,
       "result": "Vodoo Rangers won by 5 Wickets",
       "matchId": "FCRHioSSOvHCVgg2YbqtkQ"
      }
     ],
-    "result": "Winner"
+    "result": "Winner – Gold Cup"
    },
    "Retro Runners": {
     "reached": "Semi Final",

@@ -68,7 +68,7 @@
       "nrr": 0.0805,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/e31184e8-0ccd-4f0b-858a-284538f801ae.jpg",
       "playoff": {
-        "text": "Winner – secondary final",
+        "text": "Winner – Silver Cup",
         "muted": false
       }
     },
@@ -148,7 +148,7 @@
       "nrr": 1.3073,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/cdbd7647-2bdb-4af7-bcee-c86f153e6f52.jpg",
       "playoff": {
-        "text": "Winner",
+        "text": "Winner – Gold Cup",
         "muted": false
       }
     },
@@ -164,7 +164,7 @@
       "nrr": 0.5376,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/30358e13-46be-45ca-b7c0-cb1693a1d3e8.jpg",
       "playoff": {
-        "text": "Runner-up",
+        "text": "Runner-up – Gold Cup",
         "muted": false
       }
     },
@@ -196,7 +196,7 @@
       "nrr": -0.0533,
       "logo": "https://media.cricclubs.com/documentsRep/teamLogos/93a034a8-a607-41ec-8763-ad3fd4b4eec7.jpeg",
       "playoff": {
-        "text": "Runner-up – secondary final",
+        "text": "Runner-up – Silver Cup",
         "muted": false
       }
     },
