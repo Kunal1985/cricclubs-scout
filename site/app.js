@@ -82,6 +82,33 @@ function scanStatusLine(data, league, now = new Date()) {
   return `Last scanned: ${formatPt(last)} · ${tail}`;
 }
 /* scan-window:end */
+/* result-mark:start */
+// Badge text for one result. Forfeits use the stored forfeit flag, not an empty or 0/0 score.
+function resultMark(match) {
+  const outcome = match && match.outcome;
+  const forfeit = !!(match && match.forfeit);
+  if (forfeit && outcome === 'W') return { code: 'FW', word: 'Forfeited win' };
+  if (forfeit && outcome === 'L') return { code: 'FL', word: 'Forfeited loss' };
+  if (outcome === 'W') return { code: 'W', word: 'Win' };
+  if (outcome === 'L') return { code: 'L', word: 'Loss' };
+  if (outcome === 'NR') return { code: 'NR', word: 'No result' };
+  return { code: outcome || '', word: outcome || 'Result' };
+}
+function resultBadgeText(match) {
+  const mark = resultMark(match);
+  const when = [match && match.date, match && match.opponent ? 'vs ' + match.opponent : ''].filter(Boolean).join(' ');
+  return { code: mark.code, word: mark.word, tip: when ? mark.word + ' · ' + when : mark.word };
+}
+function resultBoardKind(match) {
+  if (match && match.forfeit) return 'forfeit';
+  if (!(match && Array.isArray(match.innings) && match.innings.length)) return 'no-scorecard';
+  return 'played';
+}
+/* result-mark:end */
+function resultBadge(m, extra) {
+  const b = resultBadgeText(m);
+  return `<span class="fc ${esc(b.code)}" title="${esc(b.tip)}" aria-label="${esc(b.tip)}"${extra || ''}>${esc(b.code)}</span>`;
+}
 function welcomeHTML() {
   return `<section class="welcome" id="welcome"><div class="wball"></div><h1>Know your<br><span>opponent.</span></h1><p>Pick a cached league or add one, then scout a team: form, match-ups, key players, toss habits and grounds.</p><div class="eg">Try <button class="chip" type="button" data-lg="DublinandDanvilleCricketLeague">DublinandDanvilleCricketLeague</button></div></section>`;
 }
@@ -643,16 +670,18 @@ function render() {
   const ourI = played.map(us).filter(Boolean), oppI = played.map(them).filter(Boolean);
   const bf = played.filter(m => m.battedFirst === true), ch = played.filter(m => m.battedFirst === false), a = wl(bf), c = wl(ch);
   const tw = played.filter(m => m.tossWonByUs), tb = tw.filter(m => m.tossDecision === 'bat'), tbo = tw.filter(m => m.tossDecision === 'bowl'), tl = played.filter(m => m.tossWonByUs === false);
-  const formBits = ms.slice(0, 12).map((m, i) => `<span class="fc ${m.outcome}" style="animation-delay:${i * 40}ms" title="${esc(m.date + ' vs ' + m.opponent)}">${m.outcome}</span>`).join('');
+  const formBits = ms.slice(0, 12).map((m, i) => resultBadge(m, ` style="animation-delay:${i * 40}ms"`)).join('');
   const formCard = card('📈', 'Recent form', `${formBits ? `<div class="form" aria-label="Recent form">${formBits}</div>` : '<p class="note">No completed matches in this period.</p>'}<p class="hsum">${o.w}–${o.l} record.${runLead ? ` <b>${esc(runLead.name)}</b> leads the runs (${runLead.r})` : ''}${wkLead ? `, <b>${esc(wkLead.name)}</b> the wickets (${wkLead.w}).` : ''}</p>`, label);
   const tiles = `<div class="tiles"><div class="tile"><div class="v"><span class="g">${o.w}</span>–<span class="r">${o.l}</span></div><div class="k">Record</div></div><div class="tile"><div class="v y">${pct(o.w, o.n)}</div><div class="k">Win rate</div></div><div class="tile"><div class="v">${f1(avg(ourI.map(i => i.runs))).replace('.0', '')}</div><div class="k">Avg score</div><div class="s">conc. ${f1(avg(oppI.map(i => i.runs))).replace('.0', '')}</div></div>
  <div class="tile"><div class="v">${pct(a.w, a.n)}</div><div class="k">Bat first win</div><div class="s">${a.w}/${a.n}</div></div><div class="tile"><div class="v">${pct(c.w, c.n)}</div><div class="k">Chasing win</div><div class="s">${c.w}/${c.n}</div></div><div class="tile"><div class="v">${pct(tw.length, played.length)}</div><div class="k">Tosses won</div><div class="s">${tw.length}/${played.length}</div></div></div>`;
   const resultCard = m => {
     const when = [m.date, m.ground].filter(Boolean).join(' · ');
     const href = `https://cricclubs.com/${encodeURIComponent(LEAGUE.code)}/results/${encodeURIComponent(m.id)}`;
-    const head = `<div class="res-h"><span class="fc ${esc(m.outcome)}">${esc(m.outcome)}</span><div class="res-opp"><b>vs ${esc(m.opponent)}</b>${face(m.opponent, teamLogo(m.opponent), 'res-logo')}</div><div class="res-when">${esc(when)}</div></div>`;
+    const head = `<div class="res-h">${resultBadge(m)}<div class="res-opp"><b>vs ${esc(m.opponent)}</b>${face(m.opponent, teamLogo(m.opponent), 'res-logo')}</div><div class="res-when">${esc(when)}</div></div>`;
     let board;
-    if (m.forfeit || !(m.innings || []).length) board = '<div class="res-empty">Forfeit – no play</div>';
+    const boardKind = resultBoardKind(m);
+    if (boardKind === 'forfeit') board = '<div class="res-empty">Forfeit – no play</div>';
+    else if (boardKind === 'no-scorecard') board = '<div class="res-empty">No scorecard</div>';
     else {
       const inns = m.innings.slice();
       if (m.battedFirst != null) inns.sort((a, b) => ((a.team === DATA.team) === (m.battedFirst === true) ? 0 : 1) - ((b.team === DATA.team) === (m.battedFirst === true) ? 0 : 1));
