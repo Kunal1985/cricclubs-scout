@@ -34,7 +34,8 @@ main{max-width:640px;margin:auto;padding:12px}.msg{margin:12px;padding:12px 14px
 .htop{display:flex;gap:14px;align-items:center;position:relative;z-index:1}.badge{flex:none;width:62px;height:62px;border-radius:18px;display:grid;place-items:center;font:30px/1 var(--disp);color:#132;background:linear-gradient(135deg,var(--gold),#ff9f1c);box-shadow:0 6px 18px #0005,inset 0 0 0 2px #fff6}
 .hname{font:34px/.95 var(--disp);letter-spacing:.5px}.hsub{font-size:12px;color:#cfe6d8}
 .form{display:flex;flex-wrap:wrap;gap:5px;margin-top:14px;position:relative;z-index:1}.card .form{margin-top:0}.fc{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font:800 12px var(--body);animation:pop .35s ease both}
-.fc.W{background:var(--green);color:#03240f}.fc.L{background:var(--red);color:#fff}.fc.NR{background:#667;color:#fff}
+.fc.W,.fc.FW{background:var(--green);color:#03240f}.fc.L,.fc.FL{background:var(--red);color:#fff}.fc.NR{background:#667;color:#fff}
+.fc.FW,.fc.FL{width:auto;min-width:26px;padding:0 4px;font-size:10px}
 .hsum{position:relative;z-index:1;margin:12px 0 0;font-size:13.5px;color:#e3f1e8}
 .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.tile{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px 10px 9px;animation:up .45s ease both}
 .tile .v{font:30px/1 var(--disp);letter-spacing:.5px}.tile .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin-top:3px}.tile .s{font-size:11px;color:var(--mut)}
