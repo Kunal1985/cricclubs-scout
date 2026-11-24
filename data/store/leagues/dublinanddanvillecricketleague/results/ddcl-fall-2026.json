@@ -4,10 +4,44 @@
   "id": "xD6Qicr7gkrAMq0_MoX4Dw",
   "name": "DDCL Fall 2026"
  },
- "fetchedAt": "2026-11-02T00:16:53.233Z",
+ "fetchedAt": "2026-11-24T00:03:12.890Z",
  "source": "https://cricclubs.com/DublinandDanvilleCricketLeague/results?leagueId=6TN65Mv_isi6tnHzWbYQUA&year=2026&series=xD6Qicr7gkrAMq0_MoX4Dw",
- "total": 94,
+ "total": 96,
  "matches": [
+  {
+   "matchId": "7MYm-QcvQFC8JM5_mu6pHA",
+   "scorecard": "https://cricclubs.com/DublinandDanvilleCricketLeague/results/7MYm-QcvQFC8JM5_mu6pHA",
+   "date": "2026-11-07",
+   "type": "final",
+   "teams": [
+    "Legion Mavericks",
+    "Vodoo Rangers"
+   ],
+   "teamIds": [
+    "mAj9LGK_-1IC4FjrF2M82A",
+    "3UX04SFElZHy0eLrjbL_Gg"
+   ],
+   "ground": "Rancho Park",
+   "result": "Vodoo Rangers won by 6 Wickets",
+   "summary": "Legion Mavericks: 95/9(20) Vodoo Rangers: 97/4(16.5)"
+  },
+  {
+   "matchId": "ZFIWmmB1f6ZmdUVGX7-LGg",
+   "scorecard": "https://cricclubs.com/DublinandDanvilleCricketLeague/results/ZFIWmmB1f6ZmdUVGX7-LGg",
+   "date": "2026-11-07",
+   "type": "final",
+   "teams": [
+    "Namma Boys",
+    "Dublin Super Kings"
+   ],
+   "teamIds": [
+    "qZaKRcEjYitps1G1WZxXxg",
+    "wM0tCdOTSXc_v2mqJgaW7w"
+   ],
+   "ground": "Sports Park Diamand 1",
+   "result": "Dublin Super Kings won by 4 Wickets",
+   "summary": "Namma Boys: 93/9(20) Dublin Super Kings: 99/6(17.5)"
+  },
   {
    "matchId": "LwhX04dzFGYRFQyzKzk1kg",
    "scorecard": "https://cricclubs.com/DublinandDanvilleCricketLeague/results/LwhX04dzFGYRFQyzKzk1kg",
@@ -1608,6 +1642,208 @@
   }
  ],
  "items": [
+  {
+   "fixtureId": "vUvOwu1SQ-oFphpHFACOHw",
+   "condition": "past",
+   "seriesId": "xD6Qicr7gkrAMq0_MoX4Dw",
+   "seriesName": "DDCL Fall 2026",
+   "seriesType": "Twenty20",
+   "countOfUmpiresReq": 0,
+   "divisionId": null,
+   "divisionName": null,
+   "teamOne": {
+    "id": "mAj9LGK_-1IC4FjrF2M82A",
+    "name": "Legion Mavericks",
+    "logo": "/documentsRep/teamLogos/93a034a8-a607-41ec-8763-ad3fd4b4eec7.jpeg"
+   },
+   "teamTwo": {
+    "id": "3UX04SFElZHy0eLrjbL_Gg",
+    "name": "Vodoo Rangers",
+    "logo": "/documentsRep/teamLogos/cdbd7647-2bdb-4af7-bcee-c86f153e6f52.jpg"
+   },
+   "matchType": "final",
+   "matchDateTime": "2026-11-07T07:30:00",
+   "day": "SATURDAY",
+   "ground": {
+    "id": "YL5qVXl5UzTJ9e6vFfDgmg",
+    "name": "Rancho Park"
+   },
+   "umpires": [
+    {
+     "entityType": "team",
+     "entityId": null,
+     "entityName": null,
+     "teamId": "KBTGDl3lFGXfqdxtV7RriQ",
+     "teamName": "Tipsy Bulls"
+    },
+    {
+     "entityType": "team",
+     "entityId": null,
+     "entityName": null,
+     "teamId": "IU9BSl1sVS8bkdBZw7UOag",
+     "teamName": "Fundoos"
+    }
+   ],
+   "scorers": [],
+   "matchManager": null,
+   "publicNotes": null,
+   "privateNotes": null,
+   "scoreSummary": {
+    "matchId": "7MYm-QcvQFC8JM5_mu6pHA",
+    "isLocked": 0,
+    "isBallByBall": 1,
+    "streamingLinks": [
+     ""
+    ],
+    "tossWonBy": "Legion Mavericks",
+    "firstBatting": "Legion Mavericks",
+    "overs": 20,
+    "teamOneScore1": 95,
+    "teamOneScore2": 0,
+    "teamOneBallsPlayed1": 120,
+    "teamOneBallsPlayed2": 0,
+    "teamOneWicketsLost1": 9,
+    "teamOneWicketsLost2": 0,
+    "teamOneInn1Declared": false,
+    "teamOneInn2Declared": false,
+    "teamTwoScore1": 97,
+    "teamTwoScore2": 0,
+    "teamTwoBallsPlayed1": 101,
+    "teamTwoBallsPlayed2": 0,
+    "teamTwoWicketsLost1": 4,
+    "teamTwoWicketsLost2": 0,
+    "teamTwoInn1Declared": false,
+    "teamTwoInn2Declared": false,
+    "teamOneCaptain": 685728,
+    "teamTwoCaptain": 1173750,
+    "teamOneViceCaptain": 4779874,
+    "teamTwoViceCaptain": 4779874,
+    "result": "Vodoo Rangers won by 6 Wickets",
+    "scoreSummary": "Legion Mavericks: 95/9(20) Vodoo Rangers: 97/4(16.5)"
+   },
+   "links": {
+    "scoreCard": "https://cricclubs.com/DublinandDanvilleCricketLeague/fixtureScheduler.do?league=26&clubId=1091324",
+    "matchSummary": "https://cricclubs.com/DublinandDanvilleCricketLeague/fixtureScheduler.do?league=26&clubId=1091324",
+    "fullScoreCard": "https://cricclubs.com/DublinandDanvilleCricketLeague/fixtureScheduler.do?league=26&clubId=1091324",
+    "paperScoreCard": "https://cricclubs.com/DublinandDanvilleCricketLeague/paperScoreCard.do?matchId=1467&clubId=1091324",
+    "deleteScoreCard": "https://cricclubs.com/DublinandDanvilleCricketLeague/fixtureScheduler.do?league=26&clubId=1091324",
+    "baseUrl": "https://cricclubs.com"
+   },
+   "status": "Completed",
+   "sendNotifications": 1,
+   "date": "11/07/2026",
+   "time": "7:30 AM",
+   "seriesMatchesListAccessRoles": null,
+   "selectedTeamPoints": 0,
+   "availability": "",
+   "officialType": "",
+   "officialAvailability": "",
+   "clipGenerationStatus": null,
+   "liveStreamLink": null,
+   "overlayTheme": 0,
+   "sets": null
+  },
+  {
+   "fixtureId": "mZLD3ZCKzmDSZ2x0-YrgQw",
+   "condition": "past",
+   "seriesId": "xD6Qicr7gkrAMq0_MoX4Dw",
+   "seriesName": "DDCL Fall 2026",
+   "seriesType": "Twenty20",
+   "countOfUmpiresReq": 0,
+   "divisionId": null,
+   "divisionName": null,
+   "teamOne": {
+    "id": "qZaKRcEjYitps1G1WZxXxg",
+    "name": "Namma Boys",
+    "logo": "/documentsRep/teamLogos/a9b4665c-b906-4a05-a9c9-f06a91ce36a7.jpeg"
+   },
+   "teamTwo": {
+    "id": "wM0tCdOTSXc_v2mqJgaW7w",
+    "name": "Dublin Super Kings",
+    "logo": "/documentsRep/teamLogos/13bf5847-60cf-411c-9ba3-b63bb275170c.jpg"
+   },
+   "matchType": "final",
+   "matchDateTime": "2026-11-07T07:30:00",
+   "day": "SATURDAY",
+   "ground": {
+    "id": "fsYklUrhyixhgdsdDDuiiA",
+    "name": "Sports Park Diamand 1"
+   },
+   "umpires": [
+    {
+     "entityType": "team",
+     "entityId": null,
+     "entityName": null,
+     "teamId": "qPUBrCsTVLVB13VSih5aUg",
+     "teamName": "Bay Strikers"
+    },
+    {
+     "entityType": "team",
+     "entityId": null,
+     "entityName": null,
+     "teamId": "gXmt89XqUePOpHa4s1lT5Q",
+     "teamName": "Retro Runners"
+    }
+   ],
+   "scorers": [],
+   "matchManager": null,
+   "publicNotes": null,
+   "privateNotes": null,
+   "scoreSummary": {
+    "matchId": "ZFIWmmB1f6ZmdUVGX7-LGg",
+    "isLocked": 0,
+    "isBallByBall": 1,
+    "streamingLinks": [
+     ""
+    ],
+    "tossWonBy": "Dublin Super Kings",
+    "firstBatting": "Namma Boys",
+    "overs": 20,
+    "teamOneScore1": 93,
+    "teamOneScore2": 0,
+    "teamOneBallsPlayed1": 120,
+    "teamOneBallsPlayed2": 0,
+    "teamOneWicketsLost1": 9,
+    "teamOneWicketsLost2": 0,
+    "teamOneInn1Declared": false,
+    "teamOneInn2Declared": false,
+    "teamTwoScore1": 99,
+    "teamTwoScore2": 0,
+    "teamTwoBallsPlayed1": 107,
+    "teamTwoBallsPlayed2": 0,
+    "teamTwoWicketsLost1": 6,
+    "teamTwoWicketsLost2": 0,
+    "teamTwoInn1Declared": false,
+    "teamTwoInn2Declared": false,
+    "teamOneCaptain": 2734825,
+    "teamTwoCaptain": 1968578,
+    "teamOneViceCaptain": 6239312,
+    "teamTwoViceCaptain": 6239312,
+    "result": "Dublin Super Kings won by 4 Wickets",
+    "scoreSummary": "Namma Boys: 93/9(20) Dublin Super Kings: 99/6(17.5)"
+   },
+   "links": {
+    "scoreCard": "https://cricclubs.com/DublinandDanvilleCricketLeague/fixtureScheduler.do?league=26&clubId=1091324",
+    "matchSummary": "https://cricclubs.com/DublinandDanvilleCricketLeague/fixtureScheduler.do?league=26&clubId=1091324",
+    "fullScoreCard": "https://cricclubs.com/DublinandDanvilleCricketLeague/fixtureScheduler.do?league=26&clubId=1091324",
+    "paperScoreCard": "https://cricclubs.com/DublinandDanvilleCricketLeague/paperScoreCard.do?matchId=1466&clubId=1091324",
+    "deleteScoreCard": "https://cricclubs.com/DublinandDanvilleCricketLeague/fixtureScheduler.do?league=26&clubId=1091324",
+    "baseUrl": "https://cricclubs.com"
+   },
+   "status": "Completed",
+   "sendNotifications": 1,
+   "date": "11/07/2026",
+   "time": "7:30 AM",
+   "seriesMatchesListAccessRoles": null,
+   "selectedTeamPoints": 0,
+   "availability": "",
+   "officialType": "",
+   "officialAvailability": "",
+   "clipGenerationStatus": null,
+   "liveStreamLink": null,
+   "overlayTheme": 0,
+   "sets": null
+  },
   {
    "fixtureId": "37yYOZkkUBxkKl6mLtZgpg",
    "condition": "past",
